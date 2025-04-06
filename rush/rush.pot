@@ -1,0 +1,863 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the GNU rush package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: rwopt.opt:23
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU rush 2.2\n"
+"Report-Msgid-Bugs-To: bug-rush@gnu.org\n"
+"POT-Creation-Date: 2022-01-02 16:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/config.c:163
+#, c-format
+msgid "Finished parsing %s"
+msgstr ""
+
+#: src/config.c:169
+#, c-format
+msgid "Resuming parsing %s from line %d"
+msgstr ""
+
+#: src/config.c:262
+#, c-format
+msgid "invalid number: %s"
+msgstr ""
+
+#: src/config.c:275
+msgid "invalid opcode"
+msgstr ""
+
+#: src/config.c:297
+#, c-format
+msgid "invalid regexp: %s"
+msgstr ""
+
+#: src/config.c:336
+#, c-format
+msgid "unknown regexp flag: %s"
+msgstr ""
+
+#: src/config.c:353
+msgid "too few arguments"
+msgstr ""
+
+#: src/config.c:357 src/rush.c:1350
+msgid "too many arguments"
+msgstr ""
+
+#: src/config.c:428
+#, c-format
+msgid "no such user: %s"
+msgstr ""
+
+#: src/config.c:453 src/config.c:1106
+#, c-format
+msgid "no such group: %s"
+msgstr ""
+
+#: src/config.c:543
+#, c-format
+msgid "unknown limit: %s"
+msgstr ""
+
+#: src/config.c:560
+#, c-format
+msgid "expected ~ as the second argument, but found %s"
+msgstr ""
+
+#: src/config.c:718
+#, c-format
+msgid "debug level set to %d"
+msgstr ""
+
+#: src/config.c:730
+#, c-format
+msgid "invalid time: %s"
+msgstr ""
+
+#: src/config.c:786
+msgid "invalid file descriptor"
+msgstr ""
+
+#: src/config.c:800
+msgid "Unknown message reference"
+msgstr ""
+
+#: src/config.c:893
+msgid "invalid include file name"
+msgstr ""
+
+#: src/config.c:900
+#, c-format
+msgid "Ignoring non-existing include file %s"
+msgstr ""
+
+#: src/config.c:906
+#, c-format
+msgid "cannot stat file %s: %s"
+msgstr ""
+
+#: src/config.c:934 rushopt.opt:90
+#, c-format
+msgid "unknown keyword: %s"
+msgstr ""
+
+#: src/config.c:982
+msgid "key field is not a number"
+msgstr ""
+
+#: src/config.c:988
+msgid "value field is not a number"
+msgstr ""
+
+#: src/config.c:1033 src/config.c:1038 src/rush.c:262
+#, c-format
+msgid "%s: not a number"
+msgstr ""
+
+#: src/config.c:1211 src/config.c:1340
+#, c-format
+msgid "Parsing %s"
+msgstr ""
+
+#: src/config.c:1245
+#, c-format
+msgid "unknown statement: %s"
+msgstr ""
+
+#: src/config.c:1280
+msgid "missing ]"
+msgstr ""
+
+#: src/config.c:1289
+msgid "invalid statement: missing value"
+msgstr ""
+
+#: src/config.c:1310
+#, c-format
+msgid "failed to parse value: %s"
+msgstr ""
+
+#: src/config.c:1328
+msgid "statement cannot be used outside a rule"
+msgstr ""
+
+#: src/config.c:1366
+msgid "parsing legacy built-in configuration"
+msgstr ""
+
+#: src/config.c:1368
+#, c-format
+msgid "parsing legacy configuration file %s"
+msgstr ""
+
+#: src/limits.c:53
+#, c-format
+msgid "Setting limit %d to %lu"
+msgstr ""
+
+#: src/limits.c:58
+#, c-format
+msgid "error setting limit: %s"
+msgstr ""
+
+#: src/limits.c:68
+#, c-format
+msgid "Setting priority to %d"
+msgstr ""
+
+#: src/limits.c:70
+#, c-format
+msgid "error setting priority: %s"
+msgstr ""
+
+#: src/limits.c:86 src/limits.c:87
+#, c-format
+msgid "No logins allowed for `%s'"
+msgstr ""
+
+#: src/limits.c:91
+#, c-format
+msgid "counting logins for %s"
+msgstr ""
+
+#: src/limits.c:97
+msgid "acct database is empty"
+msgstr ""
+
+#: src/limits.c:101
+#, c-format
+msgid "Cannot open database %s: %s"
+msgstr ""
+
+#: src/limits.c:119
+#, c-format
+msgid "counted %zu/%zu logins for %s"
+msgstr ""
+
+#: src/limits.c:126 src/limits.c:128
+#, c-format
+msgid "Too many logins (max %zu) for %s"
+msgstr ""
+
+#: src/limits.c:143
+#, c-format
+msgid "Setting limits for %s"
+msgstr ""
+
+#: src/rush.c:43
+msgid ""
+"You are not permitted to execute this command.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+
+#: src/rush.c:47
+msgid ""
+"You do not have interactive login access to this machine.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+
+#: src/rush.c:51
+msgid ""
+"Local configuration error occurred.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+
+#: src/rush.c:55
+msgid ""
+"A system error occurred while attempting to execute command.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+
+#: src/rush.c:156
+#, c-format
+msgid "failed to write message to stderr: %s"
+msgstr ""
+
+#: src/rush.c:160
+#, c-format
+msgid "failed to write message to stdout: %s"
+msgstr ""
+
+#: src/rush.c:172
+#, c-format
+msgid "Debug: "
+msgstr ""
+
+#: src/rush.c:176
+#, c-format
+msgid "Info: "
+msgstr ""
+
+#: src/rush.c:180
+#, c-format
+msgid "Notice: "
+msgstr ""
+
+#: src/rush.c:184
+#, c-format
+msgid "Warning: "
+msgstr ""
+
+#: src/rush.c:191
+#, c-format
+msgid "Error: "
+msgstr ""
+
+#: src/rush.c:248
+msgid "Not enough memory"
+msgstr ""
+
+#: src/rush.c:279 src/rush.c:324
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unrecognized opcode %d"
+msgstr ""
+
+#: src/rush.c:408
+#, c-format
+msgid "%s:%d: %s: can't stat '%s': %s"
+msgstr ""
+
+#: src/rush.c:469
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unrecognized operation %d"
+msgstr ""
+
+#: src/rush.c:509
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unrecognized node type %d"
+msgstr ""
+
+#: src/rush.c:718
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: invalid envar type %d"
+msgstr ""
+
+#: src/rush.c:723
+msgid "Final environment:"
+msgstr ""
+
+#: src/rush.c:737
+#, c-format
+msgid "wordsplit(%s) failed: %s"
+msgstr ""
+
+#: src/rush.c:763
+#, c-format
+msgid "no argument at index %d in command: %s"
+msgstr ""
+
+#: src/rush.c:903
+#, c-format
+msgid "Removing option %s %s"
+msgstr ""
+
+#: src/rush.c:915
+msgid "Transforming command line"
+msgstr ""
+
+#: src/rush.c:922
+#, c-format
+msgid "Transforming program name (%s)"
+msgstr ""
+
+#: src/rush.c:940
+#, c-format
+msgid "Transforming argv[%d]"
+msgstr ""
+
+#: src/rush.c:947
+#, c-format
+msgid "Transforming variable %s=%s"
+msgstr ""
+
+#: src/rush.c:954 src/rush.c:1040
+msgid "environment transformation is not yet implemented"
+msgstr ""
+
+#: src/rush.c:958
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: can't modify read-only target"
+msgstr ""
+
+#: src/rush.c:977
+#, c-format
+msgid "Transformation map: %s, %s, %s, %u, %u, %s"
+msgstr ""
+
+#: src/rush.c:991
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: invalid node type %d"
+msgstr ""
+
+#: src/rush.c:998
+#, c-format
+msgid "transformed value: %s"
+msgstr ""
+
+#: src/rush.c:1019
+#, c-format
+msgid "Deleting arguments %d-%d"
+msgstr ""
+
+#: src/rush.c:1022
+msgid "Deleting argv[0] is prohibited"
+msgstr ""
+
+#: src/rush.c:1044
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: invalid target type %d"
+msgstr ""
+
+#: src/rush.c:1062
+#, c-format
+msgid "Program name: %s"
+msgstr ""
+
+#: src/rush.c:1063
+msgid "Final arguments:"
+msgstr ""
+
+#: src/rush.c:1081
+#, c-format
+msgid "error writing to database %s: %s"
+msgstr ""
+
+#: src/rush.c:1090
+#, c-format
+msgid "error writing stop to database file %s: %s"
+msgstr ""
+
+#: src/rush.c:1111
+#, c-format
+msgid "%s:%d: %s: cannot fork: %s"
+msgstr ""
+
+#: src/rush.c:1121
+#, c-format
+msgid "Forked process %lu"
+msgstr ""
+
+#: src/rush.c:1125
+#, c-format
+msgid "%s: subprocess exited with code %d"
+msgstr ""
+
+#: src/rush.c:1128
+#, c-format
+msgid "%s: subprocess terminated on signal %d"
+msgstr ""
+
+#: src/rush.c:1131
+#, c-format
+msgid "%s: subprocess terminated"
+msgstr ""
+
+#: src/rush.c:1192
+#, c-format
+msgid "cannot enforce gid %lu: %s"
+msgstr ""
+
+#: src/rush.c:1197
+#, c-format
+msgid "cannot enforce uid %lu: %s"
+msgstr ""
+
+#: src/rush.c:1202
+msgid "seteuid(0) succeeded when it should not"
+msgstr ""
+
+#: src/rush.c:1208
+#, c-format
+msgid "Rule %s at %s:%d matched"
+msgstr ""
+
+#: src/rush.c:1222
+#, c-format
+msgid "Error message: %s"
+msgstr ""
+
+#: src/rush.c:1225
+#, c-format
+msgid "Error sending diagnostic message to descriptor %d: %s"
+msgstr ""
+
+#: src/rush.c:1231
+#, c-format
+msgid "cannot set limits for %s"
+msgstr ""
+
+#: src/rush.c:1238
+#, c-format
+msgid "Chroot dir: %s"
+msgstr ""
+
+#: src/rush.c:1245
+#, c-format
+msgid "Home dir: %s"
+msgstr ""
+
+#: src/rush.c:1250
+#, c-format
+msgid "GID: %lu"
+msgstr ""
+
+#: src/rush.c:1275
+#, c-format
+msgid "cannot open database %s: %s"
+msgstr ""
+
+#: src/rush.c:1284
+#, c-format
+msgid "cannot chroot to %s: %s"
+msgstr ""
+
+#: src/rush.c:1291 src/rush.c:1383
+#, c-format
+msgid "invalid uid %lu"
+msgstr ""
+
+#: src/rush.c:1296
+#, c-format
+msgid "chdir %s"
+msgstr ""
+
+#: src/rush.c:1299
+#, c-format
+msgid "cannot change to dir %s: %s"
+msgstr ""
+
+#: src/rush.c:1303
+#, c-format
+msgid "Executing %s, %s"
+msgstr ""
+
+#: src/rush.c:1318
+#, c-format
+msgid "%s:%d: %s: cannot execute %s: %s"
+msgstr ""
+
+#: src/rush.c:1361 src/rush.c:1363
+msgid "invalid command line"
+msgstr ""
+
+#: src/rush.c:1374
+msgid "invalid user name"
+msgstr ""
+
+#: src/rush.c:1385
+#, c-format
+msgid "user %s, uid %lu"
+msgstr ""
+
+#: src/rush.c:1397
+msgid "Command line:"
+msgstr ""
+
+#: src/rush.c:1400
+msgid "Environment:"
+msgstr ""
+
+#: src/rush.c:1431
+#, c-format
+msgid "Serving interactive shell request for %s by rule %s"
+msgstr ""
+
+#: src/rush.c:1435
+#, c-format
+msgid "Serving request \"%s\" for %s by rule %s"
+msgstr ""
+
+#: src/rush.c:1441
+#, c-format
+msgid "no matching rule for \"%s\", user %s"
+msgstr ""
+
+#: src/rushlast.c:31 src/rushwho.c:30
+#, c-format
+msgid "not enough memory"
+msgstr ""
+
+#: src/rushlast.c:78 src/rushwho.c:67
+#, c-format
+msgid "invalid format: %s"
+msgstr ""
+
+#: src/rushlast.c:88 src/rushwho.c:77
+#, c-format
+msgid "cannot open database file %s"
+msgstr ""
+
+#: src/rushwho.c:61
+#, c-format
+msgid "extra arguments"
+msgstr ""
+
+#: src/socket.c:61
+#, c-format
+msgid "%s: TCPMUX did not respond"
+msgstr ""
+
+#: src/socket.c:65
+#, c-format
+msgid "%s: TCPMUX returned %s"
+msgstr ""
+
+#: src/transform.c:155
+msgid ""
+"Transform expression must start with 's' followed by a punctuation character"
+msgstr ""
+
+#: src/transform.c:166
+#, c-format
+msgid "Missing 2nd delimiter in position %d of expression %s"
+msgstr ""
+
+#: src/transform.c:176
+#, c-format
+msgid "Missing trailing delimiter in position %d of expression %s"
+msgstr ""
+
+#: src/transform.c:203
+#, c-format
+msgid "Unknown flag in transform expression: %c"
+msgstr ""
+
+#: src/transform.c:220
+#, c-format
+msgid "Invalid transform expression: %s"
+msgstr ""
+
+#: src/transform.c:248
+msgid "Invalid transform replacement: back reference out of range"
+msgstr ""
+
+#: rushopt.opt:27 rlopt.opt:56
+msgid "NUMBER"
+msgstr ""
+
+#: rushopt.opt:27
+msgid "Set debugging level."
+msgstr ""
+
+#: rushopt.opt:35
+msgid "Run in test mode."
+msgstr ""
+
+#: rushopt.opt:41
+msgid "Scanner test."
+msgstr ""
+
+#: rushopt.opt:47
+msgid "Print grammar and lexical analyzer traces"
+msgstr ""
+
+#: rushopt.opt:53
+msgid "NAME"
+msgstr ""
+
+#: rushopt.opt:53
+msgid "Supply user name in test mode."
+msgstr ""
+
+#: rushopt.opt:65
+msgid "COMMAND"
+msgstr ""
+
+#: rushopt.opt:65
+msgid "Execute COMMAND."
+msgstr ""
+
+#: rushopt.opt:71
+msgid "Force interactive shell."
+msgstr ""
+
+#: rushopt.opt:78
+msgid "KEYWORDS"
+msgstr ""
+
+#: rushopt.opt:78
+msgid "Dump final request in test mode."
+msgstr ""
+
+#: rushopt.opt:85
+msgid "CHECK"
+msgstr ""
+
+#: rushopt.opt:85
+msgid "Add or remove configuration security check."
+msgstr ""
+
+#: rushopt.opt:93
+msgid "Show default configuration."
+msgstr ""
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Other options"
+msgstr ""
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Give this help list"
+msgstr ""
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Give a short usage message"
+msgstr ""
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Print program version"
+msgstr ""
+
+#: rushopt.opt:23
+msgid "rush - restricted user shell."
+msgstr ""
+
+#: rushopt.opt:25
+msgid "[FILE]"
+msgstr ""
+
+#: rushopt.opt:125 rushopt.opt:359 rwopt.opt:123 rwopt.opt:357 rlopt.opt:126
+#: rlopt.opt:360
+msgid "Usage:"
+msgstr ""
+
+#: rushopt.opt:125 rwopt.opt:123 rlopt.opt:126
+msgid "OPTION"
+msgstr ""
+
+#: rushopt.opt:243 rwopt.opt:241 rlopt.opt:244
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or "
+"optional for any corresponding short options."
+msgstr ""
+
+#: rushopt.opt:247 rwopt.opt:245 rlopt.opt:248
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+
+#: rushopt.opt:700 rwopt.opt:698 rlopt.opt:701
+msgid "(C)"
+msgstr ""
+
+#: rushopt.opt:718 rwopt.opt:716 rlopt.opt:719
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#: rushopt.opt:60
+msgid "the --user option is allowed for the superuser only"
+msgstr ""
+
+#: rushopt.opt:100
+#, c-format
+msgid "No default configuration"
+msgstr ""
+
+#: rwopt.opt:24 rlopt.opt:28
+msgid "STRING"
+msgstr ""
+
+#: rwopt.opt:24 rlopt.opt:28
+msgid "Use STRING instead of the default format."
+msgstr ""
+
+#: rwopt.opt:30 rlopt.opt:35
+msgid "DIR"
+msgstr ""
+
+#: rwopt.opt:30 rlopt.opt:35
+msgid "Look for database files in DIR."
+msgstr ""
+
+#: rwopt.opt:36 rlopt.opt:49
+msgid "Do not display header line."
+msgstr ""
+
+#: rwopt.opt:21
+msgid "rushwho - show listing of online Rush users."
+msgstr ""
+
+#: rlopt.opt:42
+msgid "Show entries in chronological order."
+msgstr ""
+
+#: rlopt.opt:56
+msgid "Show at most NUM records."
+msgstr ""
+
+#: rlopt.opt:24
+msgid "rushlast - show listing of last Rush logins."
+msgstr ""
+
+#: rlopt.opt:26
+msgid "[user [user...]]"
+msgstr ""
+
+#: rlopt.opt:63
+#, c-format
+msgid "invalid number (%s)"
+msgstr ""
+
+#: lib/readfmt.c:40
+#, c-format
+msgid "cannot stat format file %s"
+msgstr ""
+
+#: lib/readfmt.c:42
+#, c-format
+msgid "%s is not a regular file"
+msgstr ""
+
+#: lib/readfmt.c:46
+#, c-format
+msgid "cannot open format file %s"
+msgstr ""
+
+#: lib/rushdb.c:79
+#, c-format
+msgid "cannot create directory %s: %s"
+msgstr ""
+
+#: lib/rushdb.c:84
+#, c-format
+msgid "cannot stat directory %s: %s"
+msgstr ""
+
+#: lib/rushdb.c:89
+#, c-format
+msgid "%s is not a directory"
+msgstr ""
+
+#: lib/rushdb.c:100 lib/rushdb.c:114
+#, c-format
+msgid "cannot open file %s: %s"
+msgstr ""
+
+#: lib/rushdb.c:586
+#, c-format
+msgid "missing closing quote in string started near `%s'"
+msgstr ""
+
+#: lib/version.c:28
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#: gnu/error.c:197
+msgid "Unknown system error"
+msgstr ""
+
+#: gnu/getopt.c:280
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr ""
+
+#: gnu/getopt.c:286
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr ""
+
+#: gnu/getopt.c:321
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr ""
+
+#: gnu/getopt.c:347
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr ""
+
+#: gnu/getopt.c:362
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr ""
+
+#: gnu/getopt.c:623
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr ""
+
+#: gnu/getopt.c:638 gnu/getopt.c:684
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr ""

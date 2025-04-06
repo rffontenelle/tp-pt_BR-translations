@@ -1,0 +1,2973 @@
+# Brazilian Portuguese translations for dico package
+# Traduções em português brasileiro para o pacote dico
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# Copyright (C) 2021 Sergey Poznyakoff
+# This file is distributed under the same license as the dico package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2016-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dico 2.10.90\n"
+"Report-Msgid-Bugs-To: bug-dico@gnu.org\n"
+"POT-Creation-Date: 2021-01-08 14:10+0200\n"
+"PO-Revision-Date: 2021-01-08 13:44-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.38.0\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#: xdico/userprivs.c:39
+msgid "Refusing to run as root"
+msgstr "Recusando a executar como root"
+
+#: xdico/userprivs.c:57
+#, c-format
+msgid "setgroups(1, %lu) failed"
+msgstr "setgroups(1, %lu) falhou"
+
+#: xdico/userprivs.c:68
+#, c-format
+msgid "setegid(%lu) failed"
+msgstr "setegid(%lu) falhou"
+
+#: xdico/userprivs.c:72
+#, c-format
+msgid "setregid(%lu,%lu) failed"
+msgstr "setregid(%lu,%lu) falhou"
+
+#: xdico/userprivs.c:76
+#, c-format
+msgid "setresgid(%lu,%lu,%lu) failed"
+msgstr "setresgid(%lu,%lu,%lu) falhou"
+
+#: xdico/userprivs.c:84
+#, c-format
+msgid "setgid(%lu) failed"
+msgstr "setgid(%lu) falhou"
+
+#: xdico/userprivs.c:87
+#, c-format
+msgid "Cannot set effective gid to %lu"
+msgstr "Não foi possível definir gid efetivo para %lu"
+
+#: xdico/userprivs.c:105
+#, c-format
+msgid "setreuid(%lu,-1) failed"
+msgstr "setreuid(%lu,-1) falhou"
+
+#: xdico/userprivs.c:110
+#, c-format
+msgid "second setuid(%lu) failed"
+msgstr "segundo setuid(%lu) falhou"
+
+#: xdico/userprivs.c:117
+#, c-format
+msgid "setuid(%lu) failed"
+msgstr "setuid(%lu) falhou"
+
+#: xdico/userprivs.c:125
+msgid "seteuid(0) succeeded when it should not"
+msgstr "seteuid(0) funcionou quando não deveria"
+
+#: xdico/userprivs.c:128
+msgid "Cannot drop non-root setuid privileges"
+msgstr "Não foi possível descartar privilégios não-root de setuid"
+
+#: xdico/xstream.c:41
+msgid "not enough memory while formatting reply message"
+msgstr "memória insuficiente enquanto formatava mensagem de resposta"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: xdico/gnu/quotearg.c:355
+msgid "`"
+msgstr "“"
+
+#: xdico/gnu/quotearg.c:356
+msgid "'"
+msgstr "”"
+
+#: xdico/gnu/obstack.c:338 xdico/gnu/obstack.c:340
+#: grecs/wordsplit/wordsplit.c:76 grecs/wordsplit/wordsplit.c:2851
+msgid "memory exhausted"
+msgstr "memória esgotada"
+
+#: xdico/gnu/getopt.c:278
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: a opção \"%s%s\" é ambígua\n"
+
+#: xdico/gnu/getopt.c:284
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: a opção \"%s%s\" é ambígua; possibilidades:"
+
+#: xdico/gnu/getopt.c:319
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: opção desconhecida \"%s%s\"\n"
+
+#: xdico/gnu/getopt.c:345
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: a opção \"%s%s\" não permite um argumento\n"
+
+#: xdico/gnu/getopt.c:360
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: a opção \"%s%s\" exige um argumento\n"
+
+#: xdico/gnu/getopt.c:621
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: opção inválida -- \"%c\"\n"
+
+#: xdico/gnu/getopt.c:636 xdico/gnu/getopt.c:682
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: a opção exige um argumento -- \"%c\"\n"
+
+#: lib/parseopt.c:116
+#, c-format
+msgid "%s: %s: unknown option"
+msgstr "%s: %s: opção desconhecida"
+
+#: lib/parseopt.c:127
+#, c-format
+msgid "%s: %s: %s is not a valid number"
+msgstr "%s: %s: %s não é um número válido"
+
+#: lib/parseopt.c:168
+#, c-format
+msgid "%s: %s: invalid value %s"
+msgstr "%s: %s: valor inválido %s"
+
+#: lib/iostr.c:91
+msgid "No error"
+msgstr "Nenhum erro"
+
+#: dico/shell.c:34
+msgid "WORD"
+msgstr "PALAVRA"
+
+#: dico/shell.c:34
+msgid "Define WORD."
+msgstr "Define PALAVRA."
+
+#: dico/shell.c:35
+msgid "/WORD"
+msgstr "/PALAVRA"
+
+#: dico/shell.c:35
+msgid "Match WORD."
+msgstr "Procura por ocorrências de PALAVRA."
+
+#: dico/shell.c:36
+msgid "Redisplay previous matches."
+msgstr "Reexibe correspondências anteriores."
+
+#: dico/shell.c:37 cmdline.opt:131
+msgid "NUMBER"
+msgstr "NÚMERO"
+
+#: dico/shell.c:37
+msgid "Define NUMBERth match."
+msgstr "Define a NÚMEROº correspondência."
+
+#: dico/shell.c:39
+msgid "Edit NUMBERth previous command."
+msgstr "Edita o NÚMEROº comando anterior."
+
+#: dico/shell.c:45
+msgid "[HOST [PORT]]"
+msgstr "[MÁQUINA [PORTA]]"
+
+#: dico/shell.c:46
+msgid "Connect to a DICT server."
+msgstr "Conecta a um servidor de dicionário."
+
+#: dico/shell.c:50
+msgid "Close the connection."
+msgstr "Fecha a conexão."
+
+#: dico/shell.c:53 dico/shell.c:57
+msgid "[NAME]"
+msgstr "[NOME]"
+
+#: dico/shell.c:54
+msgid "Set or display current database name."
+msgstr "Define ou exibe o nome do banco de dados atual."
+
+#: dico/shell.c:58
+msgid "Set or display current strategy."
+msgstr "Define ou exibe a estratégia atual."
+
+#: dico/shell.c:61
+msgid "[NUM]"
+msgstr "[NÚM]"
+
+#: dico/shell.c:62
+msgid "Set or query Levenshtein distance (server-dependent)."
+msgstr "Define ou consulta distância Levenshtein (dependente de servidor)."
+
+#: dico/shell.c:66
+msgid "List available matching strategies"
+msgstr "Lista estratégias correspondentes disponíveis."
+
+#: dico/shell.c:70
+msgid "List all accessible databases"
+msgstr "Lista todos os bancos de dados acessíveis."
+
+#: dico/shell.c:73
+msgid "[DB]"
+msgstr "[BD]"
+
+#: dico/shell.c:74
+msgid "Display the information about the database."
+msgstr "Exibe as informações sobre o banco de dados."
+
+#: dico/shell.c:77
+msgid "[CHAR]"
+msgstr "[CHAR]"
+
+#: dico/shell.c:78
+msgid "Set or display command prefix."
+msgstr "Define ou exibe o prefixo do comando."
+
+#: dico/shell.c:81 dico/shell.c:101
+msgid "[BOOL]"
+msgstr "[BOOL]"
+
+#: dico/shell.c:82
+msgid "Set or display session transcript mode."
+msgstr "Define ou exibe o modo de transcrição de sessão."
+
+#: dico/shell.c:85
+msgid "[NUMBER]"
+msgstr "[NÚMERO]"
+
+#: dico/shell.c:86
+msgid "Set or display verbosity level."
+msgstr "Define ou exibe o nível de verbosidade."
+
+#: dico/shell.c:89 dico/shell.c:93 cmdline.opt:158 cmdline.opt:170
+msgid "STRING"
+msgstr "TEXTO"
+
+#: dico/shell.c:90
+msgid "Change command line prompt."
+msgstr "Altera o prompt de linha de comando."
+
+#: dico/shell.c:94
+msgid "Change or display pager settings."
+msgstr "Altera ou exibe as configurações de paginação."
+
+#: dico/shell.c:97
+msgid "[FILE]"
+msgstr "[ARQUIVO]"
+
+#: dico/shell.c:98
+msgid "Set or display autologin file name."
+msgstr "Define ou exibe o nome de arquivo de autologin."
+
+#: dico/shell.c:102
+msgid "Enable SASL authentication."
+msgstr "Habilita autenticação SASL."
+
+#: dico/shell.c:107
+msgid "Display command history."
+msgstr "Exibe histórico de comando."
+
+#: dico/shell.c:112
+msgid "Display this help text."
+msgstr "Exibe esse texto de ajuda."
+
+#: dico/shell.c:116
+msgid "Print program version."
+msgstr "Exibe a versão do programa."
+
+#: dico/shell.c:120
+msgid "Print copyright statement."
+msgstr "Exibe declaração de copyright."
+
+#: dico/shell.c:128
+msgid "Quit the shell."
+msgstr "Sai do shell."
+
+#: dico/shell.c:149
+#, c-format
+msgid "Command prefix is %c\n"
+msgstr "Prefixo de comando é %c\n"
+
+#: dico/shell.c:151
+msgid "Expected a single punctuation character"
+msgstr "Esperava um único caractere de pontuação"
+
+#: dico/shell.c:229
+msgid "warning: "
+msgstr "aviso: "
+
+#: dico/shell.c:342
+msgid "unknown command"
+msgstr "comando desconhecido"
+
+#: dico/shell.c:352
+msgid "not enough arguments"
+msgstr "argumentos insuficientes"
+
+#: dico/shell.c:355 dicod/main.c:170 dicod/main.c:232 dicod/main.c:584
+#: dicod/main.c:793
+msgid "too many arguments"
+msgstr "número excessivo de argumentos"
+
+#: dico/shell.c:398
+#, c-format
+msgid "Cannot open init file %s"
+msgstr "Não foi possível abrir o arquivo de inicialização %s"
+
+#: dico/connect.c:89 dico/connect.c:404
+msgid "No reply from server"
+msgstr "Nenhuma resposta do servidor"
+
+#: dico/connect.c:110
+msgid "Attempting APOP authentication\n"
+msgstr "Tentando autenticação APOP\n"
+
+#: dico/connect.c:117 dico/saslauth.c:338
+msgid "Not enough credentials for authentication"
+msgstr "Credenciais insuficientes para autenticação"
+
+#: dico/connect.c:121 dico/saslauth.c:343
+msgid "Skipping authentication\n"
+msgstr "Pulando autenticação\n"
+
+#: dico/connect.c:204
+msgid "Obtained authentication credentials from the command line\n"
+msgstr "Obtidas credenciais de autenticação a partir da linha de comando\n"
+
+#: dico/connect.c:211
+#, c-format
+msgid "File %s does not exist"
+msgstr "O arquivo %s não existe"
+
+#: dico/connect.c:228
+msgid "Password:"
+msgstr "Senha:"
+
+#: dico/connect.c:244
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: cannot get stream transport"
+msgstr "ERRO INTERNO em %s:%d: não foi possível obter transporte de fluxo"
+
+#: dico/connect.c:252
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: cannot set stream transport"
+msgstr "ERRO INTERNO em %s:%d: não foi possível definir transporte de fluxo"
+
+#: dico/connect.c:303
+#, c-format
+msgid "Connecting to %s\n"
+msgstr "Conectando-se a %s\n"
+
+#: dico/connect.c:311
+#, c-format
+msgid "bad source address: %s"
+msgstr "endereço de origem inválido: %s"
+
+#: dico/connect.c:326
+msgid "can't bind to the source address"
+msgstr "não foi possível vincular ao servidor de origem"
+
+#: dico/connect.c:339
+#, c-format
+msgid "%s: can't get address: %s"
+msgstr "%s: não foi possível obter o endereço: %s"
+
+#: dico/connect.c:347 grecs/src/tree.c:391
+#, c-format
+msgid "%s: UNIX socket name too long"
+msgstr "%s: nome de soquete UNIX longo demais"
+
+#: dico/connect.c:373
+msgid "cannot create dict socket"
+msgstr "não foi possível criar um socket de dicionário"
+
+#: dico/connect.c:383
+#, c-format
+msgid "%s: cannot connect"
+msgstr "%s: não foi possível se conectar"
+
+#: dico/connect.c:394
+#, c-format
+msgid "cannot create dict stream: %s"
+msgstr "não foi possível criar fluxo de dicionário: %s"
+
+#: dico/connect.c:408
+msgid "Invalid reply from server"
+msgstr "Resposta inválida do servidor"
+
+#: dico/connect.c:413
+msgid "Sending client information\n"
+msgstr "Enviando informação do cliente\n"
+
+#: dico/connect.c:418
+#, c-format
+msgid "Unexpected reply to CLIENT command: `%s'"
+msgstr "Resposta inesperado ao comando CLIENTE: \"%s\""
+
+#: dico/connect.c:424
+msgid "Authentication failed"
+msgstr "Falha na autenticação"
+
+#: dico/connect.c:497
+#, c-format
+msgid "Sending query for word \"%s\" in database \"%s\"\n"
+msgstr "Enviando consulta para palavra \"%s\" no banco de dados \"%s\"\n"
+
+#: dico/connect.c:508
+#, c-format
+msgid "Reading %lu definition\n"
+msgid_plural "Reading %lu definitions\n"
+msgstr[0] "Lendo %lu definição\n"
+msgstr[1] "Lendo %lu definições\n"
+
+#: dico/connect.c:515
+#, c-format
+msgid "Unexpected reply in place of definition %lu"
+msgstr "Resposta inesperada no lugar da definição %lu"
+
+#: dico/connect.c:538
+msgid "Setting Levenshtein threshold\n"
+msgstr "Definindo limite Levenshtein\n"
+
+#: dico/connect.c:544
+msgid "Server rejected XLEV command"
+msgstr "O servidor rejeitou do comando XLEV"
+
+#: dico/connect.c:545
+#, c-format
+msgid "Server reply: %s"
+msgstr "Resposta do servidor: %s"
+
+#: dico/connect.c:548
+#, c-format
+msgid "Sending query to match word \"%s\" in database \"%s\", using \"%s\"\n"
+msgstr "Enviando consulta para conferir a palavra \"%s\" no banco de dados \"%s\", usando \"%s\"\n"
+
+#: dico/connect.c:561
+#, c-format
+msgid "Reading %lu match\n"
+msgid_plural "Reading %lu matches\n"
+msgstr[0] "Lendo %lu ocorrência\n"
+msgstr[1] "Lendo %lu ocorrências\n"
+
+#: dico/connect.c:639
+msgid "Not enough data in the result"
+msgstr "Dados insuficientes no resultado"
+
+#: dico/connect.c:706
+msgid "Freeing unlinked result"
+msgstr "Liberando resultado não associado"
+
+#: dico/dico.c:80
+msgid "extra command line arguments ignored"
+msgstr "argumentos extras de linha de comando ignorados"
+
+#: dico/dico.c:88
+msgid "you should give a word to look for or an URL"
+msgstr "você deveria fornecer uma palavra ou uma URL a ser procurada"
+
+#: dico/dico.c:107
+msgid "Database name not specified"
+msgstr "Nome de banco de dados não especificado"
+
+#: dico/func.c:33 dicod/main.c:1120
+msgid "Expected boolean value"
+msgstr "Esperava um valor booleano"
+
+#: dico/func.c:67
+#, c-format
+msgid "Cannot get listing: %s"
+msgstr "Não foi possível obter listagem: %s"
+
+#: dico/func.c:104 dico/func.c:138
+msgid "Please specify server name or IP address"
+msgstr "Por favor, especifique o nome do servidor ou endereço IP"
+
+#: dico/func.c:109
+msgid "Cannot connect to the server"
+msgstr "Não foi possível conectar ao servidor"
+
+#: dico/func.c:112
+msgid "Getting list of databases\n"
+msgstr "Obtendo lista de banco de dados\n"
+
+#: dico/func.c:114
+msgid "Getting list of strategies\n"
+msgstr "Obtendo lista de estratégias\n"
+
+#: dico/func.c:116
+msgid "Finished getting server information\n"
+msgstr "Finalizou obtenção de informações do servidor\n"
+
+#: dico/func.c:150
+msgid "Nothing to close"
+msgstr "Nada para fechar"
+
+#: dico/func.c:160
+msgid "No autologin file."
+msgstr "Nenhum arquivo de autologin."
+
+#: dico/func.c:177 dico/func.c:268
+msgid "on"
+msgstr "ligada"
+
+#: dico/func.c:177 dico/func.c:268
+msgid "off"
+msgstr "desligada"
+
+#: dico/func.c:258 dico/func.c:366
+msgid "invalid number"
+msgstr "número inválido"
+
+#: dico/func.c:268
+#, c-format
+msgid "transcript is %s\n"
+msgstr "transcrição está %s\n"
+
+#: dico/func.c:309 dico/func.c:325
+msgid "No previous match"
+msgstr "Nenhuma ocorrência anterior"
+
+#: dico/func.c:329
+msgid "Invalid match number.  Type / to see the matches."
+msgstr "Número de ocorrência inválido. Digite / para ver as ocorrências."
+
+#: dico/func.c:344
+#, c-format
+msgid "Server does not support XLEV extension"
+msgstr "Não há suporte à extensão XLEV no servidor"
+
+#: dico/func.c:350
+#, c-format
+msgid "Reported Levenshtein distance:%s\n"
+msgstr "Distância Levenshtein relatada:%s\n"
+
+#: dico/func.c:353
+msgid "Cannot query Levenshtein distance.  Server responded:"
+msgstr "Não foi possível consultar a distância Levenshtein. Servidor respondeu:"
+
+#: dico/func.c:358
+#, c-format
+msgid "No distance configured\n"
+msgstr "Nenhuma distância configurada\n"
+
+#: dico/func.c:360
+#, c-format
+msgid "Configured Levenshtein distance: %u\n"
+msgstr "Distância Levenshtein configurada: %u\n"
+
+#: dico/func.c:395
+#, c-format
+msgid ""
+"Search all of the databases until a match is found,\n"
+"and display all matches in that database.\n"
+msgstr ""
+"Pesquisa todos os banco de dados até surgir uma ocorrência,\n"
+"e exibe todas as ocorrências naquele banco de dados.\n"
+
+#: dico/func.c:398
+#, c-format
+msgid "Search all of the databases and display all matches."
+msgstr "Pesquisa em todos os bancos de dados e exibe todas ocorrências."
+
+#: dico/autologin.c:151
+#, c-format
+msgid "Found matching line %d\n"
+msgstr "Localizada correspondência na linha %d\n"
+
+#: dico/autologin.c:160
+#, c-format
+msgid "Found default line %d\n"
+msgstr "Localizado padrão na linha %d\n"
+
+#: dico/autologin.c:192
+#, c-format
+msgid "Cannot open autologin file %s"
+msgstr "Não foi possível abrir o arquivo de autologin %s"
+
+#: dico/autologin.c:197
+#, c-format
+msgid "Reading autologin file %s...\n"
+msgstr "Lendo arquivo de autologin %s...\n"
+
+#: dico/autologin.c:218
+#, c-format
+msgid "failed to parse command `%s': %s"
+msgstr "falha ao analisar o comando \"%s\": %s"
+
+#: dico/autologin.c:229
+#, c-format
+msgid "failed to add line marker: %s"
+msgstr "falha ao adicionar marcador de linha: %s"
+
+#: dico/autologin.c:251
+msgid "No matching line found\n"
+msgstr "Nenhuma linha correspondente localizada\n"
+
+#: dico/autologin.c:269
+#, c-format
+msgid "%s:%d: unknown keyword"
+msgstr "%s:%d: palavra-chave desconhecida"
+
+#: dico/autologin.c:277
+#, c-format
+msgid "%s:%d: %s without argument"
+msgstr "%s:%d: %s sem argumento"
+
+#: dico/autologin.c:335
+#, c-format
+msgid "%s:%d: failed to parse line: %s"
+msgstr "%s:%d: falha ao analisar a linha: %s"
+
+#: cmdline.opt:29
+msgid "Server selection"
+msgstr "Seleção de servidor"
+
+#: cmdline.opt:45
+msgid "SERVER"
+msgstr "SERVIDOR"
+
+#: cmdline.opt:45
+msgid "connect to this server"
+msgstr "conecta a este servidor"
+
+#: cmdline.opt:51
+msgid "SERVICE"
+msgstr "SERVIÇO"
+
+#: cmdline.opt:51
+msgid "specify port to connect to"
+msgstr "especifica a porta na qual deve ser conectada"
+
+#: cmdline.opt:57 cmdline.opt:77 cmdline.opt:151 cmdline.opt:164
+msgid "NAME"
+msgstr "NOME"
+
+#: cmdline.opt:57
+msgid "select a database to search"
+msgstr "seleciona um banco de dados a ser pesquisado"
+
+#: cmdline.opt:63
+msgid "ADDR"
+msgstr "ENDEREÇO"
+
+#: cmdline.opt:63
+msgid "set a source address for TCP connections"
+msgstr "define um endereço de ordem para conexões TCP"
+
+#: cmdline.opt:55
+msgid "Operation modes"
+msgstr "Modos de operação"
+
+#: cmdline.opt:71
+msgid "match instead of define"
+msgstr "corresponde em vez de definir"
+
+#: cmdline.opt:77
+msgid "select a strategy for matching; implies --match"
+msgstr "seleciona uma estratégia para corresponder; implica em --match"
+
+#: cmdline.opt:85
+msgid "N"
+msgstr "N"
+
+#: cmdline.opt:85
+msgid "set maximum Levenshtein distance"
+msgstr "define a distância Levenshtein máxima"
+
+#: cmdline.opt:94
+msgid "show available databases"
+msgstr "mostra os bancos de dados disponíveis"
+
+#: cmdline.opt:100
+msgid "show available search strategies"
+msgstr "mostra as estratégias de pesquisa disponíveis"
+
+#: cmdline.opt:106
+msgid "show server help"
+msgstr "mostra ajuda do servidor"
+
+#: cmdline.opt:112
+msgid "DBNAME"
+msgstr "NOMEBD"
+
+#: cmdline.opt:112
+msgid "show information about database DBNAME"
+msgstr "mostra informações sobre o banco de dados NOMEBD"
+
+#: cmdline.opt:119
+msgid "show information about the server"
+msgstr "mostra informações sobre o servidor"
+
+#: cmdline.opt:125
+msgid "do not print the normal dico welcome"
+msgstr "não exibe as boas-vindas normais do dico"
+
+#: cmdline.opt:117
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: cmdline.opt:133
+msgid "disable authentication"
+msgstr "desabilita autenticação"
+
+#: cmdline.opt:139
+msgid "enable SASL authentication (default)"
+msgstr "habilita autenticação SASL (padrão)"
+
+#: cmdline.opt:145
+msgid "disable SASL authentication"
+msgstr "desabilita autenticação SASL"
+
+#: cmdline.opt:151
+msgid "set user name for authentication"
+msgstr "define um nome de usuário para autenticação"
+
+#: cmdline.opt:158
+msgid "set shared secret for authentication"
+msgstr "define segredo compartilhado para autenticação"
+
+#: cmdline.opt:164
+msgid "set the name of autologin file to use"
+msgstr "define o nome do arquivo de autologin a ser usado"
+
+#: cmdline.opt:170
+msgid "additional text for client command"
+msgstr "texto adicional para comando cliente"
+
+#: cmdline.opt:162 cmdline.opt:103
+msgid "Debugging"
+msgstr "Depuração"
+
+#: cmdline.opt:177 cmdline.opt:119
+msgid "enable session transcript"
+msgstr "habilita transcrição de sessão"
+
+#: cmdline.opt:183
+msgid "increase debugging verbosity level"
+msgstr "aumenta o nível de verbosidade da depuração"
+
+#: cmdline.opt:189
+msgid "include time stamp in the debugging output"
+msgstr "inclui marca de tempo na saída de depuração"
+
+#: cmdline.opt:196 cmdline.opt:138
+msgid "include source line information in the debugging output"
+msgstr "inclui informação da linha de origem na saída de depuração"
+
+#: cmdline.opt:188
+msgid "Other options"
+msgstr "Outras opções"
+
+#: cmdline.opt:200
+msgid "Give this help list"
+msgstr "Fornece esta lista de ajuda"
+
+#: cmdline.opt:200
+msgid "Give a short usage message"
+msgstr "Fornece uma mensagem curta de uso"
+
+#: cmdline.opt:200
+msgid "Print program version"
+msgstr "Exibe a versão do programa"
+
+#: cmdline.opt:37
+msgid "GNU dictionary client program"
+msgstr "Programa cliente de dicionário do GNU"
+
+#: cmdline.opt:39
+msgid "[URL-or-WORD]"
+msgstr "[URL-ou-PALAVRA]"
+
+#: cmdline.opt:81
+#, c-format
+msgid "%s: invalid number"
+msgstr "%s: número inválido"
+
+#: cmdline.opt:230
+msgid "Type ? for help summary"
+msgstr "Digite ? para um resumo da ajuda"
+
+#: dico/lookup.c:23
+msgid "No match"
+msgstr "Nenhuma ocorrência"
+
+#: dico/lookup.c:65 dico/lookup.c:175
+#, c-format
+msgid "From %s, %s:\n"
+msgstr "De %s, %s:\n"
+
+#: dico/lookup.c:137
+msgid "(no description available)"
+msgstr "(nenhuma descrição disponível)"
+
+#: dico/lookup.c:209
+#, c-format
+msgid "%s:%d: INTERNAL ERROR: unexpected request type"
+msgstr "%s:%d: ERRO INTERNO: tipo de requisição inesperada"
+
+#: dico/lookup.c:229 dico/lookup.c:296
+msgid "Server name or IP not specified"
+msgstr "Nome ou IP do servidor não especificado"
+
+#: dico/lookup.c:238
+msgid "Quitting\n"
+msgstr "Saindo\n"
+
+#: dico/saslauth.c:39 dicod/gsasl.c:370
+#, c-format
+msgid "cannot get list of available SASL mechanisms: %s"
+msgstr "não foi possível obter lista de mecanismos SASL disponíveis: %s"
+
+#: dico/saslauth.c:110
+#, c-format
+msgid "Unknown callback property %d"
+msgstr "Propriedade %d de chamada desconhecida"
+
+#: dico/saslauth.c:121 dico/saslauth.c:127
+msgid "GSASL handshake aborted"
+msgstr "Negociação GSASL abortada"
+
+#: dico/saslauth.c:168
+#, c-format
+msgid "GSASL handshake aborted: unexpected reply: %s"
+msgstr "Negociação GSASL abortada: resposta inesperada: %s"
+
+#: dico/saslauth.c:186 dicod/gsasl.c:148
+#, c-format
+msgid "GSASL error: %s"
+msgstr "Erro no GSASL: %s"
+
+#: dico/saslauth.c:233
+msgid "Initializing SASL\n"
+msgstr "Inicializando SASL\n"
+
+#: dico/saslauth.c:236
+#, c-format
+msgid "Cannot initialize libgsasl: %s"
+msgstr "Não foi possível inicializar libgsasl: %s"
+
+#: dico/saslauth.c:281
+msgid "Trying SASL\n"
+msgstr "Tentando SASL\n"
+
+#: dico/saslauth.c:291
+msgid "No suitable SASL mechanism found"
+msgstr "Nenhum mecanismo SASL adequado localizado"
+
+#: dico/saslauth.c:300
+#, c-format
+msgid "Selected authentication mechanism %s"
+msgstr "Selecionado o mecanismo de autenticação %s"
+
+#: dico/saslauth.c:310
+msgid "SASL authentication succeeded"
+msgstr "Autenticação SASL realizada com sucesso"
+
+#: dico/saslauth.c:311
+msgid "SASL authentication failed"
+msgstr "Autenticação SASL falhou"
+
+#: dico/saslauth.c:374
+msgid "Dico compiled without SASL support"
+msgstr "Dico compilado sem suporte a SASL"
+
+#: dicod/regex.c:46
+#, c-format
+msgid "Regex error: %s"
+msgstr "Erro de expressão regular: %s"
+
+#: dicod/dicod.c:119 dicod/dicod.c:137 dicod/main.c:1572
+#, c-format
+msgid "removing database %s"
+msgstr "removendo o banco de dados %s"
+
+#: dicod/dicod.c:153
+#, c-format
+msgid "error closing database %s"
+msgstr "erro ao fechar o banco de dados %s"
+
+#: dicod/dicod.c:291
+#, c-format
+msgid "error freeing database %s"
+msgstr "erro ao liberar o banco de dados %s"
+
+#: dicod/dicod.c:345
+msgid "connection from"
+msgstr "conexão de"
+
+#: dicod/dicod.c:364
+msgid "session finished:"
+msgstr "sessão finalizada:"
+
+#: dicod/acl.c:69
+msgid "expected string"
+msgstr "esperava texto"
+
+#: dicod/acl.c:116
+msgid "expected string but found list"
+msgstr "esperava texto, mas encontrou lista"
+
+#: dicod/acl.c:129
+#, c-format
+msgid "socket name too long: `%s'"
+msgstr "nome de soquete longo demais: \"%s\""
+
+#: dicod/acl.c:157
+msgid "expected `from', but found list"
+msgstr "esperava \"from\", mas encontrou lista"
+
+#: dicod/acl.c:160
+#, c-format
+msgid "expected `from', but found `%s'"
+msgstr "esperava \"from\", mas encontrou \"%s\""
+
+#: dicod/acl.c:169
+msgid "unexpected end of statement after `from'"
+msgstr "fim de declaração inesperado após \"from\""
+
+#: dicod/acl.c:195
+msgid "junk after `from' list"
+msgstr "lixo após lista \"from\""
+
+#: dicod/acl.c:211
+msgid "expected ACL name, but found end of statement"
+msgstr "esperava nome ACL, mas encontrou fim de declaração"
+
+#: dicod/acl.c:217
+msgid "expected string, but found list"
+msgstr "esperava texto, mas encontrou lista"
+
+#: dicod/acl.c:224
+#, c-format
+msgid "ACL not defined: `%s'"
+msgstr "ACL não definida: \"%s\""
+
+#: dicod/acl.c:242
+msgid "expected group list, but found end of statement"
+msgstr "esperava lista de grupo, mas encontrou fim de declaração"
+
+#: dicod/acl.c:255
+msgid "expected group list, but found array"
+msgstr "esperava lista de grupo, mas encontrou vetor"
+
+#: dicod/acl.c:268
+msgid "expected string value"
+msgstr "esperava valor em texto"
+
+#: dicod/acl.c:290
+#, c-format
+msgid "unknown word `%s'"
+msgstr "palavra desconhecido \"%s\""
+
+#: dicod/acl.c:302
+msgid "unexpected list"
+msgstr "lista inesperada"
+
+#. TRANSLATORS: `MATCHES' is the verb `match' in 2nd person.
+#. E.g., in French: CONCORD AVEC
+#: dicod/acl.c:400
+msgid "MATCHES"
+msgstr "CORRESPONDE A"
+
+#: dicod/acl.c:400
+msgid "does not match"
+msgstr "não corresponde"
+
+#: dicod/dbtext.c:28
+#, c-format
+msgid "cannot get path from URL `%s'"
+msgstr "não foi possível obter caminho a partir da URL \"%s\""
+
+#: dicod/dbtext.c:33
+#, c-format
+msgid "cannot stat directory `%s'"
+msgstr "não foi possível obter estado do diretório \"%s\""
+
+#: dicod/dbtext.c:39
+#, c-format
+msgid "%s: not a directory"
+msgstr "%s: não é um diretório"
+
+#: dicod/dbtext.c:55
+#, c-format
+msgid "cannot open file `%s'"
+msgstr "não foi possível abrir o arquivo \"%s\""
+
+#: dicod/auth.c:46 dicod/gsasl.c:190
+msgid "failed to open user database"
+msgstr "falha ao abrir banco de dados de usuário"
+
+#: dicod/auth.c:51 dicod/gsasl.c:240 dicod/gsasl.c:276
+#, c-format
+msgid "failed to get password for `%s' from the database"
+msgstr "falha ao obter senha para \"%s\" a partir do banco de dados"
+
+#: dicod/auth.c:55
+#, c-format
+msgid "no such user `%s'"
+msgstr "usuário \"%s\" inexistente"
+
+#: dicod/auth.c:61
+#, c-format
+msgid "authentication failed for `%s'"
+msgstr "autenticação falhou para \"%s\""
+
+#: dicod/main.c:161
+msgid "list element must be a string"
+msgstr "elemento de lista deve ser um texto"
+
+#: dicod/main.c:215
+msgid "list element must be a socket specification"
+msgstr "elemento de lista deve ser uma especificação de soquete"
+
+#: dicod/main.c:248 dicod/main.c:264 dicod/main.c:332 dicod/main.c:358
+#: dicod/main.c:407 dicod/main.c:460 dicod/main.c:503 dicod/main.c:665
+#: dicod/main.c:721 dicod/main.c:742 dicod/main.c:786 dicod/main.c:977
+#: dicod/main.c:1111 dicod/main.c:1150 dicod/main.c:1171
+msgid "Unexpected block statement"
+msgstr "Declaração de bloco inesperada"
+
+#: dicod/main.c:284
+msgid "ACL name must be a string"
+msgstr "Nome de ACL deve ser uma texto"
+
+#: dicod/main.c:286
+msgid "missing ACL name"
+msgstr "nome ACL faltando"
+
+#: dicod/main.c:292
+#, c-format
+msgid "redefinition of ACL %s"
+msgstr "redenção de ACL %s"
+
+#: dicod/main.c:295
+msgid "location of the previous definition"
+msgstr "localização da definição anterior"
+
+#: dicod/main.c:311 dicod/main.c:315
+msgid "[all|authenticated|group <grp: list>] [from <addr: list>]"
+msgstr "[all|authenticated|group <grp: lista>] [from <endereço: lista>]"
+
+#: dicod/main.c:312
+msgid "Allow access"
+msgstr "Permitir acesso"
+
+#: dicod/main.c:316
+msgid "Deny access"
+msgstr "Negar acesso"
+
+#: dicod/main.c:336 dicod/main.c:747 dicod/main.c:822
+msgid "expected scalar value"
+msgstr "esperava um valor escalar"
+
+#: dicod/main.c:340
+#, c-format
+msgid "no such ACL: `%s'"
+msgstr "ACL inexistente: \"%s\""
+
+#: dicod/main.c:363 dicod/main.c:465 dicod/main.c:507 dicod/main.c:670
+msgid "expected scalar value but found list"
+msgstr "esperava valor escalar, mas encontrou lista"
+
+#: dicod/main.c:371
+#, c-format
+msgid "not a valid UID number: %s"
+msgstr "não é um UID válido: %s"
+
+#: dicod/main.c:378
+#, c-format
+msgid "%s: no such user"
+msgstr "%s: usuário inexistente"
+
+#: dicod/main.c:426
+#, c-format
+msgid "not a valid GID number: %s"
+msgstr "não é um GID válido: %s"
+
+#: dicod/main.c:433
+#, c-format
+msgid "%s: unknown group"
+msgstr "%s: grupo desconhecido"
+
+#: dicod/main.c:469
+msgid "unknown mode"
+msgstr "modo desconhecido"
+
+#: dicod/main.c:514
+msgid "unknown syslog facility"
+msgstr "facilidade syslog desconhecida"
+
+#: dicod/main.c:533 dicod/main.c:559
+msgid "tag must be a string"
+msgstr "tag deve ser um texto"
+
+#: dicod/main.c:535 dicod/main.c:561
+msgid "missing tag"
+msgstr "faltando tag"
+
+#: dicod/main.c:624
+msgid "database name not supplied"
+msgstr "nome de banco de dados não fornecido"
+
+#: dicod/main.c:630
+msgid "no handler defined for the database"
+msgstr "nenhum manipulador definido para o banco de dados"
+
+#: dicod/main.c:648 grecs/src/tree.c:665
+msgid "invalid use of block statement"
+msgstr "uso inválido de declaração de bloco"
+
+#: dicod/main.c:675 dicod/loader.c:120
+#, c-format
+msgid "cannot parse command line `%s': %s"
+msgstr "não foi possível analisar a linha de comando \"%s\": %s"
+
+#: dicod/main.c:691
+#, c-format
+msgid "%s: handler not declared"
+msgstr "%s: manipulador não declarado"
+
+#: dicod/main.c:727
+#, c-format
+msgid "unknown capability: %s"
+msgstr "capacidade desconhecida: %s"
+
+#: dicod/main.c:752
+#, c-format
+msgid "cannot parse headers: %s"
+msgstr "não foi possível analisar cabeçalhos: %s"
+
+#: dicod/main.c:759
+#, c-format
+msgid "unknown encoding type: %s"
+msgstr "tipo de codificação desconhecida: %s"
+
+#: dicod/main.c:766 dicod/main.c:840 dicod/main.c:844 dicod/main.c:849
+#: dicod/main.c:853 dicod/main.c:896 dicod/main.c:899 dicod/main.c:903
+#: dicod/main.c:1029 dicod/main.c:1318 dicod/main.c:1327 dicod/main.c:1330
+#: dicod/main.c:1332 dicod/main.c:1337 dicod/main.c:1346 dicod/main.c:1368
+#: dicod/main.c:1383 grecs/src/format.c:142
+msgid "arg"
+msgstr "arg"
+
+#: dicod/main.c:766
+msgid "Command line."
+msgstr "Linha de comando."
+
+#: dicod/main.c:798
+msgid "first argument must be string"
+msgstr "primeiro argumento deve ser texto"
+
+#: dicod/main.c:804
+msgid "second argument must be string"
+msgstr "segundo argumento deve ser texto"
+
+#: dicod/main.c:812
+msgid "condition must be mime or nomime"
+msgstr "condição deve ser mime ou nomime"
+
+#: dicod/main.c:837
+msgid "word"
+msgstr "palavra"
+
+#: dicod/main.c:837
+msgid "Dictionary name (a single word)."
+msgstr "Nome do dicionário (uma única palavra)."
+
+#: dicod/main.c:841
+msgid "Short description, to be shown in reply to SHOW DB command."
+msgstr "Descrição curta, a ser mostrada como resposta ao comando SHOW DB."
+
+#: dicod/main.c:845
+msgid "Full description of the database, to be shown in reply to SHOW INFO command."
+msgstr "Descrição completa do banco de dados, a ser mostrada como resposta ao comando SHOW INFO."
+
+#: dicod/main.c:850
+msgid "List of languages this database translates from."
+msgstr "Lista de idiomas dos quais esse banco de dados traduz."
+
+#: dicod/main.c:854
+msgid "List of languages this database translates to."
+msgstr "Lista de idiomas para os quais esse banco de dados traduz."
+
+#: dicod/main.c:857 dicod/main.c:1023 dicod/main.c:1026 dicod/main.c:1302
+#: dicod/main.c:1305 dicod/main.c:1324 dicod/main.c:1343 dicod/main.c:1348
+#: dicod/main.c:1366 dicod/main.c:1380
+msgid "name"
+msgstr "nome"
+
+#: dicod/main.c:857
+msgid "Name of the handler for this database."
+msgstr "Nome do manipulador para este banco de dados."
+
+#: dicod/main.c:860 dicod/main.c:1315 dicod/main.c:1387 dicod/main.c:1390
+msgid "arg: acl"
+msgstr "arg: acl"
+
+#: dicod/main.c:861
+msgid "ACL controlling visibility of this database"
+msgstr "Visibilidade de controle de ACL deste banco de dados"
+
+#: dicod/main.c:864 dicod/main.c:1312 dicod/main.c:1359 dicod/main.c:1362
+msgid "text"
+msgstr "texto"
+
+#: dicod/main.c:865
+msgid "Additional MIME headers"
+msgstr "Cabeçalhos MIME adicionais"
+
+#: dicod/main.c:869
+msgid "bool"
+msgstr "bool"
+
+#: dicod/main.c:870
+msgid "Set database visibility"
+msgstr "Defina visibilidade de banco de dados"
+
+#: dicod/main.c:873
+msgid "<name: string> [mime|nomime]"
+msgstr "<nome: texto> [mime|nomime]"
+
+#: dicod/main.c:874
+msgid "For virtual database only: name of the member database. Optional mime|nomime specifies the condition under which the database is to be used."
+msgstr "Para banco de dados virtual apenas: nome do banco de dados membro. mime|nomime opcional especifica a condição sob o qual banco de dados deve ser usado."
+
+#: dicod/main.c:896
+msgid "Password file or query."
+msgstr "Consulta por ou arquivo de senha."
+
+#: dicod/main.c:900
+msgid "File containing user group information or a query to retrieve it."
+msgstr "Arquivo contendo informação de grupo de usuário ou uma consulta para obtê-la."
+
+#: dicod/main.c:904
+msgid "Implementation-dependent options"
+msgstr "Opções dependente de implementação"
+
+#: dicod/main.c:926 dicod/main.c:942
+msgid "URL must be a string"
+msgstr "URL deve ser um texto"
+
+#: dicod/main.c:928 dicod/main.c:944
+msgid "empty URL"
+msgstr "URL vazia"
+
+#: dicod/main.c:959
+msgid "cannot create user database"
+msgstr "não foi possível criar um banco de dados de usuário"
+
+#: dicod/main.c:981
+msgid "Not enough arguments for alias"
+msgstr "Argumentos insuficientes para apelido"
+
+#: dicod/main.c:988
+#, c-format
+msgid "argument %d has wrong type"
+msgstr "argumento %d possui tipo errado"
+
+#: dicod/main.c:1008
+msgid "expected boolean value but found list"
+msgstr "esperava valor booleano, mas encontrou lista"
+
+#: dicod/main.c:1017 dicod/main.c:1020
+msgid "mech: list"
+msgstr "mech: lista"
+
+#: dicod/main.c:1018
+msgid "Disable SASL mechanisms listed in <mech>."
+msgstr "Desabilita os mecanismos SASL listados em <mech>."
+
+#: dicod/main.c:1021
+msgid "Enable SASL mechanisms listed in <mech>."
+msgstr "Habilita os mecanismos SASL listados em <mech>."
+
+#: dicod/main.c:1024
+msgid "Set service name for GSSAPI and Kerberos."
+msgstr "Define o nome de serviço para GSSAPI e Kerberos."
+
+#: dicod/main.c:1027
+msgid "Set realm name for GSSAPI and Kerberos."
+msgstr "Define nome do reino para GSSAPI e Kerberos."
+
+#: dicod/main.c:1030
+msgid "Define groups for anonymous users."
+msgstr "Define grupos para usuários anônimos."
+
+#: dicod/main.c:1069
+msgid "Section name must be a string"
+msgstr "Nome da seção deve ser um texto"
+
+#: dicod/main.c:1071
+msgid "missing section name"
+msgstr "faltando nome da seção"
+
+#: dicod/main.c:1096
+msgid "Unexpected statement"
+msgstr "Declaração inesperada"
+
+#: dicod/main.c:1133
+msgid "Expected string value"
+msgstr "Esperava valor em texto"
+
+#: dicod/main.c:1159
+msgid "expected list or string"
+msgstr "esperava lista ou texto"
+
+#: dicod/main.c:1182
+msgid "Expected number"
+msgstr "Esperava número"
+
+#: dicod/main.c:1253
+msgid "arg: bool"
+msgstr "arg: bool"
+
+#: dicod/main.c:1253
+msgid "Deny all * and ! look ups"
+msgstr "Nega todas procuras com * e !"
+
+#: dicod/main.c:1257
+msgid "cond"
+msgstr "cond"
+
+#: dicod/main.c:1257
+msgid "Deny * and ! look-ups on these words."
+msgstr "Nega procuras por * e ! nesses palavras."
+
+#: dicod/main.c:1262 dicod/main.c:1268 dicod/main.c:1274 dicod/main.c:1280
+#: dicod/main.c:1286 dicod/main.c:1292
+msgid "len: number"
+msgstr "len: número"
+
+#: dicod/main.c:1263
+msgid "Deny * and ! look-ups on words with length < <len>."
+msgstr "Nega procuras com * e ! em palavras com tamanho < <len>."
+
+#: dicod/main.c:1269
+msgid "Deny * and ! look-ups on words with length <= <len>."
+msgstr "Nega procuras com * e ! em palavras com tamanho <= <len>."
+
+#: dicod/main.c:1275
+msgid "Deny * and ! look-ups on words with length > <len>."
+msgstr "Nega procuras com * e ! em palavras com tamanho > <len>."
+
+#: dicod/main.c:1281
+msgid "Deny * and ! look-ups on words with length >= <len>."
+msgstr "Nega procuras com * e ! em palavras com tamanho >= <len>."
+
+#: dicod/main.c:1287
+msgid "Deny * and ! look-ups on words with length == <len>."
+msgstr "Nega procuras com * e ! em palavras com tamanho == <len>."
+
+#: dicod/main.c:1293
+msgid "Deny * and ! look-ups on words with length != <len>."
+msgstr "Nega procuras com * e ! em palavras com tamanho != <len>."
+
+#: dicod/main.c:1302
+msgid "Run with these user privileges."
+msgstr "Executa com esses privilégios de usuário."
+
+#: dicod/main.c:1306
+msgid "Supplementary group to retain with the user privileges."
+msgstr "Grupo suplementar para reter com os privilégios de usuário."
+
+#: dicod/main.c:1309
+msgid "arg: [daemon|inetd]"
+msgstr "arg: [daemon|inetd]"
+
+#: dicod/main.c:1309
+msgid "Operation mode."
+msgstr "Modo de operação."
+
+#: dicod/main.c:1313
+msgid "Server description to be shown in reply to SHOW SERVER command."
+msgstr "Descrição do servidor a ser mostrada na resposta ao comando SHOW SERVER."
+
+#: dicod/main.c:1316
+msgid "Show system information if arg matches."
+msgstr "Mostra informação do sistema se arg corresponder."
+
+#: dicod/main.c:1319
+msgid "Enable identification check using AUTH protocol (RFC 1413)"
+msgstr "Habilita verificação de identificação usando o protocolo AUTH (RFC 1413)"
+
+#: dicod/main.c:1321
+msgid "val"
+msgstr "val"
+
+#: dicod/main.c:1322
+msgid "Set timeout for AUTH I/O operations."
+msgstr "Define tempo limite para operações de E/S de AUTH."
+
+#: dicod/main.c:1325
+msgid "Name of the file containing the keys for decrypting AUTH replies."
+msgstr "Nome do arquivo contendo as chaves para repostas de descriptografia AUTH."
+
+#: dicod/main.c:1328
+msgid "Maximum number of children running simultaneously."
+msgstr "Número máximo de filhos em execução simultaneamente."
+
+#: dicod/main.c:1330
+msgid "Tag syslog diagnostics with this tag."
+msgstr "Marca diagnósticos de syslog com essa marcação."
+
+#: dicod/main.c:1333
+msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
+msgstr "Define facilidade syslog. Arg é um dentre os seguintes: user, daemon, auth, authpriv, mail, cron, local0 até local7 (sem diferenciação de maiúsculo/minúsculo) ou o número de uma facilidade."
+
+#: dicod/main.c:1338
+msgid "Prefix diagnostics messages with their severity."
+msgstr "Prefixa mensagens de diagnóstico com sua severidade."
+
+#: dicod/main.c:1340
+msgid "fmt"
+msgstr "fmt"
+
+#: dicod/main.c:1341
+msgid "Set format string for access log file."
+msgstr "Define o texto do formato para o arquivo de log de acessos."
+
+#: dicod/main.c:1344
+msgid "Set access log file name."
+msgstr "Define o nome de arquivo do log de acessos."
+
+#: dicod/main.c:1346
+msgid "Log session transcript."
+msgstr "Registra transcrição de sessão."
+
+#: dicod/main.c:1349
+msgid "Store PID of the master process in this file."
+msgstr "Armazena o PID do processo mestre neste arquivo."
+
+#: dicod/main.c:1351 dicod/main.c:1354
+msgid "seconds"
+msgstr "segundos"
+
+#: dicod/main.c:1352
+msgid "Wait this number of seconds for all children to terminate."
+msgstr "Espera esse número de segundos para todos os filhos terminarem."
+
+#: dicod/main.c:1355
+msgid "Set inactivity timeout."
+msgstr "Define tempo limite de inatividade."
+
+#: dicod/main.c:1357
+msgid "addr"
+msgstr "endereço"
+
+#: dicod/main.c:1357
+msgid "Listen on these addresses."
+msgstr "Ouve nesses endereços."
+
+#: dicod/main.c:1360
+msgid "Display this text in the initial 220 banner"
+msgstr "Exibe esse texto no banner 220 inicial"
+
+#: dicod/main.c:1363
+msgid "Display this text in reply to the HELP command. If text begins with a +, usual command summary is displayed before it."
+msgstr "Exibe esse texto como resposta ao comando HELP. Se o texto começar com um +, o resumo usual do comando é exibido antes dele."
+
+#: dicod/main.c:1366
+msgid "Override the host name."
+msgstr "Sobrescreve o nome da máquina."
+
+#: dicod/main.c:1368
+msgid "Request additional capabilities."
+msgstr "Requisita capacidades adicionais."
+
+#: dicod/main.c:1371 dicod/main.c:1375
+msgid "path"
+msgstr "caminho"
+
+#: dicod/main.c:1372
+msgid "List of directories searched for database modules."
+msgstr "Lista de diretórios pesquisados por módulos de banco de dados."
+
+#: dicod/main.c:1376
+msgid "List of directories searched for database modules prior to the default module directory"
+msgstr "Lista de diretórios pesquisados por módulos de banco de dados antes do diretório do módulo padrão"
+
+#: dicod/main.c:1381
+msgid "Set the name of the default matching strategy."
+msgstr "Define o nome da estratégia de correspondência padrão."
+
+#: dicod/main.c:1384
+msgid "Provide timing information after successful completion of an operation."
+msgstr "Fornece informação de tempo após completar uma operação com sucesso."
+
+#: dicod/main.c:1388
+msgid "Set ACL to control visibility of all databases."
+msgstr "Define ACL para controlar visibilidade de todos os bancos de dados."
+
+#: dicod/main.c:1391
+msgid "Apply this ACL to incoming connections."
+msgstr "Aplica essa ACL para conexões recebidas."
+
+#: dicod/main.c:1393
+msgid "Define a dictionary database."
+msgstr "Define um banco de dados de dicionário."
+
+#: dicod/main.c:1397 dicod/main.c:1406 dicod/main.c:1412 dicod/main.c:1419
+msgid "name: string"
+msgstr "nome: texto"
+
+#: dicod/main.c:1398
+msgid ""
+"Load a module instance.\n"
+"If <name> is the same as <arg> in command, it can be simplified as:\n"
+"  load-module <name: string>;\n"
+"Furthermore, several simplified forms can be combined into one\n"
+"by using a list of names as its argument, as in:\n"
+"  load-module (stratall,word);\n"
+msgstr ""
+"Carrega uma instância de módulo.\n"
+"Se <nome> é o mesmo que <arg> em comando, ele pode ser simplificado como:\n"
+"  load-module <nome: texto>;\n"
+"Além do mais, várias formas simplificadas podem ser combinadas em uma usando uma lista de nomes como seu argumento, como em:\n"
+"  load-module (stratall,word);\n"
+
+#: dicod/main.c:1406
+msgid "Define an ACL."
+msgstr "Define uma ACL."
+
+#: dicod/main.c:1408
+msgid "url: string"
+msgstr "url: texto"
+
+#: dicod/main.c:1409
+msgid "Define user database for authentication."
+msgstr "Define o banco de dados de usuário para autenticação."
+
+#: dicod/main.c:1412
+msgid "Define a command alias."
+msgstr "Define um apelido de comando."
+
+#: dicod/main.c:1416
+msgid "Control SASL authentication."
+msgstr "Controla autenticação SASL."
+
+#: dicod/main.c:1420
+msgid "Additional configuration for strategy <name>"
+msgstr "Configuração adicional para estratégia <nome>"
+
+#: dicod/main.c:1459
+msgid ""
+"Configuration file structure for dicod.\n"
+"For more information, use `info dico configuration'."
+msgstr ""
+"Estrutura de arquivo de configuração para dico.\n"
+"Para mais informação, use \"info dico configuration\"."
+
+#: dicod/main.c:1788
+msgid "unknown strategy"
+msgstr "estratégia desconhecida"
+
+#: cmdline.opt:36
+msgid "Select program mode"
+msgstr "Seleção do modo do programa"
+
+#: cmdline.opt:51
+msgid "preprocess configuration file and exit"
+msgstr "preprocessa o arquivo de configuração e sai"
+
+#: cmdline.opt:57
+msgid "check configuration file syntax and exit"
+msgstr "verifica a sintaxe do arquivo de configuração e sai"
+
+#: cmdline.opt:63
+msgid "inetd mode"
+msgstr "modo inetd"
+
+#: cmdline.opt:69
+msgid "run unit tests for module; subsequent arguments are treated as module name and unit test arguments; the -- marker introduces module initialization arguments"
+msgstr "executa testes de unidade para módulo; argumentos subsequentes são tratados como sendo de nome de módulo e de teste de unidade; o marcador -- introduz argumentos de inicialização de módulo"
+
+#: cmdline.opt:63
+msgid "Modifiers"
+msgstr "Modificadores"
+
+#: cmdline.opt:79
+msgid "FILE"
+msgstr "ARQUIVO"
+
+#: cmdline.opt:79
+msgid "read this configuration file"
+msgstr "lê este arquivo de configuração"
+
+#: cmdline.opt:85
+msgid "operate in foreground"
+msgstr "opera em primeiro plano"
+
+#: cmdline.opt:91
+msgid "output diagnostic to stderr"
+msgstr "emite diagnóstico para a saída de erro (stderr)"
+
+#: cmdline.opt:97
+msgid "output diagnostic to syslog (default)"
+msgstr "emite diagnóstico para o syslog (padrão)"
+
+#: cmdline.opt:103
+msgid "single-process mode"
+msgstr "modo processo único"
+
+#: cmdline.opt:109 cmdline.opt:179
+msgid "DIR"
+msgstr "DIR"
+
+#: cmdline.opt:109
+msgid "prepend DIR to the module load path"
+msgstr "anexa DIR ao caminho de carregamento de módulo"
+
+#: cmdline.opt:125
+msgid "disable session transcript"
+msgstr "desabilita transcrição de sessão"
+
+#: cmdline.opt:131
+msgid "set debug verbosity level"
+msgstr "define o nível de verbosidade da depuração"
+
+#: cmdline.opt:144
+msgid "trace parsing of configuration file"
+msgstr "rastreia análise de arquivo de configuração"
+
+#: cmdline.opt:150
+msgid "trace config file lexer"
+msgstr "rastreia o lexer de arquivo de configuração"
+
+#: cmdline.opt:142
+msgid "Additional help"
+msgstr "Ajuda adicional"
+
+#: cmdline.opt:158
+msgid "show configuration file summary"
+msgstr "mostra o resumo do arquivo de configuração"
+
+#: cmdline.opt:151
+msgid "Preprocessor control"
+msgstr "Controle do pré-processador"
+
+#: cmdline.opt:167
+msgid "PROG"
+msgstr "PROG"
+
+#: cmdline.opt:167
+msgid "use PROG as a preprocessor for config file"
+msgstr "usa PROG como um pré-processador para o arquivo de configuração"
+
+#: cmdline.opt:173
+msgid "do not use external preprocessor"
+msgstr "não usa um preprocessador externo"
+
+#: cmdline.opt:179
+msgid "add the directory DIR to the list of directories to be searched for preprocessor include files"
+msgstr "adiciona o diretório DIR à lista de diretórios a ser pesquisados por arquivos de cabeçalho do pré-processador"
+
+#: cmdline.opt:185
+msgid "SYMBOL[=VALUE]"
+msgstr "SÍMBOLO[=VALOR]"
+
+#: cmdline.opt:185
+msgid "define a preprocessor symbol"
+msgstr "define o símbolo de um preprocessador"
+
+#: cmdline.opt:43
+msgid "GNU dictionary server"
+msgstr "Servidor de dicionário do GNU"
+
+#: dicod/loader.c:38
+#, c-format
+msgid "%s: faulty module: (%s) failed"
+msgstr "%s: módulo falho: (%s) falhou"
+
+#: dicod/loader.c:67
+#, c-format
+msgid "%s: initialization failed"
+msgstr "%s: inicialização falhou"
+
+#: dicod/loader.c:83
+#, c-format
+msgid "module %s already loaded"
+msgstr "módulo %s já carregado"
+
+#: dicod/loader.c:96
+#, c-format
+msgid "cannot load module %s: %s"
+msgstr "não foi possível carregar o módulo %s: %s"
+
+#: dicod/loader.c:505
+msgid "no module name"
+msgstr "nenhum nome de módulo"
+
+#: dicod/loader.c:524
+msgid "module does not define dico_run_test function"
+msgstr "o módulo não define a função dico_run_test"
+
+#: dicod/alias.c:68
+#, c-format
+msgid "alias `%s' already defined"
+msgstr "apelido \"%s\" já definido"
+
+#: dicod/alias.c:70
+msgid "this is the location of the previous definition"
+msgstr "essa é a localização da definição anterior"
+
+#: dicod/server.c:103
+#, c-format
+msgid "file %s exists but cannot be stat'd"
+msgstr "o arquivo %s existe, mas não foi possível obter seu estado"
+
+#: dicod/server.c:110
+#, c-format
+msgid "file %s is not a socket"
+msgstr "o arquivo %s é um soquete"
+
+#: dicod/server.c:116
+#, c-format
+msgid "cannot unlink file %s"
+msgstr "não foi possível desassociar o arquivo %s"
+
+#: dicod/server.c:131
+#, c-format
+msgid "unsupported address family: %d"
+msgstr "família de endereço sem suporte: %d"
+
+#: dicod/server.c:163
+msgid "No sockets opened"
+msgstr "Nenhum soquete aberto"
+
+#: dicod/server.c:206
+#, c-format
+msgid "%lu exited successfully"
+msgstr "%lu saiu com sucesso"
+
+#: dicod/server.c:211
+#, c-format
+msgid "%lu timed out"
+msgstr "%lu esgotou tempo limite"
+
+#: dicod/server.c:216
+#, c-format
+msgid "%lu failed with status %d"
+msgstr "%lu falhou com o status %d"
+
+#: dicod/server.c:227
+#, c-format
+msgid "%lu terminated on signal %d"
+msgstr "%lu terminado com sinal %d"
+
+#: dicod/server.c:230
+#, c-format
+msgid "%lu stopped on signal %d"
+msgstr "%lu parou com sinal %d"
+
+#: dicod/server.c:234
+#, c-format
+msgid "%lu dumped core"
+msgstr "%lu despejou seu núcleo"
+
+#: dicod/server.c:237
+#, c-format
+msgid "%lu terminated with unrecognized status"
+msgstr "%lu terminou com status não reconhecido"
+
+#: dicod/server.c:305
+#, c-format
+msgid "Cannot open pidfile `%s'"
+msgstr "Não é possível abrir o arquivo PID \"%s\""
+
+#: dicod/server.c:308
+#, c-format
+msgid "Cannot get pid from pidfile `%s'"
+msgstr "Não foi possível obter pid a partir do arquivo de pid \"%s\""
+
+#: dicod/server.c:314
+#, c-format
+msgid "%s appears to run with pid %lu. If it does not, remove `%s' and retry."
+msgstr "%s parece estar sendo executado com pid %lu. Se não, remova \"%s\" e tente novamente."
+
+#: dicod/server.c:324 dicod/server.c:343
+#, c-format
+msgid "Cannot unlink pidfile `%s'"
+msgstr "Não foi possível desassociar o arquivo PID %s"
+
+#: dicod/server.c:334
+#, c-format
+msgid "Cannot create pidfile `%s'"
+msgstr "Não foi possível criar o arquivo PID %s"
+
+#: dicod/server.c:402
+#, c-format
+msgid "connection from %s denied"
+msgstr "conexão de %s negada"
+
+#: dicod/server.c:459
+msgid "fork failed"
+msgstr "fork falhou"
+
+#: dicod/server.c:475
+msgid "refusing to restart due to errors in configuration file"
+msgstr "recusando a reiniciar em decorrência de erros no arquivo de configuração"
+
+#: dicod/server.c:481
+msgid "refusing to restart due to unexpected return status of configuration checker"
+msgstr "recursando a reiniciar em decorrência de status de retorno inesperado do verificador de configuração"
+
+#: dicod/server.c:489
+msgid "refusing to restart: configuration checker did not exit within 5 seconds"
+msgstr "recusando a reiniciar: verificador de configuração não saiu dentro de 5 segundos"
+
+#: dicod/server.c:498
+msgid "waitpid failed"
+msgstr "waitpid falhou"
+
+#: dicod/server.c:499
+msgid "refusing to restart"
+msgstr "recusando a reiniciar"
+
+#: dicod/server.c:539
+#, c-format
+msgid "too many children (%lu)"
+msgstr "filhos demais (%lu)"
+
+#: dicod/server.c:557
+msgid "select error"
+msgstr "erro de seleção"
+
+#: dicod/server.c:585
+#, c-format
+msgid "%s started"
+msgstr "%s iniciado"
+
+#: dicod/server.c:590
+msgid "not running as root: ignoring user/group settings"
+msgstr "executando como não-root: ignorando configurações de usuário/grupo"
+
+#: dicod/server.c:603
+msgid "dicod started without full file name"
+msgstr "dicod inciado sem nome de arquivo completo"
+
+#: dicod/server.c:604 dicod/server.c:608
+msgid "restart (SIGHUP) will not work"
+msgstr "reinício (SIGHUP) não vai funcionar"
+
+#: dicod/server.c:607
+msgid "configuration file is not given with a full file name"
+msgstr "arquivo de configuração não fornecido com um nome de arquivo completo"
+
+#: dicod/server.c:615
+msgid "Cannot become a daemon"
+msgstr "Não é possível se tornar um daemon"
+
+#: dicod/server.c:632
+#, c-format
+msgid "Exit code = %d, last error status"
+msgstr "Código de saída = %d, último status de erro"
+
+#: dicod/server.c:640
+#, c-format
+msgid "%s restarting"
+msgstr "%s reiniciando"
+
+#: dicod/server.c:644
+msgid "Cannot restart"
+msgstr "Não foi possível reiniciar"
+
+#: dicod/server.c:646
+#, c-format
+msgid "%s terminating"
+msgstr "%s terminando"
+
+#: dicod/ident.c:200
+msgid "Incorrect length of IDENT DES packet"
+msgstr "Tamanho incorreto do pacote IDENT DES"
+
+#: dicod/ident.c:207
+#, c-format
+msgid "Cannot open file %s"
+msgstr "Não foi possível abrir o arquivo %s"
+
+#: dicod/ident.c:388
+msgid "cannot create socket for AUTH identification"
+msgstr "não foi possível criar socket para identificação AUTH"
+
+#: dicod/ident.c:400
+msgid "cannot bind AUTH socket"
+msgstr "não foi possível vincular soquete AUTH"
+
+#: dicod/ident.c:413 dicod/ident.c:464
+#, c-format
+msgid "cannot connect to AUTH server %s"
+msgstr "não foi possível conectar ao servidor AUTH %s"
+
+#: dicod/ident.c:437
+#, c-format
+msgid "Malformed IDENT response: `%s', from %s"
+msgstr "Resposta IDENT malformada: \"%s\", de %s"
+
+#: dicod/ident.c:442
+msgid "Keyfile for AUTH responses not specified in config; use `ident-keyfile FILE'"
+msgstr "Arquivo de chave para respostas AUTH não especificada na configuração; use \"ident-keyfile ARQUIVO\""
+
+#: dicod/ident.c:458
+#, c-format
+msgid "failure while communicating with AUTH server %s"
+msgstr "falha ao comunicar com o servidor AUTH %s"
+
+#: dicod/ident.c:469
+#, c-format
+msgid "no reply from AUTH server %s"
+msgstr "nenhuma resposta do servidor AUTH %s"
+
+#: dicod/ident.c:475
+#, c-format
+msgid "I/O error while communicating with AUTH server %s"
+msgstr "Erro de E/S enquanto se comunicava com o servidor AUTH %s"
+
+#: dicod/accesslog.c:487
+#, c-format
+msgid "log format error (near char %td): missing terminating `}'"
+msgstr "erro de formato de log (próximo ao caractere %td): faltando \"}\" terminador"
+
+#: dicod/accesslog.c:502
+#, c-format
+msgid "log format error (near char %td): unknown format char `%c'"
+msgstr "erro de formato de log (próximo ao caractere %td): caractere de formato desconhecido \"%c\""
+
+#: dicod/accesslog.c:510
+#, c-format
+msgid "log format warning (near char %td): format char `%c' does not take arguments"
+msgstr "aviso de formato de log (próximo ao caractere %td): caractere de formato \"%c\" não leva argumentos"
+
+#: dicod/accesslog.c:553
+#, c-format
+msgid "cannot open access log file `%s'"
+msgstr "não foi possível abrir arquivo de log de acessoes \"%s\""
+
+#: dicod/gsasl.c:84
+#, c-format
+msgid "Unexpected input instead of SASLRESP command: %s"
+msgstr "Entrada inesperada, em vez do comando SASLRESP: %s"
+
+#: dicod/gsasl.c:123
+#, c-format
+msgid "SASL gsasl_server_start: %s"
+msgstr "SASL gsasl_server_start: %s"
+
+#: dicod/gsasl.c:163
+#, c-format
+msgid "GSASL %s: cannot get username"
+msgstr "GSASL %s: não foi possível obter o nome de usuário"
+
+#: dicod/gsasl.c:269
+msgid "user name not supplied"
+msgstr "nome de usuário não fornecido"
+
+#: dicod/gsasl.c:333
+#, c-format
+msgid "cannot initialize libgsasl: %s"
+msgstr "não foi possível inicializar libgsasl: %s"
+
+#: modules/dict.org/dictorg.c:83
+#, c-format
+msgid "mod_init: cannot stat `%s'"
+msgstr "mod_init: não foi possível obter status de %s"
+
+#: modules/dict.org/dictorg.c:88
+#, c-format
+msgid "mod_init: `%s' is not a directory"
+msgstr "mod_init: \"%s\" não é um diretório"
+
+#: modules/dict.org/dictorg.c:93
+#, c-format
+msgid "mod_init: `%s' is not readable"
+msgstr "mod_init: \"%s\" não é legível"
+
+#: modules/dict.org/dictorg.c:248
+#, c-format
+msgid "%s:%lu: invalid base64 value: `%.*s'"
+msgstr "%s:%lu: valor base64 inválido: \"%.*s\""
+
+#: modules/dict.org/dictorg.c:263
+#, c-format
+msgid "%s:%lu: malformed entry"
+msgstr "%s:%lu: entrada malformada"
+
+#: modules/dict.org/dictorg.c:302
+#, c-format
+msgid "open_index: cannot stat `%s'"
+msgstr "open_index: não foi possível obter status de \"%s\""
+
+#: modules/dict.org/dictorg.c:306
+#, c-format
+msgid "open_index: `%s' is not a regular file"
+msgstr "open_index: \"%s\" não é um arquivo comum"
+
+#: modules/dict.org/dictorg.c:315 modules/dict.org/dictorg.c:412
+#: modules/gcide/gcide.c:316 modules/gcide/gcide.c:725
+#, c-format
+msgid "cannot create stream `%s'"
+msgstr "não foi possível criar fluxo para \"%s\""
+
+#: modules/dict.org/dictorg.c:321 modules/dict.org/dictorg.c:420
+#: modules/gcide/gcide.c:323 modules/gcide/gcide.c:732
+#, c-format
+msgid "cannot open stream `%s': %s"
+msgstr "não foi possível abrir fluxo de \"%s\": %s"
+
+#: modules/dict.org/dictorg.c:430
+#, c-format
+msgid "cannot open stream for dictionary `%s'"
+msgstr "não foi possível abrir fluxo para o dicionário \"%s\""
+
+#: modules/dict.org/dictorg.c:458
+#, c-format
+msgid "mod_init_db(%s): database name not given"
+msgstr "mod_init_db(%s): nome do banco de dados não fornecido"
+
+#: modules/dict.org/dictorg.c:468
+#, c-format
+msgid "mod_init_db: `%s' is not an absolute file name"
+msgstr "mod_init_db: \"%s\" não é um nome de arquivo absoluto"
+
+#: modules/dict.org/dictorg.c:508
+#, c-format
+msgid "mod_init_db(%s): index files in old 8-bit format are not supported"
+msgstr "mod_init_db(%s): arquivos de índice no formato antigo de 8 bits sem suporte"
+
+#: modules/dict.org/dictorg.c:810 modules/dict.org/dictorg.c:993
+#: modules/gcide/gcide.c:756
+#, c-format
+msgid "%s: read error: %s"
+msgstr "%s: erro ao ler: %s"
+
+#: modules/dict.org/dictorg.c:904
+msgid "_match_all: key initialization failed"
+msgstr "_match_all: inicialização de chave falhou"
+
+#: modules/dict.org/dictorg.c:983
+#, c-format
+msgid "%s: seek error: %s"
+msgstr "%s: erro de procura: %s"
+
+#: modules/dict.org/dictstr.c:176
+#, c-format
+msgid "cannot initialize inflation engine: %s"
+msgstr "não foi possível inicializar o motor de inflação: %s"
+
+#: modules/dict.org/dictstr.c:198
+#, c-format
+msgid "%s:%d: INTERNAL ERROR: inflate did not flush (%d pending, %d avail)"
+msgstr "%s:%d: ERRO INTERNO: inflação não foi purgada (%d pendente, %d dispo.)"
+
+#: modules/dict.org/dictstr.c:286
+#, c-format
+msgid "%s:%d: INTERNAL ERROR: cannot shut down inflation engine: %s"
+msgstr "%s:%d: ERRO INTERNO: não foi possível desligar o motor de inflação: %s"
+
+#: modules/dict.org/dictstr.c:437
+#, c-format
+msgid "file position (%lu) != header length + 1 (%lu)"
+msgstr "posição de arquivo (%lu) != tamanho do cabeçalho + 1 (%lu)"
+
+#: modules/dict.org/dictstr.c:475
+msgid "unknown dictionary format"
+msgstr "formato de dicionário desconhecido"
+
+#: modules/dict.org/dictstr.c:478
+msgid "unsupported dictionary format"
+msgstr "sem suporte ao formato de dicionário"
+
+#: modules/dict.org/dictstr.c:481
+msgid "unsupported dictionary version"
+msgstr "não há suporte à versão de dicionário"
+
+#: modules/dict.org/dictstr.c:484
+msgid "malformed header"
+msgstr "cabeçalho malformado"
+
+#: modules/dict.org/dictstr.c:487
+msgid "cannot seek on pure gzip format files"
+msgstr "não foi possível procurar em arquivos de formato gzip puro"
+
+#: modules/dict.org/dictstr.c:490
+msgid "error decompressing stream"
+msgstr "erro ao descomprimir o fluxo"
+
+#: modules/guile/guile.c:151
+#, c-format
+msgid "%s: not enough memory"
+msgstr "%s: memória insuficiente"
+
+#: modules/guile/guile.c:164
+#, c-format
+msgid "%s: invalid return type"
+msgstr "%s: tipo de retorno inválido"
+
+#: modules/guile/guile.c:184
+#, c-format
+msgid "procedure `%s' failed: see error output for details"
+msgstr "procedimento \"%s\" falhou: veja a saída de erro para mais detalhes"
+
+#: modules/guile/guile.c:735
+#, c-format
+msgid "%s: %s: unknown virtual function"
+msgstr "%s: %s: função virtual desconhecida"
+
+#: modules/guile/guile.c:794
+msgid "mod_init: cannot initialize error port"
+msgstr "mod_init: não foi possível inicializar a porta de erro"
+
+#: modules/guile/guile.c:802 modules/guile/guile.c:836
+#, c-format
+msgid "mod_init: cannot load init script %s"
+msgstr "mod_init: não foi possível carregar o script de inicialização %s"
+
+#: modules/guile/guile.c:862
+#, c-format
+msgid "%s: %s: void virtual function"
+msgstr "%s: %s: função virtual vazia"
+
+#: modules/guile/guile.c:1084
+msgid "mod_match: key initialization failed"
+msgstr "mod_match: inicialização de chave falhou"
+
+#: modules/outline/outline.c:476
+msgid "outline_open: wrong number of arguments"
+msgstr "outline_open: número incorreto de argumentos"
+
+#: modules/outline/outline.c:482 modules/gcide/idxgcide.l:269
+#, c-format
+msgid "cannot open file %s"
+msgstr "não foi possível abrir o arquivo %s"
+
+#: modules/outline/outline.c:642
+msgid "outline_lang: not enough memory"
+msgstr "outline_lang: memória insuficiente"
+
+#: modules/outline/outline.c:681
+msgid "outline_match_all: not enough memory"
+msgstr "outline_match_all: memória insuficiente"
+
+#: modules/outline/outline.c:686
+msgid "outline_match_all: key initialization failed"
+msgstr "outline_match_all: inicialização de chave falhou"
+
+#: modules/ldap/ldap.c:60
+#, c-format
+msgid "cannot set LBER_OPT_DEBUG_LEVEL %d"
+msgstr "não foi possível definir LBER_OPT_DEBUG_LEVEL %d"
+
+#: modules/ldap/ldap.c:65
+#, c-format
+msgid "could not set LDAP_OPT_DEBUG_LEVEL %d"
+msgstr "não foi possível definir LBER_OPT_DEBUG_LEVEL %d"
+
+#: modules/ldap/ldap.c:73
+#, c-format
+msgid "cannot create LDAP session handle for URI=%s (%d): %s"
+msgstr "não foi possível criar manipulador de sessão LDAP para URI=%s (%d): %s"
+
+#: modules/ldap/ldap.c:81
+#, c-format
+msgid "ldap_start_tls failed: %s"
+msgstr "ldap_start_tls falhou: %s"
+
+#: modules/ldap/ldap.c:199
+#, c-format
+msgid "cannot parse options `%s': %s"
+msgstr "não foi possível analisar as opções \"%s\": %s"
+
+#: modules/ldap/ldap.c:215
+msgid "cannot allocate handle"
+msgstr "não foi possível alocar o manipulador"
+
+#: modules/ldap/ldap.c:255
+#, c-format
+msgid "cannot expand query `%s': %s"
+msgstr "não foi possível expandir a consulta \"%s\": %s"
+
+#: modules/gcide/gcide.c:85
+#, c-format
+msgid "gcide: cannot stat `%s'"
+msgstr "gcide: não foi possível obter status de \"%s\""
+
+#: modules/gcide/gcide.c:89
+#, c-format
+msgid "gcide: `%s' is not a directory"
+msgstr "gcide: \"%s\" não é um diretório"
+
+#: modules/gcide/gcide.c:93 modules/gcide/gcide.c:158
+#, c-format
+msgid "gcide: `%s' is not readable"
+msgstr "gcide: \"%s\" não é legível"
+
+#: modules/gcide/gcide.c:113
+#, c-format
+msgid "gcide_open_idx: creating index %s"
+msgstr "gcide_open_idx: criando índice %s"
+
+#: modules/gcide/gcide.c:116
+#, c-format
+msgid "gcide_open_idx: cannot run %s"
+msgstr "gcide_open_idx: não foi possível executar %s"
+
+#: modules/gcide/gcide.c:125
+msgid "gcide_open_idx: fork failed"
+msgstr "gcide_open_idx: fork falhou"
+
+#: modules/gcide/gcide.c:129 modules/gcide/gcide.c:134
+#, c-format
+msgid "gcide_open_idx: %s failed"
+msgstr "gcide_open_idx: %s falhou"
+
+#: modules/gcide/gcide.c:141
+#, c-format
+msgid "gcide_open_idx: %s exited with status %d"
+msgstr "gcide_open_idx: %s saiu com status %d"
+
+#: modules/gcide/gcide.c:162 modules/gcide/gcide.c:182
+#, c-format
+msgid "gcide: can't stat `%s'"
+msgstr "gcide: não foi possível obter status de \"%s\""
+
+#: modules/gcide/gcide.c:188
+msgid "gcide: index file older than database, reindexing"
+msgstr "gcide: arquivo de índice mais antigo que o banco de dados, reindexando"
+
+#: modules/gcide/gcide.c:190
+#, c-format
+msgid "gcide_open_idx: cannot access %s"
+msgstr "gcide_open_idx: não foi possível acessar %s"
+
+#: modules/gcide/gcide.c:249
+msgid "gcide_init_db: database directory not given"
+msgstr "gcide_init_db: diretório de banco de dados não fornecido"
+
+#: modules/gcide/gcide.c:335 modules/gcide/gcide.c:354
+#, c-format
+msgid "read error in stream `%s': %s"
+msgstr "erro de leitura no fluxo \"%s\": %s"
+
+#: modules/gcide/gcide.c:344
+#, c-format
+msgid "cannot get size of stream `%s': %s"
+msgstr "não foi possível obter o fluxo de \"%s\": %s"
+
+#: modules/gcide/gcide.c:351
+msgid "cannot allocate dictionary information buffer"
+msgstr "não foi possível alocar o buffer de informação do dicionário"
+
+#: modules/gcide/gcide.c:518 modules/wordnet/wordnet.c:617
+#, c-format
+msgid "%s: key initialization failed"
+msgstr "%s: inicialização de chave falhou"
+
+#: modules/gcide/gcide.c:742
+#, c-format
+msgid "seek error on `%s' while positioning to %lu: %s"
+msgstr "erro de procura em \"%s\" ao posicionar em %lu: %s"
+
+#: modules/gcide/idx.c:68
+#, c-format
+msgid "error reading from `%s'"
+msgstr "erro ao ler de \"%s\""
+
+#: modules/gcide/idx.c:71
+#, c-format
+msgid "short read while reading from `%s'"
+msgstr "leitura curta ao ler de \"%s\""
+
+#: modules/gcide/idx.c:91
+#, c-format
+msgid "file `%s' is not a valid gcide index file"
+msgstr "o arquivo \"%s\" não é um arquivo de índice gcide válido"
+
+#: modules/gcide/idx.c:103
+#, c-format
+msgid "index file `%s' is corrupted"
+msgstr "o arquivo de índice \"%s\" está corrompido"
+
+#: modules/gcide/idx.c:128
+#, c-format
+msgid "cannot open index file `%s'"
+msgstr "não foi possível abrir o arquivo de índice \"%s\""
+
+#: modules/gcide/idx.c:246
+#, c-format
+msgid "seek error on `%s' while positioning to %lu"
+msgstr "erro de procura em \"%s\" ao posicionar em %lu"
+
+#: modules/gcide/idxgcide-cli.opt:62
+#, c-format
+msgid "not a valid size: %s"
+msgstr "não é um tamanho válido: %s"
+
+#: modules/gcide/idxgcide.l:77
+msgid "page too small, aborting"
+msgstr "página pequena demais, abortando"
+
+#: modules/gcide/idxgcide.l:120
+msgid "Sorting references"
+msgstr "Referências de ordenação"
+
+#: modules/gcide/idxgcide.l:124
+msgid "Writing references"
+msgstr "Referências de escrita"
+
+#: modules/gcide/idxgcide.l:217
+#, c-format
+msgid "%s:%u: unknown or illegible character in a headword"
+msgstr "%s:%u: caractere desconhecido ou ilegível em um verbete"
+
+#: modules/gcide/idxgcide.l:221
+#, c-format
+msgid "%s:%u: unrecognized entity: %s"
+msgstr "%s:%u: entidade não reconhecida: %s"
+
+#: modules/gcide/idxgcide.l:236
+#, c-format
+msgid "%s:%u: unknown character sequence %s"
+msgstr "%s:%u: sequência de caracteres desconhecida %s"
+
+#: modules/gcide/idxgcide.l:266
+#, c-format
+msgid "Indexing %s"
+msgstr "Indexando %s"
+
+#: modules/gcide/idxgcide.l:302
+msgid "page size too small"
+msgstr "tamanho de página pequeno demais"
+
+#: modules/gcide/idxgcide.l:311
+msgid "bad number of arguments"
+msgstr "número de argumentos inválido"
+
+#: modules/gcide/idxgcide.l:335
+#, c-format
+msgid "cannot create index file `%s'"
+msgstr "não foi possível criar o arquivo de índice \"%s\""
+
+#: modules/gcide/idxgcide.l:356
+#, c-format
+msgid "headwords=%lu, definitions=%lu, refs per page=%lu, pages=%lu"
+msgstr "verbetes=%lu, definições=%lu, refs por página=%lu, páginas=%lu"
+
+#: modules/gcide/markup.l:148
+#, c-format
+msgid "cannot parse line %.*s: %s"
+msgstr "não foi possível analisar linha %.*s: %s"
+
+#: modules/gcide/markup.l:300
+#, c-format
+msgid "%u: unrecognized entity: %s"
+msgstr "%u: entidade não reconhecida: %s"
+
+#: modules/gcide/markup.l:312
+#, c-format
+msgid "%u: unknown character sequence %s"
+msgstr "%u: sequência de caracteres desconhecida %s"
+
+#: modules/wordnet/wordnet.c:79
+msgid "cannot open wordnet database"
+msgstr "não foi possível abrir o banco de dados do wordnet"
+
+#: modules/wordnet/wordnet.c:232
+#, c-format
+msgid "wordnet: unknown option %s"
+msgstr "wordnet: opção desconhecida %s"
+
+#: modules/wordnet/wordnet.c:239
+#, c-format
+msgid "wordnet: option %s is not yet supported"
+msgstr "wordnet: a opção %s sem suporte ainda"
+
+#: grecs/src/cidr.c:129 grecs/src/cidr.c:179 grecs/src/cidr.c:186
+#, c-format
+msgid "invalid network mask: %s"
+msgstr "máscara de rede inválida: %s"
+
+#: grecs/src/cidr.c:142 grecs/src/cidr.c:149 grecs/src/cidr.c:160
+#, c-format
+msgid "unrecognized address family: %s"
+msgstr "família de endereço não reconhecida: %s"
+
+#: grecs/src/cidr.c:153
+#, c-format
+msgid "invalid network address: %s"
+msgstr "endereço de rede inválido: %s"
+
+#. TRANSLATORS: The msgids below are data types in direct (nominative)
+#. and indirect (most often, genitive) cases.  The indirect case is
+#. used only in the construct "list %s" (e.g., for "number" data type,
+#. this makes "list of numbers").  Please, translate it so that it
+#. forms a correct sentence in this context.
+#: grecs/src/format.c:37
+msgid "void"
+msgstr "void"
+
+#: grecs/src/format.c:38 grecs/src/tree.c:69
+msgid "string"
+msgstr "texto"
+
+#: grecs/src/format.c:38
+msgid "of strings"
+msgstr "de textos"
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "number"
+msgstr "número"
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "of numbers"
+msgstr "de números"
+
+#: grecs/src/format.c:46
+msgid "time"
+msgstr "tempo"
+
+#: grecs/src/format.c:46
+msgid "of times"
+msgstr "de tempos"
+
+#: grecs/src/format.c:47
+msgid "boolean"
+msgstr "booleano"
+
+#: grecs/src/format.c:47
+msgid "of booleans"
+msgstr "de booleanos"
+
+#: grecs/src/format.c:48
+msgid "IPv4"
+msgstr "IPv4"
+
+#: grecs/src/format.c:48
+msgid "of IPv4"
+msgstr "de IPv4"
+
+#: grecs/src/format.c:49
+msgid "CIDR"
+msgstr "CIDR"
+
+#: grecs/src/format.c:49
+msgid "of CIDR"
+msgstr "de CIDR"
+
+#: grecs/src/format.c:50
+msgid "hostname"
+msgstr "nome de máquina"
+
+#: grecs/src/format.c:50
+msgid "of hostnames"
+msgstr "de nomes de máquina"
+
+#: grecs/src/format.c:51
+msgid "sockaddr"
+msgstr "sockaddr"
+
+#: grecs/src/format.c:51
+msgid "of sockaddr"
+msgstr "de sockaddr"
+
+#: grecs/src/format.c:52
+msgid "section"
+msgstr "seção"
+
+#: grecs/src/format.c:53
+msgid "null"
+msgstr "nulo"
+
+#: grecs/src/format.c:134
+msgid "Disabled;"
+msgstr "Desabilitado;"
+
+#. TRANSLATORS: The %s in this message will be expanded
+#. to a data type in indirect case (see above).  The two
+#. must form a grammatically correct sentence.
+#: grecs/src/format.c:156
+#, c-format
+msgid "list %s"
+msgstr "lista %s"
+
+#: grecs/src/grecs-lex.l:186
+#, c-format
+msgid "stray character %c"
+msgstr "caractere %c disperso"
+
+#: grecs/src/grecs-lex.l:189
+#, c-format
+msgid "stray character \\%03o"
+msgstr "caractere \\%03o disperso"
+
+#: grecs/src/grecs-lex.l:219 grecs/src/preproc.c:480
+#, c-format
+msgid "Cannot open `%s'"
+msgstr "Não foi possível abrir \"%s\""
+
+#: grecs/src/grecs-lex.l:227 grecs/src/preproc.c:698
+#, c-format
+msgid "Unable to start external preprocessor `%s'"
+msgstr "Não foi possível iniciar preprocessador externo \"%s\""
+
+#: grecs/src/grecs-lex.l:394 grecs/src/grecs-lex.l:431
+#, c-format
+msgid "cannot parse #line line: %s"
+msgstr "não foi possível analisar linha #line: %s"
+
+#: grecs/src/grecs-lex.l:415 grecs/src/grecs-lex.l:435
+msgid "invalid #line statement"
+msgstr "declaração de #line inválida"
+
+#: grecs/src/grecs-lex.l:418 grecs/src/grecs-lex.l:439
+msgid "malformed #line statement"
+msgstr "declaração de #line malformada"
+
+#: grecs/src/lineacc.c:70
+#, c-format
+msgid "unknown escape sequence: '\\%c'"
+msgstr "sequência de escape desconhecida: \"\\%c\""
+
+#: grecs/src/opthelp.c:123 grecs/src/opthelp.c:269
+msgid "Usage:"
+msgstr "Uso:"
+
+#: grecs/src/opthelp.c:127
+msgid "OPTION"
+msgstr "OPÇÃO"
+
+#: grecs/src/opthelp.c:132 grecs/src/opthelp.c:427
+msgid "Aliases"
+msgstr "Apelidos"
+
+#: grecs/src/opthelp.c:132 grecs/src/opthelp.c:427
+msgid "Alias"
+msgstr "Alias"
+
+#: grecs/src/opthelp.c:186
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Argumentos obrigatórios ou opcionais para opções longas também o são para quaisquer opções curtas correspondentes."
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting
+#. address for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for
+#. translation bugs (typically your translation team's web or
+#. email address).
+#: grecs/src/opthelp.c:202
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+"Relate erros de tradução para: <https://translationproject.org/team/pt_BR.html>\n"
+"Relate erros para %s.\n"
+
+#: grecs/src/opthelp.c:205
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Página do %s: <%s>\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: grecs/src/opthelp.c:457
+msgid "(C)"
+msgstr "(C)"
+
+#: grecs/src/opthelp.c:466
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"Licença GPLv3+: GNU GPL versão 3 ou posterior <http://gnu.org/licenses/gpl.html>.\n"
+"Este é um software livre: você é livre para alterá-lo e redistribuí-lo.\n"
+"NÃO HÁ GARANTIAS, na máxima extensão permitida por lei.\n"
+"\n"
+
+#: grecs/src/opthelp.c:483
+msgid "Written by "
+msgstr "Escrito por "
+
+#. TRANSLATORS: This string is used as a delimiter between
+#. authors' names as in:
+#.
+#. Written by Winnie the Pooh, Piglet ...
+#.
+#: grecs/src/opthelp.c:489
+msgid ", "
+msgstr ", "
+
+#. TRANSLATORS: This string acts as a delimiter before the
+#. last author's names, e.g.:
+#.
+#. Written by Winnie the Pooh, Piglet and Christopher Robin.
+#.
+#: grecs/src/opthelp.c:495
+msgid " and "
+msgstr " e "
+
+#: grecs/src/path-parser.c:62
+#, c-format
+msgid "cannot open `%s'"
+msgstr "não foi possível abrir \"%s\""
+
+#: grecs/src/path-parser.c:108 grecs/src/path-parser.c:123
+msgid "unexpected end of file"
+msgstr "fim de arquivo inesperado"
+
+#: grecs/src/path-parser.c:143
+msgid "parse error"
+msgstr "erro de análise"
+
+#: grecs/src/preproc.c:448 grecs/src/preproc.c:470
+#, c-format
+msgid "Cannot stat `%s'"
+msgstr "Não foi possível obter status de \"%s\""
+
+#: grecs/src/preproc.c:453 grecs/src/preproc.c:458
+msgid "Recursive inclusion"
+msgstr "Inclusão recursiva"
+
+#: grecs/src/preproc.c:461
+#, c-format
+msgid "`%s' already included here"
+msgstr "\"%s\" já incluso aqui"
+
+#: grecs/src/preproc.c:465
+#, c-format
+msgid "`%s' already included at top level"
+msgstr "\"%s\" já incluso no nível superior"
+
+#: grecs/src/preproc.c:595
+msgid "Cannot parse include line"
+msgstr "Não foi possível analisar a linha incluída"
+
+#: grecs/src/preproc.c:598
+msgid "invalid include statement"
+msgstr "declaração inclusa inválida"
+
+#: grecs/src/preproc.c:624
+msgid "read error"
+msgstr "erro de leitura"
+
+#: grecs/src/preproc.c:632
+#, c-format
+msgid "%s: No such file or directory"
+msgstr "%s: Arquivo ou diretório não encontrados"
+
+#: grecs/src/preproc.c:773 grecs/src/preproc.c:793
+#, c-format
+msgid "Cannot run `%s'"
+msgstr "Não foi possível executar \"%s\""
+
+#: grecs/src/sockaddr.c:67
+#, c-format
+msgid "socket path name too long: %s"
+msgstr "nome de caminho do soquete longo demais: %s"
+
+#: grecs/src/sockaddr.c:120
+#, c-format
+msgid "%s: garbage near %s"
+msgstr "%s: lixo próximo a %s"
+
+#: grecs/src/sockaddr.c:159
+#, c-format
+msgid "service not specified: %s"
+msgstr "serviço não especificado: %s"
+
+#: grecs/src/sockaddr.c:176
+#, c-format
+msgid "%s: cannot parse address: %s"
+msgstr "%s: não foi possível analisar o endereço: %s"
+
+#: grecs/src/sockaddr.c:269
+#, c-format
+msgid "unknown or unsupported scheme: %s"
+msgstr "esquema desconhecida ou sem suporte: %s"
+
+#: grecs/src/sockaddr.c:278
+#, c-format
+msgid "%s: UNIX socket must be an absolute file name"
+msgstr "%s: soquete UNIX deve ser um nome de arquivo absoluto"
+
+#: grecs/src/symtab.c:236
+msgid "element not found in table"
+msgstr "elemento não encontrado na tabela"
+
+#: grecs/src/symtab.c:238
+msgid "symbol table is full"
+msgstr "tabela de símbolos está completa"
+
+#: grecs/src/tree.c:70
+msgid "list"
+msgstr "lista"
+
+#: grecs/src/tree.c:71
+msgid "one or more arguments"
+msgstr "um ou mais argumentos"
+
+#: grecs/src/tree.c:75
+msgid "unrecognized type; please report"
+msgstr "tipo não reconhecido; por favor, relate"
+
+#: grecs/src/tree.c:320
+msgid "section keyword used as a scalar"
+msgstr "palavra-chave de seção usada como um escalar"
+
+#: grecs/src/tree.c:322
+msgid "scalar keyword used as a section"
+msgstr "palavra-chave de escalar usada como uma seção"
+
+#: grecs/src/tree.c:325
+msgid "unknown keyword"
+msgstr "palavra-chave desconhecida"
+
+#: grecs/src/tree.c:360
+#, c-format
+msgid "%s: not a valid boolean value"
+msgstr "%s: não é um valor booleano válido"
+
+#: grecs/src/tree.c:420 grecs/src/tree.c:644
+#, c-format
+msgid "%s: not a valid IP address or hostname"
+msgstr "%s: não é um endereço de IP ou nome de máquina válidos"
+
+#: grecs/src/tree.c:444
+#, c-format
+msgid "%s: not a valid port number"
+msgstr "%s: não é um número de porta válido"
+
+#: grecs/src/tree.c:452
+msgid "missing port number"
+msgstr "faltando número de porta"
+
+#: grecs/src/tree.c:501
+msgid "numeric overflow"
+msgstr "estouro numérico"
+
+#: grecs/src/tree.c:506
+msgid "value out of allowed range"
+msgstr "valor fora do intervalo permitido"
+
+#: grecs/src/tree.c:541 grecs/src/tree.c:571
+#, c-format
+msgid "not a number (stopped near `%s')"
+msgstr "não é um número (parou perto de \"%s\")"
+
+#: grecs/src/tree.c:635
+#, c-format
+msgid "%s: not a valid IP address"
+msgstr "%s: não é um endereço IP válido"
+
+#: grecs/src/tree.c:774
+#, c-format
+msgid "too many arguments to `%s'; missing semicolon?"
+msgstr "argumentos demais para \"%s\"; faltando ponto-e-vírgula?"
+
+#: grecs/src/tree.c:788 grecs/src/tree.c:836
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unhandled data type %d"
+msgstr "ERRO INTERNO em %s:%d: tipo de dados não lidado %d"
+
+#: grecs/src/tree.c:803
+#, c-format
+msgid "%s: incompatible data type in list item #%d"
+msgstr "%s: tipo de dados incompatível na item de lista #%d"
+
+#: grecs/src/tree.c:823
+#, c-format
+msgid "incompatible data type for `%s'"
+msgstr "tipo de dados incompatível para \"%s\""
+
+#: grecs/wordsplit/wordsplit.c:130
+msgid "memory exhausted while trying to store error context"
+msgstr "memória esgotada ao tentar armazenar o contexto de erro"
+
+#: grecs/wordsplit/wordsplit.c:881
+msgid "Restarting"
+msgstr "Reiniciando"
+
+#: grecs/wordsplit/wordsplit.c:1607
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr "%.*s: variável nula ou não definida"
+
+#: grecs/wordsplit/wordsplit.c:1637
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr "aviso: variável não definida \"%.*s\""
+
+#: grecs/wordsplit/wordsplit.c:2138
+#, c-format
+msgid "no files match pattern %s"
+msgstr "nenhum arquivo corresponde ao padrão %s"
+
+#: grecs/wordsplit/wordsplit.c:2599
+msgid "WS trimming"
+msgstr "Aparar alterações"
+
+#: grecs/wordsplit/wordsplit.c:2601
+msgid "command substitution"
+msgstr "substituição de comando"
+
+#: grecs/wordsplit/wordsplit.c:2603 grecs/wordsplit/wordsplit.c:2611
+msgid "coalesce list"
+msgstr "lista de coalescência"
+
+#: grecs/wordsplit/wordsplit.c:2605
+msgid "tilde expansion"
+msgstr "expansão de ~"
+
+#: grecs/wordsplit/wordsplit.c:2607
+msgid "variable expansion"
+msgstr "expansão de variável"
+
+#: grecs/wordsplit/wordsplit.c:2609
+msgid "quote removal"
+msgstr "remoção de aspas"
+
+#: grecs/wordsplit/wordsplit.c:2613
+msgid "path expansion"
+msgstr "expansão de caminho"
+
+#: grecs/wordsplit/wordsplit.c:2638
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr "(%02d) Entrada:%.*s;"
+
+#: grecs/wordsplit/wordsplit.c:2664
+msgid "Initial list:"
+msgstr "Lista inicial:"
+
+#: grecs/wordsplit/wordsplit.c:2679
+msgid "Coalesced list:"
+msgstr "Lista coalescida:"
+
+#: grecs/wordsplit/wordsplit.c:2849
+msgid "no error"
+msgstr "nenhum erro"
+
+#: grecs/wordsplit/wordsplit.c:2850
+msgid "missing closing quote"
+msgstr "faltando fechar aspas"
+
+#: grecs/wordsplit/wordsplit.c:2852
+msgid "invalid wordsplit usage"
+msgstr "uso inválido de separação de palavra"
+
+#: grecs/wordsplit/wordsplit.c:2853
+msgid "unbalanced curly brace"
+msgstr "chave \"{}\" não balanceada"
+
+#: grecs/wordsplit/wordsplit.c:2854
+msgid "undefined variable"
+msgstr "variável não definida"
+
+#: grecs/wordsplit/wordsplit.c:2855
+msgid "input exhausted"
+msgstr "entrada esgotada"
+
+#: grecs/wordsplit/wordsplit.c:2856
+msgid "unbalanced parenthesis"
+msgstr "parênteses não balanceados"
+
+#: grecs/wordsplit/wordsplit.c:2857
+msgid "globbing error"
+msgstr "erro de casamento de padrões (globbing)"
+
+#: grecs/wordsplit/wordsplit.c:2858
+msgid "user-defined error"
+msgstr "erro definido pelo usuário"
+
+#: grecs/wordsplit/wordsplit.c:2859
+msgid "invalid parameter number in assignment"
+msgstr "número de parâmetro inválido na atribuição"
+
+#: grecs/wordsplit/wordsplit.c:2871
+msgid "unknown error"
+msgstr "erro desconhecido"
+
+#: grecs/wordsplit/wordsplit.c:2880
+#, c-format
+msgid "missing closing %c (start near #%lu)"
+msgstr "faltando fechar %c (início próximo a #%lu)"
+
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: a opção \"--%s\" não permite um argumento\n"
+
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: opção desconhecida \"--%s\"\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: a opção \"-W %s\" não permite um argumento\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: a opção \"-W %s\" exige um argumento\n"
+
+#~ msgid "%s: unknown keyword"
+#~ msgstr "%s: palavra-chave desconhecida"
+
+#~ msgid "cannot initialize database `%s': module `%s' does not support databases"
+#~ msgstr "não foi possível inicializar o banco de dados \"%s\": o módulo \"%s\" não oferece suporte a bancos de dados"
+
+#~ msgid "cannot initialize database `%s'"
+#~ msgstr "não foi possível inicializar o banco de dados \"%s\""
+
+#~ msgid "cannot open database `%s'"
+#~ msgstr "não foi possível abrir o banco de dados \"%s\""
+
+#~ msgid "gcide_match_all: key initialization failed"
+#~ msgstr "gcide_match_all: inicialização de chave falhou"
+
+#~ msgid "write error"
+#~ msgstr "erro de escrita"
+
+#~ msgid "not enough memory"
+#~ msgstr "memória insuficiente"
+
+#~ msgid "wn_foreach: key initialization failed"
+#~ msgstr "wn_foreach: inicialização de chave falhou"
+
+#~ msgid "(%02d) Restart:%.*s;"
+#~ msgstr "(%02d) Reiniciar:%.*s;"
+
+#~ msgid "read this configuration file."
+#~ msgstr "lê este arquivo de configuração."

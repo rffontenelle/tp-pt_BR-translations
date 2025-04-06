@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Sergey Poznyakoff
+# This file is distributed under the same license as the wyslij-po package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wyslij-po 3.3\n"
+"Report-Msgid-Bugs-To: bug-wyslij-po@gnu.org.ua\n"
+"POT-Creation-Date: 2021-02-12 15:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:19
+msgid "Submit PO files to the Translation Project"
+msgstr ""
+
+#: src/main.c:20
+msgid "FILE ..."
+msgstr ""
+
+#: src/main.c:81
+msgid "General Options:"
+msgstr ""
+
+#: src/main.c:83
+msgid "do nothing, print what would have been done"
+msgstr ""
+
+#: src/main.c:86
+msgid "produce verbose output"
+msgstr ""
+
+#: src/main.c:88
+msgid "FILE"
+msgstr ""
+
+#: src/main.c:89
+msgid "set the name of langtab file"
+msgstr ""
+
+#: src/main.c:91
+msgid "COMMAND"
+msgstr ""
+
+#: src/main.c:92
+msgid "use this COMMAND for compression"
+msgstr ""
+
+#: src/main.c:96
+msgid "Mail Address Control:"
+msgstr ""
+
+#: src/main.c:97 src/main.c:109
+msgid "EMAIL"
+msgstr ""
+
+#: src/main.c:98
+msgid "send to this email address"
+msgstr ""
+
+#: src/main.c:100 src/main.c:103
+msgid "EMAIL-LIST"
+msgstr ""
+
+#: src/main.c:101
+msgid "set Carbon-copy recipients"
+msgstr ""
+
+#: src/main.c:104
+msgid "set Blind carbon-copy recipients"
+msgstr ""
+
+#: src/main.c:106
+msgid "FOLDER"
+msgstr ""
+
+#: src/main.c:107
+msgid "direct Fcc to the given folder"
+msgstr ""
+
+#: src/main.c:110
+msgid "set sender address"
+msgstr ""
+
+#: src/main.c:113
+msgid "PO File Verification Options:"
+msgstr ""
+
+#: src/main.c:115
+msgid "verify PO modification time"
+msgstr ""
+
+#: src/main.c:118
+msgid "make sure the submitted PO file is for the latest package version"
+msgstr ""
+
+#: src/main.c:148
+msgid "not a boolean"
+msgstr ""
+
+#: src/main.c:172
+msgid "Use <command> for compression."
+msgstr ""
+
+#: src/main.c:173
+msgid "command"
+msgstr ""
+
+#: src/main.c:175
+msgid "Set the name of the langtab file."
+msgstr ""
+
+#: src/main.c:176
+msgid "file"
+msgstr ""
+
+#: src/main.c:178
+msgid "Set recipient address. Multiple emails are allowed."
+msgstr ""
+
+#: src/main.c:179 src/main.c:191
+msgid "email"
+msgstr ""
+
+#: src/main.c:181
+msgid "Set carbon copy recipients."
+msgstr ""
+
+#: src/main.c:182 src/main.c:185
+msgid "emails"
+msgstr ""
+
+#: src/main.c:184
+msgid "Set blind carbon copy recipients."
+msgstr ""
+
+#: src/main.c:187
+msgid "Save copy in <folder>."
+msgstr ""
+
+#: src/main.c:188
+msgid "folder"
+msgstr ""
+
+#: src/main.c:190
+msgid "Set sender address"
+msgstr ""
+
+#: src/main.c:193
+msgid "Read sender address from the PO file."
+msgstr ""
+
+#: src/main.c:195
+msgid "Verify PO modification time"
+msgstr ""
+
+#: src/main.c:196 src/main.c:199
+msgid "arg: bool"
+msgstr ""
+
+#: src/main.c:198
+msgid "Verify package version."
+msgstr ""
+
+#: src/main.c:201
+#, c-format
+msgid ""
+"URL of textual domain page. Characters %s are replaced with the textual "
+"domain name. The default value is http://translationproject.org/domain/%s."
+"html"
+msgstr ""
+
+#: src/main.c:205
+msgid "Regular expression to extract the latest POT file name from tp-url."
+msgstr ""
+
+#: src/main.c:249
+#, c-format
+msgid "executing %s...\n"
+msgstr ""
+
+#: src/main.c:254
+#, c-format
+msgid "%s: cannot create stream for `%s': %s"
+msgstr ""
+
+#: src/main.c:264
+#, c-format
+msgid "%s: cannot create base64 encoder stream: %s"
+msgstr ""
+
+#: src/main.c:275
+#, c-format
+msgid "%s: cannot pipe to `%s': %s"
+msgstr ""
+
+#: src/main.c:325
+msgid "Message:"
+msgstr ""
+
+#: src/main.c:330
+msgid "Message headers:"
+msgstr ""
+
+#: src/main.c:339
+msgid "NOT submitting\n"
+msgstr ""
+
+#: src/main.c:344
+#, c-format
+msgid "Submitting %s\n"
+msgstr ""
+
+#: src/main.c:347
+#, c-format
+msgid "%s: Sending message failed: %s"
+msgstr ""
+
+#: src/main.c:386
+#, c-format
+msgid "Creating mailer `%s' failed: %s"
+msgstr ""
+
+#: src/main.c:409
+#, c-format
+msgid "Opening mailer `%s' failed: %s"
+msgstr ""
+
+#: src/main.c:425
+#, c-format
+msgid "Closing mailer failed: %s"
+msgstr ""
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: src/main.c:448
+msgid "(C)"
+msgstr ""
+
+#: src/main.c:449
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#. TRANSLATORS: %s denotes an author name.
+#: src/main.c:457
+#, c-format
+msgid "Written by %s.\n"
+msgstr ""
+
+#: src/main.c:513
+msgid "Not enough arguments"
+msgstr ""
+
+#: src/http.c:64
+#, c-format
+msgid "cannot get protocol from the url `%s': %s"
+msgstr ""
+
+#: src/http.c:71
+#, c-format
+msgid "%s: unsupported protocol"
+msgstr ""
+
+#: src/http.c:78 src/http.c:88
+#, c-format
+msgid "cannot extract host information from the url `%s': %s"
+msgstr ""
+
+#: src/http.c:114
+#, c-format
+msgid "cannot expand string `%s': %s"
+msgstr ""
+
+#: src/http.c:122
+#, c-format
+msgid "Cannot create url from `%s': %s"
+msgstr ""
+
+#: src/http.c:148
+msgid "mu_stream_write: wrote 0 bytes"
+msgstr ""
+
+#: src/http.c:161
+#, c-format
+msgid "http_wait failed: %s"
+msgstr ""
+
+#: src/http.c:168
+msgid "mu_stream_write timed out"
+msgstr ""
+
+#: src/http.c:204
+#, c-format
+msgid "http_stream_wait failed: %s"
+msgstr ""
+
+#: src/http.c:247
+#, c-format
+msgid "Connecting to %s:%u\n"
+msgstr ""
+
+#: src/http.c:268
+#, c-format
+msgid "Getting /%s\n"
+msgstr ""
+
+#: src/http.c:286
+#, c-format
+msgid "Got %-12.12s\n"
+msgstr ""
+
+#: src/http.c:293
+#, c-format
+msgid "Invalid HTTP response (got %s)"
+msgstr ""
+
+#: src/http.c:301
+#, c-format
+msgid "Invalid HTTP response (got %*.*s)"
+msgstr ""
+
+#: src/http.c:310
+msgid "Invalid HTTP response: not enough data"
+msgstr ""
+
+#: src/http.c:316
+#, c-format
+msgid "Invalid HTTP response (near %s)"
+msgstr ""
+
+#: src/http.c:322
+msgid "Page not found"
+msgstr ""
+
+#: src/http.c:328
+#, c-format
+msgid "Got error %d"
+msgstr ""
+
+#: src/http.c:345
+#, c-format
+msgid "Verifying POT file version for `%s'\n"
+msgstr ""
+
+#: src/http.c:360
+msgid "URL of the latest POT file not found"
+msgstr ""
+
+#: src/http.c:382
+#, c-format
+msgid "POT project string (%s) does not match latest version (%s)"
+msgstr ""
+
+#: src/http.c:400
+#, c-format
+msgid "Cannot compile regex: %s"
+msgstr ""
+
+#: src/http.c:405
+msgid "Invalid regex: no subexpressions"
+msgstr ""
+
+#: src/po.c:40
+#, c-format
+msgid "%s: read error: %s"
+msgstr ""
+
+#: src/po.c:42
+#, c-format
+msgid "%s: short read"
+msgstr ""
+
+#: src/po.c:144
+#, c-format
+msgid "cannot open file %s: %s"
+msgstr ""
+
+#: src/po.c:201
+#, c-format
+msgid "%s:%u: unexpected keyword (instead of \"msgid\")"
+msgstr ""
+
+#: src/po.c:208
+#, c-format
+msgid "%s:%u: unexpected keyword (instead of \"msgstr\")"
+msgstr ""
+
+#: src/po.c:231
+#, c-format
+msgid "cannot split \"%s\": %s"
+msgstr ""
+
+#: src/po.c:251
+#, c-format
+msgid "cannot create header: %s"
+msgstr ""
+
+#: src/po.c:275
+#, c-format
+msgid "Cannot parse Language-Team: %s"
+msgstr ""
+
+#: src/po.c:290
+msgid "Cannot build language name"
+msgstr ""
+
+#: src/po.c:297
+#, c-format
+msgid "Unknown language: %s"
+msgstr ""
+
+#: src/po.c:310
+#, c-format
+msgid "%s: No %s"
+msgstr ""
+
+#: src/po.c:315
+#, c-format
+msgid "%s: Cannot parse %s"
+msgstr ""
+
+#: src/po.c:326
+msgid "Verifying creation vs. revision date\n"
+msgstr ""
+
+#: src/po.c:331
+#, c-format
+msgid "%s: po revision date is prior to pot creation date"
+msgstr ""
+
+#: src/po.c:351
+#, c-format
+msgid "Restoring canonical file name for `%s'\n"
+msgstr ""
+
+#: src/po.c:356
+msgid "No Project-Id-Version"
+msgstr ""
+
+#: src/po.c:363
+#, c-format
+msgid "Cannot parse Project-Id-Version: %s"
+msgstr ""
+
+#: src/po.c:369
+msgid "Malformed Project-Id-Version"
+msgstr ""
+
+#: src/po.c:385
+#, c-format
+msgid "Can't get the Language header: %s"
+msgstr ""
+
+#: src/po.c:392
+msgid ""
+"Can't determine target language: neither Language nor Language-Team header "
+"is present in the PO file"
+msgstr ""
+
+#: src/po.c:415
+#, c-format
+msgid "%s: cannot parse last translator address `%s': %s"
+msgstr ""
+
+#: src/po.c:423
+#, c-format
+msgid "%s: cannot retrieve email address from Last-Translator: %s"
+msgstr ""
+
+#: src/po.c:432
+#, c-format
+msgid "%s: No Last-Translator"
+msgstr ""
+
+#: src/po.c:451
+#, c-format
+msgid "Sourcing language table `%s'\n"
+msgstr ""
+
+#: src/po.c:455
+#, c-format
+msgid "Cannot open %s: %s"
+msgstr ""
+
+#: src/po.c:464
+#, c-format
+msgid "Cannot create assoc table: %s"
+msgstr ""
+
+#: src/po.c:490
+#, c-format
+msgid "%s:%u: too few fields"
+msgstr ""

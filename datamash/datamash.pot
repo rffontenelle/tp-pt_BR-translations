@@ -1,0 +1,744 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the GNU datamash package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU datamash 1.4.12.1\n"
+"Report-Msgid-Bugs-To: bug-datamash@gnu.org\n"
+"POT-Creation-Date: 2019-08-31 20:56-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: lib/closeout.c:122
+msgid "write error"
+msgstr ""
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr ""
+
+#: lib/getopt.c:278
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr ""
+
+#: lib/getopt.c:284
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr ""
+
+#: lib/getopt.c:319
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr ""
+
+#: lib/getopt.c:345
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr ""
+
+#: lib/getopt.c:360
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr ""
+
+#: lib/getopt.c:621
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr ""
+
+#: lib/getopt.c:636 lib/getopt.c:682
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr ""
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:362
+msgid "`"
+msgstr ""
+
+#: lib/quotearg.c:363
+msgid "'"
+msgstr ""
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr ""
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr ""
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr ""
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr ""
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr ""
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr ""
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr ""
+
+#: lib/xstrtol-error.c:63
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr ""
+
+#: lib/xstrtol-error.c:68
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr ""
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr ""
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/datamash.c:65
+msgid "Assaf Gordon"
+msgstr ""
+
+#: src/datamash.c:161 src/datamash.c:503
+#, c-format
+msgid "column name %s not found in input file"
+msgstr ""
+
+#: src/datamash.c:174
+#, c-format
+msgid "Usage: %s [OPTION] op [fld] [op fld ...]\n"
+msgstr ""
+
+#: src/datamash.c:177
+msgid "Performs numeric/string operations on input from stdin."
+msgstr ""
+
+#: src/datamash.c:180
+msgid ""
+"'op' is the operation to perform.  If a primary operation is used,\n"
+"it must be listed first, optionally followed by other operations.\n"
+msgstr ""
+
+#: src/datamash.c:183
+msgid ""
+"'fld' is the input field to use.  'fld' can be a number (1=first field),\n"
+"or a field name when using the -H or --header-in options.\n"
+msgstr ""
+
+#: src/datamash.c:186
+msgid ""
+"Multiple fields can be listed with a comma (e.g. 1,6,8).  A range of\n"
+"fields can be listed with a dash (e.g. 2-8).  Use colons for operations\n"
+"which require a pair of fields (e.g. 'pcov 2:6').\n"
+msgstr ""
+
+#: src/datamash.c:191
+msgid "Primary operations:\n"
+msgstr ""
+
+#: src/datamash.c:194
+msgid "Line-Filtering operations:\n"
+msgstr ""
+
+#: src/datamash.c:197
+msgid "Per-Line operations:\n"
+msgstr ""
+
+#: src/datamash.c:202
+msgid "Numeric Grouping operations:\n"
+msgstr ""
+
+#: src/datamash.c:205
+msgid "Textual/Numeric Grouping operations:\n"
+msgstr ""
+
+#: src/datamash.c:209
+msgid "Statistical Grouping operations:\n"
+msgstr ""
+
+#: src/datamash.c:218
+msgid "Grouping Options:\n"
+msgstr ""
+
+#: src/datamash.c:219
+msgid ""
+"  -C, --skip-comments       skip comment lines (starting with '#' or ';'\n"
+"                              and optional whitespace)\n"
+msgstr ""
+
+#: src/datamash.c:223
+msgid ""
+"  -f, --full                print entire input line before op results\n"
+"                              (default: print only the grouped keys)\n"
+msgstr ""
+
+#: src/datamash.c:227
+msgid ""
+"  -g, --group=X[,Y,Z]       group via fields X,[Y,Z];\n"
+"                              equivalent to primary operation 'groupby'\n"
+msgstr ""
+
+#: src/datamash.c:231
+msgid "      --header-in           first input line is column headers\n"
+msgstr ""
+
+#: src/datamash.c:234
+msgid "      --header-out          print column headers as first line\n"
+msgstr ""
+
+#: src/datamash.c:237
+msgid "  -H, --headers             same as '--header-in --header-out'\n"
+msgstr ""
+
+#: src/datamash.c:240
+msgid ""
+"  -i, --ignore-case         ignore upper/lower case when comparing text;\n"
+"                              this affects grouping, and string operations\n"
+msgstr ""
+
+#: src/datamash.c:244
+msgid ""
+"  -s, --sort                sort the input before grouping; this removes "
+"the\n"
+"                              need to manually pipe the input through "
+"'sort'\n"
+msgstr ""
+
+#: src/datamash.c:249
+msgid "File Operation Options:\n"
+msgstr ""
+
+#: src/datamash.c:250
+msgid "      --no-strict           allow lines with varying number of fields\n"
+msgstr ""
+
+#: src/datamash.c:253
+#, c-format
+msgid "      --filler=X            fill missing values with X (default %s)\n"
+msgstr ""
+
+#: src/datamash.c:258
+msgid "General Options:\n"
+msgstr ""
+
+#: src/datamash.c:259
+msgid "  -t, --field-separator=X   use X instead of TAB as field delimiter\n"
+msgstr ""
+
+#: src/datamash.c:262
+msgid ""
+"      --format=FORMAT       print numeric values with printf style\n"
+"                            floating-point FORMAT.\n"
+msgstr ""
+
+#: src/datamash.c:266
+msgid ""
+"      --output-delimiter=X  use X instead as output field delimiter\n"
+"                            (default: use same delimiter as -t/-W)\n"
+msgstr ""
+
+#: src/datamash.c:270
+msgid "      --narm                skip NA/NaN values\n"
+msgstr ""
+
+#: src/datamash.c:273
+msgid "  -R, --round=N             round numeric output to N decimal places\n"
+msgstr ""
+
+#: src/datamash.c:276
+msgid ""
+"  -W, --whitespace          use whitespace (one or more spaces and/or tabs)\n"
+"                              for field delimiters\n"
+msgstr ""
+
+#: src/datamash.c:280
+msgid "  -z, --zero-terminated     end lines with 0 byte, not newline\n"
+msgstr ""
+
+#: src/datamash.c:289
+msgid "Examples:"
+msgstr ""
+
+#: src/datamash.c:291
+msgid "Print the sum and the mean of values from column 1:"
+msgstr ""
+
+#: src/datamash.c:296
+msgid "Transpose input:"
+msgstr ""
+
+#: src/datamash.c:303
+msgid "For detailed usage information and examples, see\n"
+msgstr ""
+
+#: src/datamash.c:305
+msgid "The manual and more examples are available at\n"
+msgstr ""
+
+#: src/datamash.c:314
+#, c-format
+msgid ""
+"invalid input: field %<PRIuMAX> requested, line %<PRIuMAX> has only "
+"%<PRIuMAX> fields"
+msgstr ""
+
+#: src/datamash.c:384
+#, c-format
+msgid "%s in line %<PRIuMAX> field %<PRIuMAX>: '%s'"
+msgstr ""
+
+#: src/datamash.c:712
+#, c-format
+msgid ""
+"transpose input error: line %<PRIuMAX> has %<PRIuMAX> fields (previous lines "
+"had %<PRIuMAX>);\n"
+"see --help to disable strict mode"
+msgstr ""
+
+#: src/datamash.c:769
+#, c-format
+msgid ""
+"reverse-field input error: line %<PRIuMAX> has %<PRIuMAX> fields (previous "
+"lines had %<PRIuMAX>);\n"
+"see --help to disable strict mode"
+msgstr ""
+
+#: src/datamash.c:878 src/datamash.c:895 src/datamash.c:901
+#, c-format
+msgid ""
+"line %<PRIuMAX> (%<PRIuMAX> fields):\n"
+"  "
+msgstr ""
+
+#: src/datamash.c:884
+#, c-format
+msgid ""
+"check failed: line %<PRIuMAX> has %<PRIuMAX> fields (expecting %<PRIuMAX>)"
+msgstr ""
+
+#: src/datamash.c:907
+#, c-format
+msgid ""
+"check failed: line %<PRIuMAX> has %<PRIuMAX> fields (previous line had "
+"%<PRIuMAX>)"
+msgstr ""
+
+#: src/datamash.c:921
+#, c-format
+msgid "check failed: input had %<PRIuMAX> lines (expecting %<PRIuMAX>)"
+msgstr ""
+
+#: src/datamash.c:927
+#, c-format
+msgid "%<PRIuMAX> line"
+msgid_plural "%<PRIuMAX> lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/datamash.c:930
+#, c-format
+msgid "%<PRIuMAX> field"
+msgid_plural "%<PRIuMAX> fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/datamash.c:1031
+msgid "hash memory allocation error"
+msgstr ""
+
+#: src/datamash.c:1098
+msgid "sort command too-long (please report this bug)"
+msgstr ""
+
+#: src/datamash.c:1104
+msgid "failed to run 'sort': popen failed"
+msgstr ""
+
+#: src/datamash.c:1120
+msgid "read error"
+msgstr ""
+
+#: src/datamash.c:1128
+msgid "read error (on close)"
+msgstr ""
+
+#: src/datamash.c:1221 src/datamash.c:1228
+msgid "the delimiter must be a single character"
+msgstr ""
+
+#: src/datamash.c:1264
+#, c-format
+msgid "missing operation specifiers"
+msgstr ""
+
+#: src/datamash.c:1282
+msgid "-H or --header-in must be used with named columns"
+msgstr ""
+
+#: src/double-format.c:49
+#, c-format
+msgid "format %s has no %% directive"
+msgstr ""
+
+#: src/double-format.c:62
+#, c-format
+msgid "format %s missing valid type after '%%'"
+msgstr ""
+
+#: src/double-format.c:66
+#, c-format
+msgid "format %s has unknown/invalid type %%%c directive"
+msgstr ""
+
+#: src/double-format.c:79
+#, c-format
+msgid "format %s has too many %% directives"
+msgstr ""
+
+#: src/field-ops.c:336
+#, c-format
+msgid ""
+"input error for operation %s: fields %<PRIuMAX>,%<PRIuMAX> have different "
+"number of items"
+msgstr ""
+
+#: src/field-ops.c:1128
+msgid "invalid numeric value"
+msgstr ""
+
+#: src/field-ops.c:1130
+msgid "invalid base64 value"
+msgstr ""
+
+#: src/op-parser.c:168 src/op-parser.c:182 src/op-parser.c:196
+#: src/op-parser.c:211 src/op-parser.c:247 src/op-parser.c:254
+#, c-format
+msgid "too many parameters for operation %s"
+msgstr ""
+
+#: src/op-parser.c:179
+msgid "strbin bucket size must not be zero"
+msgstr ""
+
+#: src/op-parser.c:193
+#, c-format
+msgid "invalid percentile value %<PRIuMAX>"
+msgstr ""
+
+#: src/op-parser.c:207
+#, c-format
+msgid "invalid trim mean value %Lg (expected 0 <= X <= 0.5)"
+msgstr ""
+
+#: src/op-parser.c:243
+#, c-format
+msgid "invalid getnum type '%c'"
+msgstr ""
+
+#: src/op-parser.c:275 src/op-parser.c:286 src/op-parser.c:554
+#, c-format
+msgid "missing field for operation %s"
+msgstr ""
+
+#: src/op-parser.c:281 src/op-parser.c:290 src/op-parser.c:346
+#: src/op-parser.c:591
+#, c-format
+msgid "invalid field range for operation %s"
+msgstr ""
+
+#: src/op-parser.c:284 src/op-parser.c:294 src/op-parser.c:594
+#, c-format
+msgid "invalid field pair for operation %s"
+msgstr ""
+
+#: src/op-parser.c:309 src/op-parser.c:569
+#, c-format
+msgid "invalid field '%s' for operation %s"
+msgstr ""
+
+#: src/op-parser.c:343
+#, c-format
+msgid "field range for %s must be numeric"
+msgstr ""
+
+#: src/op-parser.c:403
+#, c-format
+msgid "missing parameter for operation %s"
+msgstr ""
+
+#: src/op-parser.c:421
+#, c-format
+msgid "invalid parameter %s for operation %s"
+msgstr ""
+
+#: src/op-parser.c:453
+#, c-format
+msgid "operation %s requires field pairs"
+msgstr ""
+
+#: src/op-parser.c:456
+#, c-format
+msgid "operation %s cannot use pair of fields"
+msgstr ""
+
+#: src/op-parser.c:496
+#, c-format
+msgid "conflicting operation %s"
+msgstr ""
+
+#: src/op-parser.c:499 src/op-parser.c:752
+#, c-format
+msgid "invalid operation %s"
+msgstr ""
+
+#: src/op-parser.c:504
+#, c-format
+msgid ""
+"conflicting operation found: expecting %s operations, but found %s operation "
+"%s"
+msgstr ""
+
+#: src/op-parser.c:608
+#, c-format
+msgid "invalid option %s for operation check"
+msgstr ""
+
+#: src/op-parser.c:636
+msgid "number expected after option in operation 'check'"
+msgstr ""
+
+#: src/op-parser.c:642
+msgid "invalid value zero for lines/fields in operation 'check'"
+msgstr ""
+
+#: src/op-parser.c:648
+msgid "number of lines/rows already set in operation 'check'"
+msgstr ""
+
+#: src/op-parser.c:655
+msgid "number of fields/columns already set in operation 'check'"
+msgstr ""
+
+#: src/op-parser.c:692
+#, c-format
+msgid "crosstab requires exactly 2 fields, found %<PRIuMAX>"
+msgstr ""
+
+#: src/op-parser.c:705
+#, c-format
+msgid "crosstab supports one operation, found %<PRIuMAX>"
+msgstr ""
+
+#: src/op-parser.c:714
+msgid "missing operation"
+msgstr ""
+
+#: src/op-parser.c:728
+#, c-format
+msgid "extra operand %s"
+msgstr ""
+
+#: src/op-parser.c:865 src/op-scanner.c:237
+msgid "missing script (among arguments)"
+msgstr ""
+
+#: src/op-scanner.c:169
+#, c-format
+msgid "invalid numeric value '%s'"
+msgstr ""
+
+#: src/op-scanner.c:194
+msgid "backslash at end of identifier"
+msgstr ""
+
+#: src/op-scanner.c:202
+msgid "identifier name too long"
+msgstr ""
+
+#: src/op-scanner.c:215
+#, c-format
+msgid "invalid operand %s"
+msgstr ""
+
+#: src/op-scanner.c:271
+#, c-format
+msgid "unknown token %d\n"
+msgstr ""
+
+#: src/system.h:133
+msgid "      --help     display this help and exit\n"
+msgstr ""
+
+#: src/system.h:135
+msgid "      --version  output version information and exit\n"
+msgstr ""
+
+#: src/system.h:140
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr ""
+
+#: src/text-options.c:111
+msgid "missing rounding digits value"
+msgstr ""
+
+#: src/text-options.c:116
+#, c-format
+msgid "invalid rounding digits value %s"
+msgstr ""

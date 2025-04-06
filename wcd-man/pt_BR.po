@@ -1,0 +1,2539 @@
+# Brazilian Portuguese translation for wcd-man
+# Copyright (C) 2019 Erwin Waterlander (msgids)
+# Copyright (C) 2019 Free Software Foundation
+# This file is distributed under the same license as the wcd package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: wcd-man 6.0.3-beta7\n"
+"POT-Creation-Date: 2019-01-11 20:02+0100\n"
+"PO-Revision-Date: 2019-01-14 18:31-0200\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#. type: =head1
+#: wcd.pod:43
+msgid "NAME"
+msgstr "NOME"
+
+#. type: textblock
+#: wcd.pod:45
+msgid "wcd - Wherever Change Directory"
+msgstr "wcd - Wherever Change Directory"
+
+#. type: textblock
+#: wcd.pod:47
+msgid "chdir for DOS and Unix"
+msgstr "Chdir para Dos e Unix"
+
+#. type: =head1
+#: wcd.pod:49
+msgid "SYNOPSIS"
+msgstr "SINOPSE"
+
+#. type: verbatim
+#: wcd.pod:51
+#, no-wrap
+msgid ""
+"    wcd [options] [directory]\n"
+"\n"
+msgstr ""
+"    wcd [opções] [diretório]\n"
+"\n"
+
+#. type: =head1
+#: wcd.pod:53
+msgid "DESCRIPTION"
+msgstr "DESCRIÇÃO"
+
+#. type: =head2
+#: wcd.pod:55
+msgid "Overview"
+msgstr "Visão geral"
+
+#. type: textblock
+#: wcd.pod:57
+msgid "Wcd is a command-line program to change directory fast. It saves time typing at the keyboard. One needs to type only a part of a directory name and wcd will jump to it. Wcd has a fast selection method in case of multiple matches and allows aliasing and banning of directories. Wcd also includes a full screen interactive directory tree browser with speed search."
+msgstr "Wcd é um programa de linha de comando para mudar diretório rapidamente. Ele economiza tempo de digitar no teclado. É preciso digitar apenas uma parte de um nome de diretório e wcd vai pular para ele. Wcd possui um método de seleção rápida no caso de múltiplas correspondências e permite apelidamento (aliasing) e banimento de diretórios. Wcd também inclui um navegador de árvore de diretório interativa de tela cheia com pesquisa rápida."
+
+#. type: textblock
+#: wcd.pod:63
+msgid "Wcd was modeled after Norton Change Directory (NCD). NCD appeared first in I<The Norton Utilities, Release 4>, for DOS in 1987, published by Peter Norton."
+msgstr "Wcd foi modelado com base no Norton Change Directory (NCD). NCD apareceu primeiro em I<The Norton Utilities, versão 4>, para DOS em 1987, publicado por Peter Norton."
+
+#. type: textblock
+#: wcd.pod:66
+msgid "Wcd has been ported to different command-line shells: DOS command.com, Windows cmd.exe and PowerShell, OS/2 cmd.exe, and Unix shells such as Bourne (sh), Bourne Again (bash), Korn (ksh), Z (zsh), and C (csh) shell and others running on any operating system."
+msgstr "Wcd foi portado para diferentes shells de linha de comando: command.com do DOS, cmd.exe e PowerShell do Windows, cmd.exe do OS/2 e shells do Unix, como os shells Bourne (sh), Bourne Again (bash), Korn (ksh), Z (zsh) e C (csh) e outros funcionando em qualquer sistema operacional."
+
+#. type: textblock
+#: wcd.pod:71
+msgid "Wcd supports 8 bit character sets on all systems, and has optional support for Unicode. See section LOCALIZATION."
+msgstr "Wcd oferece suporte a conjuntos de caracteres de 8 bits em todos sistemas e possui suporte opcional a Unicode. Veja a seção LOCALIZAÇÃO."
+
+#. type: textblock
+#: wcd.pod:74
+msgid "See section INSTALLATION how to setup wcd for personal use."
+msgstr "Veja a seção INSTALAÇÃO para como instalar wcd para uso pessoal."
+
+#. type: =head2
+#: wcd.pod:76
+msgid "Basic use"
+msgstr "Uso básico"
+
+#. type: textblock
+#: wcd.pod:78
+msgid "By default (if no wildcards are used) wcd searches for a directory with a name that begins with the typed name."
+msgstr "Por padrão (se nenhum caractere curinga for usado), pesquisas wcd por um diretório com um nome que começa com o nome digitado."
+
+#. type: textblock
+#: wcd.pod:81
+msgid "For instance this command will change to directory to the current user's C</home/user/Desktop>:"
+msgstr "Por exemplo, esse comando vai mudar para diretório para o C</home/user/Desktop> do usuário atual:"
+
+#. type: verbatim
+#: wcd.pod:84
+#, no-wrap
+msgid ""
+"    wcd Desk\n"
+"\n"
+msgstr ""
+"    wcd Desk\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:86
+msgid "When there are multiple matches, wcd will present the user a list of all matches. The user can then make a selection with a few keystrokes (most of the times only one)."
+msgstr "Quando houver múltiplas ocorrências, wcd apresentará ao usuário uma lista de todas as ocorrências. O usuário poderá, então, fazer uma seleção pressionando com poucas teclas (na maioria das vezes, apenas uma)."
+
+#. type: =head2
+#: wcd.pod:90
+msgid "Wildcards"
+msgstr "Caracteres curingas"
+
+#. type: textblock
+#: wcd.pod:92
+msgid "Wcd supports following wildcards:"
+msgstr "Wcd oferece suporte aos seguintes caracteres curingas:"
+
+#. type: verbatim
+#: wcd.pod:94
+#, no-wrap
+msgid ""
+"    *       matches any sequence of characters (zero or more)\n"
+"    ?       matches any character\n"
+"    [SET]   matches any character in the specified set,\n"
+"    [!SET]  or [^SET] matches any character not in the specified set.\n"
+"\n"
+msgstr ""
+"    *       corresponde qualquer sequência de caracteres (zero ou mais)\n"
+"    ?       corresponde qualquer caractere\n"
+"    [SET]   corresponde qualquer caractere no conjunto especificado,\n"
+"    [!SET]  ou [^SET] corresponde qualquer caractere ausente no conjunto.\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:99
+msgid "A set is composed of characters or ranges; a range looks like I<character hyphen character> as in C<0-9> or C<A-Z>. The C<[0-9a-zA-Z_]> is the minimal set of characters allowed in the C<[..]> pattern construct. International characters (i.e. 8 bit characters) are allowed if the system supports them. To suppress the special syntactic significance of any of C<[]*?!^-\\> inside or outside a C<[..]> construct and match the character exactly, precede the character with a backslash (C<\\>)  marker."
+msgstr "Um conjunto é composto de caracteres ou intervalos; um intervalo se parece com I<caractere hífen caractere> como em C<0-9> ou C<A-Z>. O C<[0-9a-zA-Z_]> é o conjunto mínimo de caracteres permitidos no construto padrão C<[..]>. Caracteres internacionais (ex.: caracteres de 8 bits) são permitidos se o sistema oferecer suporte a eles. Para suprimir a significância sintática especial de qualquer um entre C<[]*?!^-\\> dentro ou fora de um construto C<[..]> e corresponder o caractere exato, precede o caractere com um marcador de barra invertida (C<\\>)."
+
+#. type: textblock
+#: wcd.pod:108
+msgid "Using wildcards makes powerful searching possible. For instance this matches any directory name that ends with \"top\":"
+msgstr "O uso de caracteres torna possível um poderosa pesquisa. Por exemplo, isso pesquisa qualquer nome de diretório que termine com \"top\":"
+
+#. type: verbatim
+#: wcd.pod:111
+#, no-wrap
+msgid ""
+"    wcd *top\n"
+"\n"
+msgstr ""
+"    wcd *top\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:113
+msgid "Match directories that have \"top\" anywhere in the name:"
+msgstr "Corresponde diretórios que tenham \"top\" em qualquer lugar no nome:"
+
+#. type: verbatim
+#: wcd.pod:115
+#, no-wrap
+msgid ""
+"    wcd *top*\n"
+"\n"
+msgstr ""
+"    wcd *top*\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:117
+msgid "Match any directory name that begins with \"a\", \"b\" or \"c\":"
+msgstr "Corresponde qualquer nome de diretório que começa com \"a\", \"b\" ou \"c\":"
+
+#. type: verbatim
+#: wcd.pod:119
+#, no-wrap
+msgid ""
+"    wcd [a-c]*\n"
+"\n"
+msgstr ""
+"    wcd [a-c]*\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:121
+msgid "It is also possible to give a part of a directory path. Here Wcd searches for directory that begins with \"Desk\" and which path matches I<*me/Desk*>."
+msgstr "Também é possível dar uma parte de um caminho de diretório. Aqui Wcd pesquisa por diretório que começa com \"Desk\" e cujo caminho corresponda a I<*me/Desk*>."
+
+#. type: verbatim
+#: wcd.pod:124
+#, no-wrap
+msgid ""
+"    wcd me/Desk\n"
+"\n"
+msgstr ""
+"    wcd me/Desk\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:126
+msgid "It is allowed to type any kind of expression with slashes and wildcards.  E.g.:"
+msgstr "É permitido digitar qualquer tipo de expressão com barras e caracteres curingas. Ex.:"
+
+#. type: verbatim
+#: wcd.pod:129
+#, no-wrap
+msgid ""
+"    wcd src*/*1?/a*2\n"
+"\n"
+msgstr ""
+"    wcd src*/*1?/a*2\n"
+"\n"
+
+#. type: =head2
+#: wcd.pod:131
+msgid "Other uses"
+msgstr "Outros usos"
+
+#. type: textblock
+#: wcd.pod:133
+msgid "If no wildcards are used and wcd finds a perfect match, wcd will ignore all wild matches by default. This behaviour can be changed with the B<-w> option."
+msgstr "Se nenhum caractere curinga é usado e wcd encontra uma correspondência perfeita, wcd vai ignorar todas as correspondências curingas por padrão. Esse comportamento pode se alterado com a opção B<-w>."
+
+#. type: textblock
+#: wcd.pod:136
+msgid "The interactive directory tree browser can be started by using option B<-g>."
+msgstr "O navegador interativo de árvore de diretório pode ser iniciado usando a opção B<-g>."
+
+#. type: verbatim
+#: wcd.pod:138
+#, no-wrap
+msgid ""
+"    wcd -g\n"
+"\n"
+msgstr ""
+"    wcd -g\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:140
+msgid "Wcd generates a treedata file where it searches the directory. On Unix and Windows systems wcd does add symbolic links to the treedata file while scanning the disk, but does not follow them. While following links wcd could end up scanning infinite loops, or scan very large portions of a network."
+msgstr "Wcd gera um arquivo de dados de árvore no qual ele pesquisa o diretório. Em sistemas Unix e Windows, wcd adiciona links simbólicos ao arquivo de dados de árvore ao varrer o disco, mas não os segue. Enquanto segue links, wcd poderia acabar varrendo loops infinitos, ou varrer porções muito grandes de uma rede."
+
+#. type: textblock
+#: wcd.pod:145
+msgid "Wcd can also change to directories that are not in the treedata file. E.g.:"
+msgstr "Wcd também pode mudar para diretórios que não estejam no arquivo de dados de árvore. Ex.:"
+
+#. type: verbatim
+#: wcd.pod:147
+#, no-wrap
+msgid ""
+"    wcd ..\n"
+"\n"
+msgstr ""
+"    wcd ..\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:149
+msgid "If wcd found a match but can't change to the directory it tries to remove it from the default treedata file. Not from the extra treedata file. See also option B<-k>."
+msgstr "Se wcd encontrou uma correspondência, mas não pode mudar para o diretório, ele tenta removê-lo do arquivo de dados de árvore padrão. Porém, não remove o arquivo de dados de árvore extra. Veja também a opção B<-k>."
+
+#. type: textblock
+#: wcd.pod:153
+msgid "Wcd keeps a directory stack which is stored on disk. The stack has a default size of 10 and is cyclic. See options B<-z>, B<->, B<+> and B<=>."
+msgstr "Wcd mantém uma pilha de diretórios que é armazenada no disco. A pilha possui um tamanho padrão de 10 e é cíclico. Veja as opções B<-z>, B<->, B<+> e B<=>."
+
+#. type: textblock
+#: wcd.pod:157
+msgid "In multi-user environments option B<-u> can be used to change to directories of other users."
+msgstr "Em ambientes multiusuários, a opção B<-u> pode ser usada para alterar para os diretórios de outros usuários."
+
+#. type: textblock
+#: wcd.pod:161
+msgid "On DOS and Windows systems it does not matter if you use a slash \"/\" or a backslash \"\\\" as a directory separator."
+msgstr "Nos sistemas DOS e Windows, não importa se você usa uma barra (\"/\") ou uma barra invertida (\"\\\") como separador de diretório."
+
+#. type: textblock
+#: wcd.pod:164
+msgid "It is possible on DOS and Windows systems to change drive and directory in one go by preceding the directory name with the drive name."
+msgstr "É possível em sistemas DOS e Windows alterar a unidade e diretório de uma só vez precedendo o nome do diretório com o nome da unidade."
+
+#. type: verbatim
+#: wcd.pod:167
+#, no-wrap
+msgid ""
+"    wcd d:games\n"
+"\n"
+msgstr ""
+"    wcd d:jogos\n"
+"\n"
+
+#. type: =head2
+#: wcd.pod:171
+msgid "Windows UNC paths"
+msgstr "Caminhos UNC do Windows"
+
+#. type: textblock
+#: wcd.pod:173
+msgid "The Windows versions (Command Prompt, PowerShell, MSYS, zsh, cygwin) support Windows SMB LAN UNC paths without drive letter such as C<\\\\servername\\sharename>. Wcd for Windows Command Prompt makes use of the \"pushd\" command to automatically map a UNC path to a drive letter. In Windows PowerShell, MSYS, zsh and Cygwin UNC paths are fully supported. The current working directory can be a UNC path."
+msgstr "As versões Windows (Command Prompt, PowerShell, MSYS, zsh, cygwin) oferecem suporte a caminhos UNC de rede SMB do Windows sem letra de unidade tal como C<\\\\nomeservidor\\nomecompartilhamento>. Wcd para Prompt de Comando do Windows faz uso do comando \"pushd\" para mapear automaticamente um caminho UNC a uma letra de unidade. Em caminhos PowerShell do Windows, MSYS, zsh e Cygwin, há suporte completo a caminhos UNC. O diretório de trabalho atual pode ser um caminho UNC."
+
+#. type: =head2
+#: wcd.pod:180
+msgid "Console resizing on Windows"
+msgstr "Redimensionamento de console no Windows"
+
+#. type: textblock
+#: wcd.pod:182
+msgid "Wcd supports console resizing in Windows 10 console and ConEmu (see L<https://conemu.github.io/>) since version 6.0.3. The Windows 10 console must not be in legacy mode (check the console's properties). The screen may not refresh when the console Layout property \"Wrap text output on resize\" is disabled. The screen can be refreshed manually by pressing the F5 key."
+msgstr "Wcd possui suporte ao redimensionamento de console do Windows 10 e no ConEmu (consulte L<https://conemu.github.io/>) desde a versão 6.0.3. O console do Windows 10 não deve estar no modo legado (verifique as propriedades do console). A tela pode não ser atualizada quando a propriedade de layout do console \"Ajustar saída de texto ao redimensionar\" estiver desabilitado. A tela pode ser atualizada manualmente pressionando a tecla F5."
+
+#. type: =head2
+#: wcd.pod:189
+msgid "Interfaces"
+msgstr "Interfaces"
+
+#. type: textblock
+#: wcd.pod:191
+msgid "Wcd has three different interfaces to choose from a list of matches. The interface can be chosen at compile time."
+msgstr "Wcd possui três interfaces diferentes para escolher de uma lista de correspondências. A interface pode ser escolhida em tempo de compilação."
+
+#. type: textblock
+#: wcd.pod:194
+msgid "The first interface uses plain stdin/stdout. A numbered list is printed in the terminal. The user has to choose from the list by typing a number followed by <Enter>. This interface does not provide scroll back functionality in case of a long list. The scroll back capability of the terminal/console has to be used. It is very small and portable."
+msgstr "A primeira interface usa stdin/stdout simples. Uma lista numerada é exibida no terminal. O usuário tem que escolher a partir da lista digitando um número seguido por <Enter>. Essa interface não fornece funcionalidade de rolagem para cima em caso de uma lista longa. A capacidade de rolagem para cima do terminal/console tem que ser usada. É bem pequena e portátil."
+
+#. type: textblock
+#: wcd.pod:200
+msgid "The second interface is built with the conio library. It provides a builtin scroll back capability. The user is presented a list numbered with letters.  Choosing from a list can be done by pressing just one letter. This interface is fast because it saves keystrokes. If possible the screen will be restored after exiting. One who prefers to type numbers can use the B<-N> option."
+msgstr "A segunda interface é feita com a biblioteca conio. Ela fornece uma capacidade embarcada de rolagem para cima. O usuário é apresentado a uma lista numerada com letras. A escolha de uma lista pode ser feita pressionando apenas uma letra. Essa interface é rápida porque ela economiza pressionamentos de teclas. Se possível, a tela será restaurada após sair. Aquele que preferir digitar números, pode usar a opção B<-N>."
+
+#. type: textblock
+#: wcd.pod:207
+msgid "The third interface is built with the curses library. It is similar to the conio interface. The curses version of wcd has also an additional 'graphical' interface. It lets the user select a directory via a full screen interactive directory tree browser. It has a vim(1) like navigation and search method. It can be activated with option B<-g>."
+msgstr "A terceira interface é feita com a biblioteca curses. É similar à interface conio. A versão curses do wcd também possui uma interface \"gráfica\" adicional. Ela permite ao usuário selecionar um diretório por meio de um navegador de árvore de diretório interativa em tela cheia. Ela possui um método de pesquisa de navegação tipo vim(1). Ela pode ser ativada com a opção B<-g>."
+
+#. type: textblock
+#: wcd.pod:213
+msgid "By using the B<-o> option one can always fall back to the stdin/stdout interface."
+msgstr "Ao usar a opção B<-o>, é sempre possível voltar para a interface de stdin/stdout."
+
+#. type: =head1
+#: wcd.pod:216
+msgid "OPTIONS"
+msgstr "OPÇÕES"
+
+#. type: =item
+#: wcd.pod:220
+msgid "B<-a>"
+msgstr "B<-a>"
+
+#. type: textblock
+#: wcd.pod:222
+msgid "Add current path to the default treedata file."
+msgstr "Adiciona caminho atual ao arquivo de dados de árvore padrão."
+
+#. type: textblock
+#: wcd.pod:224
+msgid "Use this option to quickly add the current path to the default treedata file. Re-scanning the complete disk can take a long time in some cases."
+msgstr "Use essa opção para adicionar rapidamente o caminho atual para o arquivo de dados de árvore padrão. Nova varredura do disco completo pode levar um longo tempo em alguns casos."
+
+#. type: =item
+#: wcd.pod:227
+msgid "B<-aa>"
+msgstr "B<-aa>"
+
+#. type: textblock
+#: wcd.pod:229
+msgid "Add current and all parent paths to the default treedata file."
+msgstr "Adiciona caminhos atual e seus respectivos pais ao arquivo de dados de árvore padrão."
+
+#. type: =item
+#: wcd.pod:231
+msgid "B<-A PATH>"
+msgstr "B<-A CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:233
+msgid "Scan directory tree from I<PATH> and append to the default treedata file. Examples:"
+msgstr "Varre a árvore de diretório do I<CAMINHO> e anexa ao arquivo de dados de árvore padrão. Exemplos:"
+
+#. type: verbatim
+#: wcd.pod:236
+#, no-wrap
+msgid ""
+"    wcd -A .\n"
+"    wcd -A /home -A /etc\n"
+"    wcd -A d: -A e: -A \\\\server\\share\n"
+"\n"
+msgstr ""
+"    wcd -A .\n"
+"    wcd -A /home -A /etc\n"
+"    wcd -A d: -A e: -A \\\\servidor\\compartilhamento\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:240
+msgid "On Windows one can scan all shared directories of a Windows LAN server by typing something like: C<wcd -A \\\\servername>."
+msgstr "No Windows, é possível varrer todos os diretórios compartilhados de um servidor de rede Windows digitando alguma coisa como: C<wcd -A \\\\nomeservidor>."
+
+#. type: textblock
+#: wcd.pod:244
+msgid "See also option B<-S> and B<-s> and B<-E>."
+msgstr "Veja também as opções B<-S>, B<-s> e B<-E>."
+
+#. type: =item
+#: wcd.pod:246
+msgid "B<-b>"
+msgstr "B<-b>"
+
+#. type: textblock
+#: wcd.pod:248
+msgid "Ban current path."
+msgstr "Bane o caminho atual."
+
+#. type: textblock
+#: wcd.pod:250
+msgid "Wcd places the current path in the ban file. This means that wcd ignores all matches of this directory and its sub directories."
+msgstr "Wcd coloca o caminho atual no arquivo de banimento. Isso significa que o wcd ignora todas as correspondências deste diretório e seus subdiretórios."
+
+#. type: textblock
+#: wcd.pod:253
+msgid "The ban file can be edited with a text editor. Use of wildcards is supported and names are matched against the absolute path."
+msgstr "O arquivo de banimento pode ser editado com um editor de texto. Há suporte ao uso de caracteres curingas e nome são combinados com o caminho absoluto."
+
+#. type: textblock
+#: wcd.pod:256
+msgid "Banned paths are not excluded from scanning the disk. To do that use option B<-xf>."
+msgstr "Caminhos banidos não são excluídos da varredura do disco. Para fazer isso, use a opção B<-xf>."
+
+#. type: =item
+#: wcd.pod:259
+msgid "B<-c, --direct-cd>"
+msgstr "B<-c, --direct-cd>"
+
+#. type: textblock
+#: wcd.pod:261
+msgid "Direct CD mode. By default wcd works as follows:"
+msgstr "Modo CD direto. Por padrão, wcd funciona da seguinte forma:"
+
+#. type: verbatim
+#: wcd.pod:263
+#, no-wrap
+msgid ""
+"    1. Try to find a match in the treedata file(s)\n"
+"    2. If no match, try to open the directory you typed.\n"
+"\n"
+msgstr ""
+"    1. Procura uma correspondência nos arquivos de dados de árvore\n"
+"    2. Se nada corresponder, tenta abrir o diretório que informado.\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:266
+msgid "In direct CD mode wcd works in reversed order."
+msgstr "No modo CD direto, wcd funciona na ordem inversa."
+
+#. type: verbatim
+#: wcd.pod:268
+#, no-wrap
+msgid ""
+"    1. Try to open the directory you typed.\n"
+"    2. If not, try to find a match in the treedata file(s).\n"
+"\n"
+msgstr ""
+"    1. Tenta abrir o diretório que você digitou.\n"
+"    2. Se não, tenta uma correspondência no(s) arquivo(s) de\n"
+"       dados de árvore.\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:272
+msgid "B<-d DRIVE>"
+msgstr "B<-d UNIDADE>"
+
+#. type: textblock
+#: wcd.pod:274
+msgid "Set drive for stack and go file (DOS only)."
+msgstr "Define a unidade para arquivos de empilhamento & ir (DOS apenas)."
+
+#. type: textblock
+#: wcd.pod:276
+msgid "The stack file and the go-script are by default stored on drive C: if environment variable I<HOME> is not set. Use this option if drive C: is a read-only drive. This option must be used in front of the stack options B<->, B<+> and B<=>."
+msgstr "O arquivo de pilha e o go-script são armazenados, por padrão, na unidade C: se a variável de ambiente I<HOME> não estiver definida. Use essa opção se a unidade C: for uma unidade somente leitura. Essa opção deve ser usada na frente das opções de pilha B<->, B<+> e B<=>."
+
+#. type: =item
+#: wcd.pod:281
+msgid "B<-e>"
+msgstr "B<-e>"
+
+#. type: textblock
+#: wcd.pod:283
+msgid "Add current path to the extra treedata file."
+msgstr "Adiciona caminho atual ao arquivo de dados de árvore extra."
+
+#. type: textblock
+#: wcd.pod:285
+msgid "Use this option to quickly add the current path to the extra treedata file."
+msgstr "Use essa opção para adicionar rapidamente o caminho atual ao arquivo de dados de árvore extra."
+
+#. type: =item
+#: wcd.pod:287
+msgid "B<-ee>"
+msgstr "B<-ee>"
+
+#. type: textblock
+#: wcd.pod:289
+msgid "Add current and all parent paths to extra treedata file."
+msgstr "Adiciona caminhos atual e todos os pais ao arquivo de dados de árvore padrão."
+
+#. type: =item
+#: wcd.pod:291
+msgid "B<-E PATH>"
+msgstr "B<-E CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:293
+msgid "Scan directory tree from I<PATH> and append to Extra treedata file. See also options B<-A> and B<-S>."
+msgstr "Varre a árvore de diretório de I<CAMINHO> e anexa ao arquivo de dados de árvore extra. Veja também as opções B<-A> e B<-S>."
+
+#. type: =item
+#: wcd.pod:296
+msgid "B<-f FILE>"
+msgstr "B<-f ARQUIVO>"
+
+#. type: textblock
+#: wcd.pod:298
+msgid "Read treedata file I<FILE>. Do not read the default treedata file."
+msgstr "Lê o arquivo de dados de árvore I<ARQUIVO>. Não lê o arquivo de dados de árvore padrão."
+
+#. type: =item
+#: wcd.pod:300
+msgid "B<+f FILE>"
+msgstr "B<+f ARQUIVO>"
+
+#. type: textblock
+#: wcd.pod:302
+msgid "Read treedata file I<FILE> in addition to the default treedata file."
+msgstr "Lê o arquivo de dados de árvore I<ARQUIVO>, além do arquivo de dados de árvore padrão."
+
+#. type: =item
+#: wcd.pod:304
+msgid "B<-g>"
+msgstr "B<-g>"
+
+#. type: textblock
+#: wcd.pod:306
+msgid "Graphical interface (only in version with curses interface)."
+msgstr "Interface gráfica (apenas na versão com interface curses)."
+
+#. type: textblock
+#: wcd.pod:308
+msgid "Wcd starts a textual curses based 'graphical' interface. The user can select a directory via a full-screen interactive directory tree browser. It has a vim(1) like navigation and search method."
+msgstr "Wcd inicia um curses textual baseado em interface \"gráfica\". O usuário pode selecionar um diretório por um navegador interativo de árvore de diretórios de tela cheia. Ele possui um método e navegação tipo vim(1)."
+
+#. type: textblock
+#: wcd.pod:312
+msgid "If no search string is given wcd presents the whole tree which is in the default treedata file and the extra treedata files."
+msgstr "Se nenhuma string de pesquisa for dada, wcd apresenta toda a árvore que está no arquivo de dados de árvore padrão e nos arquivos de dados de árvore extras."
+
+#. type: textblock
+#: wcd.pod:315
+msgid "If a search string is given the match list is presented as a directory tree."
+msgstr "Se uma string de pesquisa for dada, a lista de correspondência é apresentada como uma árvore de diretório."
+
+#. type: textblock
+#: wcd.pod:318
+msgid "The default tree layout is similar to the tree layout of the original NCD on DOS. The difference in layout is that in NCD all directories of a same depth level were vertically aligned over the whole tree. This was possible in NCD, because the maximum width of a directory name in DOS was 12 (8.3) characters. On modern operating systems directory names can be very long, so also the differences in length can be large. Therefore folders with a same depth are not vertically aligned over the whole tree in wcd, but only in sub-branches.  So there is some sideways movement when moving straight up and down from one sub-branch to another sub-branch."
+msgstr "O layout de árvore padrão é similar ao layout de árvore do NCD original no DOS. A diferença no layout é que no NCD todos os diretórios do mesmo nível de profundidade eram alinhados verticalmente por toda a árvore. Isso era possível no NCD porque a largura máxima de um nome de diretório no DOS era 12 (8,3) caracteres. Em sistemas operacionais modernos, nomes de diretório podem ser muito longos, assim como as diferenças no tamanho podem ser grandes. Portanto, pastas com uma mesma profundidade não são alinhadas verticalmente por toda a árvore no wcd, mas apenas em sub-ramos. Então, há alguns movimentos laterais ao mover para cima ou para baixo de um sub-ramo para outro sub-ramo."
+
+#. type: textblock
+#: wcd.pod:328
+msgid "The navigation behaviour in Wcd is exactly the same as in the original NCD. For instance if you push the Down key you go down to the next directory with the same depth level, jumping over branches. This enables fast navigation through the tree."
+msgstr "O comportamento de navegação no Wcd é exatamente o mesmo que no NCD original. Por exemplo, se você pressionar a tecla de seta para Baixo, você desce para o próximo diretório com o mesmo nível de profundidade, pulando por ramos. Isso permite navegação rápida pela árvore."
+
+#. type: textblock
+#: wcd.pod:333
+msgid "See options B<-Ta>, B<-TC>, and B<-Tc> to change the navigation behaviour."
+msgstr "Veja as opções B<-Ta>, B<-TC> e B<-Tc> para alterar o comportamento de navegação."
+
+#. type: =item
+#: wcd.pod:335
+msgid "B<-gd>"
+msgstr "B<-gd>"
+
+#. type: textblock
+#: wcd.pod:337
+msgid "Dump the treedata files as a tree to stdout."
+msgstr "Despeja os arquivos de dados de árvore como uma árvore para stdout."
+
+#. type: =item
+#: wcd.pod:339
+msgid "B<-G PATH>"
+msgstr "B<-G CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:341
+msgid "Write go-script in directory I<PATH>. For instance on Unix, C<wcd -G PATH> will write a go-script B<PATH/wcd.go>."
+msgstr "Escreve o go-script no diretório I<CAMINHO>. Por exemplo no Unix, C<wcd -G CAMINHO> vai escrever um go-script B<CAMINHO/wcd.go>."
+
+#. type: =item
+#: wcd.pod:344
+msgid "B<-GN, --no-go-script>"
+msgstr "B<-GN, --no-go-script>"
+
+#. type: textblock
+#: wcd.pod:346
+msgid "Do not create go-script. This option can be used in combination with the option B<-j> if one does not want wcd to create a go-script."
+msgstr "Não cria go-script. Essa opção pode ser usada em combinação com a opção B<-j> caso não se deseje que o wcd crie um go-script."
+
+#. type: =item
+#: wcd.pod:349
+msgid "B<-h, --help>"
+msgstr "B<-h, --help>"
+
+#. type: textblock
+#: wcd.pod:351
+msgid "Show help and exit."
+msgstr "Mostra a ajuda e sai."
+
+#. type: =item
+#: wcd.pod:353
+msgid "B<-i, --ignore-case>"
+msgstr "B<-i, --ignore-case>"
+
+#. type: textblock
+#: wcd.pod:355
+msgid "Ignore case.  Dos and Windows versions of wcd ignore case default. Unix/Cygwin versions regard case by default."
+msgstr "Ignora a diferença entre maiúsculo e minúsculo. Versões Dos e Windows do wcd ignoram tal diferença por padrão. Versões Unix/Cygwin levam em consideração a maiúsculo e minúsculo por padrão."
+
+#. type: =item
+#: wcd.pod:359
+msgid "B<+i, --no-ignore-case>"
+msgstr "B<+i, --no-ignore-case>"
+
+#. type: textblock
+#: wcd.pod:361
+msgid "Regard case. See also option B<-i>."
+msgstr "Considera a diferença entre maiúsculo e minúsculo. Veja também a opção B<-i>."
+
+#. type: =item
+#: wcd.pod:363
+msgid "B<-I, --ignore-diacritics>"
+msgstr "B<-I, --ignore-diacritics>"
+
+#. type: textblock
+#: wcd.pod:365
+msgid "Ignore diacritics for Latin-based scripts.  Letters with diacritical marks match their base letter without diacritical mark. The following Latin encodings are supported: CP437, CP850, CP852, CP1250, CP1252, ISO-8859-1, ISO-8859-2, and Unicode Latin-1, Latin Extended-A, and Latin Extended-B.  See also L<http://en.wikipedia.org/wiki/Diacritic>"
+msgstr "Ignora diacríticos para scripts baseados em Latim. Letras com marcas diacríticas correspondem sua letra base sem marca diacrítica. Há suporte às seguintes codificações Latim: CP437, CP850, CP852, CP1250, CP1252, ISO-8859-1, ISO-8859-2 e Unicode Latim-1, Latim Estendido-A e Latim Estendido-B. Veja também L<http://en.wikipedia.org/wiki/Diacritic>"
+
+#. type: =item
+#: wcd.pod:372
+msgid "B<+I, --no-ignore-diacritics>"
+msgstr "B<+I, --no-ignore-diacritics>"
+
+#. type: textblock
+#: wcd.pod:374
+msgid "Regard diacritics (default). See also option B<-I>."
+msgstr "Considera diacríticos (padrão). Veja também a opção B<-I>."
+
+#. type: =item
+#: wcd.pod:376
+msgid "B<-j, --just-go>"
+msgstr "B<-j, --just-go>"
+
+#. type: textblock
+#: wcd.pod:378
+msgid "Just go mode."
+msgstr "Modo \"just go\"."
+
+#. type: textblock
+#: wcd.pod:380
+msgid "In this mode wcd will not present a list when there is more than one directory that matches the given directory. Wcd will just change to the first option. When wcd is invoked again with the same arguments it will change to the next option, and so on."
+msgstr "Neste modo, wcd não apresentará uma lista quando houver mais de um diretório que corresponde ao diretório dado. Wcd vai apenas mudar para a primeira opção. Quando wcd é invocado novamente com os mesmos argumentos, ele vai mudar para a próxima opção, e por aí vai."
+
+#. type: textblock
+#: wcd.pod:385
+msgid "Wcd will print the directory to go to to stdout. So a different installation method can be used. One could make the following function for a POSIX compatible shell:"
+msgstr "Wcd vai imprimir o diretório para ir para stdout. Então, um método de instalação diferente pode ser usado. Pode-se fazer a seguinte função para um shell compatível com POSIX:"
+
+#. type: verbatim
+#: wcd.pod:389
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"        cd \"$($HOME/bin/wcd.exe -j $@)\"\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"        cd \"$($HOME/bin/wcd.exe -j $@)\"\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:394
+msgid "When you are using an old shell that doesn't support \"$()\" command substitution you have to use old style command substitution with back-quotes."
+msgstr "Quando você está usando um shell antigo que não oferece suporte o comando de substituição \"$()\", você tem que usar substituição de comando estilo antigo com acento grave (\"back-quote\")."
+
+#. type: verbatim
+#: wcd.pod:397
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"        cd \"`$HOME/bin/wcd.exe -j $@`\"\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"        cd \"`$HOME/bin/wcd.exe -j $@`\"\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:403
+msgid "On Windows systems, if one is running 4NT shell, one could make the following alias:"
+msgstr "Em sistemas Windows, se estiver executando shell 4NT, pode-se usar o seguinte alias:"
+
+#. type: verbatim
+#: wcd.pod:406
+#, no-wrap
+msgid ""
+"    alias wcd `cd %@execstr[wcdwin32.exe -z 0 -j %1]`\n"
+"\n"
+msgstr ""
+"    alias wcd `cd %@execstr[wcdwin32.exe -z 0 -j %1]`\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:409
+msgid "This method eliminates the need of the go-script, so one can use option B<-GN> in combination with B<-j>."
+msgstr "Esse método elimina a necessidade do go-script, então pode-se usar a opção B<-GN> em combinação com B<-j>."
+
+#. type: =item
+#: wcd.pod:412
+msgid "B<-k, --keep-paths>"
+msgstr "B<-k, --keep-paths>"
+
+#. type: textblock
+#: wcd.pod:414
+msgid "Keep paths."
+msgstr "Mantém caminhos."
+
+#. type: textblock
+#: wcd.pod:416
+msgid "Keep paths in the treedata file when wcd can't change to them. The default behaviour of wcd is that it tries to remove paths from the treedata when wcd can't change to them. With this option this behavior is turned off."
+msgstr "Mantém caminhos no arquivo de dados de árvore quando wcd não consegue mudar para eles. O comportamento padrão de wcd é tentar remover caminhos dos dados de árvore quando wcd não puder mudar para eles. Com essa opção, esse comportamento é desativado."
+
+#. type: =item
+#: wcd.pod:420
+msgid "B<-K, --color>"
+msgstr "B<-K, --color>"
+
+#. type: textblock
+#: wcd.pod:422
+msgid "Use colors in graphical mode."
+msgstr "Usa cores no modo gráfico."
+
+#. type: =item
+#: wcd.pod:424
+msgid "B<-l ALIAS>"
+msgstr "B<-l ALIAS>"
+
+#. type: textblock
+#: wcd.pod:426
+msgid "Name the current path with I<ALIAS>. Wcd places the current path with alias I<ALIAS> in the alias file. Aliases are case sensitive."
+msgstr "Nome do caminho atual com I<ALIAS>. Wcd coloca o caminho atual com alias I<ALIAS> no arquivo de alias. Aliases diferenciam maiúsculo de minúsculo."
+
+#. type: =item
+#: wcd.pod:429
+msgid "B<-ls>"
+msgstr "B<-ls>"
+
+#. type: textblock
+#: wcd.pod:431
+msgid "Show the name of the alias file, and list all the aliases."
+msgstr "Mostra o nome do arquivo de alias e lista todos os aliases."
+
+#. type: =item
+#: wcd.pod:433
+msgid "B<-m DIR>"
+msgstr "B<-m DIR>"
+
+#. type: textblock
+#: wcd.pod:435
+msgid "Make directory and add to treedata file."
+msgstr "Cria o diretório e adiciona o arquivo de dados de árvore."
+
+#. type: =item
+#: wcd.pod:437
+msgid "B<-L, --license>"
+msgstr "B<-L, --license>"
+
+#. type: textblock
+#: wcd.pod:439
+msgid "Print the distribution license."
+msgstr "Exibe a licença de distribuição."
+
+#. type: =item
+#: wcd.pod:441
+msgid "B<-M DIR>"
+msgstr "B<-M DIR>"
+
+#. type: textblock
+#: wcd.pod:443
+msgid "Make directory and add to extra treedata file."
+msgstr "Cria o diretório e adiciona o arquivo de dados de árvore extra."
+
+#. type: =item
+#: wcd.pod:445
+msgid "B<-n PATH>"
+msgstr "B<-n CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:447
+msgid "Read relative treedata file from I<PATH>."
+msgstr "Lê o arquivo de dados de árvore relativos a partir de I<CAMINHO>."
+
+#. type: textblock
+#: wcd.pod:449
+msgid "Do not read the default treedata file. The relative treedata file should already have been created using the wcd B<+S> option.  I<PATH> may also point to a file directly."
+msgstr "Não lê o arquivo de dados de árvore padrão. O arquivo de dados de árvore relativos já deve ter sido criado usando a opção B<+S> do wcd. I<CAMINHO> também pode apontar para um arquivo diretamente."
+
+#. type: textblock
+#: wcd.pod:453
+msgid "An example. Suppose another system has been mounted to mount point C</mnt/network>:"
+msgstr "Um exemplo. Suponha que um outro sistema montou no ponto de montagem C</mnt/rede>:"
+
+#. type: verbatim
+#: wcd.pod:456
+#, no-wrap
+msgid ""
+"    wcd -n /mnt/network src\n"
+"\n"
+msgstr ""
+"    wcd -n /mnt/rede src\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:458
+msgid "Wcd opens the relative treedata file in C</mnt/network/>. The file contains the paths relative from that point."
+msgstr "Wcd abre o arquivo de dados de árvore relativo em C</mnt/rede/>. O arquivo contém os caminhos relativos a partir daquele ponto."
+
+#. type: =item
+#: wcd.pod:461
+msgid "B<+n PATH>"
+msgstr "B<+n CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:463
+msgid "Read relative treedata file in addition to the default treedata file. See option B<-n>."
+msgstr "Lê arquivo de dados de árvore relativos, além do arquivo de dados de árvore padrão. Veja a opção B<-n>."
+
+#. type: =item
+#: wcd.pod:466
+msgid "B<-N, --numbers>"
+msgstr "B<-N, --numbers>"
+
+#. type: textblock
+#: wcd.pod:468
+msgid "Use numbers instead of letters."
+msgstr "Usa números em vez de letras."
+
+#. type: textblock
+#: wcd.pod:470
+msgid "Wcd with a conio or curses based interface (see section Interfaces) presents a match list by default numbered with letters. When the B<-N> option is used the match list is numbered with numbers. Regardless of the B<-N> option one can type a letter or numbers to make a selection from the list of matches."
+msgstr "Wcd com um interface baseada no conio ou curses (veja a seção Interfaces) apresenta uma lista de correspondência numerada com letras por padrão. Quando a opção B<-N> é usada, a lista de correspondência é numerada com números. Independente da opção B<-N>, pode-se digitar uma letra ou número para fazer uma seleção a partir da lista de correspondências."
+
+#. type: =item
+#: wcd.pod:475
+msgid "B<-o>"
+msgstr "B<-o>"
+
+#. type: textblock
+#: wcd.pod:477
+msgid "Use stdin/stdout interface."
+msgstr "Usa interface de stdin/stdout."
+
+#. type: textblock
+#: wcd.pod:479
+msgid "When for some kind of reason the conio or curses interface of wcd does not work one can fall back to the stdin/stdout interface of wcd by using the B<-o> option."
+msgstr "Quando por algum motivo a interface conio ou curses do wcd não funcionar, pode-se usar a interface stdin/stdout do wcd usando a opção B<-o>."
+
+#. type: =item
+#: wcd.pod:483
+msgid "B<-od, --to-stdout>"
+msgstr "B<-od, --to-stdout>"
+
+#. type: textblock
+#: wcd.pod:485
+msgid "Dump all matches to stdout."
+msgstr "Despeja todas as correspondências para a stdout."
+
+#. type: =item
+#: wcd.pod:487
+msgid "B<-q, --quiet>"
+msgstr "B<-q, --quiet>"
+
+#. type: textblock
+#: wcd.pod:489
+msgid "Quieter operation. Printing of the final match is suppressed."
+msgstr "Operação mais silenciosa. A exibição da correspondência final é suprimida."
+
+#. type: =item
+#: wcd.pod:491
+msgid "B<-r DIR>"
+msgstr "B<-r DIR>"
+
+#. type: textblock
+#: wcd.pod:493
+msgid "Remove directory and remove from the treedata file."
+msgstr "Remove o diretório e remove o arquivo de dados de árvore."
+
+#. type: textblock
+#: wcd.pod:495
+msgid "If the directory is empty, wcd will remove it, and try to remove it from the treedata file."
+msgstr "Se o diretório estiver vazio, wcd vai removê-lo e também vai tentar removê-lo do arquivo de dados de árvore."
+
+#. type: =item
+#: wcd.pod:498
+msgid "B<-rmtree DIR>"
+msgstr "B<-rmtree DIR>"
+
+#. type: textblock
+#: wcd.pod:500
+msgid "Recursively remove directory and remove from the treedata file."
+msgstr "Remove recursivamente o diretório e remove o arquivo de dados de árvore."
+
+#. type: textblock
+#: wcd.pod:502
+msgid "Wcd will remove the directory and all its sub directories and files, and remove the directories from the treedata file."
+msgstr "Wcd vai remover o diretório e todos seus subdiretórios e arquivos, e remove os diretórios do arquivo de dados de árvore."
+
+#. type: =item
+#: wcd.pod:505
+msgid "B<-s>"
+msgstr "B<-s>"
+
+#. type: textblock
+#: wcd.pod:507
+msgid "(re)Scan disk from C<$HOME> directory. If I<HOME> is not defined the disk is scanned from root directory /."
+msgstr "Varre (novamente) o disco a partir do diretório C<$HOME>. Se I<HOME> não estiver definido, o disco é varrido a partir do diretório raiz /."
+
+#. type: textblock
+#: wcd.pod:510
+msgid "The existing default treedata file is overwritten."
+msgstr "O arquivo de dados de árvore existente é sobrescrito."
+
+#. type: textblock
+#: wcd.pod:512
+msgid "The default scan directory can be overruled with environment variable C<WCDSCAN>. See section ENVIRONMENT VARIABLES."
+msgstr "O diretório de varredura padrão pode ser sobreposto com a variável de ambiente C<WCDSCAN>. Veja a seção VARIÁVEIS DE AMBIENTE."
+
+#. type: =item
+#: wcd.pod:515
+msgid "B<-S PATH>"
+msgstr "B<-S CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:517
+msgid "Scan directory tree from I<PATH> and overwrite the default treedata file.  See also options B<-A>, B<-s> and B<-E>. E.g. with option B<-A> you can create a default treedata file of your choice. Examples:"
+msgstr "Varre a árvore de diretórios a partir de I<CAMINHO> e sobrescreve o arquivo de dados de árvore padrão. Veja também as opções B<-A>, B<-s> e B<-E>. Por exemplo, com a opção B<-A> você pode criar um arquivo de dados de árvore padrão de sua escolha. Exemplos:"
+
+#. type: textblock
+#: wcd.pod:521
+msgid "Unix:"
+msgstr "Unix:"
+
+#. type: verbatim
+#: wcd.pod:523
+#, no-wrap
+msgid ""
+"    wcd -S /\n"
+"    wcd -S /home -A /etc -A /usr\n"
+"\n"
+msgstr ""
+"    wcd -S /\n"
+"    wcd -S /home -A /etc -A /usr\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:526
+msgid "DOS/Windows:"
+msgstr "DOS/Windows:"
+
+#. type: verbatim
+#: wcd.pod:528
+#, no-wrap
+msgid ""
+"    wcd -S c:/\n"
+"    wcd -S c: -A d: -A \\\\server\\share\n"
+"\n"
+msgstr ""
+"    wcd -S c:/\n"
+"    wcd -S c: -A d: -A \\\\servidor\\compartilhamento\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:531
+msgid "With the Windows versions one can scan all shared directories of a Windows LAN server by typing something like: C<wcd -S \\\\servername>."
+msgstr "Com as versões Windows, é possível varrer todos os diretórios compartilhados de um servidor de rede Windows digitando alguma coisa como: C<wcd -A \\\\nomeservidor>."
+
+#. type: =item
+#: wcd.pod:535
+msgid "B<+S PATH>"
+msgstr "B<+S CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:537
+msgid "Scan disk from I<PATH> and place relative paths in a relative treedata file.  This file is used by the B<-n> and B<+n> options of wcd. E.g. C<wcd -n PATH src>."
+msgstr "Varre o disco a partir de I<CAMINHO> e coloca caminhos relativos em um arquivo de dados de árvore relativos. Esse arquivo é usado pelas opções B<-n> e B<+n> do wcd. Por exemplo, C<wcd -n CAMINHO src>."
+
+#. type: =item
+#: wcd.pod:541
+msgid "B<-t>"
+msgstr "B<-t>"
+
+#. type: textblock
+#: wcd.pod:543
+msgid "Do not strip tmp mount dir C</tmp_mnt> (Unix only)"
+msgstr "Não remove o diretório de montagem temporário C</tmp_mnt> (Unix apenas)"
+
+#. type: textblock
+#: wcd.pod:545
+msgid "Wcd strips by default C</tmp_mnt/> from the match. Directory C</tmp_mnt> is used by the auto-mounter. This behaviour can be turned off with the B<-t> option."
+msgstr "Wcd remove por padrão C</tmp_mnt/> da lista de correspondência. O diretório C</tmp_mnt> é usado pelo montador automático. Esse comportamento pode ser desativado com a opção B<-t>."
+
+#. type: =item
+#: wcd.pod:549
+msgid "B<-T, --ascii-tree>"
+msgstr "B<-T, --ascii-tree>"
+
+#. type: textblock
+#: wcd.pod:551
+msgid "Draw tree with ASCII characters. Use this option if line drawing characters are not displayed properly in your terminal."
+msgstr "Desenha a árvore com caracteres ASCII. Use essa opção se os caracteres de desenho de linha não forem exibidos adequadamente em seu terminal."
+
+#. type: =item
+#: wcd.pod:554
+msgid "B<-Ta, --alt-tree-nav>"
+msgstr "B<-Ta, --alt-tree-nav>"
+
+#. type: textblock
+#: wcd.pod:556
+msgid "Alternative way of navigation in the graphical tree."
+msgstr "Forma alternativa de navegação na árvore gráfica."
+
+#. type: textblock
+#: wcd.pod:558
+msgid "In the default NCD style tree layout the B<-Ta> option disables jumping to unrelated directories."
+msgstr "No layout de árvore de estilo padrão do NCD a opção B<-Ta> desabilita pular para diretórios não relacionados."
+
+#. type: textblock
+#: wcd.pod:561
+msgid "In compact tree mode the alternative mode makes navigation similar to navigation in GUI file managers such as Windows Explorer or Linux KDE Konqueror. Pressing Up and Down moves the selected folder one line up or down. Pressing Left first folds the sub-folders and the next move left moves really left."
+msgstr "No modo de árvore compacta, o modo alternativo faz navegação similar à dos gerenciadores de arquivo GUI como o Windows Explorer ou Linux KDE Konqueror. Pressionar Cima e Baixo move a pasta selecionada uma linha para cima ou para baixo. Pressionar Esquerda primeiro dobra as subpastas e o próximo movimento para Esquerda realmente move para esquerda."
+
+#. type: textblock
+#: wcd.pod:567
+msgid "You can switch on-the-fly between default and alternative navigation by pressing <Shift-A>."
+msgstr "Você alternar em tempo real entre a navegação padrão e alternativa pressionando <Shift-A>."
+
+#. type: textblock
+#: wcd.pod:570
+msgid "When alternative navigation mode is on, you will see an \"A\" in the lower right corner."
+msgstr "Quando o modo de navegação alternativa estiver ativado, você verá um \"A\" no canto inferior direito."
+
+#. type: =item
+#: wcd.pod:572
+msgid "B<-TC, --center-tree>"
+msgstr "B<-TC, --center-tree>"
+
+#. type: textblock
+#: wcd.pod:574
+msgid "Centered view in the graphical tree. The selected directory stays in the middle of the screen. The centered mode can also be switched on and off with key <t> in the graphical tree."
+msgstr "Visão centralizada na árvore gráfica. O diretório selecionado se mantém no meio da tela. O modo centralizado também pode ser ativado e desativado com a tecla <t> na árvore gráfica."
+
+#. type: textblock
+#: wcd.pod:578
+msgid "The standard non-centered behaviour, which minimises tree movement, is the same as in the original NCD."
+msgstr "O comportamento padrão não centralizado, que minimiza o movimento de árvore, é o mesmo que no NCD original."
+
+#. type: =item
+#: wcd.pod:581
+msgid "B<-Tc, --compact-tree>"
+msgstr "B<-Tc, --compact-tree>"
+
+#. type: textblock
+#: wcd.pod:583
+msgid "By default the 'graphical' tree is drawn the same way as the original NCD on DOS did it. On DOS a directory path could only be 66 characters in total. With the deep directory structures of today the tree can become very wide. To overcome this wcd can draw the tree in a compact way, similar to most GUI file managers, with only one folder per line. Use option B<-Tc> or switch on-the-fly with the <m> key."
+msgstr "Por padrão, a árvore \"gráfica\" é desenhada da mesma forma que o NCD original no DOS. No DOS, um caminho de diretório só poderia ter 66 caracteres no total. Com as estruturas de diretório profundas de hoje, a árvore pode se tornar bem ampla. Para superar isso, wcd pode desenhar a árvore em uma forma compacta, similar a maioria dos gerenciadores de arquivos GUI, com apenas uma pasta por linha. Use a opção B<-Tc> ou alterne em tempo real com a chave <m>."
+
+#. type: =item
+#: wcd.pod:590
+msgid "B<-Td, --cjk-width>"
+msgstr "B<-Td, --cjk-width>"
+
+#. type: textblock
+#: wcd.pod:592
+msgid "Legacy East-Asian CJK (Chinese, Japanese, and Korean) fonts have certain characters and line drawing symbols with a column width of 2, while the normal Unicode width for these characters is 1 column. For instance the Chinese CP936 raster font on Windows and the Simsun font. Use this option for a correct outlining of the graphical tree when a legacy CJK font is used."
+msgstr "Fontes CJK (chinês, japonês e coreano) legadas da Ásia Oriental possuem certos caracteres e símbolos de desenho de linha com uma largura de coluna de 2, enquanto a largura normal do Unicode para esses caracteres é 1 coluna. Por exemplo, a fonte raster chinesa CP936 no Windows e a fonte Simsun. Use essa opção para um traçado correto da árvore gráfica quando uma fonte CJK legada é usada."
+
+#. type: textblock
+#: wcd.pod:598
+msgid "When CJK mode is on, you will see a \"C\" in the lower right corner."
+msgstr "Quando o modo CJK estiver ativado, você verá um \"C\" no canto inferior direito."
+
+#. type: =item
+#: wcd.pod:600
+msgid "B<-u USER>"
+msgstr "B<-u USUÁRIO>"
+
+#. type: textblock
+#: wcd.pod:602
+msgid "Scan treedata file of another user based on I<USER>, do not scan your own default treedata file. See also section ENVIRONMENT VARIABLES for I<WCDUSERSHOME>."
+msgstr "Varre o arquivo de dados de árvore de outro usuário baseado em I<USUÁRIO> em vez de varrer o próprio arquivo de dados de árvore padrão. Veja também a seção VARIÁVEIS DE AMBIENTE por I<WCDUSERSHOME>."
+
+#. type: textblock
+#: wcd.pod:605
+msgid "On Unix/Cygwin the base directory for user home directories is assumed to be C</home>. Wcd will look for C</home/USER/.treedata.wcd> and C</home/USER/.wcd/.treedata.wcd>, in that order, and read the first one that exists and is readable.  On DOS/Windows the base directory for user home directories is assumed to be C<\\\\users>, so wcd tries to read C<\\\\users\\USER\\treedata.wcd> and C<\\\\users\\USER\\.wcd\\treedata.wcd>."
+msgstr "No Unix/Cygwin, o diretório base para diretórios home de usuários é presumido ser C</home>. Wcd vai procurar por C</home/USUÁRIO/.treedata.wcd> e C</home/USUÁRIO/.wcd/.treedata.wcd>, naquela ordem, e lê a primeira que existe e é legível. No DOS/Windows, o diretório base para diretórios home de usuários é presumido ser C<\\\\users>, então o wcd tenta ler C<\\\\users\\USUÁRIO\\treedata.wcd> e C<\\\\users\\USUÁRIO\\.wcd\\treedata.wcd>."
+
+#. type: =item
+#: wcd.pod:613
+msgid "B<+u USER>"
+msgstr "B<+u USUÁRIO>"
+
+#. type: textblock
+#: wcd.pod:615
+msgid "Read default treedata file of USER in addition to your own treedata file."
+msgstr "Lê o arquivo de dados de árvore padrão do USUÁRIO, além do próprio arquivo de dados de árvore."
+
+#. type: =item
+#: wcd.pod:618
+msgid "B<-v, --verbose>"
+msgstr "B<-v, --verbose>"
+
+#. type: textblock
+#: wcd.pod:620
+msgid "Display verbose messages. With this option wcd prints all filters, bans and excludes."
+msgstr "Exibe mensagens verbosas. Com essa opção, wcd exibe todos os filtros, banimentos e exclusões."
+
+#. type: =item
+#: wcd.pod:623
+msgid "B<-V, --version>"
+msgstr "B<-V, --version>"
+
+#. type: textblock
+#: wcd.pod:625
+msgid "Print version information and exit."
+msgstr "Exibe informações da versão e sai."
+
+#. type: =item
+#: wcd.pod:627
+msgid "B<-w, --wild-match-only>"
+msgstr "B<-w, --wild-match-only>"
+
+#. type: textblock
+#: wcd.pod:629
+msgid "Wild matching only. Treat all matches as wild matches."
+msgstr "Correspondência curinga, apenas. Trata todas as correspondências como correspondências curingas."
+
+#. type: =item
+#: wcd.pod:631
+msgid "B<-x PATH>"
+msgstr "B<-x CAMINHO>"
+
+#. type: textblock
+#: wcd.pod:633
+msgid "Exclude I<PATH> from scanning."
+msgstr "Exclui I<CAMINHO> da varredura."
+
+#. type: textblock
+#: wcd.pod:635
+msgid "When this option is used wcd will exclude I<PATH> and all its subdirectories when wcd is scanning a disk. Wildcards are supported and matched against absolute paths. Option B<-x> can be used multiple times."
+msgstr "Quando essa opção é usada, wcd vai excluir I<CAMINHO> e todos seus subdiretórios quando wcd está varrendo um disco. Há suporte a caracteres curingas, os quais são correspondidos com os caminhos absolutos. A opção B<-x> pode ser usado múltiplas vezes."
+
+#. type: verbatim
+#: wcd.pod:639
+#, no-wrap
+msgid ""
+"    wcd -x <path1> -x <path2> -s\n"
+"\n"
+msgstr ""
+"    wcd -x <caminho1> -x <caminho2> -s\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:641
+msgid "Option B<-x> must be used in front of any scan option (B<-s>, B<-S>, B<+S>, B<-A>, B<-E>)."
+msgstr "A opção B<-x> deve ser usada na frente da qualquer opção de varredura (B<-s>, B<-S>, B<+S>, B<-A>, B<-E>)."
+
+#. type: textblock
+#: wcd.pod:645
+msgid "On DOS/Windows systems one must specify the drive letter depending on if environment variable I<HOME> or I<WCDHOME> is set. If I<HOME> or I<WCDHOME> is set one needs to specify the drive letter. An example:"
+msgstr "Em sistemas DOS/Windows, deve-se especificar a letra da unidade dependendo de se a variável de ambiente I<HOME> ou I<WCDHOME> está definida. Se I<HOME> ou I<WCDHOME> estiver definida, é necessário especificar a letra da unidade. Um exemplo:"
+
+#. type: verbatim
+#: wcd.pod:649
+#, no-wrap
+msgid ""
+"    wcd -x c:/temp -S c:\n"
+"\n"
+msgstr ""
+"    wcd -x c:/temp -S c:\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:651
+msgid "Otherwise do not specify drive letter."
+msgstr "Do contrário, não especifique a letra da unidade."
+
+#. type: verbatim
+#: wcd.pod:653
+#, no-wrap
+msgid ""
+"    wcd -x /temp -s\n"
+"\n"
+msgstr ""
+"    wcd -x /temp -s\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:656
+msgid "B<-xf FILE>"
+msgstr "B<-xf ARQUIVO>"
+
+#. type: textblock
+#: wcd.pod:658
+msgid "Exclude all paths listed in I<FILE> from scanning."
+msgstr "Exclui todos caminhos listados no I<ARQUIVO> da varredura."
+
+#. type: textblock
+#: wcd.pod:660
+msgid "When this option is used wcd will exclude all paths listed in I<FILE> and all their subdirectories when wcd is scanning a disk. Wildcards are supported and they are matched against absolute paths; one path per line. Be aware that wcd will not ignore leading or trailing blanks on a line, because they are legal characters in a directory name. Option B<-xf> can be used multiple times. When one wants to exclude all banned paths from scanning one can do the following (example for wcd on unix):"
+msgstr "Quando essa opção é usada, wcd vai excluir todos os caminhos listados no I<ARQUIVO> e todos seus subdiretórios quando o wcd estiver varrendo um disco. Há suporte a caracteres curingas, os quais são correspondidos com os caminhos absolutos; um caminho por linha. Esteja ciente que wcd não vai ignorar espaços em brancos no início ou fim de uma linha, porque eles são caracteres legais em um nome de diretório. A opção B<-xf> pode ser usado múltiplas vezes. Quando se deseja excluir todos os caminhos banidos da varredura, pode-se fazer o seguinte (exemplo para wcd no Unix):"
+
+#. type: verbatim
+#: wcd.pod:668
+#, no-wrap
+msgid ""
+"    wcd -xf ~/.ban.wcd -s\n"
+"\n"
+msgstr ""
+"    wcd -xf ~/.ban.wcd -s\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:670
+msgid "Wildcards are supported. For instance to exclude all your Subversion directories with administrative files add a line with C<*/.svn>."
+msgstr "Há suporte a caracteres curingas. Por exemplo, para excluir todos os seus diretórios Subversion com arquivos administrativos, adicione uma linha com C<*/.svn>."
+
+#. type: textblock
+#: wcd.pod:673
+msgid "Option B<-xf> must be used in front of any scan option (B<-s>, B<-S>, B<+S>, B<-A>, B<-E>)."
+msgstr "A opção B<-xf> deve ser usada na frente da qualquer opção de varredura (B<-s>, B<-S>, B<+S>, B<-A>, B<-E>)."
+
+#. type: =item
+#: wcd.pod:676
+msgid "B<-y, --assume-yes>"
+msgstr "B<-y, --assume-yes>"
+
+#. type: textblock
+#: wcd.pod:678
+msgid "Assume Yes on all queries."
+msgstr "Presume \"Sim\" para todas as perguntas."
+
+#. type: textblock
+#: wcd.pod:680
+msgid "Wcd will not prompt the user with yes/no questions, but assumes the user answers yes on all questions. This can be used in combination with option B<-rmtree>. This option must be used in front of options that can lead to yes/no questions."
+msgstr "Wcd não vai consultar o usuário com perguntas de sim/não, mas presume que o usuário responde sim em todas as perguntas. Isso pode ser usado em combinação com a opção B<-rmtree>. Essa opção deve ser usada na frente das opções que podem levar a perguntas sim/não."
+
+#. type: =item
+#: wcd.pod:685
+msgid "B<-z NUMBER>"
+msgstr "B<-z NÚMERO>"
+
+#. type: textblock
+#: wcd.pod:687
+msgid "Set maximum stack size to NUMBER."
+msgstr "Define um tamanho mínimo da pilha com NÚMERO."
+
+#. type: textblock
+#: wcd.pod:689
+msgid "The default size of the stack is 10. Stack operation can be turned off by setting the size to 0. This option must be used in front of any other stack operations (B<->,B<+>,B<=>). Otherwise the size of the stack will be set back to the default 10."
+msgstr "O tamanho padrão da pilha é 10. Operação de pilha pode ser desativado ao definir o tamanho com 0. Essa opção deve ser usada na frente de qualquer outra operação de pilha (B<->,B<+>,B<=>). Do contrário, o tamanho da pilha será definido de volta para o padrão 10."
+
+#. type: textblock
+#: wcd.pod:694
+msgid "A correct command is:"
+msgstr "O comando correto é:"
+
+#. type: verbatim
+#: wcd.pod:696
+#, no-wrap
+msgid ""
+"    wcd -z 50 -\n"
+"\n"
+msgstr ""
+"    wcd -z 50 -\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:698
+msgid "The new stack size will be 50, wcd will go one directory back. A wrong command is:"
+msgstr "O novo tamanho de pulha será 50, wcd irá uma diretório para trás. Um comando errado é:"
+
+#. type: verbatim
+#: wcd.pod:701
+#, no-wrap
+msgid ""
+"    wcd - -z 50\n"
+"\n"
+msgstr ""
+"    wcd - -z 50\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:703
+msgid "Wcd goes one directory back, the stack gets the default size 10. The B<-z 50> is ignored."
+msgstr "Wcd vai um diretório para trás, a pilha obtém o tamanho padrão 10. O B<-z 50> é ignorado."
+
+#. type: textblock
+#: wcd.pod:706
+msgid "Add this option as the first option to your wcd alias or function. E.g.  for the a POSIX compatible shell this would be:"
+msgstr "Adicione essa opção como a primeira opção a seu alias ou função de wcd. Por exemplo, para um shell compatível com POSIX, isso seria:"
+
+#. type: verbatim
+#: wcd.pod:709
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"\twcd.exe -z 50 \"$@\"\n"
+"\t. ${WCDHOME:-${HOME}}/bin/wcd.go\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"\twcd.exe -z 50 \"$@\"\n"
+"\t. ${WCDHOME:-${HOME}}/bin/wcd.go\n"
+"    }\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:715
+msgid "B<-[NUMBER]>"
+msgstr "B<-[NÚMERO]>"
+
+#. type: textblock
+#: wcd.pod:717
+msgid "Push dir NUMBER of times. Default is one."
+msgstr "Adiciona diretório NÚMERO de vezes. O padrão é um."
+
+#. type: textblock
+#: wcd.pod:719
+msgid "Go back a directory. Command C<wcd -> goes one directory back. To go more directories back add a number to it. E.g. command C<wcd -3>. The stack is cyclic."
+msgstr "Volta um diretório. O comando C<wcd -> volta apenas um diretório. Para voltar mais diretórios, adicione um número. Por exemplo, o comando C<wcd -3>. A pilha é cíclica."
+
+#. type: =item
+#: wcd.pod:723
+msgid "B<+[NUMBER]>"
+msgstr "B<+[NÚMERO]>"
+
+#. type: textblock
+#: wcd.pod:725
+msgid "Pop dir NUMBER of times. Default is one."
+msgstr "Retira diretório NÚMERO de vezes. O padrão é um."
+
+#. type: textblock
+#: wcd.pod:727
+msgid "Go forward a directory. Command C<wcd +> goes one directory forward. To go more directories forward add a number to it. E.g. command C<wcd +2>. The stack is cyclic."
+msgstr "Avança um diretório. O comando C<wcd +> avança apenas um diretório. Para avançar mais diretórios, adicione um número. Por exemplo, o comando C<wcd +2>. A pilha é cíclica."
+
+#. type: =item
+#: wcd.pod:731
+msgid "B<=>"
+msgstr "B<=>"
+
+#. type: textblock
+#: wcd.pod:733
+msgid "Show stack."
+msgstr "Mostra a pilha."
+
+#. type: textblock
+#: wcd.pod:735
+msgid "Use this option if you do not know anymore how many times to push or pop.  The stack is printed and you can choose a number. The current place in the stack is marked with an asterisk C<*>."
+msgstr "Use essa opção se você não sabe mais quantas vezes adicionar ou retirar. A pilha é exibida e você pode escolher um número. O lugar atual na pilha é marcado com um asterisco C<*>."
+
+#. type: =head1
+#: wcd.pod:741
+msgid "INSTALLATION"
+msgstr "INSTALAÇÃO"
+
+#. type: textblock
+#: wcd.pod:743
+msgid "The current working directory of a Unix shell can only be changed by the builtin cd(1) command. Therefore the program is always called by a function or an alias. The function or alias sources a shell script (go-script) which is generated by the wcd program. Wcd can only work after the function or alias is defined."
+msgstr "O diretório de trabalho atual de um shell do Unix só pode ser mudado pelo comando embarcado cd(1). Portanto, o programa é sempre chamado por uma função ou um alias. A função ou alias serve de fonte para um script shell (go-script) que é gerado pelo programa wcd. Wcd só pode funcionar após a função ou o alias ser definido."
+
+#. type: textblock
+#: wcd.pod:749
+msgid "Another important influence on your installation is the definition of environment variables I<HOME> and I<WCDHOME>. See section ENVIRONMENT VARIABLES."
+msgstr "Uma outra influência importante em sua instalação é a definição de variáveis de ambiente I<HOME> e I<WCDHOME>. Veja a seção VARIÁVEIS DE AMBIENTE."
+
+#. type: =head2
+#: wcd.pod:753
+msgid "Install for POSIX type shells"
+msgstr "Instalação para shells de tipo POSIX"
+
+#. type: textblock
+#: wcd.pod:755
+msgid "For a POSIX shell (ksh, bash, zsh, etc.) on Unix, Linux, Cygwin, or native MSYS add the following function to the shell startup file (e.g. Bash uses C<$HOME/.bashrc>):"
+msgstr "Para um shell POSIX (ksh, bash, zsh etc.) no Unix, Linux, Cygwin ou MSYS nativo, adicione a seguinte função ao arquivo de inicialização do shell (ex.: Bash usa C<$HOME/.bashrc>):"
+
+#. type: verbatim
+#: wcd.pod:759
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"        PATH/wcd.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME}}/bin/wcd.go\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"        CAMINHO/wcd.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME}}/bin/wcd.go\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:765
+msgid "Replace I<PATH> with the location where the wcd executable has been installed. Reload the shell initialization files or start new shell."
+msgstr "Substitua I<CAMINHO> com a localização onde o executável wcd foi instalado. Recarregue os arquivos de inicialização do shell ou inicie o novo shell."
+
+#. type: textblock
+#: wcd.pod:768
+msgid "The location of the go-script C<wcd.go> differs per shell."
+msgstr "A localização do go-script C<wcd.go> se difere por shell."
+
+#. type: textblock
+#: wcd.pod:770
+msgid "Wcd for DJGPP DOS bash and OS/2 bash require a different function. The go script is not written in a directory C<bin>, and if I<WCDHOME> and I<HOME> are both not defined the go-script is written on c:/."
+msgstr "Wcd para bash de DOS do DJGPP e bash de OS/2 exige uma função diferente. O go-script não é escrito em um diretório C<bin>, e se I<WCDHOME> e I<HOME> não estão definidos, o go-script é escrito no c:/."
+
+#. type: textblock
+#: wcd.pod:774
+msgid "DOS bash:"
+msgstr "Bash de DOS:"
+
+#. type: verbatim
+#: wcd.pod:776
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"        PATH/wcdbash.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME:-\"c:\"}}/wcd.go\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"        CAMINHO/wcdbash.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME:-\"c:\"}}/wcd.go\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:782
+msgid "OS/2 bash:"
+msgstr "Bash de OS/2:"
+
+#. type: verbatim
+#: wcd.pod:784
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"        PATH/wcdos2bash.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME:-\"c:\"}}/wcd.go\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"        CAMINHO/wcdos2bash.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME:-\"c:\"}}/wcd.go\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:790
+msgid "The WinZsh version of wcd requires a bit different function. The go-script will never be written in c:/."
+msgstr "A versão WinZsh do wcd exige uma função um pouco diferente. O go-script nunca vai ser escrito no c:/."
+
+#. type: verbatim
+#: wcd.pod:793
+#, no-wrap
+msgid ""
+"    wcd ()\n"
+"    {\n"
+"        PATH/wcdwin32zsh.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME}}/wcd.go\n"
+"    }\n"
+"\n"
+msgstr ""
+"    wcd ()\n"
+"    {\n"
+"        CAMINHO/wcdwin32zsh.exe \"$@\"\n"
+"        . ${WCDHOME:-${HOME}}/wcd.go\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:799
+msgid "See section FILES for more information."
+msgstr "Veja a seção ARQUIVOS para mais informações."
+
+#. type: =head2
+#: wcd.pod:801
+msgid "Install for C-alike shells (csh, tcsh)"
+msgstr "Instalação para shells parecidos com C (csh, tcsh)"
+
+#. type: textblock
+#: wcd.pod:803
+msgid "Add the following alias to the shell startup file C<$HOME/.cshrc> or C<$HOME/.tcshrc> :"
+msgstr "Adicione o seguinte alias para o arquivo de inicialização de shell C<$HOME/.cshrc> ou C<$HOME/.tcshrc> :"
+
+#. type: verbatim
+#: wcd.pod:806
+#, no-wrap
+msgid ""
+"    if ( ${?WCDHOME} ) then\n"
+"        alias wcd \"PATH/wcd.exe \\!* ; source $WCDHOME/bin/wcd.go\"\n"
+"    else\n"
+"        alias wcd \"PATH/wcd.exe \\!* ; source $HOME/bin/wcd.go\"\n"
+"    endif\n"
+"\n"
+msgstr ""
+"    if ( ${?WCDHOME} ) then\n"
+"        alias wcd \"CAMINHO/wcd.exe \\!* ; source $WCDHOME/bin/wcd.go\"\n"
+"    else\n"
+"        alias wcd \"CAMINHO/wcd.exe \\!* ; source $HOME/bin/wcd.go\"\n"
+"    endif\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:812
+msgid "Replace I<PATH> with the location where the wcd executable has been installed.  Reload the shell initialization files or start a new shell."
+msgstr "Substitua I<CAMINHO> com a localização onde o executável wcd foi instalado. Recarregue os arquivos de inicialização do shell ou inicie um novo shell."
+
+#. type: =head2
+#: wcd.pod:816
+msgid "Windows Command Prompt version"
+msgstr "Versão para Prompt de Comando do Windows"
+
+#. type: textblock
+#: wcd.pod:818
+msgid "Unpack the zip file and add directory C<bin> to your environment variable I<PATH>."
+msgstr "Descompacte o arquivo zip e adicione o diretório C<bin> à sua variável de ambiente I<PATH>."
+
+#. type: textblock
+#: wcd.pod:821
+msgid "In Windows Command Prompt a Windows program cannot change the current work directory, but a .bat file can. The batch script C<wcd.bat> runs the wcd program which generates a new batch script C<wcdgo.bat>. Then C<wcd.bat> runs C<wcdgo.bat> which actually changes the directory."
+msgstr "No Prompt de Comando do Windows, um programa Windows não pode mudar o diretório de trabalho atual, mas um arquivo .bat pode. O script batch C<wcd.bat> executa o programa que gera um novo script batch C<wcdgo.bat>. Então, C<wcd.bat> executa C<wcdgo.bat> que, finalmente, muda o diretório."
+
+#. type: =head2
+#: wcd.pod:826
+msgid "Windows VISTA and higher"
+msgstr "Windows VISTA ou maios novo"
+
+#. type: textblock
+#: wcd.pod:828
+msgid "In a Windows VISTA and higher Command Prompt you may have limited access to directories. To get access to more directories you need administrator rights. You can get a Command Prompt with administrator rights if you right click on the Command Prompt icon and select I<Run as administrator>."
+msgstr "Em um Prompt de Comando do Windows VISTA, ou mais novo, você pode ter acesso limitado aos diretórios. Para obter acesso a mais diretórios você precisa de permissões administrativas. Você pode obter um Prompt de Comando com permissões administrativas se você clicar com botão direito do mouse no ícone do Prompt de Comando e selecionar I<Executar como administrador>."
+
+#. type: =head2
+#: wcd.pod:833
+msgid "Windows PowerShell version"
+msgstr "Versão para PowerShell do Windows"
+
+#. type: textblock
+#: wcd.pod:835
+msgid "Add the following function to your PowerShell user profile. The location of this profile is stored in the $profile variable. It is required that one of the environment variables I<HOME> or I<WCDHOME> is defined."
+msgstr "Adicione a seguinte função a seu perfil de usuário PowerShell. A localização deste perfil é armazenada na variável $profile. É necessário que uma das variáveis de ambiente I<HOME> ou I<WCDHOME> esteja definida."
+
+#. type: verbatim
+#: wcd.pod:839
+#, no-wrap
+msgid ""
+"    function wcd\n"
+"    {\n"
+"        PATH\\wcdwin32psh.exe $args\n"
+"        & $env:HOME\\wcdgo.ps1\n"
+"    }\n"
+"\n"
+msgstr ""
+"    function wcd\n"
+"    {\n"
+"        CAMINHO\\wcdwin32psh.exe $args\n"
+"        & $env:HOME\\wcdgo.ps1\n"
+"    }\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:845
+msgid "Replace I<PATH> with the location where the wcd executable has been installed.  Start a new PowerShell. Wcd for PowerShell supports only the file system provider. No other providers."
+msgstr "Substitua I<CAMINHO> com a localização na qual o executável wcd foi instalado. Inicie um novo PowerShell. Wcd para PowerShell só oferece suporte ao provedor de sistema de arquivo. A nenhum outro provedor."
+
+#. type: =head2
+#: wcd.pod:849
+msgid "OS/2 Command Prompt version"
+msgstr "Versão de Prompt de Comando do OS/2"
+
+#. type: textblock
+#: wcd.pod:851
+msgid "In an OS/2 Command Prompt (cmd.exe) an OS/2-program can't change the current work directory. That is why wcd generates a command script C<wcdgo.cmd> which must be executed in the current shell. The script C<wcd.cmd> first executes C<wcdos2.exe>, which creates the C<wcdgo.cmd> script. Then C<wcd.cmd> executes the C<wcdgo.cmd> script."
+msgstr "Em um Prompt de Comando de OS/2 (cmd.exe), um programa do OS/2 não pode mudar o diretório de trabalho atual. É por isso que o wcd gera um script de comando C<wcdgo.cmd> que deve ser executado no shell atual. O script C<wcd.cmd> primeiro executa C<wcdos2.exe>, o qual cria o script C<wcdgo.cmd>. Então, C<wcd.cmd> executa o script C<wcdgo.cmd>."
+
+#. type: =head1
+#: wcd.pod:858
+msgid "LOCALIZATION"
+msgstr "LOCALIZAÇÃO"
+
+#. type: =item
+#: wcd.pod:862
+msgid "B<LANG>"
+msgstr "B<LANG>"
+
+#. type: textblock
+#: wcd.pod:864
+msgid "The primary language is selected with the environment variable I<LANG>. The I<LANG> variable consists out of several parts. The first part is in small letters the language code. The second one is optional and is the country code in capital letters, preceded with an underscore. There is also an optional third part: character encoding, preceded with a dot. A few examples for POSIX standard type shells:"
+msgstr "O idioma principal é selecionado com a variável de ambiente I<LANG>. A variável I<LANG> consiste em diversas partes. A primeira parte está em letras minúsculas do código do idiomas. A segunda é opcional e é o país do código em letras maiúsculas, precedida com um sublinhado. Há também uma terceira parte opcional: codificação de caracteres, precedida com um ponto. Alguns poucos exemplos para shells de tipo padrão POSIX:"
+
+#. type: verbatim
+#: wcd.pod:871
+#, no-wrap
+msgid ""
+"    export LANG=nl               Dutch\n"
+"    export LANG=nl_NL            Dutch, The Netherlands\n"
+"    export LANG=nl_BE            Dutch, Belgium\n"
+"    export LANG=es_ES            Spanish, Spain\n"
+"    export LANG=es_MX            Spanish, Mexico\n"
+"    export LANG=en_US.iso88591   English, USA, Latin-1 encoding\n"
+"\n"
+msgstr ""
+"    export LANG=nl               Holandês\n"
+"    export LANG=nl_NL            Holandês, Holanda\n"
+"    export LANG=nl_BE            Holandês, Bélgica\n"
+"    export LANG=es_ES            Espanhol, Espanha\n"
+"    export LANG=es_MX            Espanhol, México\n"
+"    export LANG=en_US.iso88591   Inglês, EUA, codificação Latin-1\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:878
+msgid "For a complete list of language and country codes see the gettext(1)  manual: L<http://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes> On Unix systems you can use to command locale(1) to get locale specific information."
+msgstr "Para uma lista completa de códigos de idioma e país, veja o manual do gettext(1): L<http://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes> Em sistemas Unix, você pode usar o comando locale(1) para obter informações específicas de localidade."
+
+#. type: =item
+#: wcd.pod:884
+msgid "B<LANGUAGE>"
+msgstr "B<LANGUAGE>"
+
+#. type: textblock
+#: wcd.pod:886
+msgid "With the I<LANGUAGE> environment variable you can specify a priority list of languages, separated by colons. Wcd gives preference to I<LANGUAGE> over I<LANG>. For instance, first Dutch and then German: C<LANGUAGE=nl:de>. You have to first enable localization, by setting I<LANG> or I<LC_ALL> to a value other than I<C>, before you can use a language priority list through the I<LANGUAGE> variable. See also the gettext(1) manual: L<http://www.gnu.org/software/gettext/manual/gettext.html#The-LANGUAGE-variable>"
+msgstr "Coma a variável de ambiente I<LANGUAGE> você pode especificar uma lista de prioridade de idiomas, separada por caracteres de dois pontos. Wcd dá preferência a I<LANGUAGE> sobre I<LANG>. Por exemplo, primeiro holandês e depois alemão: C<LANGUAGE=nl:de>. Você tem que primeiro habilitar a localização, definindo I<LANG> ou I<LC_ALL> para um outro valor além de I<C>, antes que você possa usar uma lista de prioridade de idiomas por meio da variável I<LANGUAGE>. Veja também o manual do gettext (1): L<http://www.gnu.org/software/gettext/manual/gettext.html#The-LANGUAGE-variable>"
+
+#. type: textblock
+#: wcd.pod:894
+msgid "If you select a language which is not available you will get the standard English messages."
+msgstr "Se você selecionou um idioma que não está disponível, você terá as mensagens padrões em inglês."
+
+#. type: =item
+#: wcd.pod:897
+msgid "B<WCDLOCALEDIR>"
+msgstr "B<WCDLOCALEDIR>"
+
+#. type: textblock
+#: wcd.pod:899
+msgid "With the environment variable I<WCDLOCALEDIR> the I<LOCALEDIR> used during compilation and installation of wcd can be overruled. I<LOCALEDIR> is used by wcd with native language support to find the language files. The GNU default value is C</usr/local/share/locale>. By typing C<wcd -V> wcd will print the I<LOCALEDIR> that is used."
+msgstr "Com a variável de ambiente I<WCDLOCALEDIR>, o valor de I<LOCALEDIR> usado durante a compilação e instalação de wcd pode ser sobreposto. I<LOCALEDIR> é usado pelo wcd com suporte nativo a idioma para localizar os arquivos de idioma. O valor padrão do GNU é C</usr/local/share/locale>. Ao digitar C<wcd -V>, wcd vai exibir o I<LOCALEDIR> que é usado."
+
+#. type: textblock
+#: wcd.pod:905
+msgid "If you have installed wcd in a different directory than the default directory you may need to set the environment variable I<WCDLOCALEDIR> to point to the locale directory."
+msgstr "Se você instalou o wcd em um diretório diferente do diretório padrão, você pode precisar definir a variável de ambiente I<WCDLOCALEDIR> para apontar para o diretório da localidade."
+
+#. type: textblock
+#: wcd.pod:910
+msgid "An example for Windows cmd:"
+msgstr "Um exemplo para cmd do Windows:"
+
+#. type: verbatim
+#: wcd.pod:912
+#, no-wrap
+msgid ""
+"    set WCDLOCALEDIR=c:/my_prefix/share/locale\n"
+"\n"
+msgstr ""
+"    set WCDLOCALEDIR=c:/meu_prefixo/share/locale\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:915
+msgid "An example for a POSIX shell:"
+msgstr "Um exemplo para shell POSIX:"
+
+#. type: verbatim
+#: wcd.pod:917
+#, no-wrap
+msgid ""
+"    export WCDLOCALEDIR=$HOME/share/locale\n"
+"\n"
+msgstr ""
+"    export WCDLOCALEDIR=$HOME/share/locale\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:919
+msgid "B<LC_COLLATE>"
+msgstr "B<LC_COLLATE>"
+
+#. type: textblock
+#: wcd.pod:921
+msgid "When there are multiple directory matches wcd presents a sorted list. The sorting depends on the locale settings. If the environment I<LANG> has been set the matches are sorted like dictionaries or phone books are sorted in that language. For instance dots and dashes are ignored, or letters e with and without accent are equal, or upper and lower case is ignored."
+msgstr "Quando há múltiplas correspondências de diretório, wcd apresenta uma lista ordenada. As ordenação de dependências nas configurações de localidade. Se a variável de ambiente I<LANG> foi definida, as correspondências são ordenadas como dicionários ou agendas telefônicas são ordenadas naquele idioma. Por exemplo, pontos e traços são ignorados, ou letras \"e\" com e sem acento são iguais, ou a diferença entre minúsculo e maiúsculo é ignorada."
+
+#. type: textblock
+#: wcd.pod:927
+msgid "The sorting gives preference to environment variable I<LC_COLLATE> over I<LANG>. If you make I<LC_COLLATE> equal to C<C> or C<POSIX>, locale sorting is turned off. For instance if you want Dutch language, but not Dutch sorting, you can do something like this:"
+msgstr "A ordenação dá preferência para a variável de ambiente I<LC_COLLATE> sobre I<LANG>. Se você definir I<LC_COLLATE> com valor C<C> ou C<POSIX>, a ordenação de localidade é desativada. Por exemplo, se você deseja o idioma holandês, mas não deseja a ordenação holandesa, você pode fazer algo como isso:"
+
+#. type: verbatim
+#: wcd.pod:932
+#, no-wrap
+msgid ""
+"    export LANG=nl_NL\n"
+"    export LC_COLLATE=C\n"
+"\n"
+msgstr ""
+"    export LANG=nl_NL\n"
+"    export LC_COLLATE=C\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:935
+msgid "B<LC_CTYPE>"
+msgstr "B<LC_CTYPE>"
+
+#. type: textblock
+#: wcd.pod:937
+msgid "With regard to character encoding Wcd will give preference to variable I<LC_CTYPE> over I<LANG>. For instance to set character encoding to UTF-8 the following environment setting can be done."
+msgstr "Em relação à codificação de caracteres, wcd vai dar preferência à variável I<LC_CTYPE> sobre I<LANG>. Por exemplo, para definir a codificação de caracteres para UTF-8, a definição da seguinte variável de ambiente pode ser feita."
+
+#. type: verbatim
+#: wcd.pod:941
+#, no-wrap
+msgid ""
+"    export LC_CTYPE=en_US.UTF-8\n"
+"\n"
+msgstr ""
+"    export LC_CTYPE=en_US.UTF-8\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:943
+msgid "B<LC_ALL>"
+msgstr "B<LC_ALL>"
+
+#. type: textblock
+#: wcd.pod:945
+msgid "All locale environment variables that start with I<LC_> are overruled by the environment variable I<LC_ALL> if it is defined. Wcd gives preference to I<LC_ALL> over I<LC_COLLATE> and I<LC_CTYPE>."
+msgstr "Todas as variáveis de ambiente de localidade que iniciam com I<LC_> são sobrepostas para variável de ambiente I<LC_ALL>, se estiver definida. Wcd dá preferência a I<LC_ALL> sobre I<LC_COLLATE> e I<LC_CTYPE>."
+
+#. type: =head2
+#: wcd.pod:951
+msgid "WINDOWS CODE PAGES"
+msgstr "PÁGINAS DE CÓDIGO DO WINDOWS"
+
+#. type: textblock
+#: wcd.pod:953
+msgid "There are two groups of code pages: DOS code pages (OEM) and Windows code pages (ANSI). The default encoding for Windows, when configured with Western regional settings, is ANSI CP1252. Windows programs, for instance notepad, use this default system ANSI code page. The Windows console uses by default an OEM code page (CP437 or CP850) for compatibility with DOS programs. If you use a DOS version of wcd in a Windows console it will work, because of the DOS code page.  But the DOS version of wcd lacks support for long directory names and network drives on Windows."
+msgstr "Há dois grupos de páginas de códigos: páginas de código DOS (OEM) e páginas de códigos Windows (ANSI). A codificação padrão do Windows, quando configurado com configurações regionais Western, é ANSI CP1252. Programas do Windows, como o bloco de notas, usam essa página de código ANSI padrão do sistema. O console do Windows usa por padrão uma página de código OEM (CP437 ou CP850) para compatibilidade com programas DOS. Se você usa uma versão DOS do wcd em um console Windows, ele vai funcionar por causa da página de código DOS. Mas a versão DOS do wcd carece de suporte a nomes de diretórios longos e unidades de rede no Windows."
+
+#. type: textblock
+#: wcd.pod:962
+msgid "The Windows version of wcd is a native Windows program and will use the Windows system ANSI code page. So on a Western regional Windows it will use code page CP1252 for directory names and messages. In order to get consistent output, independent of the active code page, all Windows versions of Wcd translate ANSI output to Unicode output in the Command Prompt and PowerShell."
+msgstr "A versão Windows do wcd é um programa nativo do Windows e vai usar a página de código ANSI de sistema Windows. Então, em um Windows com região Western, será usada a página de código CP1252 para nomes de diretório e mensagens. Para obter uma saída consistente, independente da página de código ativa, todas as versões Windows do wcd traduzem a saída ANSI para saída Unicode no Prompt de Comando e no PowerShell."
+
+#. type: textblock
+#: wcd.pod:968
+msgid "The console raster font only supports the original OEM code page installed with Windows, so you have to change the console's font to true type Lucida Console to make Unicode (and ANSI) letters appear correctly."
+msgstr "A fonte raster de console só oferece suporte à página de código OEM original instalada com Windows, então você terá que alterar a fonte de console para true type Console Lucida para fazer letras Unicode (e ANSI) aparecerem corretamente."
+
+#. type: textblock
+#: wcd.pod:972
+msgid "Non-Unicode versions of Wcd I<prior to version 5.2.0> use plain ANSI output.  For these older versions the code page of the console has to be made equal to the system code page (changed to 1252) to make wcd for Windows work properly with special characters such as accented characters or the Euro symbol."
+msgstr "Versões não Unicode do wcd I<anterior à versão 5.2.0> usam saída ANSI simples. Para essas versões antigas, a página de código do console tem que ser feita igual à página de código de sistema (alterada para 1252) para fazer wcd para Windows funcionar adequadamente com caracteres especiais como caracteres acentuados ou símbolo de Euro."
+
+#. type: textblock
+#: wcd.pod:977
+msgid "The Windows system code page can be changed via the Control Panel regional options. The Windows console code page is changed with the C<chcp> command."
+msgstr "A página de código de sistema do Windows pode ser alterada via as opções regionais no Painel de Controle. A página de código de console Windows é alterada com o comando C<chcp>."
+
+#. type: textblock
+#: wcd.pod:980
+msgid "When you type C<wcd -V>, the actual character encoding used by wcd is shown. Type the command C<chcp> to display the active code page of the Windows console."
+msgstr "Quando você digita C<wcd -V>, a codificação de caracteres usada por wcd é mostrada. Digite o comando C<chcp> para exibir a página de código ativa do console Windows."
+
+#. type: =head2
+#: wcd.pod:985
+msgid "UNICODE"
+msgstr "UNICODE"
+
+#. type: textblock
+#: wcd.pod:987
+msgid "Wcd has optional support for Unicode. To see if wcd was built with Unicode support type C<wcd -V>. If your terminal/console and font supports it, you should see the Euro symbol and Chinese characters (meaning: \"Chinese\")."
+msgstr "Wcd possui suporte opcional a Unicode. Para ver se wcd foi compilado com suporte a Unicode, digite C<wcd -V>. Se seu terminal/console e a fonte oferecem suporte a ele, você deve ver o símbolo de Euro e caracteres chineses."
+
+#. type: textblock
+#: wcd.pod:992
+msgid "Wcd has been I<soft> converted to Unicode. In its core wcd handles all data as a stream of bytes. Only the lines printed to screen are on the fly converted to Unicode wide characters. Wcd fully relies on libc functions and has no UTF-8 specific code. See also L<http://www.cl.cam.ac.uk/~mgk25/unicode.html>"
+msgstr "Wcd foi I<parcialmente> convertido em Unicode. Em seu núcleo, wcd lida com todos os dados como um fluxo de bytes. Apenas nas linhas exibidas na tela são convertidas para caracteres amplos Unicode. Wcd depende completamente das funções libc e não possui um código específico UTF-8. Veja também L<http://www.cl.cam.ac.uk/~mgk25/unicode.html>"
+
+#. type: textblock
+#: wcd.pod:998
+msgid "Wcd has optional support for Unicode matching with normalisation. To find out whether Wcd has normalisation support type C<wcd -V>.  Wcd with Unicode normalization support will match Unicode names based on I<compatible> equivalence. Without Unicode normalization support, names are matched when they are binary equivalent.  See also L<http://en.wikipedia.org/wiki/Unicode_normalization>"
+msgstr "Wcd possui suporte opcional a correspondência Unicode com normalização. Para descobrir se wcd possui suporte a normalização, digite C<wcd -V>. Wcd com suporte a normalização Unicode vai corresponder nomes Unicode baseados em equivalência I<compatível>. Sem suporte a normalização Unicode, nomes são correspondidos quando eles são equivalente binário. Veja também L<http://en.wikipedia.org/wiki/Unicode_normalization>"
+
+#. type: =head3
+#: wcd.pod:1005
+msgid "UTF-8 on Unix/Linux"
+msgstr "UTF-8 no Unix/Linux"
+
+#. type: textblock
+#: wcd.pod:1007
+msgid "In order to view UTF-8 characters your console/terminal also needs to support UTF-8. The xterm version that comes with XFree86 4.0 or higher includes UTF-8 support. To activate it, start xterm(1) in a UTF-8 locale and use a font with iso10646-1 encoding, for instance with"
+msgstr "Para ver caracteres UTF-8, seu console/terminal também precisa ter suporte a UTF-8. A versão xterm que vem com o XFree86 4.0 ou mais novo inclui suporte a UTF-8. Para ativá-lo, inicie xterm(1) em uma localidade UTF-8 e use uma fonte com codificação iso10646-1, por exemplo, com"
+
+#. type: verbatim
+#: wcd.pod:1012
+#, no-wrap
+msgid ""
+"    LC_CTYPE=en_GB.UTF-8 xterm -u8 -fn '-Misc-Fixed-Medium-R-SemiCondensed--13-120-75-75-C-60-ISO10646-1'\n"
+"\n"
+msgstr ""
+"    LC_CTYPE=en_GB.UTF-8 xterm -u8 -fn '-Misc-Fixed-Medium-R-SemiCondensed--13-120-75-75-C-60-ISO10646-1'\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1014
+msgid "Modern distributions of GNU/Linux support UTF-8 by default. Other multi-byte character encodings should also work, but that has not been tested."
+msgstr "Distribuições modernas do GNU/Linux oferecem suporte a UTF-8 por padrão. Outras codificações de caracteres multibyte também devem funcionar, mas isso ainda não foi testado."
+
+#. type: textblock
+#: wcd.pod:1017
+msgid "Wcd assumes that the treedata files are encoded in the locale character encoding. There are no Byte Order Marks written to treedata files."
+msgstr "Wcd presume que os arquivos de dados de árvore estejam codificados na codificação de caractere de localidade. Não há Marca de Ordem de Bytes (B.O.M.) escrita em arquivos de dados de árvore."
+
+#. type: =head3
+#: wcd.pod:1021
+msgid "UTF-16 on Windows"
+msgstr "UTF-16 no Windows"
+
+#. type: textblock
+#: wcd.pod:1023
+msgid "On Windows Unicode is supported in all versions of PowerShell, and in Windows Command Prompt on Windows 7 (or higher). Unicode also works in Take Command or TCC/LE made by JP Software, which can be used on older Windows versions (XP/Vista)."
+msgstr "No Windows, há suporte a Unicode em todas as versões do PowerShell e no Prompt de Comando do Windows 7 (ou mais novo). Unicode também funciona no Take Command, ou TCC/LE, feito pela JP Software, que pode ser usado em versões mais antigas do Windows (XP/Vista)."
+
+#. type: textblock
+#: wcd.pod:1028
+msgid "On Windows all the directory names on disk are encoded in UTF-16 Unicode.  For non-Unicode Windows programs the Unicode characters are translated to the default ANSI code page. For characters that are not part of the regional setting this translation is not possible and non-Unicode programs print a question mark or a wrong character instead."
+msgstr "No Windows, todos os nomes de diretórios no disco são codificados em Unicode UTF-16. Para programas não Unicode do Windows, os caracteres Unicode são traduzidos para a página de código ANSI padrão. Para caracteres que não são parte da configuração regional, essa tradução não é possível e programas não Unicode exibem uma interrogação ou um caractere errado."
+
+#. type: textblock
+#: wcd.pod:1034
+msgid "Wcd with Unicode support will read the UTF-16 encoded directory names and converts them internally to UTF-8. All treedata files are encoded in UTF-8 and not compatible with the non-Unicode version of Wcd. Wcd will create a go-script encoded in UTF-8."
+msgstr "Wcd com suporte a Unicode vai ler os nomes de diretórios codificados em UTF-16 e convertê-los internalmente em UTF-8. Todos os arquivos de dados de árvore são codificados em UTF-8 e não compatível com a versão não Unicode do wcd. Wcd não vai criar um go-script codificado em UTF-8."
+
+#. type: textblock
+#: wcd.pod:1039
+msgid "All versions of Windows PowerShell are able to run scripts encoded in UTF-8, provided there is an UTF-8 BOM in the script."
+msgstr "Todas as versões do PowerShell do Windows são capazes de executar scripts codificados em UTF-8, a menos que haja um BOM UTF-8 no script."
+
+#. type: textblock
+#: wcd.pod:1042
+msgid "Since Windows 7 it is possible in Windows Command Prompt to change directory with a batch script to a directory with Unicode letters in the name. The directory name needs to be encoded in UTF-8, and the batch script must I<not> have a BOM. The active code page of the Command Prompt needs to be set to 65001 (UTF-8) prior to the cd command. Wcd for Command Prompt will create such a go script C<wcdgo.bat>. It first changes the code page to 65001, then changes directory, and finally sets the code page back to the original code page."
+msgstr "Desde o Windows 7 é possível no Prompt de Comando do Windows para mudar diretório com um script batch para um diretório com letras Unicode no nome. O nome do diretório precisa ser codificado em UTF-8 e o script batch I<não> podem ter um BOM. A página de código ativo do Prompt de Comando precisa ser definido para 65001 (UTF-8) antes do comando cd. Wcd para Prompt de Comando vai criar um go-script C<wcdgo.bat>. Ele primeiro muda a página de código para 65001, depois muda o diretório e, ao final, define a página de código de volta para a original."
+
+#. type: textblock
+#: wcd.pod:1050
+msgid "You need to set the font to True Type Lucida Console (not raster font) when letters don't appear correctly."
+msgstr "Você precisa definir a fonte para True Type Lucida Console (fonte não raster) quando letras não aparecem corretamente."
+
+#. type: textblock
+#: wcd.pod:1053
+msgid "The non-Unicode Windows version of Wcd can read Unicode treedata files since version 5.2.0, provided there is a Byte Order Mark (BOM) in the file (see L<http://en.wikipedia.org/wiki/Byte_order_mark>), but it can't change to directories with Unicode letters in the name that are not part of the default system ANSI code page. The Unicode Windows version of wcd writes a BOM in the UTF-8 encoded treedata files since version 5.2.0, which makes them also readable by notepad."
+msgstr "A versão não Unicode Windows do wcd pode ler arquivos de dados de árvore Unicode desde a versão 5.2.0, desde que haja uma Marca de Ordem de Bytes (BOM) no arquivo (veja L<https://pt.wikipedia.org/wiki/Marca_de_ordem_de_byte>), mas ele não muda os diretórios com letras Unicode no nome que não são parte da página de código ANSI padrão do sistema. A versão Unicode Windows do wcd escreve um BOM nos arquivos de dados de árvore codificada em UTF-8 desde a versão 5.2.0, o que também os torna legível pelo notepad."
+
+#. type: =head3
+#: wcd.pod:1062
+msgid "UTF-8 on Cygwin"
+msgstr "UTF-8 no Cygwin"
+
+#. type: textblock
+#: wcd.pod:1064
+msgid "Cygwin supports Unicode since version 1.7. The Cygwin layer takes care that the Windows UTF-16 Unicode names are converted to UTF-8. So programs, like wcd, do not need to be aware of this and can operate using UTF-8 encoding as on Unix/Linux. Set character encoding to UTF-8 with the I<LANG> or I<LC_CTYPE> environment variable. You may need to rescan your drives. You need to set the font to True Type Lucida Console (not raster font) if you use the default Cygwin console."
+msgstr "Cygwin oferece suporte a Unicode desde a versão 1.7. A camada do Cygwin tem o cuidado para que os nomes Unicode UTF-16 do Windows sejam convertidos para UTF-8. Então os programas, como o wcd, não precisam estar cientes disto e podem operar usando codificação UTF-8 como no Unix/Linux. Defina a codificação de caracteres para UTF-8 com a variável de ambiente I<LANG> ou I<LC_CTYPE>. Você pode precisar varrer novamente suas unidades. Você precisa definir a fonte para True Type Lucida Console (fonte não raster) se você usa o console padrão do Cygwin."
+
+#. type: textblock
+#: wcd.pod:1072
+msgid "The Cygwin version behaves exactly as the Unix version of wcd.  There is no BOM written in the treedata files, and it is assumed they are encoded in the B<Cygwin> locale character encoding."
+msgstr "A versão Cygwin se comporta exatamente como a versão Unix do wcd. Não há BOM escrito nos arquivos de dados de árvore e ele presume que eles estejam codificados na codificação de caracteres de localidade do B<Cygwin>."
+
+#. type: =head1
+#: wcd.pod:1076
+msgid "FILES"
+msgstr "ARQUIVOS"
+
+#. type: textblock
+#: wcd.pod:1078
+msgid "If the environment variable I<WCDHOME> is set wcd will use I<WCDHOME> instead of I<HOME>. All C<*.wcd> files are text files. They can be edited with a text editor.  The Windows Command Prompt version of wcd behaves as the DOS version. The Cygwin version of wcd behaves as the Unix version."
+msgstr "Se a variável de ambiente I<WCDHOME> estiver definido, wcd vai usar I<WCDHOME> em vez de I<HOME>. Todos os arquivos C<*.wcd> são arquivos textos. Eles podem ser editados com um editor de texto. A versão do wcd para Prompt de Comando do Windows se comporta como a versão para DOS. A versão Cygwin do wcd se comporta como a versão Unix."
+
+#. type: =item
+#: wcd.pod:1087
+msgid "B<wcd.exe>"
+msgstr "B<wcd.exe>"
+
+#. type: textblock
+#: wcd.pod:1089
+msgid "The program. In Unix shells the program is always called by a function or alias, because the current working directory of a Unix shell can only be changed by the builtin cd command. See also section INSTALLATION."
+msgstr "O programa. Em shells do Unix, o programa é sempre chamado por uma função ou alias porque o diretório de trabalho atual de um shell do Unix só pode ser mudado pelo comando embarcado cd. Veja também a seção INSTALAÇÃO."
+
+#. type: =item
+#: wcd.pod:1094
+msgid "B<default treedata file>"
+msgstr "B<arquivo de dados de árvore padrão>"
+
+#. type: textblock
+#: wcd.pod:1096
+msgid "This is the default treedata file where wcd searches for matches. If it is not readable wcd will create a new one."
+msgstr "Esse é o arquivo de dados de árvore padrão no qual wcd pesquisa por correspondências. Se ele não for legível, wcd vai criar um novo."
+
+#. type: verbatim
+#: wcd.pod:1099
+#, no-wrap
+msgid ""
+"    DOS: \\treedata.wcd or %HOME%\\treedata.wcd\n"
+"    Unix: $HOME/.treedata.wcd\n"
+"\n"
+msgstr ""
+"    DOS: \\treedata.wcd or %HOME%\\treedata.wcd\n"
+"    Unix: $HOME/.treedata.wcd\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1102
+msgid "B<extra treedata file>"
+msgstr "B<arquivo de dados de árvore extra>"
+
+#. type: textblock
+#: wcd.pod:1104
+msgid "An optional extra treedata file. If it exists and is readable wcd will try to find matches in this file also."
+msgstr "Um arquivo de dados de árvore extra e opcional. Se ele existir e for legível, wcd vai tentar localizar correspondências também neste arquivo."
+
+#. type: verbatim
+#: wcd.pod:1107
+#, no-wrap
+msgid ""
+"    DOS: \\extra.wcd or %HOME%\\extra.wcd\n"
+"    Unix: $HOME/.extra.wcd\n"
+"\n"
+msgstr ""
+"    DOS: \\extra.wcd or %HOME%\\extra.wcd\n"
+"    Unix: $HOME/.extra.wcd\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1110
+msgid "B<ban file>"
+msgstr "B<arquivo de banimento>"
+
+#. type: textblock
+#: wcd.pod:1112
+msgid "In this optional file wcd places banned paths. See option B<-b>. Wildcards are supported."
+msgstr "Neste arquivo opcional o wcd coloca os caminhos banidos. Veja a opção B<-b>. Há suporte a caracteres curingas."
+
+#. type: verbatim
+#: wcd.pod:1115
+#, no-wrap
+msgid ""
+"    DOS: \\ban.wcd or %HOME%\\ban.wcd\n"
+"    Unix: $HOME/.ban.wcd\n"
+"\n"
+msgstr ""
+"    DOS: \\ban.wcd or %HOME%\\ban.wcd\n"
+"    Unix: $HOME/.ban.wcd\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1118
+msgid "B<alias file>"
+msgstr "B<arquivos alias>"
+
+#. type: textblock
+#: wcd.pod:1120
+msgid "Optional file with wcd aliases. See option B<-l>."
+msgstr "Arquivo opcional com aliases do wcd. Veja a opção B<-l>."
+
+#. type: verbatim
+#: wcd.pod:1122
+#, no-wrap
+msgid ""
+"    DOS: \\alias.wcd or %HOME%\\alias.wcd\n"
+"    Unix: $HOME/.alias.wcd\n"
+"\n"
+msgstr ""
+"    DOS: \\alias.wcd or %HOME%\\alias.wcd\n"
+"    Unix: $HOME/.alias.wcd\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1125
+msgid "B<stack file>"
+msgstr "B<arquivo de pilha>"
+
+#. type: textblock
+#: wcd.pod:1127
+msgid "In this file wcd stores its stack. The drive letter can be changed with the B<-d> option."
+msgstr "Neste arquivo o wcd armazena sua pilha. A letra de unidade pode ser alterada com a opção B<-d>."
+
+#. type: verbatim
+#: wcd.pod:1130
+#, no-wrap
+msgid ""
+"    DOS: c:\\stack.wcd or %HOME%\\stack.wcd\n"
+"    Unix: $HOME/.stack.wcd\n"
+"\n"
+msgstr ""
+"    DOS: c:\\stack.wcd or %HOME%\\stack.wcd\n"
+"    Unix: $HOME/.stack.wcd\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1133
+msgid "The name of the stack file can be changed with environment variable I<WCDSTACKFILE>.  See section ENVIRONMENT VARIABLES."
+msgstr "O nome do arquivo de pilha pode ser alterado com a variável de ambiente I<WCDSTACKFILE>. Veja a seção VARIÁVEIS DE AMBIENTE."
+
+#. type: =item
+#: wcd.pod:1136
+msgid "B<go-script>"
+msgstr "B<go-script>"
+
+#. type: textblock
+#: wcd.pod:1138
+msgid "This is the shell script which wcd.exe creates each time. It is sourced via a function or an alias. The drive letter can be changed with the B<-d> option.  For history reasons it is placed by default in C<$HOME/bin> on Unix systems. The directory of this file can be changed with the option B<-G>."
+msgstr "Este é o script shell que wcd cria a cada vez. Ele é carregado por uma função ou um alias. A letra da unidade pode ser alterada com a opção B<-d>. Por motivos históricos, ele é colocado por padrão em C<$HOME/bin> em sistemas Unix. O diretório neste arquivo pode ser alterado com a opção B<-G>."
+
+#. type: verbatim
+#: wcd.pod:1143
+#, no-wrap
+msgid ""
+"    DOS bash: c:/wcd.go or $HOME/wcd.go\n"
+"    Windows Command Prompt: c:\\wcdgo.bat or %HOME%\\wcdgo.bat\n"
+"    Windows PowerShell: $env:HOME\\wcdgo.ps1\n"
+"    WinZsh: $HOME/wcd.go\n"
+"    Cygwin/MSYS: $HOME/bin/wcd.go\n"
+"    OS/2 Command Prompt: c:\\wcdgo.cmd or %HOME%\\wcdgo.cmd\n"
+"    OS/2 bash: c:/wcd.go or $HOME/wcd.go\n"
+"    Unix: $HOME/bin/wcd.go\n"
+"\n"
+msgstr ""
+"    bash do DOS: c:/wcd.go ou $HOME/wcd.go\n"
+"    Prompt de Comando do Windows: c:\\wcdgo.bat ou %HOME%\\wcdgo.bat\n"
+"    PowerShell do Windows: $env:HOME\\wcdgo.ps1\n"
+"    WinZsh: $HOME/wcd.go\n"
+"    Cygwin/MSYS: $HOME/bin/wcd.go\n"
+"    Prompt de Comando do OS/2: c:\\wcdgo.cmd ou %HOME%\\wcdgo.cmd\n"
+"    bash do OS/2: c:/wcd.go ou $HOME/wcd.go\n"
+"    Unix: $HOME/bin/wcd.go\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1152
+msgid "B<relative treedata file>"
+msgstr "B<arquivo de dados de árvore relativos>"
+
+#. type: textblock
+#: wcd.pod:1154
+msgid "Text file with relative paths from I<DIR>. See options B<+S>, B<-n> and B<+n>."
+msgstr "Arquivo de texto com caminhos relativos a partir de I<DIR>. Veja B<+S>, B<-n> e B<+n>."
+
+#. type: verbatim
+#: wcd.pod:1157
+#, no-wrap
+msgid ""
+"    DOS: PATH\\rtdata.wcd\n"
+"    Unix: PATH/.rtdata.wcd\n"
+"\n"
+msgstr ""
+"    DOS: PATH\\rtdata.wcd\n"
+"    Unix: PATH/.rtdata.wcd\n"
+"\n"
+
+#. type: =head1
+#: wcd.pod:1162
+msgid "ENVIRONMENT VARIABLES"
+msgstr "VARIÁVEIS DE AMBIENTE"
+
+#. type: =item
+#: wcd.pod:1166
+msgid "B<HOME>"
+msgstr "B<HOME>"
+
+#. type: textblock
+#: wcd.pod:1168
+msgid "Wcd uses by default environment variable I<HOME> to determine where to store its files. See also section FILES. This can be overruled with environment variable I<WCDHOME>."
+msgstr "Wcd usa por padrão a variável de ambiente I<HOME> para determinar onde deve armazenar seus arquivos. Veja também a seção ARQUIVOS. Isso pode ser sobreposto com a variável de ambiente I<WCDHOME>."
+
+#. type: textblock
+#: wcd.pod:1172
+msgid "I<HOME> also defines where to start scanning the disk when option B<-s> is used. This can be overruled with the environment variable I<WCDSCAN>."
+msgstr "I<HOME> também define por onde deve-se iniciar varrendo o disco quando a opção B<-s> é usada. Isso pode ser sobreposto com a variável de ambiente I<WCDSCAN>."
+
+#. type: textblock
+#: wcd.pod:1176
+msgid "For the Unix, Cygwin, Windows PowerShell, WinZsh and MSYS version it is required that I<HOME> or I<WCDHOME> is set. For the other versions of wcd the use of these variables is optional."
+msgstr "Para a versão Unix, Cygwin, PowerShell do Windows, WinZsh e MSYS, é exigido que I<HOME> ou I<WCDHOME> esteja definida. Para outras versões do wcd, o uso dessas variáveis é opcional."
+
+#. type: textblock
+#: wcd.pod:1180
+msgid "If I<HOME> is set on DOS/Windows, wcd will place all its files (treedata.wcd, extra.wcd, alias.wcd, ban.wcd, wcd.go) in directory I<HOME>. The behaviour of wcd is then equal to the Unix version of wcd. Wcd will scan the disk default from I<HOME>. Drives will not be automatically scanned by changing to them. You need to tell wcd explicitly. E.g.:"
+msgstr "Se I<HOME> estiver definido no DOS/Windows, wcd vai colocar todos seus arquivos (treedata.wcd, extra.wcd, alias.wcd, ban.wcd, wcd.go) no diretório I<HOME>. O comportamento do wcd é, então, igual à versão Unix de wcd. Wcd vai varrer o disco padrão a partir de I<HOME>. Unidades não serão automaticamente varridas mudando para elas. Você precisa dizer wcd explicitamente. Ex.:"
+
+#. type: verbatim
+#: wcd.pod:1187
+#, no-wrap
+msgid ""
+"    wcd -S c: -A d: -A e:\n"
+"\n"
+msgstr ""
+"    wcd -S c: -A d: -A e:\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1189
+msgid "Matching of directories is now global over all scanned drives."
+msgstr "Correspondência de diretórios é agora global por todas as unidades varridas."
+
+#. type: =item
+#: wcd.pod:1192
+msgid "B<WCDHOME>"
+msgstr "B<WCDHOME>"
+
+#. type: textblock
+#: wcd.pod:1194
+msgid "Environment variable I<WCDHOME> can be used to change the location of wcd's files. If both I<HOME> and I<WCDHOME> are set, I<WCDHOME> will be used instead of I<HOME>."
+msgstr "A variável de ambiente I<WCDHOME> pode ser usada para alterar a localização de arquivos do wcd. Se ambas I<HOME> e I<WCDHOME> estiverem definidas, I<WCDHOME> será usada em vez de I<HOME>."
+
+#. type: textblock
+#: wcd.pod:1198
+msgid "In wcd versions prior to 5.1.5 I<WCDHOME> also changed the default scan directory.  This has changed. Since version 5.1.5 I<WCDHOME> does not change the default scan directory. See option B<-s>. From version 5.1.5, use environment I<WCDSCAN> to overrule the default scan directory."
+msgstr "Nas versões wcd antes de 5.1.5, I<WCDHOME> também mudava o diretório padrão de varredura. Isso foi alterado. Desde a versão 5.1.5, I<WCDHOME> não muda o diretório padrão de varredura. Veja a opção B<-s>. A partir da versão 5.1.5, use a variável de ambiente I<WCDSCAN> para sobrepor o diretório padrão de varredura."
+
+#. type: textblock
+#: wcd.pod:1203
+msgid "Example for DOS, Windows, OS/2 Command Prompt:"
+msgstr "Exemplo para Prompt de Comando do DOS, do Windows e do OS/2:"
+
+#. type: verbatim
+#: wcd.pod:1205
+#, no-wrap
+msgid ""
+"    set WCDHOME=C:\\Users\\erwin\\wcd\n"
+"\n"
+msgstr ""
+"    set WCDHOME=C:\\Users\\erwin\\wcd\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1207 wcd.pod:1228 wcd.pod:1248 wcd.pod:1273
+msgid "An example for POSIX type shells:"
+msgstr "Um exemplo para shells de tipo POSIX:"
+
+#. type: verbatim
+#: wcd.pod:1209
+#, no-wrap
+msgid ""
+"    export WCDHOME=\"$HOME/.wcd\"\n"
+"\n"
+msgstr ""
+"    export WCDHOME=\"$HOME/.wcd\"\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1211 wcd.pod:1232 wcd.pod:1252 wcd.pod:1277
+msgid "An example for Csh type shells:"
+msgstr "Um exemplo para shells de tipo Csh:"
+
+#. type: verbatim
+#: wcd.pod:1213
+#, no-wrap
+msgid ""
+"    setenv WCDHOME \"$HOME/.wcd\"\n"
+"\n"
+msgstr ""
+"    setenv WCDHOME \"$HOME/.wcd\"\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1215
+msgid "B<WCDSCAN>"
+msgstr "B<WCDSCAN>"
+
+#. type: textblock
+#: wcd.pod:1217
+msgid "Use environment variable I<WCDSCAN> to overrule the default scan directory I<HOME>. Define a colon separated list (Unix) to define more than one directory.  On DOS/Windows make the list semi-colon separated."
+msgstr "Use a variável de ambiente I<WCDSCAN> para sobrepor o diretório padrão de varredura I<HOME>. Defina uma lista separada por dois pontos (Unix) para definir mais de um diretório. No DOS/Windows, separe a lista com ponto e vírgula."
+
+#. type: textblock
+#: wcd.pod:1222
+msgid "Examples for DOS, Windows, OS/2 Command Prompt:"
+msgstr "Exemplos para Prompt de Comando do DOS, Windows e OS/2:"
+
+#. type: verbatim
+#: wcd.pod:1224
+#, no-wrap
+msgid ""
+"    set WCDSCAN=C:\\Users\\erwin;D:\\data\n"
+"\n"
+msgstr ""
+"    set WCDSCAN=C:\\Users\\erwin;D:\\data\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1226
+#, no-wrap
+msgid ""
+"    set WCDSCAN=%HOMEDRIVE%%HOMEPATH%;\\\\projectdrive\\projectX\n"
+"\n"
+msgstr ""
+"    set WCDSCAN=%HOMEDRIVE%%HOMEPATH%;\\\\unidadeprojeto\\projetoX\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1230
+#, no-wrap
+msgid ""
+"    export WCDSCAN=\"$HOME:/projectdisk/projectX\"\n"
+"\n"
+msgstr ""
+"    export WCDSCAN=\"$HOME:/unidadeprojeto/projetoX\"\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1234
+#, no-wrap
+msgid ""
+"    setenv WCDSCAN \"$HOME:/projectdisk/projectX\"\n"
+"\n"
+msgstr ""
+"    setenv WCDSCAN \"$HOME:/unidadeprojeto/projetoX\"\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1236
+msgid "B<WCDFILTER>"
+msgstr "B<WCDFILTER>"
+
+#. type: textblock
+#: wcd.pod:1238
+msgid "Specify filters with environment variable I<WCDFILTER>. All directories that do not match the filter(s) are ignored. A list can be specified by separating filters by the shell path separator. Similar as specifying the I<PATH> variable.  The case sensitivity is mandated by the Operating system."
+msgstr "Especifique filtros com a variável de ambiente I<WCDFILTER>. Todos os diretórios que não correspondem ao(s) filtro(s) são ignorados. Uma lista pode ser especificada separando filtros por meio do separador de caminho do shell. Similar a especificar a variável I<PATH>. A diferenciação entre maiúsculo e minúsculo depende do sistema operacional."
+
+#. type: textblock
+#: wcd.pod:1244 wcd.pod:1269
+msgid "An example for DOS, Windows, OS/2 Command Prompt:"
+msgstr "Um exemplo para Prompt de Comando do DOS, Windows e OS/2:"
+
+#. type: verbatim
+#: wcd.pod:1246
+#, no-wrap
+msgid ""
+"    set WCDFILTER=projects;doc\n"
+"\n"
+msgstr ""
+"    set WCDFILTER=projetos;doc\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1250
+#, no-wrap
+msgid ""
+"    export WCDFILTER=\"projects:doc\"\n"
+"\n"
+msgstr ""
+"    export WCDFILTER=\"projetos:doc\"\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1254
+#, no-wrap
+msgid ""
+"    setenv WCDFILTER \"projects:doc\"\n"
+"\n"
+msgstr ""
+"    setenv WCDFILTER \"projetos:doc\"\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1256
+msgid "B<WCDBAN>"
+msgstr "B<WCDBAN>"
+
+#. type: textblock
+#: wcd.pod:1258
+msgid "The paths specified with environment I<WCDBAN> will be banned by wcd.  See also option B<-b>. Specify a list of paths separated by shell I<PATH> separator."
+msgstr "Os caminhos especificados com a variável de ambiente I<WCDBAN> serão banidos pelo wcd. Veja também a opção B<-b>. Especifique uma lista de caminhos separada por separador de I<PATH> do shell."
+
+#. type: =item
+#: wcd.pod:1262
+msgid "B<WCDEXCLUDE>"
+msgstr "B<WCDEXCLUDE>"
+
+#. type: textblock
+#: wcd.pod:1264
+msgid "The paths specified with environment I<WCDEXCLUDE> will be excluded by wcd. See also options B<-x> and B<-xf>. Specify a list of paths separated by shell I<PATH> separator."
+msgstr "Os caminhos especificados com ambiente I<WCDEXCLUDE> serão excluídos por wcd. Veja também as opções B<-x> e B<-xf>. Especifique uma lista de caminhos separada por separador de I<PATH> do shell."
+
+#. type: verbatim
+#: wcd.pod:1271
+#, no-wrap
+msgid ""
+"    set WCDEXCLUDE=*/windows;*/temp;*CVS\n"
+"\n"
+msgstr ""
+"    set WCDEXCLUDE=*/windows;*/temp;*CVS\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1275
+#, no-wrap
+msgid ""
+"    export WCDEXCLUDE=\"/dev:/tmp:*CVS\"\n"
+"\n"
+msgstr ""
+"    export WCDEXCLUDE=\"/dev:/tmp:*CVS\"\n"
+"\n"
+
+#. type: verbatim
+#: wcd.pod:1279
+#, no-wrap
+msgid ""
+"    setenv WCDEXCLUDE \"/dev:/tmp:*CVS\"\n"
+"\n"
+msgstr ""
+"    setenv WCDEXCLUDE \"/dev:/tmp:*CVS\"\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1281
+msgid "B<WCDUSERSHOME>"
+msgstr "B<WCDUSERSHOME>"
+
+#. type: textblock
+#: wcd.pod:1283
+msgid "Set the base of user's home directories.  On DOS/Windows the default value is C<\\\\users>.  On Unix/Cygwin the default value is C</home>.  This variable is used to scan treedata files of other users. See also options B<-u> and B<+u>. In verbose mode wcd will print all filters, bans and excludes. See option B<-v>."
+msgstr "Define a base de diretórios home do usuário. No DOS/Windows, o valor padrão é C<\\\\users>. No Unix/Cygwin, o valor padrão é C</home>. Essa variável é usada para varrer arquivos de dados de árvore de outros usuários. Veja também a opção B<-u> e B<+u>. No modo verboso, wcd vai exibir todos os filtros, banimentos e exclusões. Veja a opção B<-v>."
+
+#. type: =item
+#: wcd.pod:1290
+msgid "B<WCDSTACKFILE>"
+msgstr "B<WCDSTACKFILE>"
+
+#. type: textblock
+#: wcd.pod:1292
+msgid "Wcd gives preference to I<WCDSTACKFILE> over the default stack file name (see section FILES). With this variable each shell (or used terminal emulator) can have its private stack of used directories."
+msgstr "Wcd dá preferência a I<WCDSTACKFILE> sobre o nome de arquivo de pilha padrão (veja a seção ARQUIVOS). Com essa variável, cada shell (ou emulador de terminal usado) pode ter sua pilha privada de diretórios usados."
+
+#. type: textblock
+#: wcd.pod:1296
+msgid "To use a unique time based YYYYMMDD-HHMMSS file for each opened interactive shell."
+msgstr "Para usar um tempo único baseado no arquivo YYYYMMDD-HHMMSS para cada shell interativo aberto:"
+
+#. type: verbatim
+#: wcd.pod:1299
+#, no-wrap
+msgid ""
+"    export WCDSTACKFILE=$HOME/.wcd/stack.$(date +%Y%m%d-%H%M%S)\n"
+"\n"
+msgstr ""
+"    export WCDSTACKFILE=$HOME/.wcd/stack.$(date +%Y%m%d-%H%M%S)\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1301
+msgid "For a stack per xterm(1), use the xterm I<WINDOWID> environment variable:"
+msgstr "Para uma pilha per xterm(1), use a variável de ambiente I<WINDOWID> do xterm:"
+
+#. type: verbatim
+#: wcd.pod:1303
+#, no-wrap
+msgid ""
+"    export WCDSTACKFILE=$HOME/.wcd/stack.$WINDOWID\n"
+"\n"
+msgstr ""
+"    export WCDSTACKFILE=$HOME/.wcd/stack.$WINDOWID\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1305
+msgid "For GNU screen(1), to use stack per screen:"
+msgstr "Para o GNU screen(1), para usar pilha por tela:"
+
+#. type: verbatim
+#: wcd.pod:1307
+#, no-wrap
+msgid ""
+"    export WCDSTACKFILE=$HOME/.wcd/stack.$WINDOW\n"
+"\n"
+msgstr ""
+"    export WCDSTACKFILE=$HOME/.wcd/stack.$WINDOW\n"
+"\n"
+
+#. type: =item
+#: wcd.pod:1309
+msgid "B<TERMINFO>"
+msgstr "B<TERMINFO>"
+
+#. type: textblock
+#: wcd.pod:1311
+msgid "If the environment variable I<TERMINFO> is defined, wcd with ncurses interface checks for a local terminal definition before checking in the standard place. This is useful if terminal definitions are not on a standard place. Often used standard places are C</usr/lib/terminfo> and C</usr/share/terminfo>."
+msgstr "Se a variável de ambiente I<TERMINFO> for usada, wcd com interface ncurses verifica por uma definição de terminal local antes de verificar no lugar padrão. Isso é útil se as definições de terminal não estiverem um lugar padrão. Lugares padrões geralmente usados são C</usr/lib/terminfo> e C</usr/share/terminfo>."
+
+#. type: =item
+#: wcd.pod:1317
+msgid "B<PDC_RESTORE_SCREEN>"
+msgstr "B<PDC_RESTORE_SCREEN>"
+
+#. type: textblock
+#: wcd.pod:1319
+msgid "Wcd with PDCurses interface recognizes the environment variable I<PDC_RESTORE_SCREEN>. If this environment variable is set, PDCurses will take a copy of the contents of the screen at the time that wcd is started; when wcd exits, the screen will be restored.  An example for Windows Command Prompt:"
+msgstr "Wcd com interface PDCurses reconhece a variável de ambiente I<PDC_RESTORE_SCREEN>. Se essa variável de ambiente estiver definida, PDCurses vai levar uma cópia dos conteúdos da tela no momento em que wcd for iniciado; quando wcd sair, a tela será restaurada. Um exemplo para Prompt de Comando do Windows:"
+
+#. type: verbatim
+#: wcd.pod:1325
+#, no-wrap
+msgid ""
+"    set PDC_RESTORE_SCREEN=1\n"
+"\n"
+msgstr ""
+"    set PDC_RESTORE_SCREEN=1\n"
+"\n"
+
+#. type: textblock
+#: wcd.pod:1327
+msgid "Windows allows only a small buffer to be saved. So it is not always possible to restore everything. Some garbage data may be printed in the console after wcd exits if you have set a large buffer width."
+msgstr "Windows só permite salvar um buffer pequeno. Então, não é sempre possível restaurar tudo. Alguns dados inúteis podem ser emitidos no console após o wcd sair, se você definir uma largura grande de buffer."
+
+#. type: =item
+#: wcd.pod:1332
+msgid "B<SHELL>"
+msgstr "B<SHELL>"
+
+#. type: textblock
+#: wcd.pod:1334
+msgid "Printing of C<#!$SHELL> on the first line of the go-script for POSIX type shell or C shell is needed for 8 bit characters. Some shells otherwise think that the go-script is a binary file and will not source it. In Cygwin Bash the variable I<SHELL> must be set in environment using the C<export> command, otherwise wcd can't read the variable."
+msgstr "Colocar do C<#!$SHELL> na primeira linha do go-script para o shell de tipo POSIX ou shell C é necessário para caracteres de 8 bits. Do contrário, alguns shells pensarão que o go-script é um arquivo binário e não o carregarão. No bash do Cygwin, a variável I<SHELL> deve ser definida usando o comando C<export>; do contrário, wcd não consegue ler a variável."
+
+#. type: =item
+#: wcd.pod:1342
+msgid "B<BASH>"
+msgstr "B<BASH>"
+
+#. type: textblock
+#: wcd.pod:1344
+msgid "Wcd for DOS bash uses C<$BASH> instead of C<$SHELL>, because C<$SHELL> points to the DOS command shell. One may need to define C<$BASH> with an C<export> command, otherwise wcd can't read the variable."
+msgstr "Wcd para bash do DOS usa C<$BASH> em vez de C<$SHELL>, pois C<$SHELL> aponta para o shell de comando do DOS. Pode ser necessário definir C<$BASH> com o comando C<export>; do contrário, wcd não consegue ler a variável."
+
+#. type: =head1
+#: wcd.pod:1351
+msgid "SEE ALSO"
+msgstr "VEJA TAMBÉM"
+
+#. type: textblock
+#: wcd.pod:1353
+msgid "sh(1), bash(1), csh(1), ksh(1), zsh(1), locale(1), ncurses(1),"
+msgstr "sh(1), bash(1), csh(1), ksh(1), zsh(1), locale(1), ncurses(1),"
+
+#. type: =head1
+#: wcd.pod:1361
+msgid "AUTHORS"
+msgstr "AUTORES"
+
+#. type: textblock
+#: wcd.pod:1363
+msgid "Wcd was written by Erwin Waterlander <waterlan@xs4all.nl>"
+msgstr "Wcd foi escrito por Erwin Waterlander <waterlan@xs4all.nl>"
+
+#. type: textblock
+#: wcd.pod:1365
+msgid "Project homepage: L<http://waterlan.home.xs4all.nl/>"
+msgstr "Página do projeto: L<http://waterlan.home.xs4all.nl/>"
+
+#. type: textblock
+#: wcd.pod:1368
+msgid "SourceForge: L<http://sourceforge.net/projects/wcd/>"
+msgstr "SourceForge: L<http://sourceforge.net/projects/wcd/>"
+
+#. type: textblock
+#: wcd.pod:1371
+msgid "The manual page formatting was provided by Jari Aalto <jari.aalto@cante.net>."
+msgstr "A formatação de página de manual foi fornecida por Jari Aalto <jari.aalto@cante.net>."
+
+#. type: textblock
+#: wcd.pod:1374
+msgid "NCD was originally written by Brad Kingsbury for Peter Norton's \"Norton Utilities\" around 1987. See also L<http://www.softpanorama.org/OFM/norton_change_directory_clones.shtml>"
+msgstr "NCD foi escrito originalmente por Brad Kingsbury para \"Norton Utilities\" do Peter Norton por volta de 1987. Veja também L<http://www.softpanorama.org/OFM/norton_change_directory_clones.shtml>"

@@ -1,0 +1,615 @@
+# General MIDI Level 1 Sound Set instrument names.
+#
+# These names are listed on http://www.midi.org/techspecs/gm1sound.php ;
+# this list was converted to PO format by Lauri Nurmi <lanurmi@iki.fi>.
+#
+# Permission is granted to freely copy and distribute this file and
+# any modified versions, provided that none of these comment lines
+# is removed and modified versions are marked as such.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: midi-instruments 0.2\n"
+"Report-Msgid-Bugs-To: coordinator at translationproject.org\n"
+"POT-Creation-Date: 2014-03-29 21:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Family of instruments.
+msgid "Piano"
+msgstr ""
+
+#. Family of instruments.
+msgid "Chromatic Percussion"
+msgstr ""
+
+#. Family of instruments.
+msgid "Organ"
+msgstr ""
+
+#. Family of instruments.
+msgid "Guitar"
+msgstr ""
+
+#. Family of instruments.
+msgid "Bass"
+msgstr ""
+
+#. Family of instruments.
+msgid "Strings"
+msgstr ""
+
+#. Family of instruments.
+msgid "Ensemble"
+msgstr ""
+
+#. Family of instruments.
+msgid "Brass"
+msgstr ""
+
+#. Family of instruments.
+msgid "Reed"
+msgstr ""
+
+#. Family of instruments.
+msgid "Pipe"
+msgstr ""
+
+#. Family of instruments.
+msgid "Synth Lead"
+msgstr ""
+
+#. Family of instruments.
+msgid "Synth Pad"
+msgstr ""
+
+#. Family of instruments.
+msgid "Synth Effects"
+msgstr ""
+
+#. Family of instruments.
+msgid "Ethnic"
+msgstr ""
+
+#. Family of instruments.
+msgid "Percussive"
+msgstr ""
+
+#. Family of instruments.
+msgid "Sound Effects"
+msgstr ""
+
+msgid "Acoustic Grand Piano"
+msgstr ""
+
+msgid "Bright Acoustic Piano"
+msgstr ""
+
+msgid "Electric Grand Piano"
+msgstr ""
+
+msgid "Honky-tonk Piano"
+msgstr ""
+
+msgid "Electric Piano 1"
+msgstr ""
+
+msgid "Electric Piano 2"
+msgstr ""
+
+msgid "Harpsichord"
+msgstr ""
+
+msgid "Clavi"
+msgstr ""
+
+msgid "Celesta"
+msgstr ""
+
+msgid "Glockenspiel"
+msgstr ""
+
+msgid "Music Box"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr ""
+
+msgid "Marimba"
+msgstr ""
+
+msgid "Xylophone"
+msgstr ""
+
+msgid "Tubular Bells"
+msgstr ""
+
+msgid "Dulcimer"
+msgstr ""
+
+msgid "Drawbar Organ"
+msgstr ""
+
+msgid "Percussive Organ"
+msgstr ""
+
+msgid "Rock Organ"
+msgstr ""
+
+msgid "Church Organ"
+msgstr ""
+
+msgid "Reed Organ"
+msgstr ""
+
+msgid "Accordion"
+msgstr ""
+
+msgid "Harmonica"
+msgstr ""
+
+msgid "Tango Accordion"
+msgstr ""
+
+msgid "Acoustic Guitar (nylon)"
+msgstr ""
+
+msgid "Acoustic Guitar (steel)"
+msgstr ""
+	
+msgid "Electric Guitar (jazz)"
+msgstr ""
+
+msgid "Electric Guitar (clean)"
+msgstr ""
+
+msgid "Electric Guitar (muted)"
+msgstr ""
+
+msgid "Overdriven Guitar"
+msgstr ""
+
+msgid "Distortion Guitar"
+msgstr ""
+
+msgid "Guitar harmonics"
+msgstr ""
+
+msgid "Acoustic Bass"
+msgstr ""
+
+msgid "Electric Bass (finger)"
+msgstr ""
+
+msgid "Electric Bass (pick)"
+msgstr ""
+
+msgid "Fretless Bass"
+msgstr ""
+
+msgid "Slap Bass 1"
+msgstr ""
+
+msgid "Slap Bass 2"
+msgstr ""
+
+msgid "Synth Bass 1"
+msgstr ""
+
+msgid "Synth Bass 2"
+msgstr ""
+
+msgid "Violin"
+msgstr ""
+
+msgid "Viola"
+msgstr ""
+
+msgid "Cello"
+msgstr ""
+
+msgid "Contrabass"
+msgstr ""
+
+msgid "Tremolo Strings"
+msgstr ""
+
+msgid "Pizzicato Strings"
+msgstr ""
+
+msgid "Orchestral Harp"
+msgstr ""
+
+msgid "Timpani"
+msgstr ""
+
+msgid "String Ensemble 1"
+msgstr ""
+
+msgid "String Ensemble 2"
+msgstr ""
+
+msgid "SynthStrings 1"
+msgstr ""
+
+msgid "SynthStrings 2"
+msgstr ""
+
+msgid "Choir Aahs"
+msgstr ""
+
+msgid "Voice Oohs"
+msgstr ""
+
+msgid "Synth Voice"
+msgstr ""
+
+msgid "Orchestra Hit"
+msgstr ""
+
+msgid "Trumpet"
+msgstr ""
+
+msgid "Trombone"
+msgstr ""
+
+msgid "Tuba"
+msgstr ""
+
+msgid "Muted Trumpet"
+msgstr ""
+
+msgid "French Horn"
+msgstr ""
+
+msgid "Brass Section"
+msgstr ""
+
+msgid "SynthBrass 1"
+msgstr ""
+
+msgid "SynthBrass 2"
+msgstr ""
+
+msgid "Soprano Sax"
+msgstr ""
+
+msgid "Alto Sax"
+msgstr ""
+
+msgid "Tenor Sax"
+msgstr ""
+
+msgid "Baritone Sax"
+msgstr ""
+
+msgid "Oboe"
+msgstr ""
+
+msgid "English Horn"
+msgstr ""
+
+msgid "Bassoon"
+msgstr ""
+
+msgid "Clarinet"
+msgstr ""
+
+msgid "Piccolo"
+msgstr ""
+
+msgid "Flute"
+msgstr ""
+
+msgid "Recorder"
+msgstr ""
+
+msgid "Pan Flute"
+msgstr ""
+
+msgid "Blown Bottle"
+msgstr ""
+
+msgid "Shakuhachi"
+msgstr ""
+
+msgid "Whistle"
+msgstr ""
+
+msgid "Ocarina"
+msgstr ""
+
+msgid "Lead 1 (square)"
+msgstr ""
+
+msgid "Lead 2 (sawtooth)"
+msgstr ""
+
+msgid "Lead 3 (calliope)"
+msgstr ""
+
+msgid "Lead 4 (chiff)"
+msgstr ""
+
+msgid "Lead 5 (charang)"
+msgstr ""
+
+msgid "Lead 6 (voice)"
+msgstr ""
+
+msgid "Lead 7 (fifths)"
+msgstr ""
+
+msgid "Lead 8 (bass + lead)"
+msgstr ""
+
+msgid "Pad 1 (new age)"
+msgstr ""
+
+msgid "Pad 2 (warm)"
+msgstr ""
+
+msgid "Pad 3 (polysynth)"
+msgstr ""
+
+msgid "Pad 4 (choir)"
+msgstr ""
+
+msgid "Pad 5 (bowed)"
+msgstr ""
+
+msgid "Pad 6 (metallic)"
+msgstr ""
+
+msgid "Pad 7 (halo)"
+msgstr ""
+
+msgid "Pad 8 (sweep)"
+msgstr ""
+
+msgid "FX 1 (rain)"
+msgstr ""
+
+msgid "FX 2 (soundtrack)"
+msgstr ""
+
+msgid "FX 3 (crystal)"
+msgstr ""
+
+msgid "FX 4 (atmosphere)"
+msgstr ""
+
+msgid "FX 5 (brightness)"
+msgstr ""
+
+msgid "FX 6 (goblins)"
+msgstr ""
+
+msgid "FX 7 (echoes)"
+msgstr ""
+
+msgid "FX 8 (sci-fi)"
+msgstr ""
+
+msgid "Sitar"
+msgstr ""
+
+msgid "Banjo"
+msgstr ""
+
+msgid "Shamisen"
+msgstr ""
+
+msgid "Koto"
+msgstr ""
+
+msgid "Kalimba"
+msgstr ""
+
+msgid "Bag pipe"
+msgstr ""
+
+msgid "Fiddle"
+msgstr ""
+
+msgid "Shanai"
+msgstr ""
+
+msgid "Tinkle Bell"
+msgstr ""
+
+msgid "Agogo"
+msgstr ""
+
+msgid "Steel Drums"
+msgstr ""
+
+msgid "Woodblock"
+msgstr ""
+
+msgid "Taiko Drum"
+msgstr ""
+
+msgid "Melodic Tom"
+msgstr ""
+
+msgid "Synth Drum"
+msgstr ""
+
+msgid "Reverse Cymbal"
+msgstr ""
+
+msgid "Guitar Fret Noise"
+msgstr ""
+
+msgid "Breath Noise"
+msgstr ""
+
+msgid "Seashore"
+msgstr ""
+
+msgid "Bird Tweet"
+msgstr ""
+
+msgid "Telephone Ring"
+msgstr ""
+
+msgid "Helicopter"
+msgstr ""
+
+msgid "Applause"
+msgstr ""
+
+msgid "Gunshot"
+msgstr ""
+
+msgid "Acoustic Bass Drum"
+msgstr ""
+
+msgid "Bass Drum 1"
+msgstr ""
+
+msgid "Side Stick"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr ""
+
+msgid "Acoustic Snare"
+msgstr ""
+
+msgid "Electric Snare"
+msgstr ""
+
+msgid "Low Floor Tom"
+msgstr ""
+
+msgid "High Floor Tom"
+msgstr ""
+
+#. Original name; please translate identical to next one.
+msgid "Closed Hi Hat"
+msgstr ""
+
+#. For spelling consistency with the other Hi-Hats.
+msgid "Closed Hi-Hat"
+msgstr ""
+
+msgid "Pedal Hi-Hat"
+msgstr ""
+
+msgid "Open Hi-Hat"
+msgstr ""
+
+msgid "Low Tom"
+msgstr ""
+
+msgid "Low-Mid Tom"
+msgstr ""
+
+msgid "Hi-Mid Tom"
+msgstr ""
+
+msgid "High Tom"
+msgstr ""
+
+msgid "Chinese Cymbal"
+msgstr ""
+
+msgid "Splash Cymbal"
+msgstr ""
+
+msgid "Crash Cymbal 1"
+msgstr ""
+
+msgid "Crash Cymbal 2"
+msgstr ""
+
+msgid "Ride Cymbal 1"
+msgstr ""
+
+msgid "Ride Cymbal 2"
+msgstr ""
+
+msgid "Ride Bell"
+msgstr ""
+
+msgid "Tambourine"
+msgstr ""
+
+msgid "Cowbell"
+msgstr ""
+
+msgid "Vibraslap"
+msgstr ""
+
+msgid "Hi Bongo"
+msgstr ""
+
+msgid "Low Bongo"
+msgstr ""
+
+msgid "Mute Hi Conga"
+msgstr ""
+
+msgid "Open Hi Conga"
+msgstr ""
+
+msgid "Low Conga"
+msgstr ""
+
+msgid "High Timbale"
+msgstr ""
+
+msgid "Low Timbale"
+msgstr ""
+
+msgid "High Agogo"
+msgstr ""
+
+msgid "Low Agogo"
+msgstr ""
+
+msgid "Cabasa"
+msgstr ""
+
+msgid "Maracas"
+msgstr ""
+
+msgid "Short Whistle"
+msgstr ""
+
+msgid "Long Whistle"
+msgstr ""
+
+msgid "Short Guiro"
+msgstr ""
+
+msgid "Long Guiro"
+msgstr ""
+
+msgid "Claves"
+msgstr ""
+
+msgid "Hi Wood Block"
+msgstr ""
+
+msgid "Low Wood Block"
+msgstr ""
+
+msgid "Mute Cuica"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr ""
+
+msgid "Mute Triangle"
+msgstr ""
+
+msgid "Open Triangle"
+msgstr ""

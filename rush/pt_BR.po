@@ -1,0 +1,964 @@
+# Brazilian Portuguese translations for rush package
+# Traduções em português brasileiro para o pacot rush
+# Copyright (C) 2019 Free Software Foundation, Inc.
+# This file is distributed under the same license as the rush package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2014, 2016, 2017, 2019.
+#: rwopt.opt:23
+msgid ""
+msgstr ""
+"Project-Id-Version: rush 2.0\n"
+"Report-Msgid-Bugs-To: bug-rush@gnu.org\n"
+"POT-Creation-Date: 2019-07-01 09:59+0300\n"
+"PO-Revision-Date: 2019-07-02 16:54-0200\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#: src/config.c:163
+#, c-format
+msgid "Finished parsing %s"
+msgstr "Finalizada análise de %s"
+
+#: src/config.c:169
+#, c-format
+msgid "Resuming parsing %s from line %d"
+msgstr "Resumindo análise de %s a partir da linha %d"
+
+#: src/config.c:262
+#, c-format
+msgid "invalid number: %s"
+msgstr "número inválido: %s"
+
+#: src/config.c:275
+msgid "invalid opcode"
+msgstr "código de operação inválido"
+
+#: src/config.c:297
+#, c-format
+msgid "invalid regexp: %s"
+msgstr "expressão regular inválida: %s"
+
+#: src/config.c:336
+#, c-format
+msgid "unknown regexp flag: %s"
+msgstr "opção de expressão regular desconhecida: %s"
+
+#: src/config.c:353
+msgid "too few arguments"
+msgstr "poucos argumentos"
+
+#: src/config.c:357 src/rush.c:1251
+msgid "too many arguments"
+msgstr "argumentos demais"
+
+#: src/config.c:428
+#, c-format
+msgid "no such user: %s"
+msgstr "usuário inexistente: %s"
+
+#: src/config.c:453 src/config.c:1106
+#, c-format
+msgid "no such group: %s"
+msgstr "grupo inexistente: %s"
+
+#: src/config.c:543
+#, c-format
+msgid "unknown limit: %s"
+msgstr "limite desconhecido: %s"
+
+#: src/config.c:560
+#, c-format
+msgid "expected ~ as the second argument, but found %s"
+msgstr "esperava-se ~ como o segundo argumento, mas encontrada %s"
+
+#: src/config.c:718
+#, c-format
+msgid "debug level set to %d"
+msgstr "nível de depuração definido para %d"
+
+#: src/config.c:730
+#, c-format
+msgid "invalid time: %s"
+msgstr "horário inválido: %s"
+
+#: src/config.c:786
+msgid "invalid file descriptor"
+msgstr "descritor de arquivo inválido"
+
+#: src/config.c:800
+msgid "Unknown message reference"
+msgstr "Referência de mensagem desconhecida"
+
+#: src/config.c:893
+msgid "invalid include file name"
+msgstr "nome de arquivo incluído inválido"
+
+#: src/config.c:900
+#, c-format
+msgid "Ignoring non-existing include file %s"
+msgstr "Ignorando arquivo incluído não-existente %s"
+
+#: src/config.c:906
+#, c-format
+msgid "cannot stat file %s: %s"
+msgstr "não foi possível obter estado do arquivo %s: %s"
+
+#: src/config.c:934 rushopt.opt:90
+#, c-format
+msgid "unknown keyword: %s"
+msgstr "palavra-chave desconhecida: %s"
+
+#: src/config.c:982
+msgid "key field is not a number"
+msgstr "campo chave não é um número"
+
+#: src/config.c:988
+msgid "value field is not a number"
+msgstr "campo de valor não é um número"
+
+#: src/config.c:1033 src/config.c:1038 src/rush.c:262
+#, c-format
+msgid "%s: not a number"
+msgstr "%s: não é um número"
+
+#: src/config.c:1211 src/config.c:1340
+#, c-format
+msgid "Parsing %s"
+msgstr "Analisando %s"
+
+#: src/config.c:1245
+#, c-format
+msgid "unknown statement: %s"
+msgstr "declaração desconhecida: %s"
+
+#: src/config.c:1280
+msgid "missing ]"
+msgstr "faltando ]"
+
+#: src/config.c:1289
+msgid "invalid statement: missing value"
+msgstr "declaração inválida: faltando valor"
+
+#: src/config.c:1310
+#, c-format
+msgid "failed to parse value: %s"
+msgstr "falha ao analisar valor: %s"
+
+#: src/config.c:1328
+msgid "statement cannot be used outside a rule"
+msgstr "declaração não pode ser usada fora de uma regra"
+
+#: src/config.c:1366
+msgid "parsing legacy built-in configuration"
+msgstr "analisando configuração embutida legada"
+
+#: src/config.c:1368
+#, c-format
+msgid "parsing legacy configuration file %s"
+msgstr "analisando arquivo de configuração legada %s"
+
+#: src/limits.c:53
+#, c-format
+msgid "Setting limit %d to %lu"
+msgstr "Definindo limite %d para %lu"
+
+#: src/limits.c:58
+#, c-format
+msgid "error setting limit: %s"
+msgstr "erro ao definir limite: %s"
+
+#: src/limits.c:68
+#, c-format
+msgid "Setting priority to %d"
+msgstr "Definindo prioridade para %d"
+
+#: src/limits.c:70
+#, c-format
+msgid "error setting priority: %s"
+msgstr "erro ao definir prioridade: %s"
+
+#: src/limits.c:86 src/limits.c:87
+#, c-format
+msgid "No logins allowed for `%s'"
+msgstr "Não é permitido login para \"%s\""
+
+#: src/limits.c:91
+#, c-format
+msgid "counting logins for %s"
+msgstr "contando logins para %s"
+
+#: src/limits.c:97
+msgid "acct database is empty"
+msgstr "banco de dados de contas está vazio"
+
+#: src/limits.c:101
+#, c-format
+msgid "Cannot open database %s: %s"
+msgstr "Não foi possível abrir o banco de dados %s: %s"
+
+#: src/limits.c:119
+#, c-format
+msgid "counted %zu/%zu logins for %s"
+msgstr "contados %zu/%zu logins para %s"
+
+#: src/limits.c:126 src/limits.c:128
+#, c-format
+msgid "Too many logins (max %zu) for %s"
+msgstr "Número excessivo de logins (máximo %zu) para %s"
+
+#: src/limits.c:143
+#, c-format
+msgid "Setting limits for %s"
+msgstr "Definindo limites para %s"
+
+#: src/rush.c:43
+msgid ""
+"You are not permitted to execute this command.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+"Você não tem permissão para executar esse comando.\n"
+"Contate o administrador do seu sistema para mais assistência.\n"
+
+#: src/rush.c:47
+msgid ""
+"You do not have interactive login access to this machine.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+"Você não tem acesso a login interativo nesta máquina.\n"
+"Contate o administrador do seu sistema para mais assistência.\n"
+
+#: src/rush.c:51
+msgid ""
+"Local configuration error occurred.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+"Ocorreu um erro de configuração local.\n"
+"Contate o administrador do seu sistema para mais assistência.\n"
+
+#: src/rush.c:55
+msgid ""
+"A system error occurred while attempting to execute command.\n"
+"Contact the systems administrator for further assistance.\n"
+msgstr ""
+"Ocorreu um erro de sistema enquanto tentava executar comando.\n"
+"Contate o administrador do seu sistema para mais assistência.\n"
+
+#: src/rush.c:156
+#, c-format
+msgid "failed to write message to stderr: %s"
+msgstr "falha ao escrever mensagem para stderr: %s"
+
+#: src/rush.c:160
+#, c-format
+msgid "failed to write message to stdout: %s"
+msgstr "falha ao escrever mensagem para stdout: %s"
+
+#: src/rush.c:172
+#, c-format
+msgid "Debug: "
+msgstr "Depuração: "
+
+#: src/rush.c:176
+#, c-format
+msgid "Info: "
+msgstr "Informação: "
+
+#: src/rush.c:180
+#, c-format
+msgid "Notice: "
+msgstr "Observação: "
+
+#: src/rush.c:184
+#, c-format
+msgid "Warning: "
+msgstr "Aviso: "
+
+#: src/rush.c:191
+#, c-format
+msgid "Error: "
+msgstr "Erro: "
+
+#: src/rush.c:248
+msgid "Not enough memory"
+msgstr "Memória insuficiente"
+
+#: src/rush.c:279 src/rush.c:324
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unrecognized opcode %d"
+msgstr "ERRO INTERNO em %s:%d: código de operação não reconhecido %d"
+
+#: src/rush.c:411
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unrecognized node type %d"
+msgstr "ERRO INTERNO em %s:%d: tipo de nó não reconhecido %d"
+
+#: src/rush.c:620
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: invalid envar type %d"
+msgstr "ERRO INTERNO em %s:%d: tipo de envar inválido %d"
+
+#: src/rush.c:625
+msgid "Final environment:"
+msgstr "Ambiente final:"
+
+#: src/rush.c:639
+#, c-format
+msgid "wordsplit(%s) failed: %s"
+msgstr "wordsplit(%s) falhou: %s"
+
+#: src/rush.c:665
+#, c-format
+msgid "no argument at index %d in command: %s"
+msgstr "nenhum argumento no índice %d no comando: %s"
+
+#: src/rush.c:805
+#, c-format
+msgid "Removing option %s %s"
+msgstr "Removendo opção %s %s"
+
+#: src/rush.c:817
+msgid "Transforming command line"
+msgstr "Transformando linha de comando"
+
+#: src/rush.c:824
+#, c-format
+msgid "Transforming program name (%s)"
+msgstr "Transformando nome do programa (%s)"
+
+#: src/rush.c:842
+#, c-format
+msgid "Transforming argv[%d]"
+msgstr "Transformando argv[%d]"
+
+#: src/rush.c:849
+#, c-format
+msgid "Transforming variable %s=%s"
+msgstr "Transformando variável %s=%s"
+
+#: src/rush.c:856 src/rush.c:941
+msgid "environment transformation is not yet implemented"
+msgstr "transformação de ambiente não está implementado ainda"
+
+#: src/rush.c:860
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: can't modify read-only target"
+msgstr "ERRO INTERNO em %s:%d: não é possível modificar algo somente leitura"
+
+#: src/rush.c:879
+#, c-format
+msgid "Transformation map: %s, %s, %s, %u, %u, %s"
+msgstr "Mapa de transformação: %s, %s, %s, %u, %u, %s"
+
+#: src/rush.c:893
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: invalid node type %d"
+msgstr "ERRO INTERNO em %s:%d: tipo de nó inválido %d"
+
+#: src/rush.c:920
+#, c-format
+msgid "Deleting arguments %d-%d"
+msgstr "Excluindo argumentos %d-%d"
+
+#: src/rush.c:923
+msgid "Deleting argv[0] is prohibited"
+msgstr "Exclusão de argv[0] é proibida"
+
+#: src/rush.c:945
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: invalid target type %d"
+msgstr "ERRO INTERNO em %s:%d: tipo de alvo inválido %d"
+
+#: src/rush.c:963
+#, c-format
+msgid "Program name: %s"
+msgstr "Nome do programa: %s"
+
+#: src/rush.c:964
+msgid "Final arguments:"
+msgstr "Argumentos finais:"
+
+#: src/rush.c:982
+#, c-format
+msgid "error writing to database %s: %s"
+msgstr "erro ao escrever para o banco de dados %s: %s"
+
+#: src/rush.c:991
+#, c-format
+msgid "error writing stop to database file %s: %s"
+msgstr "erro ao escrever parada para o arquivo de banco de dados %s: %s"
+
+#: src/rush.c:1012
+#, c-format
+msgid "%s:%d: %s: cannot fork: %s"
+msgstr "%s:%d: %s: não foi possível bifurcar (fork): %s"
+
+#: src/rush.c:1022
+#, c-format
+msgid "Forked process %lu"
+msgstr "Bifurcou (fork) processo %lu"
+
+#: src/rush.c:1026
+#, c-format
+msgid "%s: subprocess exited with code %d"
+msgstr "%s: o subprocesso saiu com código %d"
+
+#: src/rush.c:1029
+#, c-format
+msgid "%s: subprocess terminated on signal %d"
+msgstr "%s: o subprocesso foi terminado com sinal %d"
+
+#: src/rush.c:1032
+#, c-format
+msgid "%s: subprocess terminated"
+msgstr "%s: o subprocesso terminado"
+
+#: src/rush.c:1093
+#, c-format
+msgid "cannot enforce gid %lu: %s"
+msgstr "não foi possível aplicar gid %lu: %s"
+
+#: src/rush.c:1098
+#, c-format
+msgid "cannot enforce uid %lu: %s"
+msgstr "não foi possível aplicar uid %lu: %s"
+
+#: src/rush.c:1103
+msgid "seteuid(0) succeeded when it should not"
+msgstr "seteuid(0) funcionou quando não deveria"
+
+#: src/rush.c:1109
+#, c-format
+msgid "Rule %s at %s:%d matched"
+msgstr "Regra %s em %s:%d correspondeu"
+
+#: src/rush.c:1123
+#, c-format
+msgid "Error message: %s"
+msgstr "Mensagem de erro: %s"
+
+#: src/rush.c:1126
+#, c-format
+msgid "Error sending diagnostic message to descriptor %d: %s"
+msgstr "Erro ao enviar mensagem de diagnóstico para descritor %d: %s"
+
+#: src/rush.c:1132
+#, c-format
+msgid "cannot set limits for %s"
+msgstr "não foi possível definir limites para %s"
+
+#: src/rush.c:1139
+#, c-format
+msgid "Chroot dir: %s"
+msgstr "Diretório de chroot: %s"
+
+#: src/rush.c:1146
+#, c-format
+msgid "Home dir: %s"
+msgstr "Diretório pessoal: %s"
+
+#: src/rush.c:1151
+#, c-format
+msgid "GID: %lu"
+msgstr "GID: %lu"
+
+#: src/rush.c:1176
+#, c-format
+msgid "cannot open database %s: %s"
+msgstr "não foi possível abrir o banco de dados %s: %s"
+
+#: src/rush.c:1185
+#, c-format
+msgid "cannot chroot to %s: %s"
+msgstr "não foi possível fazer chroot para %s: %s"
+
+#: src/rush.c:1192 src/rush.c:1284
+#, c-format
+msgid "invalid uid %lu"
+msgstr "uid %lu inválido"
+
+#: src/rush.c:1197
+#, c-format
+msgid "chdir %s"
+msgstr "chdir %s"
+
+#: src/rush.c:1200
+#, c-format
+msgid "cannot change to dir %s: %s"
+msgstr "não foi possível alterar para o diretório %s: %s"
+
+#: src/rush.c:1204
+#, c-format
+msgid "Executing %s, %s"
+msgstr "Executando %s, %s"
+
+#: src/rush.c:1219
+#, c-format
+msgid "%s:%d: %s: cannot execute %s: %s"
+msgstr "%s:%d: %s: não foi possível executar %s: %s"
+
+#: src/rush.c:1262 src/rush.c:1264
+msgid "invalid command line"
+msgstr "linha de comando inválida"
+
+#: src/rush.c:1275
+msgid "invalid user name"
+msgstr "nome de usuário inválido"
+
+#: src/rush.c:1286
+#, c-format
+msgid "user %s, uid %lu"
+msgstr "usuário %s, uid %lu"
+
+#: src/rush.c:1298
+msgid "Command line:"
+msgstr "Linha de comando:"
+
+#: src/rush.c:1301
+msgid "Environment:"
+msgstr "Ambiente:"
+
+#: src/rush.c:1332
+#, c-format
+msgid "Serving interactive shell request for %s by rule %s"
+msgstr "Servindo requisição de shell interativa para %s por regra %s"
+
+#: src/rush.c:1336
+#, c-format
+msgid "Serving request \"%s\" for %s by rule %s"
+msgstr "Servindo requisição \"%s\" para %s por regra %s"
+
+#: src/rush.c:1342
+#, c-format
+msgid "no matching rule for \"%s\", user %s"
+msgstr "nenhuma regra correspondente para \"%s\", usuário %s"
+
+#: src/rushlast.c:31 src/rushwho.c:30
+#, c-format
+msgid "not enough memory"
+msgstr "memória insuficiente"
+
+#: src/rushlast.c:78 src/rushwho.c:67
+#, c-format
+msgid "invalid format: %s"
+msgstr "formato inválido: %s"
+
+#: src/rushlast.c:88 src/rushwho.c:77
+#, c-format
+msgid "cannot open database file %s"
+msgstr "não foi possível abrir o arquivo de banco de dados %s"
+
+#: src/rushwho.c:61
+#, c-format
+msgid "extra arguments"
+msgstr "argumentos extra"
+
+#: src/socket.c:61
+#, c-format
+msgid "%s: TCPMUX did not respond"
+msgstr "%s: TCPMUX não respondeu"
+
+#: src/socket.c:65
+#, c-format
+msgid "%s: TCPMUX returned %s"
+msgstr "%s: TCPMUX retornou %s"
+
+#: src/transform.c:155
+msgid "Transform expression must start with 's' followed by a punctuation character"
+msgstr "Expressão de transformação deve iniciar com \"s\" seguido por um caractere de pontuação"
+
+#: src/transform.c:166
+#, c-format
+msgid "Missing 2nd delimiter in position %d of expression %s"
+msgstr "Faltando 2º delimitador na posição %d da expressão %s"
+
+#: src/transform.c:176
+#, c-format
+msgid "Missing trailing delimiter in position %d of expression %s"
+msgstr "Faltando delimitador final na posição %d da expressão %s"
+
+#: src/transform.c:203
+#, c-format
+msgid "Unknown flag in transform expression: %c"
+msgstr "Opção desconhecida na expressão de transformação: %c"
+
+#: src/transform.c:220
+#, c-format
+msgid "Invalid transform expression: %s"
+msgstr "Expressão de transformação inválida: %s"
+
+#: src/transform.c:248
+msgid "Invalid transform replacement: back reference out of range"
+msgstr "Substituição de transformação inválida: referência inversa fora de intervalo"
+
+#: rushopt.opt:27 rlopt.opt:56
+msgid "NUMBER"
+msgstr "NÚMERO"
+
+#: rushopt.opt:27
+msgid "Set debugging level."
+msgstr "Define o nível de depuração."
+
+#: rushopt.opt:35
+msgid "Run in test mode."
+msgstr "Executa no modo teste."
+
+#: rushopt.opt:41
+msgid "Scanner test."
+msgstr "Teste de varredura."
+
+#: rushopt.opt:47
+msgid "Print grammar and lexical analyzer traces"
+msgstr "Imprimir traços de gramática e analisador léxico"
+
+#: rushopt.opt:53
+msgid "NAME"
+msgstr "NOME"
+
+#: rushopt.opt:53
+msgid "Supply user name in test mode."
+msgstr "Fornece nome de usuário no modo teste."
+
+#: rushopt.opt:65
+msgid "COMMAND"
+msgstr "COMANDO"
+
+#: rushopt.opt:65
+msgid "Execute COMMAND."
+msgstr "Executa COMANDO."
+
+#: rushopt.opt:71
+msgid "Force interactive shell."
+msgstr "Força shell interativa."
+
+#: rushopt.opt:78
+msgid "KEYWORDS"
+msgstr "PALAVRAS-CHAVES"
+
+#: rushopt.opt:78
+msgid "Dump final request in test mode."
+msgstr "Despeja a requisição final em modo teste."
+
+#: rushopt.opt:85
+msgid "CHECK"
+msgstr "VERIF"
+
+#: rushopt.opt:85
+msgid "Add or remove configuration security check."
+msgstr "Adiciona ou remove verificação de segurança de configuração."
+
+#: rushopt.opt:93
+msgid "Show default configuration."
+msgstr "Mostra configuração padrão."
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Other options"
+msgstr "Outras opções"
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Give this help list"
+msgstr "Fornece essa lista de ajuda"
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Give a short usage message"
+msgstr "Fornece uma mensagem de uso curta"
+
+#: rushopt.opt:102 rwopt.opt:40 rlopt.opt:82
+msgid "Print program version"
+msgstr "Mostra versão do programa"
+
+#: rushopt.opt:23
+msgid "rush - a restricted user shell."
+msgstr "rush - uma shell de usuário restrita."
+
+#: rushopt.opt:25
+msgid "[FILE]"
+msgstr "[ARQUIVO]"
+
+#: rushopt.opt:125 rushopt.opt:359 rwopt.opt:123 rwopt.opt:357 rlopt.opt:126
+#: rlopt.opt:360
+msgid "Usage:"
+msgstr "Uso:"
+
+#: rushopt.opt:125 rwopt.opt:123 rlopt.opt:126
+msgid "OPTION"
+msgstr "OPÇÃO"
+
+#: rushopt.opt:243 rwopt.opt:241 rlopt.opt:244
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Argumentos obrigatórios ou opcionais para opções longas também o são para quaisquer opções curtas correspondentes."
+
+#: rushopt.opt:247 rwopt.opt:245 rlopt.opt:248
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Relate erros para %s.\n"
+
+#: rushopt.opt:698 rwopt.opt:696 rlopt.opt:699
+msgid "(C)"
+msgstr "©"
+
+#: rushopt.opt:716 rwopt.opt:714 rlopt.opt:717
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"Licença GPLv3+: GNU GPL versão 3 ou posterior <http://gnu.org/licenses/gpl.html>\n"
+"Este é um software livre: você é livre para alterá-lo e redistribuí-lo.\n"
+"NÃO HÁ QUALQUER GARANTIA, na máxima extensão permitida em lei.\n"
+"\n"
+
+#: rushopt.opt:60
+msgid "the --user option is allowed for the superuser only"
+msgstr "a opção --user é permitida para o superusuário apenas"
+
+#: rushopt.opt:100
+#, c-format
+msgid "No default configuration"
+msgstr "Nenhum arquivo de configuração"
+
+#: rwopt.opt:24 rlopt.opt:28
+msgid "STRING"
+msgstr "TEXTO"
+
+#: rwopt.opt:24 rlopt.opt:28
+msgid "Use STRING instead of the default format."
+msgstr "Usa TEXTO em vez do formato padrão."
+
+#: rwopt.opt:30 rlopt.opt:35
+msgid "DIR"
+msgstr "DIR"
+
+#: rwopt.opt:30 rlopt.opt:35
+msgid "Look for database files in DIR."
+msgstr "Procura por arquivos de banco de dados em DIR."
+
+#: rwopt.opt:36 rlopt.opt:49
+msgid "Do not display header line."
+msgstr "Não exibe linha de cabeçalho."
+
+#: rwopt.opt:21
+msgid "rushwho - show listing of online Rush users."
+msgstr "rushwho - mostra listagem de usuários conectados ao Rush."
+
+#: rlopt.opt:42
+msgid "Show entries in chronological order."
+msgstr "Mostra entradas em ordem cronológica."
+
+#: rlopt.opt:56
+msgid "Show at most NUM records."
+msgstr "Mostra no máximo NUM registros."
+
+#: rlopt.opt:24
+msgid "rushlast - show listing of last Rush logins."
+msgstr "rushlast - mostra listagem dos últimos logins ao Rush."
+
+#: rlopt.opt:26
+msgid "[user [user...]]"
+msgstr "[user [usuário...]]"
+
+#: rlopt.opt:63
+#, c-format
+msgid "invalid number (%s)"
+msgstr "número inválido (%s)"
+
+#: lib/readfmt.c:40
+#, c-format
+msgid "cannot stat format file %s"
+msgstr "não foi possível obter estado do arquivo %s"
+
+#: lib/readfmt.c:42
+#, c-format
+msgid "%s is not a regular file"
+msgstr "%s não é um arquivo comum"
+
+#: lib/readfmt.c:46
+#, c-format
+msgid "cannot open format file %s"
+msgstr "não foi possível abrir o arquivo de formato %s"
+
+#: lib/rushdb.c:79
+#, c-format
+msgid "cannot create directory %s: %s"
+msgstr "não foi possível criar o diretório %s: %s"
+
+#: lib/rushdb.c:84
+#, c-format
+msgid "cannot stat directory %s: %s"
+msgstr "não foi possível obter estado do diretório %s: %s"
+
+#: lib/rushdb.c:89
+#, c-format
+msgid "%s is not a directory"
+msgstr "%s não é um diretório"
+
+#: lib/rushdb.c:100 lib/rushdb.c:114
+#, c-format
+msgid "cannot open file %s: %s"
+msgstr "não foi possível abrir o arquivo %s: %s"
+
+#: lib/rushdb.c:586
+#, c-format
+msgid "missing closing quote in string started near `%s'"
+msgstr "faltando aspas de fechamento na string iniciada próximo a \"%s\""
+
+#: lib/version.c:28
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"\n"
+"Licença GPLv3+: GNU GPL versão 3 ou posterior <http://gnu.org/licenses/gpl.html>\n"
+"Este é um software livre: você é livre para alterá-lo e redistribuí-lo.\n"
+"NÃO HÁ QUALQUER GARANTIA, na máxima extensão permitida em lei.\n"
+"\n"
+
+#: gnu/error.c:197
+msgid "Unknown system error"
+msgstr "Erro desconhecido de sistema"
+
+#: gnu/getopt.c:280
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: a opção \"%s%s\" é ambígua\n"
+
+#: gnu/getopt.c:286
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: a opção \"%s%s\" é ambígua; possibilidades:"
+
+#: gnu/getopt.c:321
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: opção desconhecida \"%s%s\"\n"
+
+#: gnu/getopt.c:347
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: a opção \"%s%s\" não permite um argumento\n"
+
+#: gnu/getopt.c:362
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: a opção \"%s%s\" exige um argumento\n"
+
+#: gnu/getopt.c:623
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: opção inválida -- \"%c\"\n"
+
+#: gnu/getopt.c:638 gnu/getopt.c:684
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: a opção requer um argumento -- \"%c\"\n"
+
+#~ msgid "Ignoring non-existing file %s"
+#~ msgstr "Ignorando arquivo não existente %s"
+
+#~ msgid "%s: file is not safe"
+#~ msgstr "%s: arquivo não é seguro"
+
+#~ msgid "error reading file %s: %s"
+#~ msgstr "erro ao ler o arquivo %s: %s"
+
+#~ msgid "read 0 bytes from file %s"
+#~ msgstr "lido 0 bytes do arquivo %s"
+
+#~ msgid "not an absolute directory name"
+#~ msgstr "não é um nome absoluto de diretório"
+
+#~ msgid "%s:%d: cannot stat %s: %s"
+#~ msgstr "%s:%d: não foi possível obter estado de %s: %s"
+
+#~ msgid "%s:%d: %s is not a directory"
+#~ msgstr "%s:%d: %s não é um diretório"
+
+#~ msgid "%s:%d: invalid number: %s"
+#~ msgstr "%s:%d: número inválido: %s"
+
+#~ msgid "%s:%d: invalid chroot directory"
+#~ msgstr "%s:%d: diretório de chroot inválido"
+
+#~ msgid "%s:%d: invalid home directory"
+#~ msgstr "%s:%d: diretório pessoal inválido"
+
+#~ msgid "%s:%d: Unknown message reference"
+#~ msgstr "%s:%d: Referência de mensagem desconhecida"
+
+#~ msgid "%s:%d: expected boolean value, but found `%s'"
+#~ msgstr "%s:%d: esperava-se valor booleano, mas encontrou \"%s\""
+
+#~ msgid "%s:%d: unknown address family"
+#~ msgstr "%s:%d: família de endereço desconhecido"
+
+#~ msgid "%s:%d: malformed URL"
+#~ msgstr "%s:%d: URL malformada"
+
+#~ msgid "%s:%d: port is meaningless for UNIX sockets"
+#~ msgstr "%s:%d: porta não tem sentido para soquetes UNIX"
+
+#~ msgid "%s:%d: UNIX socket name too long"
+#~ msgstr "%s:%d: nome de soquete UNIX grande demais"
+
+#~ msgid "%s:%d: bad port number"
+#~ msgstr "%s:%d: número de porta inválido"
+
+#~ msgid "%s:%d: unknown service name"
+#~ msgstr "%s:%d: nome de serviço desconhecido"
+
+#~ msgid "%s:%d: unknown host name %s"
+#~ msgstr "%s:%d: nome de máquina desconhecido %s"
+
+#~ msgid "%s:%d: unsupported address family"
+#~ msgstr "%s:%d: família de endereço sem suporte"
+
+#~ msgid "%s:%d: cannot stat file %s: %s"
+#~ msgstr "%s:%d: não foi possível obter estado de %s: %s"
+
+#~ msgid "%s:%d: unknown keyword: %s"
+#~ msgstr "%s:%d: palavra-chave desconhecida: %s"
+
+#~ msgid "Falling back to the default configuration"
+#~ msgstr "Voltando para a configuração padrão"
+
+#~ msgid "%s:%d: INTERNAL ERROR: node type out of range"
+#~ msgstr "%s:%d: ERRO INTERNO: tipo de nó fora do intervalo"
+
+#~ msgid "Transform: \"%s\" -> \"%s\""
+#~ msgstr "Transformar: \"%s\" -> \"%s\""
+
+#~ msgid "Command line: %s"
+#~ msgstr "Linha de comando: %s"
+
+#~ msgid "Setting command line"
+#~ msgstr "Definindo linha de comando"
+
+#~ msgid "%s:%d: internal error"
+#~ msgstr "%s:%d: erro interno"
+
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: a opção \"--%s\" não permite um argumento\n"
+
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: opção desconhecida \"--%s\"\n"
+
+#~ msgid "%s: option '-W %s' is ambiguous\n"
+#~ msgstr "%s: a opção \"-W %s\" é ambígua\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: a opção \"-W %s\" não permite um argumento\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: a opção \"-W %s\" exige um argumento\n"
+
+#~ msgid "argcv_string failed: %s"
+#~ msgstr "argcv_string falhou: %s"

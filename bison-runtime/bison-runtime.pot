@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the GNU bison package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU bison 3.5.90\n"
+"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
+msgid "syntax error: cannot back up"
+msgstr ""
+
+#: data/skeletons/glr.c:1802
+msgid "syntax is ambiguous"
+msgstr ""
+
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
+msgid "syntax error"
+msgstr ""
+
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
+#, c-format
+msgid "syntax error, unexpected %s"
+msgstr ""
+
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s"
+msgstr ""
+
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s"
+msgstr ""
+
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s"
+msgstr ""
+
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
+#, c-format
+msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
+msgstr ""
+
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
+msgid "memory exhausted"
+msgstr ""

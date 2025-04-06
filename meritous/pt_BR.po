@@ -1,0 +1,1201 @@
+# Portuguese translations for meritous package
+# Traduções em português brasileiro para o pacote meritous.
+# Copyright (C) 2019 THE meritous'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the meritous package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: meritous 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-25 00:16+0100\n"
+"PO-Revision-Date: 2019-03-01 02:17-0200\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+
+#: ../share/applications/net.asceai.meritous.desktop.in.h:1
+#: ../share/metainfo/net.asceai.meritous.appdata.xml.in.h:1
+msgid "Meritous"
+msgstr "Meritous"
+
+#: ../share/applications/net.asceai.meritous.desktop.in.h:2
+#: ../share/metainfo/net.asceai.meritous.appdata.xml.in.h:2
+msgid "Action-adventure dungeon crawl game"
+msgstr "Jogo de exploração de masmorras de ação e aventura"
+
+#: ../share/metainfo/net.asceai.meritous.appdata.xml.in.h:3
+msgid "Far below the surface of the planet is a secret. A place of limitless power. Those that seek to control such a utopia will soon bring an end to themselves. Seeking an end to the troubles that plague him, PSI user MERIT journeys into the hallowed Orcus Dome in search of answers."
+msgstr "Muito abaixo da superfície do planeta está um segredo. Um lugar de poder ilimitado. Aqueles que buscam controlar tal utopia logo trarão um fim a si mesmos. Buscando o fim dos problemas que o assolam, o usuário PSI MERIT viaja para a sagrada Cúpula de Orcus em busca de respostas."
+
+#: ../share/metainfo/net.asceai.meritous.appdata.xml.in.h:4
+msgid "Meritous is a action-adventure game with simple controls but a challenge to find a balance of power verses recovery time during real-time battles. Set in a procedurally generated world, the player can explore thousands of rooms in search of powerful artifacts, tools to help them, and to eventually free the Orcus Dome from evil."
+msgstr "Meritous é um jogo de ação e aventura com controles simples, mas um desafio para encontrar um equilíbrio de poder versus tempo de recuperação durante batalhas em tempo real. Situado em um mundo gerado proceduralmente, o jogador pode explorar milhares de salas em busca de artefatos poderosos, ferramentas para ajudá-los e, eventualmente, libertar a Cúpula de Orcus do mal."
+
+#: ../share/metainfo/net.asceai.meritous.appdata.xml.in.h:5
+msgid "Title screen"
+msgstr "Tela do título"
+
+#: ../share/metainfo/net.asceai.meritous.appdata.xml.in.h:6
+msgid "Upgrading attack"
+msgstr "Melhorando o ataque"
+
+#: ../src/levelblit.c:501
+#, c-format
+msgid "Cannot open %s: %s\n"
+msgstr "Não foi possível abrir %s: %s\n"
+
+#: ../src/levelblit.c:503
+#, c-format
+msgid "Make sure the game data is installed.\n"
+msgstr "Certifique-se que os dados de jogo estão instalados.\n"
+
+#: ../src/levelblit.c:589
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../src/levelblit.c:590
+msgid "New Game"
+msgstr "Novo jogo"
+
+#: ../src/levelblit.c:591
+msgid "New Game (Wuss mode)"
+msgstr "Novo jogo (modo Frouxa)"
+
+#: ../src/levelblit.c:721
+msgid "Loading... please wait"
+msgstr "Carregando... aguarde"
+
+#: ../src/levelblit.c:727
+msgid "Saving... please wait"
+msgstr "Salvando... aguarde"
+
+#: ../src/levelblit.c:1062
+#, c-format
+msgid "Psi Crystals: %d"
+msgstr "Cristais Psi: %d"
+
+#: ../src/levelblit.c:1064
+#, c-format
+msgid "Explored: %.1f%% (%d/%d rooms)"
+msgstr "Explorado: %.1f%% (%d/%d salas)"
+
+#: ../src/levelblit.c:1066
+#, c-format
+msgid "Cleared: %.1f%% (%d/%d monsters)"
+msgstr "Limpado: %.1f%% (%d/%d monstros)"
+
+# Espaço adicionado ao início para manter alinhamento à direita
+#: ../src/levelblit.c:1069
+msgid "Reflect shield"
+msgstr "        Escudo"
+
+# Espaço adicionado ao início para manter alinhamento à direita
+#: ../src/levelblit.c:1072
+msgid "Circuit charge"
+msgstr "         Poder"
+
+#: ../src/levelblit.c:1075
+msgid "Circuit refill"
+msgstr "Recarregamento"
+
+#: ../src/levelblit.c:1080
+msgid "Use the movement keys to locate a checkpoint. Press button 1 to"
+msgstr "Ache um checkpoint com teclas de movimento. Pressione 1 para"
+
+#: ../src/levelblit.c:1081
+msgid "teleport to this checkpoint. Press Back or 3 once you are done."
+msgstr "teleportar para o checkpoint. Pressione Voltar ou 3 ao terminar."
+
+#: ../src/levelblit.c:1083
+msgid "Use the movement keys to locate a checkpoint. Press ENTER to"
+msgstr "Ache um checkpoint com teclas de movimento. Pressione ENTER para"
+
+#: ../src/levelblit.c:1084
+msgid "teleport to this checkpoint. Press ESCAPE or TAB once you are done."
+msgstr "teleportar para o checkpoint. Pressione ESCAPE ou TAB ao terminar."
+
+#: ../src/levelblit.c:1150
+msgid "Paused"
+msgstr "Pausado"
+
+#: ../src/levelblit.c:1179
+msgid "Are you sure you want to quit?"
+msgstr "Tem certeza que deseja sair?"
+
+#: ../src/levelblit.c:1181
+msgid "Press button 2 to confirm."
+msgstr "Botão 2 para confirmar."
+
+#: ../src/levelblit.c:1183
+msgid "Press enter to confirm."
+msgstr "ENTER para confirmar."
+
+#: ../src/levelblit.c:1317
+msgid "G A M E   O V E R"
+msgstr "F I M  D E  J O G O"
+
+#: ../src/levelblit.c:2010
+msgid "Psi Circuit"
+msgstr "Circuito Psi"
+
+#: ../src/levelblit.c:2505
+#, c-format
+msgid "This is a checkpoint, but it doesn't seem to be working"
+msgstr "Esse é um checkpoint, mas não parece estar funcionando"
+
+#: ../src/levelblit.c:2509
+#, c-format
+msgid "This is a checkpoint. You will return here when you die."
+msgstr "Esse é um checkpoint. Você retornará aqui quando morrer."
+
+#: ../src/levelblit.c:2512
+#, c-format
+msgid "Press button 2 to teleport between checkpoints."
+msgstr "Pressione o botão 2 para teleportar entre checkpoints."
+
+#: ../src/levelblit.c:2514
+#, c-format
+msgid "Press ENTER to teleport between checkpoints."
+msgstr "Pressione ENTER para teleportar entre checkpoints."
+
+#: ../src/levelblit.c:2520
+#, c-format
+msgid "Press button 2 to open the storage chest"
+msgstr "Pressione o botão 2 para abrir o baú"
+
+#: ../src/levelblit.c:2522
+#, c-format
+msgid "Press ENTER to open the storage chest"
+msgstr "Pressione ENTER para abrir o baú"
+
+#: ../src/levelblit.c:2527
+#, c-format
+msgid "Your shield is already at full efficiency"
+msgstr "Seu escudo já está em eficiência completa"
+
+#: ../src/levelblit.c:2530
+#, c-format
+msgid "Press button 2 to upgrade shields (%d crystals)"
+msgstr "Pressione o botão 2 para melhorar o escudo (%d cristais)"
+
+#: ../src/levelblit.c:2532
+#, c-format
+msgid "Press ENTER to upgrade shields (%d crystals)"
+msgstr "Pressione ENTER para melhorar o escudo (%d cristais)"
+
+#: ../src/levelblit.c:2538
+#, c-format
+msgid "Your circuit charge rate is already at its highest"
+msgstr "Sua taxa de poder já está no máximo"
+
+#: ../src/levelblit.c:2541
+#, c-format
+msgid "Press button 2 to upgrade circuit charge (%d crystals)"
+msgstr "Pressione o botão 2 para melhorar o poder (%d cristais)"
+
+#: ../src/levelblit.c:2543
+#, c-format
+msgid "Press ENTER to upgrade circuit charge (%d crystals)"
+msgstr "Pressione ENTER para melhorar o poder (%d cristais)"
+
+#: ../src/levelblit.c:2549
+#, c-format
+msgid "Your circuit refill rate is already at its highest"
+msgstr "Sua taxa de recarregamento já está no máximo"
+
+#: ../src/levelblit.c:2552
+#, c-format
+msgid "Press button 2 to upgrade circuit refill (%d crystals)"
+msgstr "Pressione o botão 2 para melhorar o recarregamento (%d cristais)"
+
+#: ../src/levelblit.c:2554
+#, c-format
+msgid "Press ENTER to upgrade circuit refill (%d crystals)"
+msgstr "Pressione ENTER para melhorar o recarregamento (%d cristais)"
+
+#: ../src/levelblit.c:2560
+#, c-format
+msgid "Press button 2 to record your progress"
+msgstr "Pressione o botão 2 para salvar seu progresso"
+
+#: ../src/levelblit.c:2562
+#, c-format
+msgid "Press ENTER to record your progress"
+msgstr "Pressione ENTER para salvar seu progresso"
+
+#: ../src/levelblit.c:2567
+#, c-format
+msgid "This is a crystal device. It isn't working at the moment."
+msgstr "Esse é um dispositivo de cristal. Ele não está funcionando no momento."
+
+#: ../src/levelblit.c:2570
+#, c-format
+msgid "Press button 2 to activate the crystal device"
+msgstr "Pressione o botão 2 para ativar o dispositivo de cristal"
+
+#: ../src/levelblit.c:2572
+#, c-format
+msgid "Press ENTER to activate the crystal device"
+msgstr "Pressione ENTER para ativar o dispositivo de cristal"
+
+#: ../src/levelblit.c:2581
+#, c-format
+msgid "The artifact is tainted with shadow. You must slay more of the shadow first."
+msgstr "O artefato está contaminado com sombra. Você deve matar mais sombras primeiro."
+
+#: ../src/levelblit.c:2592
+#, c-format
+msgid "Press 4 to read the help file"
+msgstr "Pressione 4 para ler o arquivo de ajuda"
+
+#: ../src/levelblit.c:2594
+#, c-format
+msgid "Press H to read the help file"
+msgstr "Pressione H para ler o arquivo de ajuda"
+
+#: ../src/levelblit.c:2605
+#, c-format
+msgid "Ancient artifact: Complete Map"
+msgstr "Artefato antigo: Mapa completo"
+
+#: ../src/levelblit.c:2606
+#, c-format
+msgid "Ancient artifact: Shield boost"
+msgstr "Artefato antigo: Reforço do escudo"
+
+#: ../src/levelblit.c:2607
+#, c-format
+msgid "Ancient artifact: Extra crystal efficiency"
+msgstr "Artefato antigo: Eficiência extra de cristal"
+
+#: ../src/levelblit.c:2608
+#, c-format
+msgid "Ancient artifact: Circuit booster"
+msgstr "Artefato antigo: Reforçador de circuito"
+
+#: ../src/levelblit.c:2609
+#, c-format
+msgid "Ancient artifact: Metabolism increase"
+msgstr "Artefato antigo: Aumento de metabolismo"
+
+#: ../src/levelblit.c:2610
+#, c-format
+msgid "Ancient artifact: Dodge enhancer"
+msgstr "Artefato antigo: Potencializador de esquiva"
+
+#: ../src/levelblit.c:2611
+#, c-format
+msgid "Ancient artifact: Ethereal Monocle"
+msgstr "Artefato antigo: Monóculo etéreo"
+
+#: ../src/levelblit.c:2612
+#, c-format
+msgid "Ancient artifact: Crystal gatherer"
+msgstr "Artefato antigo: Coletor de cristais"
+
+#: ../src/levelblit.c:2614
+#, c-format
+msgid "Enhancement: Shield upgrade"
+msgstr "Aprimoramento: Melhoria do escudo"
+
+#: ../src/levelblit.c:2615
+#, c-format
+msgid "Enhancement: Circuit charge upgrade"
+msgstr "Aprimoramento: Melhoria do poder"
+
+#: ../src/levelblit.c:2616
+#, c-format
+msgid "Enhancement: Circuit refill upgrade"
+msgstr "Aprimoramento: Melhoria do recarregamento"
+
+#: ../src/levelblit.c:2618
+#, c-format
+msgid "Reward: Psi crystals"
+msgstr "Prêmio: Cristais Psi"
+
+#: ../src/levelblit.c:2620
+#, c-format
+msgid "Holy Sword 'Balmung' answers your call"
+msgstr "Espada Sagrada \"Balmung\" responde ao seu chamado"
+
+#: ../src/levelblit.c:2621
+#, c-format
+msgid "Mystic Halberd 'Amenonuhoko' answers your call"
+msgstr "Alabarda Mística \"Amenonuhoko\" responde ao seu chamado"
+
+#: ../src/levelblit.c:2622
+#, c-format
+msgid "Divine Bow 'Gandiva' answers your call"
+msgstr "Arco Divino \"Gandiva\" responde ao seu chamado"
+
+#: ../src/levelblit.c:2623
+#, c-format
+msgid "You capture the cursed seal. Return to the entrance"
+msgstr "Você capturou o selo amaldiçoado. Retorne para a entrada"
+
+#: ../src/levelblit.c:2625
+#, c-format
+msgid "Balmung will remain here, where the ley lines are strong"
+msgstr "Balmung permanecerá aqui, onde as linhas ley são fortes"
+
+#: ../src/levelblit.c:2626
+#, c-format
+msgid "Amenonuhoko will remain here, where the ley lines are strong"
+msgstr "Amenonuhoko permanecerá aqui, onde as linhas ley são fortes"
+
+#: ../src/levelblit.c:2627
+#, c-format
+msgid "Gandiva will remain here, where the ley lines are strong"
+msgstr "Gandiva permanecerá aqui, onde as linhas ley são fortes"
+
+#: ../src/levelblit.c:2629
+#, c-format
+msgid ". . . . . .   retrieved 'Agate Knife'"
+msgstr ". . . . . .   obteve 'Faca de Ágata'"
+
+#: ../src/levelblit.c:2631
+#, c-format
+msgid "ERROR: NO MESSAGE VALUE GIVEN"
+msgstr "ERRO: NENHUM VALOR DE MENSAGEM FORNECIDO"
+
+#: ../src/save.c:145
+#, c-format
+msgid ""
+"Parity byte in error (%x != 0x7C)\n"
+"Aborting\n"
+msgstr ""
+"Byte de paridade em erro (%x != 0x7C)\n"
+"Abortando\n"
+
+#: ../src/boss.c:77
+msgid "Holy Sword 'Balmung'"
+msgstr "Espada Sagrada \"Balmung\""
+
+#: ../src/boss.c:78
+msgid "Mystic Halberd 'Amenonuhoko'"
+msgstr "Alabarda Mística \"Amenonuhoko\""
+
+#: ../src/boss.c:79
+msgid "Divine Bow 'Gandiva'"
+msgstr "Arco Divino \"Gandiva\""
+
+#: ../src/boss.c:80
+msgid "Cursed Seal of Yahveh"
+msgstr "Selo Amaldiçoado de Yahveh"
+
+#: ../src/boss.c:97
+msgid ""
+"MERIDIAN:\n"
+"  \n"
+"  Different...\n"
+"  \n"
+"  Your PSI is different. Your magic is perverse. Poisonous. Treacherous."
+msgstr ""
+"MERIDIAN:\n"
+"  \n"
+"  Diferente...\n"
+"  \n"
+"  Seu PSI é diferente. Sua mágica é perversa. Venenosa. Traiçoeira."
+
+#: ../src/boss.c:104
+msgid ""
+"MERIT:\n"
+"  \n"
+"  Nothing but darkness carried on the wind of a curse. It's amazing that you\n"
+"  are able to communicate with me at all. Surely a statement on the perversity\n"
+"  of my magic, coming from you, is more than a little bit hypocritical."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  Nada além de escuridão carregada no vento de uma maldição. É incrível que\n"
+"  você seja capaz de se comunicar comigo. Certamente, uma declaração sobre a\n"
+"  perversidade da minha magia, vinda de você, é mais do que pouco hipócrita."
+
+#: ../src/boss.c:111
+msgid ""
+"MERIDIAN:\n"
+"  \n"
+"  So. You've even brought that tainted thing with you.\n"
+"  That does not really surprise me, but nonetheless, your weak, impure PSI\n"
+"  will do you little good against one manifest of shadows. Pitiful thing from\n"
+"  the surface, MERIDIAN shall return you to the dust from whence you came!"
+msgstr ""
+"MERIDIAN:\n"
+"  \n"
+"  Então. Você até trouxe aquela coisa contaminada com você.\n"
+"  Isso realmente não me surpreende, mas mesmo assim, seu PSI fraco e impuro\n"
+"  lhe fará pouco bem contra um manifesto de sombras. Coitada da superfície,\n"
+"  MERIDIAN devolverá você ao pó de onde você veio!"
+
+#: ../src/boss.c:122
+msgid ""
+"ATARAXIA:\n"
+"  \n"
+"  It felt nearly as inconsequential as a stilling in the breeze, but there was\n"
+"  more to it, wasn't it? It feels as though I lost a part of myself. Was that\n"
+"  your doing?"
+msgstr ""
+"ATARAXIA:\n"
+"  \n"
+"  Parecia quase tão inconsequente quanto uma quietude na brisa, mas havia mais\n"
+"  nisso, não era? Parece que perdi uma parte de mim mesmo. Isso foi seu feito?"
+
+#: ../src/boss.c:129
+msgid ""
+"MERIT:\n"
+"  \n"
+"  Moving Ochra's Keys from the ley lines was only the start, am I correct?\n"
+"  Nonetheless, what you've already caused is enough. The Keys were placed to\n"
+"  prevent corruption in the PSI. Moving them renders the PSI unusable. There\n"
+"  is nothing to be gained from THAT."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  Mover as Chaves de Ochra das linhas ley foi apenas o começo, estou correto?\n"
+"  No entanto, o que você já causou é o suficiente. As chaves foram colocadas\n"
+"  para impedir a corrupção no PSI. Movê-los torna o PSI inutilizável. Não há\n"
+"  nada a ganhar com ISSO."
+
+#: ../src/boss.c:137
+msgid ""
+"ATARAXIA:\n"
+"  \n"
+"  Statements like that belie your youthful naivety and ignorance. There is no\n"
+"  way to make magic unusable. What you see now is the other side of PSI that\n"
+"  pitiful beings such as yourself turn a blind eye to. Like the sun at dawn\n"
+"  the sun at dusk, it is nonetheless the same sun, and each beautiful in its\n"
+"  own way. PSI isn't just for things like you, but for the entire cosmos.\n"
+"  Nothing can be gained by preventing it from taking its natural course."
+msgstr ""
+"ATARAXIA:\n"
+"  \n"
+"  Declarações como essa desmentem sua ingenuidade e ignorância juvenis. Não\n"
+"  há como tornar a magia inutilizável. O que você vê agora é o outro lado da\n"
+"  PSI, que seres miseráveis como você mesmos fecham os olhos. Como o sol ao\n"
+"  amanhecer o sol ao anoitecer, é o mesmo sol, e cada um lindo ao seu próprio\n"
+"  modo. O PSI não é apenas para coisas como você, mas para todo o cosmos. Nada\n"
+"  pode ser ganho impedindo-o de seguir seu curso natural."
+
+#: ../src/boss.c:147
+msgid ""
+"MERIT:\n"
+"  \n"
+"  You delude yourself with the crazed whisperings from the muck that spawned\n"
+"  you. You say that this PSI is still PSI, but it is not. PSI is the energy of\n"
+"  creation. This is the energy of destruction. PSI is a pure force, gathered\n"
+"  from around me and targeted with my mind. This is a foul mixture, existing\n"
+"  as half-mad corruptions like you. It can only break apart when confronted\n"
+"  with true power."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  Você se ilude com os sussurros enlouquecidos da sujeira que gerou você.\n"
+"  Você diz que este PSI ainda é PSI, mas não é. PSI é a energia da criação.\n"
+"  Essa é a energia da destruição. PSI é uma força pura, reunida ao meu redor\n"
+"  e direcionada para minha mente. Esta é uma mistura suja, existindo como\n"
+"  corrupções meio loucas como você. Só pode desmoronar quando confrontado\n"
+"  com o verdadeiro poder."
+
+#: ../src/boss.c:157
+msgid ""
+"ATARAXIA:\n"
+"  \n"
+"  You realise that not even your fellow PSI users agree with you? But, it is\n"
+"  of little consequence. I'll show you the true beauty of that which you shun\n"
+"  by smothering you in it and turning your flesh into fuel for the PSI that\n"
+"  runs through the veins of this Dome!"
+msgstr ""
+"ATARAXIA:\n"
+"  \n"
+"  Você percebe que nem mesmo seus usuários PSI concordam com você? Mas é de\n"
+"  pouca importância. Vou lhe mostrar a verdadeira beleza daquilo que você\n"
+"  evita ao sufocá-lo e transformar sua carne em combustível para o PSI que\n"
+"  corre nas veias desta Cúpula!"
+
+#: ../src/boss.c:168
+msgid ""
+"MERODACH:\n"
+"  \n"
+"  e v e r y t h i n g   h a s   t u r n e d   t o   d a r k n e s s\n"
+"  \n"
+"  n o   s o u n d   n o   l i g h t   n o   s e n s a t i o n\n"
+"  \n"
+"  w a s   t h i s   w h a t   y o u   w e r e   a f t e r   f r o m\n"
+"  \n"
+"  t h e   b e g i n n i n g ?"
+msgstr ""
+"MERODACH:\n"
+"  \n"
+"  t u d o   s e   t o r n o u   e s c u r i d ã o\n"
+"  \n"
+"  s e m   s o m   s e m   l u z   s e m   s e n s a ç ã o\n"
+"  \n"
+"  e r a   d i s s o   q u e   v o c ê   e s t a v a   a t r á s\n"
+"  \n"
+"  d e s d e   o   c o m e ç o ?"
+
+#: ../src/boss.c:179
+msgid ""
+"MERODACH\n"
+"  \n"
+"  i ' l l   w r a p   m y   r e m a i n i n g   P S I   a r o u n d   y o u\n"
+"  \n"
+"  a n d   e x t i n g u i s h   t h a t   l i f e   o f   y o u r s\n"
+"  \n"
+"  l e t ' s   s e e   h o w   y o u   e n j o y   e t e r n a l   r e s t"
+msgstr ""
+"MERODACH\n"
+"\n"
+"  v o u   a m a r r a r   m e u   P S I   r e m a n e s c e n t e   e m\n"
+"  \n"
+"  t o r n o   d e   v o c ê   e   e x t i n g u i r   s u a   v i d a\n"
+"  \n"
+"  v a m o s   v e r   c o m o   v o c ê   a p r o v e i t a   o\n"
+"  \n"
+"  d e s c a n s o   e t e r n o"
+
+#: ../src/boss.c:191
+msgid ""
+"MERIT:\n"
+"  \n"
+"  ANIXIL? So, that's how it is. I assume you worked out a way of using the\n"
+"  PSI in this state. So, not happy with your allotted PSI from the Dome, you\n"
+"  decided to render it in this form and take it all for yourself.\n"
+"  What was your reasoning for doing something this rash, though?"
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  ANIXIL? Então é assim. Eu suponho que você arranjou uma maneira de usar o\n"
+"  PSI nesse estado. Então, não contente com o seu PSI alocado da Cúpula,\n"
+"  você decidiu renderizá-lo desta forma e pegar tudo sozinho. Qual foi o\n"
+"  seu raciocínio para fazer algo tão imprudente?"
+
+# 1/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#
+#: ../src/boss.c:200
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  All you seem to do is complain. That's what I've discovered through this,\n"
+"  and it's definitely part of the reason I did it. I do creative things like\n"
+"  this sort of 'punishment' because it lets me better understand the nature of\n"
+"  all the forces involved. It tells me that you, MERIT, really do not have a\n"
+"  clue how to relate to other PSI users, and that for the most part you're\n"
+"  entirely self-absorbed. It tells me that, while PSI users in general doesn't\n"
+"  really 'get' the ethos of the forces involved here, and that the rerendered"
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  Tudo o que você parece fazer é reclamar. É o que eu descobri através disso,\n"
+"  e é definitivamente parte da razão pela qual fiz isso. Eu faço coisas\n"
+"  criativas como esse tipo de \"punição\" porque me permite entender melhor\n"
+"  a natureza de todas as forças envolvidas. Isso me diz que você, MERIT,\n"
+"  realmente não tem a menor ideia de como se relacionar com outros usuários\n"
+"  do PSI, e que, na maior parte do tempo, você é completamente egocêntrico.\n"
+"  Isso me diz que, enquanto os usuários do PSI em geral não \"entendem\" o ethos"
+
+# 2/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:212
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  PSI, as intelligent as it is, pretty much entirely understands it, though it\n"
+"  was mistaken that the rendering of this form was intentional.\n"
+"  \n"
+"  Regarding that, by the way, THAT is the reason I thought you needed a\n"
+"  punishment. Making ridiculously inefficient, wasteful use of the limited PSI\n"
+"  we have available wouldn't have been a problem if it was just the normal PSI\n"
+"  like we'd planned it to be. But you knew full well that PSI users who wanted"
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  das forças envolvidas aqui, e que o PSI renderizado, tão inteligente como é,\n"
+"  o compreende completamente, embora estivesse enganado que a renderização\n"
+"  desta forma foi intencional.\n"
+"  \n"
+"  Quanto a isso, a propósito, ESSA é a razão pela qual pensei que você\n"
+"  precisava de uma punição. Tornar o uso ridiculamente ineficiente e\n"
+"  desperdiçador do PSI limitado que temos disponível não teria sido um problema"
+
+# 2/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:224
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  nothing to do with it were being greatly inconvenienced by usage clogging up\n"
+"  the limited ley-lines we have. That makes you an asshole, a deliberate prick\n"
+"  to everyone in the world because you thought you could get away with it, and\n"
+"  that it wouldn't matter.\n"
+"  \n"
+"  I also take issue with this nonsense about your punishment being severe,\n"
+"  because it's not. You can still use your PSI as you used it before, to a"
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  se fosse apenas o PSI normal como planejamos. Mas você sabia muito bem que os\n"
+"  usuários do PSI que não queriam nada com isso estavam sendo muito incomodados\n"
+"  pelo uso entupindo as limitadas linhas Ley que temos. Isso faz de você um\n"
+"  idiota, um idiota deliberado para todos no mundo porque você pensou que\n"
+"  poderia se safar, e que isso não importaria.\n"
+"  \n"
+"  Eu também tenho problema com essa bobagem sobre a sua punição ser severa,"
+
+# 3/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:236
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  similar level of effectiveness. I specifically allowed access to THIS form\n"
+"  of PSI so that you couldn't complain that you couldn't use magic. Now\n"
+"  exiling you to the Dome had multiple meanings. One was to effectively tell\n"
+"  you, 'I don't think you have anything of value to do, so I'm putting you in\n"
+"  a place where no one does anything of value.' I still think that, by the\n"
+"  way. Another was, like I said, to see what you would do. Maybe you would\n"
+"  actually cast something worth the PSI, then. Or maybe you would take the"
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  porque não é. Você ainda pode usar seu PSI como você usou antes, para um\n"
+"  nível semelhante de eficácia. Eu permiti especificamente o acesso a esta\n"
+"  forma de PSI para que você não pudesse reclamar que não podia usar magia.\n"
+"  Agora, exilar você para a Cúpula teve vários significados. Um deles foi\n"
+"  lhe dizer: \"Eu não acho que você tenha algo de valor para fazer, então estou\n"
+"  colocando você em um lugar onde ninguém faz nada de valor\". Eu ainda acho\n"
+"  que, a propósito. Outra foi, como eu disse, ver o que você faria. Talvez você"
+
+# 4/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:248
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  hint and just stop it for the week until I decided you'd had enough. But you\n"
+"  couldn't do either of those things, because all you do is complain.\n"
+"  \n"
+"  I want you to take a look at yourself and ask what you want to accomplish\n"
+"  here, and what you think is keeping you here. Obviously you have some\n"
+"  attachment, even though you keep saying the new PSI is worthless. This isn't"
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  realmente tenha lançado algo que valha o PSI. Ou talvez você aceitasse a\n"
+"  sugestão e parasse por uma semana até que eu decidisse que você tinha o\n"
+"  suficiente. Mas você não pode fazer nenhuma dessas coisas, porque tudo que\n"
+"  você faz é reclamar.\n"
+"  \n"
+"  Eu quero que você dê uma olhada em si mesmo e pergunte o que você quer\n"
+"  realizar aqui, e o que você acha que está mantendo você aqui. Obviamente você"
+
+# 5/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:259
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  true, of course, ATARAXIA really captures a good point here. For the most\n"
+"  part, PSI users just find you extremely annoying because you continually set\n"
+"  yourself at odds with pretty much every kind of PSI usage but your own, and\n"
+"  then complain about it. Do you want things to be different? They certainly\n"
+"  can be. 'EVEN IF I DO CHANGE, THEN MY PSI WON'T BE GOOD ENOUGH!' That's\n"
+"  bullshit. All other PSI users seem to be on the path to figuring out how to\n"
+"  just use it. You can too."
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  tem algum apego, ainda que você continue dizendo que o novo PSI é inútil.\n"
+"  Isso não é verdade, claro, ATARAXIA realmente capta um bom ponto aqui. Na\n"
+"  maioria dos casos, os usuários do PSI apenas acham você extremamente\n"
+"  irritante, porque você sempre vê problema em praticamente todos os tipos de\n"
+"  uso de PSI, mas não em você mesmo, e depois se queixa disso. Você quer que as\n"
+"  coisas sejam diferentes? Elas certamente podem ser. \"MESMO QUE EU MUDE, ENTÃO\n"
+"  MEU PSI NÃO SERÁ BOM BASTANTE!\" Isso é besteira. Todos os outros usuários do"
+
+# 6/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:271
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  Your 'punishment' is up tomorrow, I'd only planned to do it for a week. Of\n"
+"  course, you can continue complaining, and I may have to think of something\n"
+"  else to do to you. But I'm not going to kill you. If you want to leave this\n"
+"  mortal coil because you can't take it anymore, then leave. If you don't want\n"
+"  to leave, then start working out your issues with the new PSI, I actually\n"
+"  would love to help. And if you don't want to do that, then I'm sorry, but\n"
+"  you're going to continue being useless at magic, because the way you are"
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  PSI parecem estar no caminho para descobrir como usá-lo. Você também pode.\n"
+"  \n"
+"  Sua \"punição\" é amanhã, eu planejei fazer isso por uma semana. Claro, você\n"
+"  pode continuar reclamando e talvez precise pensar em outra coisa para fazer\n"
+"  com você. Mas eu não vou te matar. Se você quiser deixar esse corpo mortal\n"
+"  porque não aguenta mais, deixe-o. Se você não quer deixar, então comece a\n"
+"  resolver seus problemas com o novo PSI, eu realmente gostaria de ajudar. E se"
+
+# 7/7 -- essa é uma parte de uma longa fala do ANIXIL ao longo de 7 msgids.
+# A tradução é uma parte do todo, não correspondendo exatamente a este msgid -- Rafael
+#: ../src/boss.c:283
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  now, it's not surprising at all that your PSI ability is as stunted as it\n"
+"  is."
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  você não quer fazer isso, então me desculpe, mas você vai continuar sendo\n"
+"  inútil na mágica, porque do jeito que você é agora, não é de se surpreender\n"
+"  que sua habilidade de PSI seja tão atrofiada quanto é."
+
+#: ../src/boss.c:290
+msgid ""
+"MERIT:\n"
+"  \n"
+"  The tainted PSI has driven even you mad. Mad with power. This is a blow I\n"
+"  I must strike, for everyone. For humanity."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  O PSI contaminado levou você até a loucura. Louco com poder. Este é um\n"
+"  golpe que devo atacar para todos. Para a humanidade."
+
+#: ../src/boss.c:297
+msgid ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  I'll meet you at the point of diminishing returns."
+msgstr ""
+"WERVYN ANIXIL:\n"
+"  \n"
+"  Eu encontrarei você no ponto de retornos decrescentes."
+
+#: ../src/boss.c:305
+msgid ""
+"MERIT:\n"
+"  \n"
+"  ANIXIL? So, that's how it is. I assume you worked out a way of using the\n"
+"  PSI in this state. So, not happy with your allotted PSI from the Dome, you\n"
+"  decided to render it in this form and take it all for yourself.\n"
+"  What was your reasoning for doing something this rash, though?\n"
+"  \n"
+"  That was what you wanted to hear, right?"
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  ANIXIL? Então é assim. Eu suponho que você encontrou uma forma de usar o\n"
+"  PSI neste estado. Então, não contente com o seu PSI da Cúpula, você\n"
+"  decidiu renderizá-lo desta forma e pegar tudo sozinho. Qual foi o seu\n"
+"  raciocínio para fazer algo tão imprudente?\n"
+"  \n"
+"  Isso foi o que você queria ouvir, certo?"
+
+#: ../src/boss.c:316
+msgid ""
+"WERVYN ANIXIL????:\n"
+"  \n"
+"  All you seem to do is complain. That's what I've discovered through this,\n"
+"  and it's definitely part of the ... ... ... ... ... ... ... ... ... ... ...\n"
+"  ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...\n"
+"  ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...\n"
+"  ... ... oh."
+msgstr ""
+"WERVYN ANIXIL????:\n"
+"  \n"
+"  Tudo o que você parece fazer é reclamar. É o que eu descobri através disso,\n"
+"  e é definitivamente parte da .. ... ... ... ... ... ... ... ... ... ... ...\n"
+"  ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...\n"
+"  ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...\n"
+"  ... ... oh."
+
+#: ../src/boss.c:326
+msgid ""
+"MERIT:\n"
+"  \n"
+"  If I've learned anything in life, it's that things are often not quite as\n"
+"  they seem. You couldn't use the Agate Knife, so you attempted to hide it.\n"
+"  \n"
+"  Unfortunately for you, I found it and recognised it."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  Se aprendi alguma coisa na vida, é que as coisas muitas vezes não são\n"
+"  exatamente como parecem. Você não podia usar a Faca de Ágata, então tentou\n"
+"  escondê-lo.\n"
+"  \n"
+"  Infelizmente, para você, eu a encontrei e a reconheci."
+
+#: ../src/boss.c:335
+msgid ""
+"WERVYN ANIXIL????:\n"
+"  \n"
+"  . . . . no. It's not just recognising the Knife at all. You were actually\n"
+"  able to use it, too.\n"
+"  \n"
+"  So. You too knew the secret?"
+msgstr ""
+"WERVYN ANIXIL????:\n"
+"  \n"
+"  . . . . não. Não é apenas reconhecer a faca. Você foi realmente capaz de\n"
+"  usá-la também.\n"
+"  \n"
+"  Então, você também sabia o segredo?"
+
+#: ../src/boss.c:344
+msgid ""
+"MERIT:\n"
+"  \n"
+"  I was one of the few that he told.\n"
+"  \n"
+"  And so I know."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  Eu fui um dos poucos a quem ele contou.\n"
+"  \n"
+"  E, portanto, eu sei."
+
+#: ../src/boss.c:352
+msgid ""
+"????:\n"
+"  \n"
+"  Umm..."
+msgstr ""
+"????:\n"
+"  \n"
+"  Umm..."
+
+#: ../src/boss.c:358
+msgid ""
+"MERIT:\n"
+"  \n"
+"  Well, it wasn't a bad attempt. If I hadn't found THAT, I would never have\n"
+"  known.\n"
+"  \n"
+"  Now that that's taken care of, I might as well finish what I came here for.\n"
+"  Prepare yourself."
+msgstr ""
+"MERIT:\n"
+"  \n"
+"  Bem, não foi uma tentativa ruim. Se eu não tivesse encontrado isso, eu nunca\n"
+"  saberia.\n"
+"  \n"
+"  Agora que isso foi resolvido, eu poderia terminar o que vim aqui. Prepare-se."
+
+#: ../src/boss.c:368
+msgid ""
+"????:\n"
+"  \n"
+"  I won't hold back! There's not a lot of point, now."
+msgstr ""
+"????:\n"
+"  \n"
+"  Não vou me segurar! Não há muitos pontos, agora."
+
+# 1/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:169
+msgid "Merit released the locks on the PSI flowing through the Dome,"
+msgstr "Merit liberou as travas no PSI que flui através da Cúpula,"
+
+# 2/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:170
+msgid "releasing the flow of PSI into the atmosphere."
+msgstr "liberando o fluxo de PSI na atmosfera."
+
+# 3/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:172
+msgid "The Orcus Dome was originally built to centralise the limited"
+msgstr "A Cúpula de Orcus foi construída para centralizar o limitado"
+
+# 4/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:173
+msgid "PSI available to everyone. However, this made the existing"
+msgstr "PSI disponível para todos. Porém, isso tornou as reservas"
+
+# 5/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:174
+msgid "reserves more vulnerable to malicious PSI users"
+msgstr "existentes mais vulneráveis a usuários de PSI malicioso."
+
+# 6/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:176
+msgid "While other PSI users initially resented Merit for his rash"
+msgstr "Apesar de outros usuários do PSI terem se ressentido do Merit"
+
+# 7/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:177
+msgid "behaviour, they eventually adjusted to the decentralisation."
+msgstr "por seu comportamento, eles se ajustaram à descentralização."
+
+# 8/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:179
+msgid "Eventually, PSI users grew so adept at manipulating the"
+msgstr "Por fim, os usuários do PSI tornaram-se tão hábeis em manipular os"
+
+# 9/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:180
+msgid "diluted flows of PSI that they were capable of the same things"
+msgstr "fluxos diluídos do PSI que eram capazes das mesmas coisas de antes."
+
+# 10/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:181
+msgid "as before. Each PSI user would keep their own individual"
+msgstr "Cada usuário do PSI manteria suas próprias reservas individuais"
+
+# 11/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:182
+msgid "reserves of PSI for when they needed to weild greater power,"
+msgstr "de PSI para quando eles precisassem aumentar a potência,"
+
+# 12/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:183
+msgid "and the balance of power was restored."
+msgstr "e o equilíbrio de poder seria restaurado."
+
+# 13/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:185
+msgid "Merit decided to assume the role of custodian over the Orcus"
+msgstr "Merit decidiu assumir o papel de guardião da Cúpula de Orcus,"
+
+# 14/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:186
+msgid "Dome, in Wervyn Anixil's place. He resumed the experiments on"
+msgstr "no lugar de Wervyn Anixil. Ele retomou os experimentos no PSI"
+
+# 15/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:187
+msgid "PSI and found ways of making the Dome's remaining supply go as"
+msgstr "e encontrou maneiras de fazer o estoque remanescente da Cúpula"
+
+# 16/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:188
+msgid "far as it could."
+msgstr "durar o máximo que pudesse."
+
+# 17/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:190
+msgid "Other PSI users were suspicious of MERIT, just as they were"
+msgstr "Outros usuários da PSI suspeitavam do MERIT, mesma desconfiança"
+
+# 1820 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:191
+msgid "wary of Wervyn Anixil before him, but they soon adjusted."
+msgstr "de Wervyn Anixil antes dele, mas logo se ajustaram."
+
+# 19/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:193
+msgid "The balance of power was quickly restored, and stabilised for"
+msgstr "O equilíbrio de poder foi rapidamente restaurado e estabilizado"
+
+# 20/20 -- essa é a parte final em um longo texto de 20 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:194
+msgid "eternity due to the work of Wervyn Anixil and now MERIT."
+msgstr "para a eternidade devido ao trabalho de Wervyn Anixil e agora MERIT."
+
+#: ../src/ending.c:197
+msgid "                      [[ BEST ENDING ]]"
+msgstr "                      [[ MELHOR FIM ]]"
+
+#: ../src/ending.c:289
+msgid "Concept:                    Lancer-X/Asceai"
+msgstr "Conceito:                   Lancer-X/Asceai"
+
+#: ../src/ending.c:290
+msgid "Game design:                Lancer-X/Asceai"
+msgstr "Design do jogo:             Lancer-X/Asceai"
+
+#: ../src/ending.c:291
+msgid "Graphics:                   Lancer-X/Asceai"
+msgstr "Gráficos:                   Lancer-X/Asceai"
+
+#: ../src/ending.c:292
+msgid "Programming:                Lancer-X/Asceai"
+msgstr "Programação:                Lancer-X/Asceai"
+
+#: ../src/ending.c:293
+msgid "Sound Effects:              Various (public domain) sources"
+msgstr "Efeitos de som:             Várias (domínio público) fontes"
+
+#: ../src/ending.c:294
+msgid "Music:                      Various artists"
+msgstr "Música:                     Vários artistas"
+
+#: ../src/ending.c:295
+msgid "Beta testing:               Quasar"
+msgstr "Teste beta:                 Quasar"
+
+#: ../src/ending.c:296
+msgid "Beta testing:               Terryn"
+msgstr "Teste beta:                 Terryn"
+
+#: ../src/ending.c:297
+msgid "Beta testing:               Wervyn"
+msgstr "Teste beta:                 Wervyn"
+
+#: ../src/ending.c:298
+msgid "\"Ambient Light\"       Vogue of Triton"
+msgstr "\"Ambient Light\"       Vogue of Triton"
+
+#: ../src/ending.c:299
+msgid "\"Battle of Ragnarok\"  Frostbite"
+msgstr "\"Battle of Ragnarok\"  Frostbite"
+
+#: ../src/ending.c:300
+msgid "\"Dragon Cave\"         TICAZ"
+msgstr "\"Dragon Cave\"         TICAZ"
+
+#: ../src/ending.c:301
+msgid " cavern.xm            Unknown"
+msgstr " cavern.xm            Desconhecido"
+
+#: ../src/ending.c:302
+msgid "\"Caverns Boss\"        Alexis Janson"
+msgstr "\"Caverns Boss\"        Alexis Janson"
+
+#: ../src/ending.c:303
+msgid "\"Forest Boss\"         Alexis Janson"
+msgstr "\"Forest Boss\"         Alexis Janson"
+
+#: ../src/ending.c:304
+msgid "\"Catacombs Boss\"      Alexis Janson"
+msgstr "\"Catacombs Boss\"      Alexis Janson"
+
+#: ../src/ending.c:305
+msgid "\"Fear 2\"              Mick Rippon"
+msgstr "\"Fear 2\"              Mick Rippon"
+
+#: ../src/ending.c:306
+msgid "\"The Final Battle\"    Goose/CDA & iNVASiON"
+msgstr "\"The Final Battle\"    Goose/CDA & iNVASiON"
+
+#: ../src/ending.c:307
+msgid "\"Ice Frontier\"        Skaven/FC"
+msgstr "\"Ice Frontier\"        Skaven/FC"
+
+#: ../src/ending.c:308
+msgid "\"KnarkLoader 1.0\"     Rapacious"
+msgstr "\"KnarkLoader 1.0\"     Rapacious"
+
+#: ../src/ending.c:309
+msgid "\"RPG-Battle\"          Cyn"
+msgstr "\"RPG-Battle\"          Cyn"
+
+#: ../src/ending.c:310
+msgid "\"Metallic Forest\"     Joseph Fox"
+msgstr "\"Metallic Forest\"     Joseph Fox"
+
+# 1/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:511 ../src/ending.c:521
+msgid "Activating the seal quickly unblocked the ley lines and allowed"
+msgstr "A ativação do selo rapidamente desbloqueou as linhas de ley"
+
+# 2/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:512 ../src/ending.c:522
+msgid "PSI to flow through the Dome again. The remaining shadows were"
+msgstr "e permitiu que o PSI passasse pela Cúpula novamente. As sombras"
+
+# 3/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:513 ../src/ending.c:523
+msgid "quickly flushed out."
+msgstr "restantes foram rapidamente destruídas."
+
+# 4/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:515
+msgid "Wervyn Anixil's unconventional use of the PSI resulted in him"
+msgstr "O uso não convencional do PSI pelo Wervyn Anixil resultou em"
+
+# 5/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:516
+msgid "being burned out and rendered powerless. Merit will see to it"
+msgstr "ele ser queimado e perdido todo seu poder. Merit fará com que"
+
+# 6/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:517
+msgid "that he faces judgement for his crimes."
+msgstr "ele seja julgado por seus crimes."
+
+# 7/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:519
+msgid "Neither of the two PSI weapons housed within the Dome had been"
+msgstr "Nenhuma das duas armas PSI alojadas dentro da Cúpula foram tocadas."
+
+# 8/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:520
+msgid "touched. However . . ."
+msgstr "Contudo . . ."
+
+# 9/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:525
+msgid "The traitor, who was never identified, perished in the Sealing."
+msgstr "O traidor, que nunca foi identificado, pereceu no Selo."
+
+# 10/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:526
+msgid "It soon became clear that the traitor had managed to betray and"
+msgstr "Logo ficou claro que o traidor havia conseguido trair e matar o"
+
+# 11/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:527
+msgid "kill the real Wervyn Anixil during his experiments on the PSI."
+msgstr "verdadeiro Wervyn Anixil durante suas experiências no PSI."
+
+# 12/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:528
+msgid "If the Agate Knife was never found, nobody would have been any"
+msgstr "Se a Faca de Ágata nunca fosse encontrada, ninguém teria sido"
+
+# 13/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:529
+msgid "the wiser, and things could have turned out very differently."
+msgstr "o sábio, e as coisas poderiam ter sido muito diferentes."
+
+# 14/14 -- essa é a parte de um final alternativo em um longo texto de 14 msgids.
+# A tradução é uma parte do todo, talvez não correspondendo exatamente a este msgid -- Rafael
+#: ../src/ending.c:530
+msgid "However, there was one last thing for MERIT to do."
+msgstr "No entanto, havia uma última coisa para o MERIT fazer."

@@ -1,0 +1,1141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Sergey Poznyakoff
+# This file is distributed under the same license as the GNU direvent package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU direvent 5.3\n"
+"Report-Msgid-Bugs-To: bug-direvent@gnu.org.ua\n"
+"POT-Creation-Date: 2021-12-30 10:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cmdline.opt:24
+msgid "increase debug level"
+msgstr ""
+
+#: cmdline.opt:30
+msgid "PRIO"
+msgstr ""
+
+#: cmdline.opt:30
+msgid ""
+"log everything with priority PRIO and higher to the stderr, as well as to "
+"the syslog"
+msgstr ""
+
+#: cmdline.opt:39
+msgid "NAME"
+msgstr ""
+
+#: cmdline.opt:39
+msgid "set syslog facility"
+msgstr ""
+
+#: cmdline.opt:45
+msgid "remain in foreground"
+msgstr ""
+
+#: cmdline.opt:51
+msgid "DIR"
+msgstr ""
+
+#: cmdline.opt:51
+msgid "add include directory"
+msgstr ""
+
+#: cmdline.opt:57
+msgid "PROG"
+msgstr ""
+
+#: cmdline.opt:57
+msgid "self-test mode"
+msgstr ""
+
+#: cmdline.opt:63
+msgid "FILE"
+msgstr ""
+
+#: cmdline.opt:63
+msgid "set PID file"
+msgstr ""
+
+#: cmdline.opt:69
+msgid "check configuration file and exit"
+msgstr ""
+
+#: cmdline.opt:75
+msgid "USER"
+msgstr ""
+
+#: cmdline.opt:75
+msgid "run as this user"
+msgstr ""
+
+#: cmdline.opt:85
+msgid "show configuration file summary"
+msgstr ""
+
+#: cmdline.opt:79
+msgid "Other options"
+msgstr ""
+
+#: cmdline.opt:91
+msgid "Give this help list"
+msgstr ""
+
+#: cmdline.opt:91
+msgid "Give a short usage message"
+msgstr ""
+
+#: cmdline.opt:91
+msgid "Print program version"
+msgstr ""
+
+#: cmdline.opt:19
+msgid "GNU direvent monitors changes in directories"
+msgstr ""
+
+#: cmdline.opt:21
+msgid "[CONFIG]"
+msgstr ""
+
+#: cmdline.opt:95
+#, c-format
+msgid ""
+"The optional CONFIG argument supplies the name of the configuration file\n"
+"to use instead of %s.\n"
+"\n"
+msgstr ""
+
+#. TRANSLATORS: %s is one of: inotify, kqueue
+#: cmdline.opt:99
+#, c-format
+msgid ""
+"This direvent uses %s interface.\n"
+"\n"
+msgstr ""
+
+#: cmdline.opt:102
+#, c-format
+msgid "Include search path:\n"
+msgstr ""
+
+#: cmdline.opt:105
+#, c-format
+msgid "No include search path.\n"
+msgstr ""
+
+#: src/config.c:65
+#, c-format
+msgid "unknown syslog facility: %s"
+msgstr ""
+
+#: src/config.c:82
+#, c-format
+msgid "unknown syslog priority: %s"
+msgstr ""
+
+#: src/config.c:90 grecs/src/assert.c:45
+msgid "unexpected block statement"
+msgstr ""
+
+#: src/config.c:99 grecs/src/assert.c:28
+#, c-format
+msgid "expected %s"
+msgstr ""
+
+#: src/config.c:104 grecs/src/assert.c:33
+#, c-format
+msgid "expected %s, but found %s"
+msgstr ""
+
+#: src/config.c:126
+#, c-format
+msgid "unknown syslog facility `%s'"
+msgstr ""
+
+#: src/config.c:135 src/config.c:780 src/config.c:841
+msgid "name"
+msgstr ""
+
+#: src/config.c:136
+msgid ""
+"Set syslog facility. Arg is one of the following: user, daemon, auth, "
+"authpriv, mail, cron, local0 through local7 (case-insensitive), or a "
+"facility number."
+msgstr ""
+
+#: src/config.c:141 src/config.c:774 grecs/src/format.c:38 grecs/src/tree.c:69
+msgid "string"
+msgstr ""
+
+#: src/config.c:141
+msgid "Tag syslog messages with this string"
+msgstr ""
+
+#: src/config.c:144 grecs/src/format.c:142
+msgid "arg"
+msgstr ""
+
+#: src/config.c:145
+msgid "Prefix each message with its priority"
+msgstr ""
+
+#: src/config.c:197
+#, c-format
+msgid "%s: recursion depth does not match previous definition"
+msgstr ""
+
+#: src/config.c:217
+msgid "no paths configured"
+msgstr ""
+
+#: src/config.c:222
+msgid "no command configured"
+msgstr ""
+
+#: src/config.c:234 grecs/src/tree.c:665
+msgid "invalid use of block statement"
+msgstr ""
+
+#: src/config.c:279
+msgid "expected \"recursive\" or end of statement"
+msgstr ""
+
+#: src/config.c:294
+msgid "surplus argument"
+msgstr ""
+
+#: src/config.c:300 src/config.c:451
+msgid "unexpected list"
+msgstr ""
+
+#: src/config.c:331 src/config.c:346 src/config.c:361
+msgid "unrecognized event code"
+msgstr ""
+
+#: src/config.c:443
+msgid "surplus arguments"
+msgstr ""
+
+#: src/config.c:457
+msgid "no such user"
+msgstr ""
+
+#: src/config.c:464
+msgid "no such group"
+msgstr ""
+
+#: src/config.c:506
+msgid "unrecognized option"
+msgstr ""
+
+#: src/config.c:586
+msgid "can't parse legacy environ statement"
+msgstr ""
+
+#: src/config.c:631
+msgid "legacy environ syntax is not allowed in global context"
+msgstr ""
+
+#: src/config.c:646
+msgid "unexpected argument"
+msgstr ""
+
+#: src/config.c:756
+msgid "Clear environment."
+msgstr ""
+
+#: src/config.c:761
+msgid "name[=value]"
+msgstr ""
+
+#: src/config.c:762
+msgid ""
+"Keep this variable. Unless value is supplied, name can contain wildcards.\n"
+"Implies \"clear\"."
+msgstr ""
+
+#: src/config.c:768
+msgid "name=value"
+msgstr ""
+
+#: src/config.c:769
+msgid "Set environment variable. Note, that argument must be quoted."
+msgstr ""
+
+#: src/config.c:775
+msgid "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}."
+msgstr ""
+
+#: src/config.c:781
+msgid "Unset environment variable. Name can contain wildcards."
+msgstr ""
+
+#: src/config.c:830
+msgid "Pathname to watch"
+msgstr ""
+
+#: src/config.c:833
+msgid "Events to watch for"
+msgstr ""
+
+#: src/config.c:836
+msgid "regexp"
+msgstr ""
+
+#: src/config.c:836
+msgid "Files to watch for"
+msgstr ""
+
+#: src/config.c:839
+msgid "Command to execute on event"
+msgstr ""
+
+#: src/config.c:841
+msgid "Run command as this user"
+msgstr ""
+
+#: src/config.c:844
+msgid "seconds"
+msgstr ""
+
+#: src/config.c:844
+msgid "Timeout for the command"
+msgstr ""
+
+#: src/config.c:846
+msgid "List of additional options"
+msgstr ""
+
+#: src/config.c:850
+msgid "Modify program environment."
+msgstr ""
+
+#: src/config.c:854
+msgid "<arg: string> <arg: string>..."
+msgstr ""
+
+#: src/config.c:855
+msgid "Modify environment (legacy form)"
+msgstr ""
+
+#: src/config.c:862
+msgid "Run as this user"
+msgstr ""
+
+#: src/config.c:864
+msgid "Run in foreground"
+msgstr ""
+
+#: src/config.c:866
+msgid "file"
+msgstr ""
+
+#: src/config.c:866
+msgid "Set pid file name"
+msgstr ""
+
+#: src/config.c:868
+msgid "Configure syslog logging"
+msgstr ""
+
+#: src/config.c:870
+msgid "level"
+msgstr ""
+
+#: src/config.c:870
+msgid "Set debug level"
+msgstr ""
+
+#: src/config.c:873
+msgid "Modify global program environment."
+msgstr ""
+
+#: src/config.c:877
+msgid "Configure event watcher"
+msgstr ""
+
+#: src/config.c:888
+msgid ""
+"Configuration file structure for direvent.\n"
+"For more information, use `info direvent configuration'."
+msgstr ""
+
+#: src/direvent.c:140 src/watcher.c:197 src/watcher.c:229
+msgid "not enough memory"
+msgstr ""
+
+#: src/direvent.c:302
+#, c-format
+msgid "cannot open pidfile %s for writing: %s"
+msgstr ""
+
+#: src/direvent.c:330
+#, c-format
+msgid "no user with UID %lu"
+msgstr ""
+
+#: src/direvent.c:471
+msgid "out of memory"
+msgstr ""
+
+#: src/direvent.c:517
+#, c-format
+msgid "cannot run `%s': fork failed: %s"
+msgstr ""
+
+#: src/direvent.c:576
+msgid "too many arguments"
+msgstr ""
+
+#: src/direvent.c:618
+#, c-format
+msgid "%s %s started"
+msgstr ""
+
+#: src/direvent.c:642
+#, c-format
+msgid "%s %s stopped"
+msgstr ""
+
+#: src/ev_inotify.c:68 src/ev_inotify.c:76
+#, c-format
+msgid "can't allocate memory for fd %d"
+msgstr ""
+
+#: src/ev_inotify.c:157
+msgid "not enough memory: cannot look up a watcher to delete"
+msgstr ""
+
+#: src/ev_inotify.c:208
+#, c-format
+msgid "watcher not found: %d (%s)"
+msgstr ""
+
+#: src/ev_inotify.c:214 src/ev_kqueue.c:253
+#, c-format
+msgid "%s deleted"
+msgstr ""
+
+#: src/ev_inotify.c:220
+msgid "event queue overflow"
+msgstr ""
+
+#: src/ev_inotify.c:231
+#, c-format
+msgid "unrecognized event %x for %s"
+msgstr ""
+
+#: src/ev_inotify.c:234
+#, c-format
+msgid "unrecognized event %x"
+msgstr ""
+
+#: src/ev_inotify.c:239
+#, c-format
+msgid "%s/%s created"
+msgstr ""
+
+#: src/ev_inotify.c:242
+#, c-format
+msgid "%s/%s: ignoring CREATE event: already delivered"
+msgstr ""
+
+#: src/ev_inotify.c:254
+#, c-format
+msgid "%s: ignoring event (%x) for the watchpoint directory"
+msgstr ""
+
+#: src/ev_inotify.c:258
+#, c-format
+msgid "%s: ignoring event (%s) for the watchpoint directory"
+msgstr ""
+
+#: src/ev_inotify.c:289
+#, c-format
+msgid "%s/%s deleted"
+msgstr ""
+
+#: src/ev_inotify.c:307
+#, c-format
+msgid "got signal %d"
+msgstr ""
+
+#: src/ev_inotify.c:311
+#, c-format
+msgid "read failed: %s"
+msgstr ""
+
+#: src/fnpat.c:90
+msgid "unterminated regexp"
+msgstr ""
+
+#: src/fnpat.c:104
+#, c-format
+msgid "unrecognized flag: %c"
+msgstr ""
+
+#: src/progman.c:162
+#, c-format
+msgid "process %lu (%s) exited successfully"
+msgstr ""
+
+#: src/progman.c:167
+#, c-format
+msgid "process %lu (%s) failed with status %d"
+msgstr ""
+
+#: src/progman.c:180
+msgid " (dumped core)"
+msgstr ""
+
+#: src/progman.c:183
+#, c-format
+msgid "process %lu (%s) terminated on signal %d%s"
+msgstr ""
+
+#: src/progman.c:187
+#, c-format
+msgid "process %lu (%s) stopped on signal %d"
+msgstr ""
+
+#: src/progman.c:192
+#, c-format
+msgid "process %lu (%s) terminated with unrecognized status"
+msgstr ""
+
+#: src/progman.c:254
+msgid "begin scanning process list"
+msgstr ""
+
+#: src/progman.c:258
+#, c-format
+msgid "process %lu timed out"
+msgstr ""
+
+#: src/progman.c:267
+#, c-format
+msgid "scheduling alarm in %lu seconds"
+msgstr ""
+
+#: src/progman.c:271
+msgid "end scanning process list"
+msgstr ""
+
+#: src/progman.c:321
+#, c-format
+msgid "cannot start logger for %s, pipe failed: %s"
+msgstr ""
+
+#: src/progman.c:350
+#, c-format
+msgid "cannot run logger `%s': fork failed: %s"
+msgstr ""
+
+#: src/progman.c:355
+#, c-format
+msgid "logger for %s started, pid=%lu"
+msgstr ""
+
+#: src/progman.c:641
+#, c-format
+msgid "starting %s, dir=%s, file=%s"
+msgstr ""
+
+#: src/progman.c:670
+#, c-format
+msgid "cannot change to %s: %s"
+msgstr ""
+
+#: src/progman.c:703
+#, c-format
+msgid "%s running; dir=%s, file=%s, pid=%lu"
+msgstr ""
+
+#: src/progman.c:725
+#, c-format
+msgid "waiting for %s (%lu) to terminate"
+msgstr ""
+
+#: src/watcher.c:126
+#, c-format
+msgid "%s: recent status expired"
+msgstr ""
+
+#: src/watcher.c:287 src/watcher.c:655
+#, c-format
+msgid "removing watcher %s"
+msgstr ""
+
+#: src/watcher.c:299
+#, c-format
+msgid "%s: failed to install sentinel; exiting now"
+msgstr ""
+
+#: src/watcher.c:306
+msgid "no watchers left; exiting now"
+msgstr ""
+
+#: src/watcher.c:376
+#, c-format
+msgid "installing CREATE sentinel for %s"
+msgstr ""
+
+#: src/watcher.c:398
+#, c-format
+msgid "cannot create watcher %s/%s: not enough memory"
+msgstr ""
+
+#: src/watcher.c:405
+#, c-format
+msgid "cannot create watcher %s, stat failed: %s"
+msgstr ""
+
+#: src/watcher.c:467
+#, c-format
+msgid "installing CREATE sentinel for %s/*"
+msgstr ""
+
+#: src/watcher.c:468
+#, c-format
+msgid "installing CREATE sentinel for file %s"
+msgstr ""
+
+#: src/watcher.c:483
+#, c-format
+msgid "creating watcher %s"
+msgstr ""
+
+#: src/watcher.c:489 src/watcher.c:504
+#, c-format
+msgid "cannot set watcher on %s: %s"
+msgstr ""
+
+#: src/watcher.c:525
+#, c-format
+msgid "delivering CREATE for %s %s"
+msgstr ""
+
+#: src/watcher.c:568
+#, c-format
+msgid "cannot open directory %s: %s"
+msgstr ""
+
+#: src/watcher.c:594
+#, c-format
+msgid "cannot stat %s/%s: not enough memory"
+msgstr ""
+
+#: src/watcher.c:601
+#, c-format
+msgid "cannot stat %s: %s"
+msgstr ""
+
+#: src/watcher.c:639
+msgid "no event handlers configured"
+msgstr ""
+
+#: src/watcher.c:644
+msgid "no event handlers installed"
+msgstr ""
+
+#: grecs/src/cidr.c:129 grecs/src/cidr.c:179 grecs/src/cidr.c:186
+#, c-format
+msgid "invalid network mask: %s"
+msgstr ""
+
+#: grecs/src/cidr.c:142 grecs/src/cidr.c:149 grecs/src/cidr.c:160
+#, c-format
+msgid "unrecognized address family: %s"
+msgstr ""
+
+#: grecs/src/cidr.c:153
+#, c-format
+msgid "invalid network address: %s"
+msgstr ""
+
+#. TRANSLATORS: The msgids below are data types in direct (nominative)
+#. and indirect (most often, genitive) cases.  The indirect case is
+#. used only in the construct "list %s" (e.g., for "number" data type,
+#. this makes "list of numbers").  Please, translate it so that it
+#. forms a correct sentence in this context.
+#: grecs/src/format.c:37
+msgid "void"
+msgstr ""
+
+#: grecs/src/format.c:38
+msgid "of strings"
+msgstr ""
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "number"
+msgstr ""
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "of numbers"
+msgstr ""
+
+#: grecs/src/format.c:46
+msgid "time"
+msgstr ""
+
+#: grecs/src/format.c:46
+msgid "of times"
+msgstr ""
+
+#: grecs/src/format.c:47
+msgid "boolean"
+msgstr ""
+
+#: grecs/src/format.c:47
+msgid "of booleans"
+msgstr ""
+
+#: grecs/src/format.c:48
+msgid "IPv4"
+msgstr ""
+
+#: grecs/src/format.c:48
+msgid "of IPv4"
+msgstr ""
+
+#: grecs/src/format.c:49
+msgid "CIDR"
+msgstr ""
+
+#: grecs/src/format.c:49
+msgid "of CIDR"
+msgstr ""
+
+#: grecs/src/format.c:50
+msgid "hostname"
+msgstr ""
+
+#: grecs/src/format.c:50
+msgid "of hostnames"
+msgstr ""
+
+#: grecs/src/format.c:51
+msgid "sockaddr"
+msgstr ""
+
+#: grecs/src/format.c:51
+msgid "of sockaddr"
+msgstr ""
+
+#: grecs/src/format.c:52
+msgid "section"
+msgstr ""
+
+#: grecs/src/format.c:53
+msgid "null"
+msgstr ""
+
+#: grecs/src/format.c:134
+msgid "Disabled;"
+msgstr ""
+
+#. TRANSLATORS: The %s in this message will be expanded
+#. to a data type in indirect case (see above).  The two
+#. must form a grammatically correct sentence.
+#: grecs/src/format.c:158
+#, c-format
+msgid "list %s"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:312
+#, c-format
+msgid "stray character %c"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:315
+#, c-format
+msgid "stray character \\%03o"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:354 grecs/src/grecs-lex.l:371
+msgid "invalid include statement"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:386
+msgid "read error"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:394
+#, c-format
+msgid "%s: No such file or directory"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:699 grecs/src/grecs-lex.l:722
+#, c-format
+msgid "Cannot stat `%s'"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:705 grecs/src/grecs-lex.l:710
+msgid "Recursive inclusion"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:713
+#, c-format
+msgid "`%s' already included here"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:717
+#, c-format
+msgid "`%s' already included at top level"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:732 grecs/src/grecs-lex.l:742
+#, c-format
+msgid "Cannot open `%s'"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1024 grecs/src/grecs-lex.l:1045
+#, c-format
+msgid "cannot parse #line line: %s"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1031 grecs/src/grecs-lex.l:1048
+msgid "invalid #line statement"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1034 grecs/src/grecs-lex.l:1050
+msgid "malformed #line statement"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1139 grecs/src/grecs-lex.l:1170
+#, c-format
+msgid "Cannot run `%s'"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1190
+#, c-format
+msgid "%s exited with status %d"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1195
+#, c-format
+msgid "%s terminated on signal %d"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1199
+#, c-format
+msgid "%s terminated abnormally (%d)"
+msgstr ""
+
+#: grecs/src/lineacc.c:70
+#, c-format
+msgid "unknown escape sequence: '\\%c'"
+msgstr ""
+
+#: grecs/src/opthelp.c:123 grecs/src/opthelp.c:269
+msgid "Usage:"
+msgstr ""
+
+#: grecs/src/opthelp.c:127
+msgid "OPTION"
+msgstr ""
+
+#: grecs/src/opthelp.c:132 grecs/src/opthelp.c:427
+msgid "Aliases"
+msgstr ""
+
+#: grecs/src/opthelp.c:132 grecs/src/opthelp.c:427
+msgid "Alias"
+msgstr ""
+
+#: grecs/src/opthelp.c:186
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or "
+"optional for any corresponding short options."
+msgstr ""
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting
+#. address for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for
+#. translation bugs (typically your translation team's web or
+#. email address).
+#: grecs/src/opthelp.c:202
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+
+#: grecs/src/opthelp.c:205
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: grecs/src/opthelp.c:457
+msgid "(C)"
+msgstr ""
+
+#: grecs/src/opthelp.c:466
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#: grecs/src/opthelp.c:483
+msgid "Written by "
+msgstr ""
+
+#. TRANSLATORS: This string is used as a delimiter between
+#. authors' names as in:
+#.
+#. Written by Winnie the Pooh, Piglet ...
+#.
+#: grecs/src/opthelp.c:489
+msgid ", "
+msgstr ""
+
+#. TRANSLATORS: This string acts as a delimiter before the
+#. last author's names, e.g.:
+#.
+#. Written by Winnie the Pooh, Piglet and Christopher Robin.
+#.
+#: grecs/src/opthelp.c:495
+msgid " and "
+msgstr ""
+
+#: grecs/src/path-parser.c:62
+#, c-format
+msgid "cannot open `%s'"
+msgstr ""
+
+#: grecs/src/path-parser.c:108 grecs/src/path-parser.c:123
+msgid "unexpected end of file"
+msgstr ""
+
+#: grecs/src/path-parser.c:143
+msgid "parse error"
+msgstr ""
+
+#: grecs/src/symtab.c:236
+msgid "element not found in table"
+msgstr ""
+
+#: grecs/src/symtab.c:238
+msgid "symbol table is full"
+msgstr ""
+
+#: grecs/src/tree.c:70
+msgid "list"
+msgstr ""
+
+#: grecs/src/tree.c:71
+msgid "one or more arguments"
+msgstr ""
+
+#: grecs/src/tree.c:75
+msgid "unrecognized type; please report"
+msgstr ""
+
+#: grecs/src/tree.c:320
+msgid "section keyword used as a scalar"
+msgstr ""
+
+#: grecs/src/tree.c:322
+msgid "scalar keyword used as a section"
+msgstr ""
+
+#: grecs/src/tree.c:325
+msgid "unknown keyword"
+msgstr ""
+
+#: grecs/src/tree.c:360
+#, c-format
+msgid "%s: not a valid boolean value"
+msgstr ""
+
+#: grecs/src/tree.c:391
+#, c-format
+msgid "%s: UNIX socket name too long"
+msgstr ""
+
+#: grecs/src/tree.c:420 grecs/src/tree.c:644
+#, c-format
+msgid "%s: not a valid IP address or hostname"
+msgstr ""
+
+#: grecs/src/tree.c:444
+#, c-format
+msgid "%s: not a valid port number"
+msgstr ""
+
+#: grecs/src/tree.c:452
+msgid "missing port number"
+msgstr ""
+
+#: grecs/src/tree.c:501
+msgid "numeric overflow"
+msgstr ""
+
+#: grecs/src/tree.c:506
+msgid "value out of allowed range"
+msgstr ""
+
+#: grecs/src/tree.c:541 grecs/src/tree.c:571
+#, c-format
+msgid "not a number (stopped near `%s')"
+msgstr ""
+
+#: grecs/src/tree.c:635
+#, c-format
+msgid "%s: not a valid IP address"
+msgstr ""
+
+#: grecs/src/tree.c:774
+#, c-format
+msgid "too many arguments to `%s'; missing semicolon?"
+msgstr ""
+
+#: grecs/src/tree.c:788 grecs/src/tree.c:836
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unhandled data type %d"
+msgstr ""
+
+#: grecs/src/tree.c:803
+#, c-format
+msgid "%s: incompatible data type in list item #%d"
+msgstr ""
+
+#: grecs/src/tree.c:823
+#, c-format
+msgid "incompatible data type for `%s'"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:76 grecs/wordsplit/wordsplit.c:2851
+msgid "memory exhausted"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:130
+msgid "memory exhausted while trying to store error context"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:881
+msgid "Restarting"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:1607
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:1637
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2138
+#, c-format
+msgid "no files match pattern %s"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2599
+msgid "WS trimming"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2601
+msgid "command substitution"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2603 grecs/wordsplit/wordsplit.c:2611
+msgid "coalesce list"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2605
+msgid "tilde expansion"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2607
+msgid "variable expansion"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2609
+msgid "quote removal"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2613
+msgid "path expansion"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2638
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2664
+msgid "Initial list:"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2679
+msgid "Coalesced list:"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2849
+msgid "no error"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2850
+msgid "missing closing quote"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2852
+msgid "invalid wordsplit usage"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2853
+msgid "unbalanced curly brace"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2854
+msgid "undefined variable"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2855
+msgid "input exhausted"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2856
+msgid "unbalanced parenthesis"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2857
+msgid "globbing error"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2858
+msgid "user-defined error"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2859
+msgid "invalid parameter number in assignment"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2871
+msgid "unknown error"
+msgstr ""
+
+#: grecs/wordsplit/wordsplit.c:2880
+#, c-format
+msgid "missing closing %c (start near #%lu)"
+msgstr ""

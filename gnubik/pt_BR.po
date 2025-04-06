@@ -1,0 +1,417 @@
+# Portuguese (pt_PT) translations for GNUbik 
+# Copyright (C) 2003, 2007, 2013, 2015, 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnubik package.
+# John Darrington <john@darrington.wattle.id.au>, 2003.
+# Translators:
+# Daniel Marujo <daniel.marujo@gmail.com>, 2007.
+# João Fernando Ferreira <joao@joaoferreira.org>, 2007.
+# Felipe Castro <fefcas@gmail.com>, 2013, 2015, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnubik 2.4.3\n"
+"Report-Msgid-Bugs-To: bug-gnubik@gnu.org\n"
+"POT-Creation-Date: 2015-04-10 18:32+0200\n"
+"PO-Revision-Date: 2018-05-14 21:14-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: src/colour-dialog.c:184
+msgid "Image Selector"
+msgstr "Seletor de Imagem"
+
+#. TRANSLATORS: "All  Images" implies nothing but images!
+#: src/colour-dialog.c:210
+msgid "All Images"
+msgstr "Todas Imagens"
+
+#: src/colour-dialog.c:214
+msgid "All Files"
+msgstr "Todos Arquivos"
+
+#: src/colour-dialog.c:297
+msgid "Colour selector"
+msgstr "Seletor de Cor"
+
+#: src/colour-dialog.c:314
+msgid "Image"
+msgstr "Imagem"
+
+#: src/colour-dialog.c:315
+msgid "Se_lect"
+msgstr "Se_lecionar"
+
+#: src/colour-dialog.c:323
+msgid "Select an image file"
+msgstr "Selecione uma imagem"
+
+#: src/colour-dialog.c:325
+msgid "_Tiled"
+msgstr "_Azulejo"
+
+#: src/colour-dialog.c:327
+msgid "Place a copy of the image on each block"
+msgstr "Colocar uma cópia da imagem em cada bloco"
+
+#: src/colour-dialog.c:332
+msgid "_Mosaic"
+msgstr "_Mosaico"
+
+#: src/colour-dialog.c:336
+msgid "Place a copy of the image across the entire face of the cube"
+msgstr "Colocar uma cópia da imagem em toda a face do cubo"
+
+#: src/colour-dialog.c:342
+msgid "_Plain"
+msgstr "_Plano"
+
+#: src/colour-dialog.c:345
+msgid "Remove image from the cube face"
+msgstr "Remover imagem da face do cubo"
+
+#: src/dialogs.c:106
+msgid "Size of cube:"
+msgstr "Tamanho do cubo:"
+
+#: src/dialogs.c:111
+msgid "Re_gular cube"
+msgstr "Cubo re_gular"
+
+#: src/dialogs.c:117
+msgid "Sets the number of blocks in each side"
+msgstr "Define o número de blocos em cada lado"
+
+#: src/dialogs.c:121
+msgid "Allow only cubes with all sides equal size"
+msgstr "Permite somente cubos com todos lados iguais"
+
+#: src/dialogs.c:164
+msgid "A 3 dimensional magic cube puzzle"
+msgstr "Um quebra-cabeça de cubo mágico em 3D"
+
+#. TRANSLATORS: Do not translate this string. Instead, use it to list
+#. the people who have helped with translation to your language.
+#: src/dialogs.c:169
+msgid "translator-credits"
+msgstr ""
+"Daniel Marujo\n"
+"João Fernando Ferreira\n"
+"Felipe Castro"
+
+#: src/dialogs.c:189
+msgid "New Game"
+msgstr "Jogo _Novo"
+
+#: src/dialogs.c:201
+msgid "Dimensions"
+msgstr "Dimensões"
+
+#: src/dialogs.c:212
+msgid "Initial position"
+msgstr "Posição inicial"
+
+#: src/dialogs.c:216
+msgid "_Random"
+msgstr "Aleató_rio"
+
+#: src/dialogs.c:220
+msgid "_Solved"
+msgstr "Re_solvido"
+
+#: src/menus.c:94
+msgid "Rear View"
+msgstr "Vista Traseira"
+
+#: src/menus.c:102
+msgid "Bottom View"
+msgstr "Vista de Baixo"
+
+#: src/menus.c:109
+msgid "Top View"
+msgstr "Vista de Cima"
+
+#: src/menus.c:117
+msgid "Left View"
+msgstr "Vista Esquerda"
+
+#: src/menus.c:124
+msgid "Right View"
+msgstr "Vista Direita"
+
+#: src/menus.c:138
+#, c-format
+msgid "A mark is now set at position %d."
+msgstr "Uma marka está colocada agora na posição %d."
+
+#: src/menus.c:152
+#, c-format
+msgid "Moves: %d / %d"
+msgstr "Movimentos: %d / %d"
+
+#: src/menus.c:173
+#, c-format
+msgid "Cube solved in %d move"
+msgid_plural "Cube solved in %d moves"
+msgstr[0] "Cubo resolvido em %d movimento"
+msgstr[1] "Cubo resolvido em %d movimentos"
+
+#: src/menus.c:183
+msgid "Cube is NOT solved! The colours are correct,  but have incorrect orientation"
+msgstr "O cubo NÃO está resolvido! As cores estão corretas, mas com orientação incorreta"
+
+#: src/menus.c:201
+#, c-format
+msgid "Animation rate set to %d frame per turn."
+msgid_plural "Animation rate set to %d frames per turn."
+msgstr[0] "Taxa de animação ajustada en %d quadro por volta."
+msgstr[1] "Taxa de animação ajustada en %d quadros por volta."
+
+#: src/menus.c:228
+msgid "_Game"
+msgstr "_Jogo"
+
+#: src/menus.c:229
+msgid "_View"
+msgstr "_Vista"
+
+#. TRANSLATORS: Lets the user see the cube from a different angle
+#: src/menus.c:231
+msgid "Add _View"
+msgstr "Adicionar _Vista"
+
+#: src/menus.c:232
+msgid "Add an auxiliary view of the cube"
+msgstr "Adicinar uma vista auxiliar do cubo"
+
+#: src/menus.c:235
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: src/menus.c:236
+msgid "Sho_w/Hide"
+msgstr "_Mostrar/Esconder"
+
+#: src/menus.c:237
+msgid "_Scripts"
+msgstr "_Scripts"
+
+#: src/menus.c:307
+msgid "_Restart Game"
+msgstr "_Reiniciar Jogo"
+
+#: src/menus.c:311
+msgid "_New Game"
+msgstr "_Novo Jogo"
+
+#: src/menus.c:315
+msgid "_Rear"
+msgstr "T_raseira"
+
+#: src/menus.c:317
+msgid "_Left"
+msgstr "_Esquerda"
+
+#: src/menus.c:319
+msgid "Ri_ght"
+msgstr "_Direita"
+
+#: src/menus.c:321
+msgid "_Top"
+msgstr "_Topo"
+
+#: src/menus.c:323
+msgid "_Bottom"
+msgstr "Em_baixo"
+
+#: src/menus.c:328
+msgid "_Colours"
+msgstr "_Cores"
+
+#: src/menus.c:332
+msgid "_Animation"
+msgstr "_Animação"
+
+#: src/menus.c:336
+msgid "_Faster"
+msgstr "Mais _rápido"
+
+#: src/menus.c:340
+msgid "_Slower"
+msgstr "Mais _devagar"
+
+#: src/menus.c:455
+msgid "Rewind"
+msgstr "Rebobinar"
+
+#: src/menus.c:456
+msgid "Go to the previous mark (or the beginning of the sequence of moves)"
+msgstr "Ir para a última posição marcada (ou para o início da sequência de movimentos)"
+
+#: src/menus.c:462
+msgid "Back"
+msgstr "Voltar"
+
+#: src/menus.c:463
+msgid "Make one step backwards"
+msgstr "Retroceder um passo"
+
+#: src/menus.c:468
+msgid "Stop"
+msgstr "Parar"
+
+#: src/menus.c:469
+msgid "Stop running the sequence of moves"
+msgstr "Parar a sequência de movimentos"
+
+#: src/menus.c:475
+msgid "Mark"
+msgstr "Marcar"
+
+#: src/menus.c:476
+msgid "Mark the current place in the sequence of moves"
+msgstr "Marcar a posição actual na sequência de movimentos"
+
+#: src/menus.c:482
+msgid "Forward"
+msgstr "Avançar"
+
+#: src/menus.c:483
+msgid "Make one step forwards"
+msgstr "Avançar um passo"
+
+#: src/menus.c:488
+msgid "Play"
+msgstr "Jogar"
+
+#: src/menus.c:489
+msgid "Run forward through the sequence of moves"
+msgstr "Avançar através da sequência de movimentos"
+
+#: src/menus.c:555
+msgid "Gnubik error"
+msgstr "Erro do Gnubik"
+
+#: src/swatch.c:132
+msgid "A sample of the colour. You can click and select a new colour, or drag one to this space."
+msgstr "Uma amostra da cor. Você pode clicar e selecionar uma nova cor, ou arrastar uma para este espaço."
+
+#: src/textures.c:81
+msgid "Pixbuf has wrong number of channels"
+msgstr "Pixbuf tem um número de canais incorreto"
+
+#: src/textures.c:90
+#, c-format
+msgid "Pixbuf has unknown colorspace: %d"
+msgstr "Pixbuf tem uma paleta de cores desconhecida: %d"
+
+#: scripts/debug.scm:50
+msgid "_Debug"
+msgstr "_Depurar"
+
+#: scripts/debug.scm:52
+msgid "_Move"
+msgstr "_Mover"
+
+#: scripts/debug.scm:54
+msgid "_Dump state"
+msgstr "Mostrar _estado"
+
+#: scripts/rand.scm:38
+msgid "_Randomize"
+msgstr "Emba_ralhar"
+
+#: scripts/rand.scm:40 scripts/rand.scm:41 scripts/rand.scm:42
+#: scripts/rand.scm:43 scripts/rand.scm:44 scripts/rand.scm:45
+#: scripts/rand.scm:46 scripts/rand.scm:47
+#, scheme-format
+msgid "_~a"
+msgstr "_~a"
+
+#: scripts/flubrd.scm:50
+msgid "This script only works on 3×3×3 cubes."
+msgstr "Este script só trabalha em cubos 3×3×3."
+
+#: scripts/mellor-solve.scm:399
+msgid "_Solvers"
+msgstr "_Solucionadores"
+
+#: scripts/mellor-solve.scm:400
+msgid "_3×3"
+msgstr "_3×3"
+
+#: scripts/mellor-solve.scm:404
+msgid "_Full cube"
+msgstr "Cubo _pleno"
+
+#: scripts/mellor-solve.scm:407
+msgid "Bottom _edge place"
+msgstr "Lugar da marg_em de baixo"
+
+#: scripts/mellor-solve.scm:410
+msgid "Bottom _corner orient"
+msgstr "Orientação da _quina de baixo"
+
+#: scripts/mellor-solve.scm:413
+msgid "_Bottom corner place"
+msgstr "Lugar da quina de _baixo"
+
+#: scripts/mellor-solve.scm:416
+msgid "_Middle slice"
+msgstr "Fatia do _meio"
+
+#: scripts/mellor-solve.scm:419
+msgid "_Top slice"
+msgstr "Fatia do _topo"
+
+#: scripts/mellor-solve.scm:422
+msgid "_Top edges"
+msgstr "Margens do _topo"
+
+#~ msgid "GNUbik"
+#~ msgstr "GNUbik"
+
+#~ msgid "A 3D magic cube puzzle"
+#~ msgstr "Um quebra-cabeça de cubo mágico 3D"
+
+#~ msgid "R_eset"
+#~ msgstr "_Reiniciar"
+
+#~ msgid "Cannot create image from file %s: %s"
+#~ msgstr "Impossível criar imagem a partir do arquivo %s: %s"
+
+#~ msgid "Pattern"
+#~ msgstr "Padrão"
+
+#~ msgid "Click here to use a pattern on the cube surface"
+#~ msgstr "Clique aqui para usar um padrão na superfície do cubo"
+
+#~ msgid "Controls the speed with which slices rotate"
+#~ msgstr "Controlar a velocidade de rotação de cada secção"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferências"
+
+#~ msgid "Lighting"
+#~ msgstr "Iluminação"
+
+#~ msgid "Enable lighting"
+#~ msgstr "Ativar iluminação"
+
+#~ msgid "Makes the cube appear illuminated"
+#~ msgstr "Faz o cubo aparecer iluminado"
+
+#~ msgid "Start cube with new settings?"
+#~ msgstr "Começar cubo com as novas definições?"
+
+#~ msgid "_Play Toolbar"
+#~ msgstr "Barra de _Jogo"
+
+#~ msgid "_Status Bar"
+#~ msgstr "Barra de _Estado"

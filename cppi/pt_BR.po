@@ -1,0 +1,500 @@
+# Brazilian Portuguese translation for cppi package
+# Traduções em português brasileiro para o pacote cppi
+# Copyright (C) 2019 Free Software Foundation, Inc.
+# This file is distributed under the same license as the cppi package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2017, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cppi 1.17\n"
+"Report-Msgid-Bugs-To: bug-cppi@gnu.org\n"
+"POT-Creation-Date: 2012-08-04 19:19+0200\n"
+"PO-Revision-Date: 2019-08-28 15:29-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: lib/closeout.c:112
+msgid "write error"
+msgstr "erro de escrita"
+
+#: lib/error.c:188
+msgid "Unknown system error"
+msgstr "Erro desconhecido de sistema"
+
+#: lib/getopt.c:547 lib/getopt.c:576
+#, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: a opção \"%s\" é ambígua; possibilidades:"
+
+#: lib/getopt.c:624 lib/getopt.c:628
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: a opção \"--%s\" não permite um argumento\n"
+
+#: lib/getopt.c:637 lib/getopt.c:642
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: a opção \"%c%s\" não permite um argumento\n"
+
+#: lib/getopt.c:685 lib/getopt.c:704
+#, c-format
+msgid "%s: option '--%s' requires an argument\n"
+msgstr "%s: a opção \"%s\" exige um argumento\n"
+
+#: lib/getopt.c:742 lib/getopt.c:745
+#, c-format
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: opção desconhecida \"--%s\"\n"
+
+#: lib/getopt.c:753 lib/getopt.c:756
+#, c-format
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: opção desconhecida  \"%c%s\"\n"
+
+#: lib/getopt.c:805 lib/getopt.c:808
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: opção inválida -- \"%c\"\n"
+
+#: lib/getopt.c:861 lib/getopt.c:878 lib/getopt.c:1088 lib/getopt.c:1106
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: a opção exige um argumento -- \"%c\"\n"
+
+#: lib/getopt.c:934 lib/getopt.c:950
+#, c-format
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: a opção \"-W %s\" é ambígua\n"
+
+#: lib/getopt.c:974 lib/getopt.c:992
+#, c-format
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: a opção \"-W %s\" não permite um argumento\n"
+
+#: lib/getopt.c:1013 lib/getopt.c:1031
+#, c-format
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: a opção \"-W %s\" exige um argumento\n"
+
+#: lib/obstack.c:413 lib/obstack.c:415 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "memória esgotada"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:312
+msgid "`"
+msgstr "“"
+
+#: lib/quotearg.c:313
+msgid "'"
+msgstr "”"
+
+#: lib/version-etc.c:74
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Empacotado por %s (%s)\n"
+
+#: lib/version-etc.c:77
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Empacotado por %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:84
+msgid "(C)"
+msgstr "(C)"
+
+#: lib/version-etc.c:86
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"\n"
+"Licença GPLv3+: GNU GPL versão 3 ou posterior <http://gnu.org/licenses/gpl.html>\n"
+"Este é um software livre: você é livre para alterá-lo e redistribuí-lo.\n"
+"NÃO HÁ QUALQUER GARANTIA, na máxima extensão permitida em lei.\n"
+"\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:102
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Escrito por %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:106
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Escrito por %s e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:110
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Escrito por %s, %s e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:117
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Escrito por %s, %s, %s\n"
+"e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:124
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Escrito por %s, %s, %s,\n"
+"%s e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:131
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Escrito por %s, %s, %s,\n"
+"%s, %s e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:139
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Escrito por %s, %s, %s,\n"
+"%s, %s, %s e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:147
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Escrito por %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:156
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Escrito por %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s e %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:167
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Escrito por %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s e outros.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:245
+#, c-format
+msgid ""
+"\n"
+"Report bugs to: %s\n"
+msgstr ""
+"\n"
+"Relate erros para: %s\n"
+"Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>\n"
+
+#: lib/version-etc.c:247
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Relate os erros do %s para: %s\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Página do %s: <%s>\n"
+
+#: lib/version-etc.c:253
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr "Página do %s: <http://www.gnu.org/software/%s/>\n"
+
+#: lib/version-etc.c:256
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr "Ajuda geral no uso de software GNU: <http://www.gnu.org/gethelp/>\n"
+
+#: lib/xstrtol-error.c:63
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr "argumento inválido para %s%s: \"%s\""
+
+#: lib/xstrtol-error.c:68
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "sufixo inválido no argumento para %s%s: \"%s\""
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr "argumento grande demais para %s%s \"%s\""
+
+#: src/cppi.l:303 src/cppi.l:323
+#, c-format
+msgid "%s: line %d: found #%s without matching #if"
+msgstr "%s: linha %d: #%s encontrada sem #if correspondente"
+
+#: src/cppi.l:359
+#, c-format
+msgid "%s: line %d: not properly indented"
+msgstr "%s: linha %d: sem o recuro apropriado"
+
+#: src/cppi.l:434
+#, c-format
+msgid "%s: line %d: EOF in string"
+msgstr "%s: linha %d: fim do arquivo na string"
+
+#: src/cppi.l:462
+#, c-format
+msgid "%s: line %d: string (%lu) longer than maximum of %lu"
+msgstr "%s: linha %d: string (%lu) maior do que o máximo de %lu"
+
+#: src/cppi.l:490
+#, c-format
+msgid ""
+"%s: line %d: not properly formatted;\n"
+"there must be exactly one SPACE character after each\n"
+"#if, #elif, and #define directive"
+msgstr ""
+"%s: linha %d: não formatada apropriadamente;\n"
+"Deve haver exatamente um caractere ESPAÇO após cada\n"
+"diretiva #if, #elif e #define"
+
+#: src/cppi.l:559
+#, c-format
+msgid "%s: line %d: text following `#%s' violates ANSI standard"
+msgstr "%s: linha %d: texto a seguir \"#%s\" viola o padrão ANSI"
+
+#: src/cppi.l:589
+#, c-format
+msgid "%s: line %d: unterminated #%s"
+msgstr "%s: linha %d: #%s não terminado"
+
+#: src/cppi.l:643
+#, c-format
+msgid ""
+"Usage: %s [FILE]\n"
+"  or:  %s -c [OPTION] [FILE]...\n"
+msgstr ""
+"Uso: %s ARQUIVO\n"
+" ou: %s -c [OPÇÃO] [ARQUIVO]...\n"
+
+#: src/cppi.l:647
+msgid ""
+"\n"
+"Indent the C preprocessor directives in FILE to reflect their nesting\n"
+"and ensure that there is exactly one space character between each #if,\n"
+"#elif, #define directive and the following token, and write the result\n"
+msgstr ""
+"\n"
+"Aplica recuo nas diretivas do preprocessador C no ARQUIVO para\n"
+"refletir seu encadeamento e assegura que há um caractere de espaço\n"
+"entre cada diretiva #if, #elif e #define e o token a seguir e grava o\n"
+"resultado\n"
+
+#: src/cppi.l:653
+msgid ""
+"to standard output.  The number of spaces between the `#' and the following\n"
+"directive must correspond to the level of nesting of that directive.\n"
+"With no FILE, or when FILE is -, read standard input.\n"
+msgstr ""
+"para a saída padrão. O número de espaços entre o \"#\" e a diretiva a seguir\n"
+"deve corresponder ao nível de encadeamento daquela diretiva. Com nenhum\n"
+"ARQUIVO, ou quando ARQUIVO for -, lê da entrada padrão.\n"
+
+#: src/cppi.l:658
+msgid ""
+"\n"
+"  -a, --ansi             when checking, fail if text follows #else or #endif\n"
+"  -c, --check            set exit code, but don't produce any output\n"
+"  -l, --list-files-only  don't generate diagnostics about indentation;\n"
+"                         print to stdout only the names of files that\n"
+"                         are not properly indented\n"
+msgstr ""
+"\n"
+"  -a, --ansi             ao verificar, falha se o texto segue #else ou #endif\n"
+"  -c, --check            define código de saída, mas não produz qualquer saída\n"
+"  -l, --list-files-only  não gera diagnósticos sobre recuo;\n"
+"                         mostra para a saída padrão apenas os nomes dos\n"
+"                         arquivos que não estão com recuo apropriado\n"
+
+#: src/cppi.l:666
+msgid ""
+"  -m, --max-string-length=LENGTH\n"
+"                         fail if there is a double-quoted string longer\n"
+"                         than LENGTH;  if LENGTH is 0 (the default),\n"
+"                         then there is no limit\n"
+msgstr ""
+"  -m, --max-string-length=COMPRIMENTO\n"
+"                         falha se houver uma string entre aspas duplas maior\n"
+"                         que COMPRIMENTO; Se COMPRIMENTO for 0 (padrão),\n"
+"                         então não há limite\n"
+
+#: src/cppi.l:674
+msgid ""
+"\n"
+"With the -c option, don't write to stdout.  Instead, check the\n"
+"indentation of the specified files giving diagnostics for preprocessor\n"
+"lines that aren't properly indented or are otherwise invalid.\n"
+msgstr ""
+"\n"
+"Com a opção -c, não grava para a saída padrão. Em vez disso, verifica o recuo\n"
+"dos arquivos especificados dando diagnósticos para as linhas do preprocessador\n"
+"que não estão com recuo apropriado ou de alguma forma são inválidas.\n"
+
+#: src/cppi.l:679
+msgid ""
+"\n"
+"Note that --ansi without --check does not correct the problem of\n"
+"non-ANSI text following #else and #endif directives.\n"
+msgstr ""
+"\n"
+"Note que --ansi sem --check não corrige o problema do texto\n"
+"não-ANSI seguindo as diretivas #else e #endif.\n"
+
+#: src/cppi.l:684
+msgid ""
+"\n"
+"The exit code will be one of these:\n"
+"  0  all directives properly indented\n"
+"  1  some cpp directive(s) improperly indented, or\n"
+"     text follows #else/#endif (enabled with --check --ansi), or\n"
+"     a double-quoted string is longer than the specified maximum\n"
+"  2  #if/#endif mismatch, EOF in comment or string\n"
+"  3  file (e.g. open/read/write) error\n"
+msgstr ""
+"\n"
+"O código de saída será um destes:\n"
+"  0  todas as diretivas com recuo apropriado\n"
+"  1  algumas diretivas de cpp  com recuro inapropriado; ou\n"
+"     texto segue #else/#endif (habilitado com --check --ansi), ou\n"
+"     uma string entre aspas duplas é maior do que o máximo especificado\n"
+"  2  #if/#endif não conferem, EOF em comentário ou string\n"
+"  3  erro de arquivo (ex. open, read, write)\n"
+
+#: src/cppi.l:694
+msgid ""
+"\n"
+"A pragma directive may have its `#' indented.\n"
+msgstr ""
+"\n"
+"Uma diretiva pragma pode conter seus \"#\" com recuo.\n"
+
+#: src/cppi.l:698
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"Relate os erros para: <%s>.\n"
+
+#: src/cppi.l:757
+#, c-format
+msgid "%s: line %d: EOF in comment"
+msgstr "%s: linha %d: fim do arquivo no comentário"
+
+#: src/cppi.l:820
+#, c-format
+msgid "invalid maximum string length %s"
+msgstr "comprimento máximo de string inválido %s"
+
+#: src/cppi.l:840
+#, c-format
+msgid "too many arguments"
+msgstr "número excessivo de argumentos"
+
+#: src/system.h:126
+#, c-format
+msgid ""
+"\n"
+"NOTE: your shell may have its own version of %s, which usually supersedes\n"
+"the version described here.  Please refer to your shell's documentation\n"
+"for details about the options it supports.\n"
+msgstr ""
+"\n"
+"NOTA: seu shell pode ter sua própria versão de %s, o que pode tornar\n"
+"obsoleta a versão descrita aqui. Por favor, informe-se na documentação do seu\n"
+"shell sobre a que opções ele oferece suporte.\n"
+
+#: src/system.h:132
+msgid "      --help     display this help and exit\n"
+msgstr "      --help     exibe esta ajuda e sai\n"
+
+#: src/system.h:134
+msgid "      --version  output version information and exit\n"
+msgstr "      --version  mostra informações sobre a versão e sai\n"

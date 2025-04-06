@@ -1,0 +1,1735 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: buzztrax-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2015-08-07 15:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../buzztrax.appdata.xml.in.h:1
+msgid "Fully integrated music composer."
+msgstr ""
+
+#. don't translate 'tracker'
+#: ../buzztrax.appdata.xml.in.h:3
+msgid ""
+"Buzztrax is a music composer similar to tracker applications. It is roughly "
+"modelled after the windows only, closed source application called Buzz."
+msgstr ""
+
+#: ../src/lib/core/core.c:181
+msgid "Print the buzztrax core version"
+msgstr ""
+
+#: ../src/lib/core/core.c:187
+msgid "Buzztrax core options"
+msgstr ""
+
+#: ../src/lib/core/core.c:188
+msgid "Show buzztrax core options"
+msgstr ""
+
+#: ../src/lib/core/cmd-pattern.c:153
+msgid "normal"
+msgstr ""
+
+#: ../src/lib/core/cmd-pattern.c:153
+msgid "break"
+msgstr ""
+
+#: ../src/lib/core/cmd-pattern.c:153
+msgid "mute"
+msgstr ""
+
+#: ../src/lib/core/cmd-pattern.c:153
+msgid "solo"
+msgstr ""
+
+#: ../src/lib/core/cmd-pattern.c:153
+msgid "bypass"
+msgstr ""
+
+#: ../src/lib/core/song-io.c:312
+#, c-format
+msgid "Filename must not be empty."
+msgstr ""
+
+#: ../src/lib/core/song-io.c:322
+#, c-format
+msgid "No io-module for filename '%s'."
+msgstr ""
+
+#: ../src/lib/core/song-io.c:349
+#, c-format
+msgid "Media-type must not be empty."
+msgstr ""
+
+#: ../src/lib/core/song-io.c:360
+#, c-format
+msgid "No io-module for media-type '%s'."
+msgstr ""
+
+#: ../src/lib/core/song-io.c:415
+#, c-format
+msgid "Loading file '%s'"
+msgstr ""
+
+#: ../src/lib/core/song-io.c:487
+#, c-format
+msgid "Saving file '%s'"
+msgstr ""
+
+#: ../src/lib/core/song-io-native-bzt.c:301
+#, c-format
+msgid "Failed to create memory input."
+msgstr ""
+
+#: ../src/lib/core/song-io-native-bzt.c:309
+#: ../src/lib/core/song-io-native-xml.c:72
+#, c-format
+msgid "Is not a XML/Buzztrax document."
+msgstr ""
+
+#: ../src/lib/core/song-io-native-bzt.c:313
+#: ../src/lib/core/song-io-native-xml.c:76
+#, c-format
+msgid "Is not a wellformed XML document."
+msgstr ""
+
+#: ../src/lib/core/song-io-native-bzt.c:320
+#: ../src/lib/core/song-io-native-xml.c:83
+#, c-format
+msgid "XML document is empty."
+msgstr ""
+
+#: ../src/lib/core/song-io-native-bzt.c:325
+#: ../src/lib/core/song-io-native-xml.c:88
+#, c-format
+msgid "Wrong XML document root."
+msgstr ""
+
+#. default name for new songs
+#: ../src/lib/core/song-info.c:122
+msgid "untitled song"
+msgstr ""
+
+#: ../src/lib/core/songio/bsl/buzztrax-songio-buzz.desktop.in.h:1
+#: ../src/ui/edit/buzztrax-edit.desktop.in.h:1
+msgid "Buzztrax Music Editor"
+msgstr ""
+
+#: ../src/lib/core/songio/bsl/song-io-buzz.c:2385
+#, c-format
+msgid "Error reading a buzz file section."
+msgstr ""
+
+#: ../src/lib/core/songio/bsl/song-io-buzz.c:2391
+#, c-format
+msgid "Is not a buzz file."
+msgstr ""
+
+#: ../src/lib/ic/ic.c:106
+msgid "Print the buzztrax interaction controller version"
+msgstr ""
+
+#: ../src/lib/ic/ic.c:112
+msgid "Buzztrax interaction controller options"
+msgstr ""
+
+#: ../src/lib/ic/ic.c:113
+msgid "Show buzztrax interaction controller options"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:84 ../src/ui/edit/bt-edit.c:92
+msgid "Print application version"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:85
+msgid "Be quiet"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:86 ../src/ui/edit/bt-edit.c:94
+msgid "Command name"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:88 ../src/ui/edit/bt-edit.c:98
+msgid "Input file name"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:89 ../src/ui/cmd/bt-cmd.c:91
+#: ../src/ui/edit/bt-edit.c:98
+msgid "<songfile>"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:90
+msgid "Output file name"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:105
+msgid "buzztrax-cmd options"
+msgstr ""
+
+#: ../src/ui/cmd/bt-cmd.c:106
+msgid "Show buzztrax-cmd options"
+msgstr ""
+
+#. Note to translators: put here your name and email so it will show up in
+#. * the "about" box. Example: Stefan 'ensonic' Sauer <ensonic@users.sf.net>
+#: ../src/ui/edit/about-dialog.c:65
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/ui/edit/about-dialog.c:68 ../src/ui/edit/about-dialog.c:70
+#, c-format
+msgid "Copyright © 2003-%d Buzztrax developer team"
+msgstr ""
+
+#: ../src/ui/edit/about-dialog.c:87
+msgid "Music production environment"
+msgstr ""
+
+#: ../src/ui/edit/about-dialog.c:91
+msgid ""
+"This package is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Library General Public License as published by "
+"the Free Software Foundation; either version 2.1 of the License, or (at your "
+"option) any later version.\n"
+"\n"
+"This package is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public License "
+"for more details.\n"
+"\n"
+"You should have received a copy of the GNU Library General Public License "
+"along with this package; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA."
+msgstr ""
+
+#. "Development version (do not translate this)"
+#.
+#: ../src/ui/edit/about-dialog.c:117
+msgid ""
+"Just a few month since the previous release, this update mostly focuses on "
+"getting rid of deprecated APIs. Besides that it also come with a new "
+"synthesizer plugin called 'ebeats'. As the name suggests it is good at "
+"making percussion sounds. Together with that the library providing the dsp "
+"components got overhauled."
+msgstr ""
+
+#: ../src/ui/edit/bt-edit.c:107
+msgid "buzztrax-edit options"
+msgstr ""
+
+#: ../src/ui/edit/bt-edit.c:108
+msgid "Show buzztrax-edit options"
+msgstr ""
+
+#: ../src/ui/edit/buzztrax-edit.desktop.in.h:2
+msgid "Edit buzztrax song files"
+msgstr ""
+
+#: ../src/ui/edit/change-log.c:643
+msgid "unsaved song"
+msgstr ""
+
+#. the song recovery has been finished
+#: ../src/ui/edit/crash-recover-dialog.c:174
+msgid "Recovery finished"
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:175
+msgid "The selected song has been recovered successful."
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:176
+msgid "Please check the song and save it if everything is alright."
+msgstr ""
+
+#. FIXME(ensonic): the log is still there
+#. * - this dialog should be a warning
+#. * - ev. we want to suggest to ask for support
+#.
+#. one or more steps in the recovery did not apply
+#: ../src/ui/edit/crash-recover-dialog.c:184
+msgid "Recovery failed"
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:185
+msgid "Sorry, the selected song could not be fully recovered."
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:186
+msgid "Please check the song and save it if still looks good."
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:225
+msgid "Unsaved song recovery"
+msgstr ""
+
+#. add dialog commision widgets (okay)
+#. FIXME(ensonic): add Okay, Cancel, Delete
+#. select song + okay -> recover
+#. select song + delete -> remove log
+#: ../src/ui/edit/crash-recover-dialog.c:231
+msgid "_Close"
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:243
+msgid "Unsaved songs found"
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:244
+msgid "Select them one by one and choose 'recover' or 'delete'."
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:264
+msgid "Song file"
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:270
+msgid "Last changed"
+msgstr ""
+
+#. add "undelete" button to action area
+#. GTK_STOCK_REVERT_TO_SAVED
+#: ../src/ui/edit/crash-recover-dialog.c:301
+msgid "Recover"
+msgstr ""
+
+#: ../src/ui/edit/crash-recover-dialog.c:307
+msgid "Delete"
+msgstr ""
+
+#: ../src/ui/edit/edit-application.c:159
+msgid "-> You will not see any level-meters."
+msgstr ""
+
+#: ../src/ui/edit/edit-application.c:170
+msgid "-> You will not see the frequency spectrum in the analyzer window."
+msgstr ""
+
+#: ../src/ui/edit/edit-application.c:181
+msgid "-> Sample playback previews from the wavetable page will not work."
+msgstr ""
+
+#: ../src/ui/edit/edit-application.c:240 ../src/ui/edit/main-menu.c:105
+#: ../src/ui/edit/main-window.c:156
+#, c-format
+msgid "Can't load song '%s'."
+msgstr ""
+
+#: ../src/ui/edit/edit-application.c:242 ../src/ui/edit/main-menu.c:106
+#: ../src/ui/edit/main-window.c:157
+msgid "Can't load song"
+msgstr ""
+
+#: ../src/ui/edit/interaction-controller-menu.c:296
+msgid "Learn…"
+msgstr ""
+
+#: ../src/ui/edit/interaction-controller-menu.c:422
+msgid "Bind controller"
+msgstr ""
+
+#: ../src/ui/edit/interaction-controller-menu.c:429
+msgid "Unbind controller"
+msgstr ""
+
+#: ../src/ui/edit/interaction-controller-menu.c:436
+msgid "Unbind all controllers"
+msgstr ""
+
+#. format about message for machines
+#: ../src/ui/edit/machine-actions.c:68
+#, c-format
+msgid ""
+"by %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/ui/edit/machine-actions.c:69
+msgid "About…"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:784
+msgid "Mute"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:794
+msgid "Solo"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:806
+msgid "Bypass"
+msgstr ""
+
+#. dynamic part
+#: ../src/ui/edit/machine-canvas-item.c:822
+msgid "_Properties"
+msgstr ""
+
+#. static part
+#: ../src/ui/edit/machine-canvas-item.c:844 ../src/ui/edit/main-menu.c:916
+msgid "_Preferences"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:855
+msgid "Rename…"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:861 ../src/ui/edit/main-menu.c:909
+msgid "_Delete"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:873
+msgid "Connect machines"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:881
+#: ../src/ui/edit/wire-canvas-item.c:835
+msgid "Signal Analysis…"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:932
+msgid "Play with"
+msgstr ""
+
+#. TODO(ensonic): toggle loop item
+#. *   gtk_check_menu_item_new_with_mnemonic
+#.
+#. TODO(ensonic): tools menu
+#. * 'normalize song'
+#. * - dummy render with master->input-pre-gain, adjust master volume
+#. * 'cleanup'
+#. * - remove unsused patterns, unconnected machines with no empty/tracks
+#.
+#. help menu
+#: ../src/ui/edit/machine-canvas-item.c:948
+#: ../src/ui/edit/machine-properties-dialog.c:2586
+#: ../src/ui/edit/main-menu.c:1062
+msgid "_Help"
+msgstr ""
+
+#: ../src/ui/edit/machine-canvas-item.c:958
+#: ../src/ui/edit/machine-properties-dialog.c:2580
+#: ../src/ui/edit/main-menu.c:1103
+msgid "_About"
+msgstr ""
+
+#. generators
+#: ../src/ui/edit/machine-menu.c:331
+msgid "Generators"
+msgstr ""
+
+#. effects
+#: ../src/ui/edit/machine-menu.c:343
+msgid "Effects"
+msgstr ""
+
+#. create and set window icon
+#.
+#. if((window_icon=bt_ui_resources_get_icon_pixbuf_by_machine(self->priv->machine))) {
+#. gtk_window_set_icon(GTK_WINDOW(self),window_icon);
+#. g_object_unref(window_icon);
+#. }
+#.
+#. set dialog title
+#: ../src/ui/edit/machine-preset-properties-dialog.c:140
+msgid "preset name and comment"
+msgstr ""
+
+#. add dialog commision widgets (okay, cancel)
+#. add dialog commision widgets (okay)
+#: ../src/ui/edit/machine-preset-properties-dialog.c:144
+#: ../src/ui/edit/machine-rename-dialog.c:122 ../src/ui/edit/main-window.c:999
+#: ../src/ui/edit/main-window.c:1053
+#: ../src/ui/edit/missing-framework-elements-dialog.c:141
+#: ../src/ui/edit/missing-song-elements-dialog.c:128
+#: ../src/ui/edit/pattern-properties-dialog.c:148
+#: ../src/ui/edit/settings-dialog.c:187 ../src/ui/edit/tip-dialog.c:210
+msgid "_OK"
+msgstr ""
+
+#: ../src/ui/edit/machine-preset-properties-dialog.c:144
+#: ../src/ui/edit/machine-rename-dialog.c:122 ../src/ui/edit/main-window.c:589
+#: ../src/ui/edit/main-window.c:721 ../src/ui/edit/main-window.c:1054
+#: ../src/ui/edit/pattern-properties-dialog.c:148
+#: ../src/ui/edit/render-dialog.c:616 ../src/ui/edit/settings-dialog.c:187
+msgid "_Cancel"
+msgstr ""
+
+#. GtkEntry : preset name
+#. GtkEntry : machine name
+#. GtkEntry : pattern name
+#: ../src/ui/edit/machine-preset-properties-dialog.c:160
+#: ../src/ui/edit/machine-rename-dialog.c:138
+#: ../src/ui/edit/main-page-info.c:426
+#: ../src/ui/edit/pattern-properties-dialog.c:164
+msgid "name"
+msgstr ""
+
+#. GtkEntry : preset comment
+#: ../src/ui/edit/machine-preset-properties-dialog.c:176
+msgid "comment"
+msgstr ""
+
+#: ../src/ui/edit/machine-preferences-dialog.c:509
+#, c-format
+msgid "%s preferences"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:691
+msgid "Reset parameter"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:697
+msgid "Reset all parameters"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:708
+msgid "Copy parameter"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:714
+#: ../src/ui/edit/machine-properties-dialog.c:814
+msgid "Paste"
+msgstr ""
+
+#. add copy/paste item
+#: ../src/ui/edit/machine-properties-dialog.c:808
+msgid "Copy group"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2207
+msgid "global properties"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2256
+#, c-format
+msgid "voice %lu properties"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2355
+#, c-format
+msgid "%s wire properties"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2432
+msgid "_Add"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2433
+msgid "Add new preset"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2439
+msgid "_Remove"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2440
+msgid "Remove preset"
+msgstr ""
+
+#. edit menu
+#: ../src/ui/edit/machine-properties-dialog.c:2446
+#: ../src/ui/edit/main-menu.c:859
+msgid "_Edit"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2447
+msgid "Edit preset name and comment"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2494
+msgid "Preset"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2542
+msgid "machine properties"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2581
+msgid "Info about this machine"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2587
+msgid "Help for this machine"
+msgstr ""
+
+#. -- file controls
+#: ../src/ui/edit/machine-properties-dialog.c:2596
+#: ../src/ui/edit/main-menu.c:776 ../src/ui/edit/main-toolbar.c:866
+msgid "_New"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2597
+msgid "Randomize parameters"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2602
+#: ../src/ui/edit/main-menu.c:867
+msgid "_Undo"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2603
+msgid "Reset parameters to defaults"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2611
+msgid "Presets"
+msgstr ""
+
+#: ../src/ui/edit/machine-properties-dialog.c:2612
+msgid "Show/Hide preset pane"
+msgstr ""
+
+#. set dialog title
+#: ../src/ui/edit/machine-properties-dialog.c:2722
+#: ../src/ui/edit/pattern-properties-dialog.c:142
+#, c-format
+msgid "%s properties"
+msgstr ""
+
+#. set dialog title
+#: ../src/ui/edit/machine-rename-dialog.c:116
+#, c-format
+msgid "%s name"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:96 ../src/ui/edit/main-window.c:583
+#: ../src/ui/edit/main-window.c:584
+msgid "Load new song?"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:141
+msgid "Recover a song?"
+msgstr ""
+
+#. gtk_menu_set_accel_path(GTK_MENU(self),"<Buzztrax-Main>/MainMenu");
+#. -- file menu
+#: ../src/ui/edit/main-menu.c:768
+msgid "_File"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:783 ../src/ui/edit/main-page-waves.c:1415
+#: ../src/ui/edit/main-toolbar.c:872 ../src/ui/edit/main-window.c:590
+msgid "_Open"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:790
+msgid "_Recently used"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:816 ../src/ui/edit/main-toolbar.c:878
+#: ../src/ui/edit/main-window.c:722
+msgid "_Save"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:824
+msgid "Save _As"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:834
+msgid "Recover unsaved songs"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:844
+msgid "_Record"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:851
+msgid "_Quit"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:876
+msgid "_Redo"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:888
+msgid "Cu_t"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:895
+msgid "_Copy"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:902
+msgid "_Paste"
+msgstr ""
+
+#. view menu
+#: ../src/ui/edit/main-menu.c:922
+msgid "_View"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:930
+msgid "Toolbar"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:937
+msgid "Statusbar"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:945
+msgid "Tabs"
+msgstr ""
+
+#. TODO(ensonic): 'Machine properties' show/hide toggle
+#. TODO(ensonic): 'Analyzer windows' show/hide toggle
+#: ../src/ui/edit/main-menu.c:955
+msgid "Fullscreen"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:964
+msgid "Go to machine view"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:971
+msgid "Go to pattern view"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:978
+msgid "Go to sequence view"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:985
+msgid "Go to wave table view"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:992
+msgid "Go to song information"
+msgstr ""
+
+#. TODO(ensonic): zoom menu items
+#. *  machine view:  zoom-in/zoom-out/zoom-fit
+#. *  sequence vide: zoom-in/zoom-out
+#. *
+#.
+#. gtk_container_add(GTK_CONTAINER(menu),gtk_separator_menu_item_new());
+#.
+#. subitem=gtk_menu_item_new_with_mnemonic(_)"Best _Fit"));
+#. gtk_container_add(GTK_CONTAINER(menu),subitem);
+#. g_signal_connect(subitem,"activate",G_CALLBACK(on_menu_zoom_fit_activate),(gpointer)self);
+#.
+#. subitem=gtk_menu_item_new_with_mnemonic(_("Zoom _In"));
+#. gtk_container_add(GTK_CONTAINER(menu),subitem);
+#. g_signal_connect(subitem,"activate",G_CALLBACK(on_menu_zoom_in_activate),(gpointer)self);
+#.
+#. subitem=gtk_menu_item_new_with_mnemonic(_("Zoom _Out"));
+#. gtk_container_add(GTK_CONTAINER(menu),subitem);
+#. g_signal_connect(subitem,"activate",G_CALLBACK(on_menu_zoom_out_activate),(gpointer)self);
+#.
+#. playback menu
+#: ../src/ui/edit/main-menu.c:1020
+msgid "_Playback"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:1029 ../src/ui/edit/main-page-waves.c:1300
+#: ../src/ui/edit/main-page-waves.c:1408 ../src/ui/edit/main-toolbar.c:904
+msgid "_Play"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:1036
+msgid "Play from cursor"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:1043 ../src/ui/edit/main-page-waves.c:1310
+#: ../src/ui/edit/main-toolbar.c:925
+msgid "_Stop"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:1070
+msgid "Help"
+msgstr ""
+
+#: ../src/ui/edit/main-menu.c:1077 ../src/ui/edit/tip-dialog.c:207
+#: ../src/ui/edit/tip-dialog.c:222
+msgid "Tip of the day"
+msgstr ""
+
+#. join web-chat
+#: ../src/ui/edit/main-menu.c:1083
+msgid "Join IRC discussion"
+msgstr ""
+
+#. TODO(ensonic): 'translate application' -> link to translator project
+#. * liblaunchpad-integration1:/usr/share/icons/hicolor/16x16/apps/lpi-translate.png
+#.
+#. 'report a problem' -> link to bug tracker
+#. * liblaunchpad-integration1:/usr/share/icons/hicolor/16x16/apps/lpi-bug.png
+#. * /usr/share/app-install/icons/bug-buddy.png
+#.
+#: ../src/ui/edit/main-menu.c:1096
+msgid "Report a problem"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:409
+msgid "song meta data"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:436
+msgid "genre"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:447
+msgid "author"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:458
+msgid "created"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:473
+msgid "beats per minute"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:488
+msgid "beats"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:511
+msgid "ticks per beat"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:524
+msgid "last saved"
+msgstr ""
+
+#: ../src/ui/edit/main-page-info.c:539
+msgid "free text info"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1593
+msgid "Add machine"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1603
+msgid "Unmute all machines"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1620
+msgid "Off"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1632
+msgid "Low"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1644
+msgid "Medium"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1656
+msgid "High"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1703
+msgid "Best _Fit"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1705
+msgid "Zoom in/out so that everything is visible"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1710
+msgid "Zoom _In"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1711
+msgid "Zoom in for more details"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1718
+msgid "Zoom _Out"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1719
+msgid "Zoom out for better overview"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1732
+msgid "Grid"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1733
+msgid "Show background grid"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1747
+msgid "Machine view menu"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:1749
+msgid "Menu actions for machine view below"
+msgstr ""
+
+#: ../src/ui/edit/main-page-machines.c:2558
+msgid ""
+"Add new machines from right click context menu. Connect machines with shift"
+"+drag from source to target."
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:354
+msgid "Add new patterns from right click context menu."
+msgstr ""
+
+#. create mapping for global params
+#. label for first global parameter column in a pattern
+#: ../src/ui/edit/main-page-patterns.c:1757
+msgid "Globals"
+msgstr ""
+
+#. create mapping for voice params
+#. label for parameters of first voice column in a pattern
+#: ../src/ui/edit/main-page-patterns.c:1779
+msgid "Voice 1"
+msgstr ""
+
+#. label for parameters of voice columns in a pattern
+#: ../src/ui/edit/main-page-patterns.c:1799
+#, c-format
+msgid "Voice %u"
+msgstr ""
+
+#. this won't work, as we can't pass anything to the event handler
+#. * gtk_widget_add_accelerator(self->priv->machine_menu, "key-press-event", accel_group, GDK_Cursor_Up, GDK_CONTROL_MASK, 0);
+#. * so, we need to subclass the combobox and add two signals: select-next, select-prev
+#.
+#: ../src/ui/edit/main-page-patterns.c:2977
+msgid "Machine"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3005
+msgid "Pattern"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3043
+#: ../src/ui/edit/main-page-waves.c:1365
+msgid "Wave"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3070
+msgid "Octave"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3090
+msgid "Play live"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3093
+msgid "Play notes and triggers while editing the pattern"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3107
+msgid "Pattern view menu"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3109
+msgid "Menu actions for pattern view below"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3156
+msgid "New voice"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3168
+msgid "Remove last voice"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3183
+msgid "New pattern …"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3195
+msgid "Pattern properties…"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3208
+msgid "Remove pattern…"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3220
+msgid "Copy pattern…"
+msgstr ""
+
+#. dynamic part
+#: ../src/ui/edit/main-page-patterns.c:3236
+#: ../src/ui/edit/main-page-sequence.c:3674
+msgid "Machine properties"
+msgstr ""
+
+#: ../src/ui/edit/main-page-patterns.c:3245
+#: ../src/ui/edit/main-page-sequence.c:3681
+msgid "Machine preferences"
+msgstr ""
+
+#. time line position
+#: ../src/ui/edit/main-page-sequence.c:1189
+msgid "Pos."
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:1198
+msgid "Ticks"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:1200
+msgid "Time"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:1202
+msgid "Beats"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:1375
+#: ../src/ui/edit/main-page-sequence.c:1402
+msgid "Labels"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3569
+msgid "Show every n-th line"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3579
+msgid "Steps"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3592
+msgid "Follow playback"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3612
+msgid "Sequence view menu"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3614
+msgid "Menu actions for sequence view below"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3628
+msgid "Add track"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3633
+msgid "Remove track"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3648
+msgid "Move track left"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3659
+msgid "Move track right"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3752
+msgid "Browse to labels in the sequence"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3906
+msgid "Key"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:3921
+msgid "Patterns"
+msgstr ""
+
+#: ../src/ui/edit/main-page-sequence.c:4569
+msgid "Add new tracks from right click context menu."
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1302
+msgid "Play current wave table entry as C-4"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1312
+msgid "Stop playback of current wave table entry"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1319
+msgid "_Clear"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1321
+msgid "Clear current wave table entry"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1355
+msgid "Ix"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1373
+msgid "Volume"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1381 ../src/ui/edit/main-toolbar.c:934
+msgid "Loop"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1409
+msgid "Play current sample"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1417
+msgid "Load current sample into selected wave table entry"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1471
+msgid "Root"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1479
+msgid "Length"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1487
+msgid "Rate"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1497
+msgid "Loop start"
+msgstr ""
+
+#: ../src/ui/edit/main-page-waves.c:1508
+msgid "Loop end"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:177
+msgid "machines"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:178
+msgid "machines used in the song and their wires"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:184
+msgid "patterns"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:184
+msgid "event pattern editor"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:190
+msgid "sequence"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:190
+msgid "song sequence editor"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:196
+msgid "wave table"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:196
+msgid "sample wave table editor"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:202
+msgid "information"
+msgstr ""
+
+#: ../src/ui/edit/main-pages.c:202
+msgid "song meta data editor"
+msgstr ""
+
+#: ../src/ui/edit/main-statusbar.c:324
+msgid "CPU load"
+msgstr ""
+
+#: ../src/ui/edit/main-statusbar.c:339
+msgid "Playback time"
+msgstr ""
+
+#: ../src/ui/edit/main-statusbar.c:348
+msgid "Playback position"
+msgstr ""
+
+#: ../src/ui/edit/main-statusbar.c:357
+msgid "Playback length"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:417
+msgid "Error"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:451
+msgid "Warning"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:867
+msgid "Prepare a new empty song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:873
+msgid "Load a new song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:879
+msgid "Save this song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:890
+msgid "R_ewind"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:892
+msgid "Rewind playback position of this song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:905
+msgid "Play this song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:912
+msgid "_Forward"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:914
+msgid "Forward playback position of this song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:926
+msgid "Stop playback of this song"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:935
+msgid "Toggle looping of playback"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:953
+msgid "playback volume"
+msgstr ""
+
+#: ../src/ui/edit/main-toolbar.c:975
+msgid "Change playback volume"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:268
+msgid "unsaved"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:268
+msgid "saved"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:334 ../src/ui/edit/main-window.c:339
+#, c-format
+msgid "%d %s and %d %s"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:335
+msgid "hour"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:335
+msgid "hours"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:336 ../src/ui/edit/main-window.c:340
+msgid "minute"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:336 ../src/ui/edit/main-window.c:340
+msgid "minutes"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:341 ../src/ui/edit/main-window.c:345
+msgid "second"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:341 ../src/ui/edit/main-window.c:345
+msgid "seconds"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:344
+#, c-format
+msgid "%d %s"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:353
+#, c-format
+msgid ""
+"All unsaved changes since %s will be lost. This song was last saved on: %s"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:358
+#, c-format
+msgid "All unsaved changes since %s will be lost. This song was created on: %s"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:544 ../src/ui/edit/main-window.c:545
+msgid "Really quit?"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:557
+msgid "New song?"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:588
+msgid "Open a song"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:684 ../src/ui/edit/main-window.c:945
+#, c-format
+msgid "Can't save song '%s'."
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:685 ../src/ui/edit/main-window.c:932
+#: ../src/ui/edit/main-window.c:946
+msgid "Can't save song"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:720
+msgid "Save a song"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:870 ../src/ui/edit/render-dialog.c:660
+msgid "Format"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:915 ../src/ui/edit/main-window.c:916
+msgid "File already exists"
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:918
+msgid "Choose 'Okay' to overwrite or 'Cancel' to abort saving the song."
+msgstr ""
+
+#: ../src/ui/edit/main-window.c:930
+#, c-format
+msgid "An error occurred while writing the file '%s': %s"
+msgstr ""
+
+#. create and set window icon
+#.
+#. if((window_icon=bt_ui_resources_get_icon_pixbuf_by_machine(self->priv->machine))) {
+#. gtk_window_set_icon(GTK_WINDOW(self),window_icon);
+#. g_object_unref(window_icon);
+#. }
+#.
+#. set dialog title
+#: ../src/ui/edit/missing-framework-elements-dialog.c:138
+#: ../src/ui/edit/missing-framework-elements-dialog.c:157
+msgid "Missing GStreamer elements"
+msgstr ""
+
+#: ../src/ui/edit/missing-framework-elements-dialog.c:167
+msgid ""
+"The elements listed below are missing from your installation, but are "
+"required."
+msgstr ""
+
+#: ../src/ui/edit/missing-framework-elements-dialog.c:207
+msgid ""
+"The elements listed below are missing from your installation, but are "
+"recommended for full functionality."
+msgstr ""
+
+#: ../src/ui/edit/missing-framework-elements-dialog.c:210
+msgid "don't warn again"
+msgstr ""
+
+#. create and set window icon
+#.
+#. if((window_icon=bt_ui_resources_get_icon_pixbuf_by_machine(self->priv->machine))) {
+#. gtk_window_set_icon(GTK_WINDOW(self),window_icon);
+#. g_object_unref(window_icon);
+#. }
+#.
+#. set dialog title
+#: ../src/ui/edit/missing-song-elements-dialog.c:125
+#: ../src/ui/edit/missing-song-elements-dialog.c:140
+msgid "Missing elements in song"
+msgstr ""
+
+#: ../src/ui/edit/missing-song-elements-dialog.c:148
+msgid "The machines listed below are missing or failed to load."
+msgstr ""
+
+#: ../src/ui/edit/missing-song-elements-dialog.c:153
+msgid "The waves listed below are missing or failed to load."
+msgstr ""
+
+#. GtkComboBox : pattern length
+#: ../src/ui/edit/pattern-properties-dialog.c:177
+msgid "length"
+msgstr ""
+
+#. GtkSpinButton : number of voices
+#: ../src/ui/edit/pattern-properties-dialog.c:191
+msgid "voices"
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:196
+#, c-format
+msgid "Recording to: %s"
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:367
+msgid ""
+"File already exists!\n"
+"It will be overwritten if you continue."
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:610
+msgid "song rendering"
+msgstr ""
+
+#. add dialog commision widgets (okay, cancel)
+#: ../src/ui/edit/render-dialog.c:613
+msgid "OK"
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:631
+msgid "Folder"
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:636
+#: ../src/ui/edit/settings-page-directories.c:102
+#: ../src/ui/edit/settings-page-directories.c:116
+#: ../src/ui/edit/settings-page-directories.c:131
+msgid "Select a folder"
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:646
+msgid "Filename"
+msgstr ""
+
+#: ../src/ui/edit/render-dialog.c:690
+msgid "Mode"
+msgstr ""
+
+#. gtk_widget_set_size_request(GTK_WIDGET(self),800,600);
+#: ../src/ui/edit/settings-dialog.c:183
+msgid "buzztrax settings"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:227 ../src/ui/edit/settings-dialog.c:269
+msgid "Audio Devices"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:231 ../src/ui/edit/settings-dialog.c:277
+#: ../src/ui/edit/settings-page-directories.c:90
+msgid "Directories"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:235 ../src/ui/edit/settings-dialog.c:287
+#: ../src/ui/edit/settings-page-interaction-controller.c:402
+msgid "Interaction Controller"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:240 ../src/ui/edit/settings-dialog.c:297
+#: ../src/ui/edit/settings-page-playback-controller.c:458
+msgid "Playback Controller"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:245 ../src/ui/edit/settings-dialog.c:305
+#: ../src/ui/edit/settings-page-shortcuts.c:87
+msgid "Shortcuts"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:249
+msgid "User interface"
+msgstr ""
+
+#: ../src/ui/edit/settings-dialog.c:313 ../src/ui/edit/settings-page-ui.c:82
+msgid "User Interface"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:113
+msgid "Auto"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:269
+msgid "Audio Device"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:277
+msgid "Sink"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:292
+#, c-format
+msgid "system default: %s (%s)"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:298
+msgid "system default: -"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:382
+msgid "Audio device"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:395
+msgid "Sampling rate"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:444
+msgid "Channels"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:451
+msgid "mono"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:452
+msgid "stereo"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-audiodevices.c:459
+msgid "Latency"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-directories.c:97
+msgid "Songs"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-directories.c:111
+msgid "Recordings"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-directories.c:126
+msgid "Waveforms"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-interaction-controller.c:226
+msgid "Plug a USB input device or midi controller"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-interaction-controller.c:349
+msgid "Use the device's controls to train them."
+msgstr ""
+
+#: ../src/ui/edit/settings-page-interaction-controller.c:409
+#: ../src/ui/edit/settings-page-playback-controller.c:596
+msgid "Device"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-interaction-controller.c:447
+msgid "In use"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-interaction-controller.c:456
+#: ../src/ui/edit/settings-page-playback-controller.c:479
+msgid "Controller"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-interaction-controller.c:473
+msgid ""
+"This package has been built without GUdev and Alsa support and thus supports "
+"no interaction controllers."
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:482
+msgid "Master"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:488
+msgid "Slave"
+msgstr ""
+
+#. local network port number for socket communication
+#: ../src/ui/edit/settings-page-playback-controller.c:551
+msgid "Port number"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:569
+msgid ""
+"Requires Coherence UPnP framework which can be found at: https://coherence."
+"beebits.net."
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:580
+#, c-format
+msgid ""
+"Jack transport requires that the jackaudiosink is active. Your current "
+"audiosink is '%s'."
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:582
+msgid "none"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:623
+msgid "Play"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:624
+msgid "Stop"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:625
+msgid "Rewind"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-playback-controller.c:626
+msgid "Forward"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-ui.c:89
+msgid "Dark theme variant"
+msgstr ""
+
+#: ../src/ui/edit/settings-page-ui.c:101
+msgid "Compact theme variant"
+msgstr ""
+
+#: ../src/ui/edit/signal-analysis-dialog.c:973
+#, c-format
+msgid "%s analysis"
+msgstr ""
+
+#. scale: linear and logarithmic
+#: ../src/ui/edit/signal-analysis-dialog.c:1020
+msgid "frequency mapping"
+msgstr ""
+
+#: ../src/ui/edit/signal-analysis-dialog.c:1025
+msgid "lin."
+msgstr ""
+
+#: ../src/ui/edit/signal-analysis-dialog.c:1026
+msgid "log."
+msgstr ""
+
+#. precission
+#: ../src/ui/edit/signal-analysis-dialog.c:1034
+msgid "spectrum precision"
+msgstr ""
+
+#: ../src/ui/edit/signal-analysis-dialog.c:1039
+msgid "single"
+msgstr ""
+
+#: ../src/ui/edit/signal-analysis-dialog.c:1040
+msgid "double"
+msgstr ""
+
+#: ../src/ui/edit/signal-analysis-dialog.c:1041
+msgid "triple"
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:50
+msgid "New machines are added in machine view from the context menu."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:51
+msgid ""
+"Connect machines by holding the shift key and dragging a connection for the "
+"source to the target machine."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:52
+msgid "Songs can be recorded as single waves per track to give it to remixers."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:53
+msgid ""
+"Fill the details on the info page. When recording songs, the metadata is "
+"added to the recording as tags."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:54
+msgid ""
+"Use jackaudio sink in audio device settings to get lower latencies for live "
+"machine control."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:55
+msgid ""
+"You can use input devices such as joysticks, beside midi devices to live "
+"control machine parameters."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:56
+msgid ""
+"You can use a upnp media client (e.g. media streamer on nokia tablets) to "
+"remote control buzztrax."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:57
+msgid ""
+"To enter notes, imagine your pc keyboard as a music keyboard in two rows. "
+"Bottom left y/z key becomes a 'c', s a 'c#', x a 'd' and so on."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:58
+msgid ""
+"You can get more help from the community on irc://irc.freenode.net/#buzztrax."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:59
+msgid ""
+"Pattern layouts are individual for each machine. Look at the statusbar at "
+"the bottom for information about the cursor-column."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:60
+msgid ""
+"Click the speaker icon in the pattern-view to hear notes as you enter them."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:61
+msgid ""
+"Each wire has volume and possible panorama/balance controls. These can also "
+"be adjusted in the machine-window of the machine that has the wire as an "
+"input."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:62
+msgid ""
+"The wire volume control pops up upon a click on the arrow box on the wire."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:63
+msgid ""
+"The wire panorama/balance control pops up upon a shift+click on the arrow "
+"box on the wire if available."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:64
+msgid ""
+"One can copy settings from the machine window (from the context menu of a "
+"group) and paste them to patterns and the other way around."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:65
+msgid "Install extra machines from http://github.com/Buzztrax/buzzmachines."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:66
+msgid "Machines can also be renamed in the headers of the sequence view."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:67
+msgid ""
+"Press the ',' (comma) key in the pattern editor to insert the current value "
+"for this parameter."
+msgstr ""
+
+#: ../src/ui/edit/tip-dialog.c:244
+msgid "Show tips on startup"
+msgstr ""
+
+#. add "refresh" button to action area
+#: ../src/ui/edit/tip-dialog.c:255
+msgid "Refresh"
+msgstr ""
+
+#: ../src/ui/edit/wire-canvas-item.c:825
+msgid "Disconnect"
+msgstr ""

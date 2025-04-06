@@ -1,0 +1,1413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Anubis Team
+# This file is distributed under the same license as the GNU anubis package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: env.opt:45
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU anubis 4.3\n"
+"Report-Msgid-Bugs-To: bug-anubis@gnu.org\n"
+"POT-Creation-Date: 2024-01-05 19:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/authmode.c:450
+msgid "Entering XDB loop..."
+msgstr ""
+
+#: src/authmode.c:464 src/authmode.c:486
+msgid "Exiting XDB loop..."
+msgstr ""
+
+#: src/authmode.c:509
+msgid "Database not specified"
+msgstr ""
+
+#: src/authmode.c:517
+#, c-format
+msgid "Cannot open database %s: %s"
+msgstr ""
+
+#: src/authmode.c:524
+#, c-format
+msgid "Found record for `%s'."
+msgstr ""
+
+#: src/authmode.c:529
+#, c-format
+msgid "Cannot retrieve data from the SASL database: %s"
+msgstr ""
+
+#: src/authmode.c:534
+#, c-format
+msgid "Record for `%s' not found."
+msgstr ""
+
+#: src/authmode.c:587 src/transmode.c:129 src/transmode.c:163
+msgid "Connection closed successfully."
+msgstr ""
+
+#: src/authmode.c:594 src/transmode.c:136
+msgid "PAM: Session closed."
+msgstr ""
+
+#: src/authmode.c:598 src/transmode.c:140
+msgid "PAM: failed to release authenticator."
+msgstr ""
+
+#: src/authmode.c:623 src/authmode.c:630 src/authmode.c:636 src/authmode.c:646
+#: src/authmode.c:653 src/authmode.c:660
+msgid "invalid number of arguments"
+msgstr ""
+
+#: src/authmode.c:667 src/gpg.c:549 src/guile.c:484 src/map.c:210
+#: src/rcfile.c:670 src/rcfile.c:815 src/rcfile.c:897 src/rcfile.c:967
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unhandled key %d; please report"
+msgstr ""
+
+#: src/daemon.c:44
+msgid "daemon() failed"
+msgstr ""
+
+#: src/daemon.c:51
+msgid "Cannot fork."
+msgstr ""
+
+#: src/daemon.c:59
+msgid "setsid() failed"
+msgstr ""
+
+#: src/daemon.c:70
+#, c-format
+msgid "%s daemon startup succeeded."
+msgstr ""
+
+#: src/daemon.c:81
+#, c-format
+msgid "Exited successfully"
+msgstr ""
+
+#: src/daemon.c:83
+#, c-format
+msgid "Failed with status %d"
+msgstr ""
+
+#: src/daemon.c:88
+#, c-format
+msgid "Terminated on signal %d"
+msgstr ""
+
+#: src/daemon.c:91
+#, c-format
+msgid "Stopped on signal %d"
+msgstr ""
+
+#: src/daemon.c:94
+#, c-format
+msgid "Dumped core"
+msgstr ""
+
+#: src/daemon.c:97
+#, c-format
+msgid "Terminated"
+msgstr ""
+
+#: src/daemon.c:109
+#, c-format
+msgid "Child [%lu] finished. %s. %d client left."
+msgid_plural "Child [%lu] finished. %s. %d clients left."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/daemon.c:121
+#, c-format
+msgid "Local program [%lu] finished. %s"
+msgstr ""
+
+#: src/daemon.c:162
+msgid "WARNING: An unprivileged user cannot be resolved. Verify your settings!"
+msgstr ""
+
+#: src/daemon.c:172
+msgid "WARNING: An unprivileged user has not been specified!"
+msgstr ""
+
+#: src/daemon.c:225
+msgid "GNU Anubis is running..."
+msgstr ""
+
+#: src/daemon.c:241 src/exec.c:80
+msgid "accept() failed"
+msgstr ""
+
+#: src/daemon.c:260
+#, c-format
+msgid "TCP wrappers: connection from %s:%u rejected."
+msgstr ""
+
+#: src/daemon.c:280
+#, c-format
+msgid "Too many clients. Connection from %s:%u rejected."
+msgstr ""
+
+#: src/daemon.c:286
+#, c-format
+msgid "Connection from %s:%u"
+msgstr ""
+
+#: src/daemon.c:291
+msgid "daemon: cannot fork"
+msgstr ""
+
+#: env.opt:47 env.opt:57
+msgid "[HOST:]PORT"
+msgstr ""
+
+#: env.opt:47
+msgid ""
+"Specify the TCP port on which GNU Anubis listens for connections; the "
+"default HOST is INADDR_ANY, and default PORT is 24 (private mail system)"
+msgstr ""
+
+#: env.opt:57
+msgid "Specify a remote SMTP host name or IP address; the default is 25"
+msgstr ""
+
+#: env.opt:65 env.opt:143 env.opt:181
+msgid "FILE"
+msgstr ""
+
+#: env.opt:65
+msgid ""
+"Execute a local SMTP server, which works on standard input and output (inetd-"
+"type program); this option excludes the `--remote-mta' option"
+msgstr ""
+
+#: env.opt:88
+msgid "MODE"
+msgstr ""
+
+#: env.opt:88
+msgid ""
+"Select operation mode; MODE is one of \"transparent\", \"auth\" or \"mda\""
+msgstr ""
+
+#: env.opt:96
+msgid "Foreground mode"
+msgstr ""
+
+#: env.opt:102
+msgid "EMAIL"
+msgstr ""
+
+#: env.opt:102
+msgid "Specify sender address (implies MDA mode)"
+msgstr ""
+
+#: env.opt:109
+msgid ""
+"Use the SMTP protocol (OMP/Tunnel) as described in RFC 821 on standard input "
+"and output"
+msgstr ""
+
+#: env.opt:115
+msgid "listen on file descriptor 3"
+msgstr ""
+
+#: env.opt:119
+msgid "Output options"
+msgstr ""
+
+#: env.opt:122
+msgid "Work silently"
+msgstr ""
+
+#: env.opt:128
+msgid "Work noisily"
+msgstr ""
+
+#: env.opt:134
+msgid "Debug mode"
+msgstr ""
+
+#: env.opt:139
+msgid "Miscellaneous options"
+msgstr ""
+
+#: env.opt:143
+msgid "Specify alternate system configuration file"
+msgstr ""
+
+#: env.opt:150
+msgid "Ignore system configuration file"
+msgstr ""
+
+#: env.opt:156
+msgid "DEBUG-LEVEL"
+msgstr ""
+
+#: env.opt:156
+msgid "Run the configuration file syntax checker"
+msgstr ""
+
+#: env.opt:163
+msgid "Print a list of configuration options used to build GNU Anubis"
+msgstr ""
+
+#: env.opt:169
+msgid "Print location column numbers in parser diagnostics"
+msgstr ""
+
+#: env.opt:175
+msgid "Do not check user configuration file permissions"
+msgstr ""
+
+#: env.opt:181
+msgid "Store the PID of the running daemon in FILE"
+msgstr ""
+
+#: env.opt:185
+msgid "Other options"
+msgstr ""
+
+#: env.opt:185
+msgid "Give this help list"
+msgstr ""
+
+#: env.opt:185
+msgid "Give a short usage message"
+msgstr ""
+
+#: env.opt:185
+msgid "Print program version"
+msgstr ""
+
+#: env.opt:43
+msgid "SMTP message submission daemon."
+msgstr ""
+
+#: env.opt:167 env.opt:323
+msgid "Usage:"
+msgstr ""
+
+#: env.opt:167
+msgid "OPTION"
+msgstr ""
+
+#: env.opt:281
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or "
+"optional for any corresponding short options."
+msgstr ""
+
+#: env.opt:295
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+
+#: env.opt:538
+msgid "(C)"
+msgstr ""
+
+#: env.opt:556
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#: env.opt:73 src/ident.c:39
+#, c-format
+msgid "wordsplit failed: %s"
+msgstr ""
+
+#: env.opt:92 src/rcfile.c:586
+#, c-format
+msgid "invalid mode: %s"
+msgstr ""
+
+#: env.opt:278
+#, c-format
+msgid "setgroups(1, %lu) failed"
+msgstr ""
+
+#: env.opt:288
+#, c-format
+msgid "setegid(%lu) failed"
+msgstr ""
+
+#: env.opt:291
+#, c-format
+msgid "setregid(%lu,%lu) failed"
+msgstr ""
+
+#: env.opt:295
+#, c-format
+msgid "setresgid(%lu,%lu,%lu) failed"
+msgstr ""
+
+#: env.opt:304
+#, c-format
+msgid "setgid(%lu) failed"
+msgstr ""
+
+#: env.opt:307
+#, c-format
+msgid "cannot set effective gid to %lu"
+msgstr ""
+
+#: env.opt:329
+#, c-format
+msgid "setreuid(%lu,-1) failed"
+msgstr ""
+
+#: env.opt:335
+#, c-format
+msgid "second setuid(%lu) failed"
+msgstr ""
+
+#: env.opt:343
+#, c-format
+msgid "setuid(%lu) failed"
+msgstr ""
+
+#: env.opt:352
+msgid "seteuid(0) succeeded when it should not"
+msgstr ""
+
+#: env.opt:357
+msgid "cannot drop non-root setuid privileges"
+msgstr ""
+
+#: env.opt:383
+msgid "PAM: Session opened (restrictions applied)."
+msgstr ""
+
+#: env.opt:386
+msgid "PAM: Not authenticated to use GNU Anubis."
+msgstr ""
+
+#: env.opt:399 src/main.c:163
+#, c-format
+msgid "UID:%d (%s), GID:%d, EUID:%d, EGID:%d"
+msgstr ""
+
+#: env.opt:434
+#, c-format
+msgid "Invalid user ID: %s"
+msgstr ""
+
+#: env.opt:440
+#, c-format
+msgid "Invalid user name: %s"
+msgstr ""
+
+#: env.opt:463
+#, c-format
+msgid "Wrong permissions on %s. Set 0600."
+msgstr ""
+
+#: env.opt:489
+#, c-format
+msgid "%s is not a regular file or a symbolic link."
+msgstr ""
+
+#: env.opt:530
+#, c-format
+msgid "Cannot open pid file '%s'"
+msgstr ""
+
+#: src/errs.c:88 src/rc-gram.y:1467
+msgid "warning"
+msgstr ""
+
+#: src/errs.c:96
+#, c-format
+msgid "Could not write to socket: %s"
+msgstr ""
+
+#: src/errs.c:98
+msgid "Could not write to socket"
+msgstr ""
+
+#: src/errs.c:108
+#, c-format
+msgid "Unknown host %s."
+msgstr ""
+
+#: src/errs.c:111
+#, c-format
+msgid "%s: host name is valid but does not have an IP address."
+msgstr ""
+
+#: src/errs.c:115
+#, c-format
+msgid "%s: unrecoverable name server error occured."
+msgstr ""
+
+#: src/errs.c:118
+#, c-format
+msgid "%s: a temporary name server error occured. Try again later."
+msgstr ""
+
+#: src/errs.c:121
+#, c-format
+msgid "%s: unknown DNS error %d."
+msgstr ""
+
+#: src/esmtp.c:110
+#, c-format
+msgid "Unsupported callback property %d"
+msgstr ""
+
+#: src/esmtp.c:126
+msgid "unexpected eof in input"
+msgstr ""
+
+#: src/esmtp.c:136
+msgid "Malformed or unexpected reply"
+msgstr ""
+
+#: src/esmtp.c:162
+#, c-format
+msgid "SASL gsasl_client_start: %s"
+msgstr ""
+
+#: src/esmtp.c:171 src/esmtp.c:190
+#, c-format
+msgid "GSASL handshake aborted: %d %s"
+msgstr ""
+
+#: src/esmtp.c:202
+#, c-format
+msgid "GSASL error: %s"
+msgstr ""
+
+#: src/esmtp.c:216
+#, c-format
+msgid "Authentication failed: %d %s"
+msgstr ""
+
+#: src/esmtp.c:219
+msgid "Authentication successful."
+msgstr ""
+
+#: src/esmtp.c:240
+msgid "Got empty list of authentication methods"
+msgstr ""
+
+#: src/esmtp.c:265
+msgid "Server did not offer any feasible authentication mechanism"
+msgstr ""
+
+#: src/esmtp.c:275
+msgid "INTERNAL ERROR"
+msgstr ""
+
+#: src/esmtp.c:283
+#, c-format
+msgid ""
+"Selected authentication mechanism %s requires TLS encryption. Not using "
+"ESMTP authentication"
+msgstr ""
+
+#: src/esmtp.c:290
+#, c-format
+msgid "Selected authentication mechanism %s"
+msgstr ""
+
+#: src/esmtp.c:296
+#, c-format
+msgid "Cannot initialize libgsasl: %s"
+msgstr ""
+
+#: src/esmtp.c:311
+msgid "ESMTP AUTH is not supported"
+msgstr ""
+
+#: src/exec.c:40
+msgid "#1 socket() failed."
+msgstr ""
+
+#: src/exec.c:45
+msgid "#2 socket() failed."
+msgstr ""
+
+#: src/exec.c:55
+msgid "#1 bind() failed"
+msgstr ""
+
+#: src/exec.c:60
+msgid "#2 bind() failed"
+msgstr ""
+
+#: src/exec.c:65 src/net.c:233
+msgid "listen() failed"
+msgstr ""
+
+#: src/exec.c:70
+#, c-format
+msgid "getsockname() failed: %s."
+msgstr ""
+
+#: src/exec.c:75
+msgid "connect() failed"
+msgstr ""
+
+#: src/exec.c:87
+msgid "socketpair() failed"
+msgstr ""
+
+#: src/exec.c:107
+#, c-format
+msgid "Executing %s..."
+msgstr ""
+
+#: src/exec.c:117
+msgid "fork() failed"
+msgstr ""
+
+#: src/exec.c:131
+msgid "execvp() failed"
+msgstr ""
+
+#: src/gpg.c:46
+#, c-format
+msgid "GPGME: %s."
+msgstr ""
+
+#: src/gpg.c:92
+#, c-format
+msgid "Install GPGME version %s or later."
+msgstr ""
+
+#: src/gpg.c:99
+#, c-format
+msgid "GPGME: failed. %s."
+msgstr ""
+
+#: src/gpg.c:185 src/gpg.c:396
+#, c-format
+msgid "GPGME: Cannot list keys: %s"
+msgstr ""
+
+#: src/gpg.c:304 src/gpg.c:418
+#, c-format
+msgid "GPGME: Invalid recipient encountered: %s"
+msgstr ""
+
+#: src/gpg.c:329
+#, c-format
+msgid "GPGME: Invalid signer found: %s"
+msgstr ""
+
+#: src/gpg.c:336
+msgid "GPGME: Unexpected number of signatures created"
+msgstr ""
+
+#: src/gpg.c:343
+msgid "GPGME: Wrong type of signature created"
+msgstr ""
+
+#: src/gpg.c:348
+#, c-format
+msgid "GPGME: Wrong pubkey algorithm reported: %i"
+msgstr ""
+
+#: src/gpg.c:355
+#, c-format
+msgid "GPGME: Wrong hash algorithm reported: %i"
+msgstr ""
+
+#: src/gpg.c:362
+#, c-format
+msgid "GPGME: Wrong signature class reported: %u"
+msgstr ""
+
+#: src/gsasl.c:201 src/main.c:44
+msgid "Not enough memory"
+msgstr ""
+
+#: src/guile.c:104
+#, c-format
+msgid "cannot open guile output file %s"
+msgstr ""
+
+#: src/guile.c:337
+msgid "missing procedure name"
+msgstr ""
+
+#: src/guile.c:345
+#, c-format
+msgid "%s not a procedure object"
+msgstr ""
+
+#: src/guile.c:374
+#, c-format
+msgid "Bad car type in return from %s"
+msgstr ""
+
+#: src/guile.c:391
+#, c-format
+msgid "Bad cdr type in return from %s"
+msgstr ""
+
+#: src/guile.c:394
+#, c-format
+msgid "Bad return type from %s"
+msgstr ""
+
+#: src/guile.c:478
+#, c-format
+msgid "%s is not supported yet"
+msgstr ""
+
+#: src/headers.h:297
+msgid "MTA has not been specified. Set the `remote-mta' or `local-mta'."
+msgstr ""
+
+#: src/ident.c:67
+msgid "IDENT: socket() failed"
+msgstr ""
+
+#: src/ident.c:79
+msgid "IDENT: connect() failed"
+msgstr ""
+
+#: src/ident.c:85
+#, c-format
+msgid "IDENT: connected to %s:%u"
+msgstr ""
+
+#: src/ident.c:94
+#, c-format
+msgid "IDENT: stream_write() failed: %s."
+msgstr ""
+
+#: src/ident.c:102
+#, c-format
+msgid "IDENT: recvline() failed: %s."
+msgstr ""
+
+#: src/ident.c:112
+msgid "IDENT: incorrect data."
+msgstr ""
+
+#: src/ident.c:131
+msgid "IDENT: data encrypted with DES"
+msgstr ""
+
+#: src/ident.c:135
+msgid "IDENT: incorrect data (DES deciphered)."
+msgstr ""
+
+#: src/ident.c:141
+#, c-format
+msgid "IDENT: resolved remote user to %s."
+msgstr ""
+
+#: src/main.c:189
+msgid "listen(3) failed"
+msgstr ""
+
+#: src/map.c:65
+#, c-format
+msgid "%s remapped to %s@localhost."
+msgstr ""
+
+#: src/map.c:116
+msgid "invalid syntax"
+msgstr ""
+
+#: src/map.c:117
+msgid "Translation map: incorrect syntax."
+msgstr ""
+
+#: src/map.c:158 src/net.c:146 src/net.c:213 src/transmode.c:45
+#, c-format
+msgid "Illegal address length received for host %s"
+msgstr ""
+
+#: src/misc.c:167
+#, c-format
+msgid "Invalid port number: %s"
+msgstr ""
+
+#: src/misc.c:396
+msgid "Can't find out my own hostname"
+msgstr ""
+
+#: src/net.c:46
+msgid "SERVER"
+msgstr ""
+
+#: src/net.c:49
+msgid "CLIENT"
+msgstr ""
+
+#: src/net.c:127
+msgid "Getting remote host information..."
+msgstr ""
+
+#: src/net.c:164
+msgid "Cannot create stream socket."
+msgstr ""
+
+#: src/net.c:169
+#, c-format
+msgid "Couldn't connect to %s:%u. %s."
+msgstr ""
+
+#: src/net.c:174
+#, c-format
+msgid "Connected to %s:%u"
+msgstr ""
+
+#: src/net.c:196
+msgid "Cannot create stream socket"
+msgstr ""
+
+#: src/net.c:229
+msgid "bind() failed"
+msgstr ""
+
+#: src/net.c:230
+#, c-format
+msgid "GNU Anubis bound to %s:%u"
+msgstr ""
+
+#: src/net.c:256
+msgid "Short write"
+msgstr ""
+
+#: src/socks.c:49
+msgid "Using SOCKS Proxy..."
+msgstr ""
+
+#: src/socks.c:67
+#, c-format
+msgid "SOCKS proxy: %s"
+msgstr ""
+
+#: src/socks.c:139
+msgid "Address must be an IP, not a domain name."
+msgstr ""
+
+#: src/socks.c:176 src/socks.c:395
+msgid "SOCKS Proxy Connection: succeeded."
+msgstr ""
+
+#: src/socks.c:179
+msgid "Request rejected or failed."
+msgstr ""
+
+#: src/socks.c:182
+msgid "Request rejected."
+msgstr ""
+
+#: src/socks.c:185
+msgid ""
+"Request rejected, because the client program and identd reported different "
+"User-IDs."
+msgstr ""
+
+#: src/socks.c:189 src/socks.c:422
+msgid "Server reply is not valid."
+msgstr ""
+
+#: src/socks.c:230
+msgid "Possibly not a SOCKS proxy service."
+msgstr ""
+
+#: src/socks.c:242
+msgid "SOCKS Proxy AUTH method: NO AUTHENTICATION REQUIRED"
+msgstr ""
+
+#: src/socks.c:245
+msgid "SOCKS Proxy AUTH method: USER NAME/PASSWORD"
+msgstr ""
+
+#: src/socks.c:249
+msgid "Cannot send null user name or password."
+msgstr ""
+
+#: src/socks.c:291
+msgid "Bad user name or password."
+msgstr ""
+
+#: src/socks.c:295
+msgid "SOCKS Proxy AUTH: succeeded."
+msgstr ""
+
+#: src/socks.c:298
+msgid "Server does not accept any method."
+msgstr ""
+
+#: src/socks.c:301
+msgid "Server does not accept an AUTH method."
+msgstr ""
+
+#: src/socks.c:398
+msgid "General SOCKS server failure."
+msgstr ""
+
+#: src/socks.c:401
+msgid "Connection not allowed by a ruleset."
+msgstr ""
+
+#: src/socks.c:404
+msgid "Network unreachable."
+msgstr ""
+
+#: src/socks.c:407
+msgid "Host unreachable."
+msgstr ""
+
+#: src/socks.c:410
+msgid "Connection refused."
+msgstr ""
+
+#: src/socks.c:413
+msgid "TTL expired."
+msgstr ""
+
+#: src/socks.c:416
+msgid "Command not supported."
+msgstr ""
+
+#: src/socks.c:419
+msgid "Address type not supported."
+msgstr ""
+
+#: src/quit.c:27
+msgid "Signal Caught. Exiting Cleanly..."
+msgstr ""
+
+#: src/quit.c:34
+msgid "Timeout! Exiting..."
+msgstr ""
+
+#: src/rcfile.c:32
+#, c-format
+msgid "expected `yes' or `no', but found %s"
+msgstr ""
+
+#: src/rcfile.c:118
+#, c-format
+msgid "cannot stat file `%s'"
+msgstr ""
+
+#: src/rcfile.c:128
+#, c-format
+msgid "File `%s' has already been read.\n"
+msgstr ""
+
+#: src/rcfile.c:146
+#, c-format
+msgid "Welcome user %s !"
+msgstr ""
+
+#: src/rcfile.c:182
+#, c-format
+msgid "Reading system configuration file %s..."
+msgstr ""
+
+#: src/rcfile.c:194
+#, c-format
+msgid "Reading user configuration file %s..."
+msgstr ""
+
+#: src/rcfile.c:324
+#, c-format
+msgid "%s: invalid syslog facility"
+msgstr ""
+
+#: src/rcfile.c:444
+msgid "invalid rule priority"
+msgstr ""
+
+#: src/rcfile.c:453
+msgid "invalid control priority"
+msgstr ""
+
+#: src/rcfile.c:466
+msgid "invalid termlevel"
+msgstr ""
+
+#: src/rcfile.c:482
+msgid "`logfile' directive is ignored in main configuration file"
+msgstr ""
+
+#: src/rcfile.c:499
+msgid "invalid loglevel"
+msgstr ""
+
+#: src/rcfile.c:584
+msgid "not enough arguments"
+msgstr ""
+
+#: src/rcfile.c:629
+#, c-format
+msgid "Child process suspended for %lu second"
+msgid_plural "Child process suspended for %lu seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/rcfile.c:640
+#, c-format
+msgid "Command HANG is not allowed for user `%s'"
+msgstr ""
+
+#: src/rcfile.c:655
+msgid "statement ignored: anubis compiled without PAM support"
+msgstr ""
+
+#: src/rcfile.c:663
+msgid "statement ignored: anubis compiled without libgcrypt"
+msgstr ""
+
+#: src/rcfile.c:1047
+#, c-format
+msgid "No such section: %s"
+msgstr ""
+
+#: src/rc-lex.l:204
+#, c-format
+msgid ""
+"Stray character in config: \\%03o. Possibly missing quotes around the string"
+msgstr ""
+
+#: src/rc-lex.l:411
+msgid "Anubis RC file error"
+msgstr ""
+
+#: src/rc-gram.y:209 src/rc-gram.y:216
+#, c-format
+msgid "Section %s already defined"
+msgstr ""
+
+#: src/rc-gram.y:268
+#, c-format
+msgid "unknown keyword: %s"
+msgstr ""
+
+#: src/rc-gram.y:420
+msgid "regexp is not allowed in this context"
+msgstr ""
+
+#: src/rc-gram.y:442
+msgid "Invalid regular expression (see the above message)"
+msgstr ""
+
+#: src/rc-gram.y:572 src/rc-gram.y:590
+msgid "command part is not allowed"
+msgstr ""
+
+#: src/rc-gram.y:623
+msgid "missing replacement value"
+msgstr ""
+
+#: src/rc-gram.y:736
+#, c-format
+msgid "Not a valid debugging level: %s"
+msgstr ""
+
+#: src/rc-gram.y:1297
+msgid "Unknown regexp modifier"
+msgstr ""
+
+#: src/rc-gram.y:1501
+msgid "STOP"
+msgstr ""
+
+#: src/rc-gram.y:1506
+#, c-format
+msgid "Calling %s"
+msgstr ""
+
+#: src/rc-gram.y:1512
+#, c-format
+msgid "ADD %s [%s] %s"
+msgstr ""
+
+#: src/rc-gram.y:1522
+#, c-format
+msgid "MODIFY %s [%s] [%s] %s"
+msgstr ""
+
+#: src/rc-gram.y:1544
+#, c-format
+msgid "REMOVE HEADER [%s]"
+msgstr ""
+
+#: src/rc-gram.y:1569
+msgid "ignoring statement overridden from the command line"
+msgstr ""
+
+#: src/rc-gram.y:1574
+#, c-format
+msgid "Executing %s"
+msgstr ""
+
+#: src/rc-gram.y:1694
+#, c-format
+msgid "Matched trigger \"%s\""
+msgstr ""
+
+#: src/rc-gram.y:1698
+#, c-format
+msgid "Matched condition %s[%s] \"%s\""
+msgstr ""
+
+#: src/rc-gram.y:1811
+#, c-format
+msgid "Section %s"
+msgstr ""
+
+#: src/rc-gram.y:1838
+#, c-format
+msgid "Unknown section: %s"
+msgstr ""
+
+#: src/rc-gram.y:1861
+msgid "program is not allowed in this section"
+msgstr ""
+
+#: src/regex.c:113
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: missing or invalid regex"
+msgstr ""
+
+#: src/regex.c:332
+#, c-format
+msgid "regcomp() failed at %s: %s."
+msgstr ""
+
+#: src/regex.c:408
+#, c-format
+msgid "pcre_compile() failed at offset %d: %s."
+msgstr ""
+
+#: src/regex.c:433
+#, c-format
+msgid "pcre_fullinfo() failed: %d."
+msgstr ""
+
+#: src/regex.c:445
+msgid "Matched, but too many substrings."
+msgstr ""
+
+#: src/regex.c:460
+#, c-format
+msgid "Get substring %d failed (%d)."
+msgstr ""
+
+#: src/tls.c:157
+msgid "Initializing TLS/SSL connection with MTA..."
+msgstr ""
+
+#: src/tls.c:175 src/tls.c:252
+#, c-format
+msgid "TLS error reading `%s': %s"
+msgstr ""
+
+#: src/tls.c:192
+#, c-format
+msgid "TLS/SSL handshake failed: %s"
+msgstr ""
+
+#: src/tls.c:241
+msgid "Initializing the TLS/SSL connection with MUA..."
+msgstr ""
+
+#: src/tls.c:274
+msgid "TLS/SSL handshake failed!"
+msgstr ""
+
+#: src/tls.c:304
+msgid "The certificate is not trusted."
+msgstr ""
+
+#: src/tls.c:309
+msgid "The certificate has expired."
+msgstr ""
+
+#: src/tls.c:314
+msgid "The certificate is not yet activated."
+msgstr ""
+
+#: src/tls.c:324
+msgid "No certificate was found!"
+msgstr ""
+
+#: src/tls.c:329
+msgid "The certificate is trusted."
+msgstr ""
+
+#: src/tls.c:357
+#, c-format
+msgid "- Anonymous DH using prime of %d bit.\n"
+msgid_plural "- Anonymous DH using prime of %d bits.\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tls.c:366
+#, c-format
+msgid "- Ephemeral DH using prime of %d bit.\n"
+msgid_plural "- Ephemeral DH using prime of %d bits.\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tls.c:377
+#, c-format
+msgid "- Protocol: %s\n"
+msgstr ""
+
+#: src/tls.c:379
+#, c-format
+msgid "- Certificate Type: %s\n"
+msgstr ""
+
+#: src/tls.c:381
+#, c-format
+msgid "- Cipher: %s\n"
+msgstr ""
+
+#: src/tls.c:383
+#, c-format
+msgid "- MAC: %s\n"
+msgstr ""
+
+#: src/tls.c:414
+#, c-format
+msgid "- Certificate info:\n"
+msgstr ""
+
+#: src/tls.c:418
+#, c-format
+msgid "- Certificate is valid since: %s"
+msgstr ""
+
+#: src/tls.c:420
+#, c-format
+msgid "- Certificate expires: %s"
+msgstr ""
+
+#: src/tls.c:425
+#, c-format
+msgid "- Certificate fingerprint: "
+msgstr ""
+
+#: src/tls.c:435
+#, c-format
+msgid "- Certificate serial number: "
+msgstr ""
+
+#: src/tls.c:444
+#, c-format
+msgid "- Certificate public key: "
+msgstr ""
+
+#: src/tls.c:447
+#, c-format
+msgid "RSA\n"
+msgstr ""
+
+#: src/tls.c:448
+#, c-format
+msgid "- Modulus: %d bit\n"
+msgid_plural "- Modulus: %d bits\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tls.c:453
+#, c-format
+msgid "DSA\n"
+msgstr ""
+
+#: src/tls.c:454
+#, c-format
+msgid "- Exponent: %d bit\n"
+msgid_plural "- Exponent: %d bits\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tls.c:458
+#, c-format
+msgid "UNKNOWN\n"
+msgstr ""
+
+#: src/tls.c:460
+#, c-format
+msgid "- Certificate version: #%d\n"
+msgstr ""
+
+#: src/tls.c:467
+#, c-format
+msgid "- Certificate Issuer's DN: %s\n"
+msgstr ""
+
+#: src/transmode.c:64
+msgid "remote-mta loops back to Anubis"
+msgstr ""
+
+#: src/transmode.c:155
+msgid "Initiated proxy mode."
+msgstr ""
+
+#: src/tunnel.c:311 src/tunnel.c:387
+msgid "Transferring messages..."
+msgstr ""
+
+#: src/tunnel.c:385
+msgid "Starting SMTP session..."
+msgstr ""
+
+#: src/tunnel.c:472
+msgid "Using the TLS/SSL encryption..."
+msgstr ""
+
+#: src/tunnel.c:489 src/tunnel.c:625
+#, c-format
+msgid "WARNING: %s"
+msgstr ""
+
+#: src/tunnel.c:491
+msgid "STARTTLS command failed."
+msgstr ""
+
+#: src/tunnel.c:617
+msgid "Using TLS/SSL encryption between Anubis and remote MTA only..."
+msgstr ""
+
+#: src/tunnel.c:627
+msgid "STARTTLS (ONEWAY) command failed."
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:78 src/wordsplit/wordsplit.c:2856
+msgid "memory exhausted"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:132
+msgid "memory exhausted while trying to store error context"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:882
+msgid "Restarting"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:1608
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:1638
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2139
+#, c-format
+msgid "no files match pattern %s"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2604
+msgid "WS trimming"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2606
+msgid "command substitution"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2608 src/wordsplit/wordsplit.c:2616
+msgid "coalesce list"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2610
+msgid "tilde expansion"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2612
+msgid "variable expansion"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2614
+msgid "quote removal"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2618
+msgid "path expansion"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2643
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2669
+msgid "Initial list:"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2684
+msgid "Coalesced list:"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2854
+msgid "no error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2855
+msgid "missing closing quote"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2857
+msgid "invalid wordsplit usage"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2858
+msgid "unbalanced curly brace"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2859
+msgid "undefined variable"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2860
+msgid "input exhausted"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2861
+msgid "unbalanced parenthesis"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2862
+msgid "globbing error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2863
+msgid "user-defined error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2864
+msgid "invalid parameter number in assignment"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2876
+msgid "unknown error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2885
+#, c-format
+msgid "missing closing %c (start near #%lu)"
+msgstr ""

@@ -1,0 +1,370 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR John Darrington
+# This file is distributed under the same license as the gnubik package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnubik 2.4.3\n"
+"Report-Msgid-Bugs-To: bug-gnubik@gnu.org\n"
+"POT-Creation-Date: 2015-04-10 18:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/colour-dialog.c:184
+msgid "Image Selector"
+msgstr ""
+
+#. TRANSLATORS: "All  Images" implies nothing but images!
+#: src/colour-dialog.c:210
+msgid "All Images"
+msgstr ""
+
+#: src/colour-dialog.c:214
+msgid "All Files"
+msgstr ""
+
+#: src/colour-dialog.c:297
+msgid "Colour selector"
+msgstr ""
+
+#: src/colour-dialog.c:314
+msgid "Image"
+msgstr ""
+
+#: src/colour-dialog.c:315
+msgid "Se_lect"
+msgstr ""
+
+#: src/colour-dialog.c:323
+msgid "Select an image file"
+msgstr ""
+
+#: src/colour-dialog.c:325
+msgid "_Tiled"
+msgstr ""
+
+#: src/colour-dialog.c:327
+msgid "Place a copy of the image on each block"
+msgstr ""
+
+#: src/colour-dialog.c:332
+msgid "_Mosaic"
+msgstr ""
+
+#: src/colour-dialog.c:336
+msgid "Place a copy of the image across the entire face of the cube"
+msgstr ""
+
+#: src/colour-dialog.c:342
+msgid "_Plain"
+msgstr ""
+
+#: src/colour-dialog.c:345
+msgid "Remove image from the cube face"
+msgstr ""
+
+#: src/dialogs.c:106
+msgid "Size of cube:"
+msgstr ""
+
+#: src/dialogs.c:111
+msgid "Re_gular cube"
+msgstr ""
+
+#: src/dialogs.c:117
+msgid "Sets the number of blocks in each side"
+msgstr ""
+
+#: src/dialogs.c:121
+msgid "Allow only cubes with all sides equal size"
+msgstr ""
+
+#: src/dialogs.c:164
+msgid "A 3 dimensional magic cube puzzle"
+msgstr ""
+
+#. TRANSLATORS: Do not translate this string. Instead, use it to list
+#. the people who have helped with translation to your language.
+#: src/dialogs.c:169
+msgid "translator-credits"
+msgstr ""
+
+#: src/dialogs.c:189
+msgid "New Game"
+msgstr ""
+
+#: src/dialogs.c:201
+msgid "Dimensions"
+msgstr ""
+
+#: src/dialogs.c:212
+msgid "Initial position"
+msgstr ""
+
+#: src/dialogs.c:216
+msgid "_Random"
+msgstr ""
+
+#: src/dialogs.c:220
+msgid "_Solved"
+msgstr ""
+
+#: src/menus.c:94
+msgid "Rear View"
+msgstr ""
+
+#: src/menus.c:102
+msgid "Bottom View"
+msgstr ""
+
+#: src/menus.c:109
+msgid "Top View"
+msgstr ""
+
+#: src/menus.c:117
+msgid "Left View"
+msgstr ""
+
+#: src/menus.c:124
+msgid "Right View"
+msgstr ""
+
+#: src/menus.c:138
+#, c-format
+msgid "A mark is now set at position %d."
+msgstr ""
+
+#: src/menus.c:152
+#, c-format
+msgid "Moves: %d / %d"
+msgstr ""
+
+#: src/menus.c:173
+#, c-format
+msgid "Cube solved in %d move"
+msgid_plural "Cube solved in %d moves"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/menus.c:183
+msgid ""
+"Cube is NOT solved! The colours are correct,  but have incorrect orientation"
+msgstr ""
+
+#: src/menus.c:201
+#, c-format
+msgid "Animation rate set to %d frame per turn."
+msgid_plural "Animation rate set to %d frames per turn."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/menus.c:228
+msgid "_Game"
+msgstr ""
+
+#: src/menus.c:229
+msgid "_View"
+msgstr ""
+
+#. TRANSLATORS: Lets the user see the cube from a different angle
+#: src/menus.c:231
+msgid "Add _View"
+msgstr ""
+
+#: src/menus.c:232
+msgid "Add an auxiliary view of the cube"
+msgstr ""
+
+#: src/menus.c:235
+msgid "_Help"
+msgstr ""
+
+#: src/menus.c:236
+msgid "Sho_w/Hide"
+msgstr ""
+
+#: src/menus.c:237
+msgid "_Scripts"
+msgstr ""
+
+#: src/menus.c:307
+msgid "_Restart Game"
+msgstr ""
+
+#: src/menus.c:311
+msgid "_New Game"
+msgstr ""
+
+#: src/menus.c:315
+msgid "_Rear"
+msgstr ""
+
+#: src/menus.c:317
+msgid "_Left"
+msgstr ""
+
+#: src/menus.c:319
+msgid "Ri_ght"
+msgstr ""
+
+#: src/menus.c:321
+msgid "_Top"
+msgstr ""
+
+#: src/menus.c:323
+msgid "_Bottom"
+msgstr ""
+
+#: src/menus.c:328
+msgid "_Colours"
+msgstr ""
+
+#: src/menus.c:332
+msgid "_Animation"
+msgstr ""
+
+#: src/menus.c:336
+msgid "_Faster"
+msgstr ""
+
+#: src/menus.c:340
+msgid "_Slower"
+msgstr ""
+
+#: src/menus.c:455
+msgid "Rewind"
+msgstr ""
+
+#: src/menus.c:456
+msgid "Go to the previous mark (or the beginning of the sequence of moves)"
+msgstr ""
+
+#: src/menus.c:462
+msgid "Back"
+msgstr ""
+
+#: src/menus.c:463
+msgid "Make one step backwards"
+msgstr ""
+
+#: src/menus.c:468
+msgid "Stop"
+msgstr ""
+
+#: src/menus.c:469
+msgid "Stop running the sequence of moves"
+msgstr ""
+
+#: src/menus.c:475
+msgid "Mark"
+msgstr ""
+
+#: src/menus.c:476
+msgid "Mark the current place in the sequence of moves"
+msgstr ""
+
+#: src/menus.c:482
+msgid "Forward"
+msgstr ""
+
+#: src/menus.c:483
+msgid "Make one step forwards"
+msgstr ""
+
+#: src/menus.c:488
+msgid "Play"
+msgstr ""
+
+#: src/menus.c:489
+msgid "Run forward through the sequence of moves"
+msgstr ""
+
+#: src/menus.c:555
+msgid "Gnubik error"
+msgstr ""
+
+#: src/swatch.c:132
+msgid ""
+"A sample of the colour. You can click and select a new colour, or drag one "
+"to this space."
+msgstr ""
+
+#: src/textures.c:81
+msgid "Pixbuf has wrong number of channels"
+msgstr ""
+
+#: src/textures.c:90
+#, c-format
+msgid "Pixbuf has unknown colorspace: %d"
+msgstr ""
+
+#: scripts/debug.scm:50
+msgid "_Debug"
+msgstr ""
+
+#: scripts/debug.scm:52
+msgid "_Move"
+msgstr ""
+
+#: scripts/debug.scm:54
+msgid "_Dump state"
+msgstr ""
+
+#: scripts/rand.scm:38
+msgid "_Randomize"
+msgstr ""
+
+#: scripts/rand.scm:40 scripts/rand.scm:41 scripts/rand.scm:42
+#: scripts/rand.scm:43 scripts/rand.scm:44 scripts/rand.scm:45
+#: scripts/rand.scm:46 scripts/rand.scm:47
+#, scheme-format
+msgid "_~a"
+msgstr ""
+
+#: scripts/flubrd.scm:50
+msgid "This script only works on 3×3×3 cubes."
+msgstr ""
+
+#: scripts/mellor-solve.scm:399
+msgid "_Solvers"
+msgstr ""
+
+#: scripts/mellor-solve.scm:400
+msgid "_3×3"
+msgstr ""
+
+#: scripts/mellor-solve.scm:404
+msgid "_Full cube"
+msgstr ""
+
+#: scripts/mellor-solve.scm:407
+msgid "Bottom _edge place"
+msgstr ""
+
+#: scripts/mellor-solve.scm:410
+msgid "Bottom _corner orient"
+msgstr ""
+
+#: scripts/mellor-solve.scm:413
+msgid "_Bottom corner place"
+msgstr ""
+
+#: scripts/mellor-solve.scm:416
+msgid "_Middle slice"
+msgstr ""
+
+#: scripts/mellor-solve.scm:419
+msgid "_Top slice"
+msgstr ""
+
+#: scripts/mellor-solve.scm:422
+msgid "_Top edges"
+msgstr ""

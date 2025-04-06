@@ -1,0 +1,4222 @@
+# Message strings for BeeBase.
+# Use as a template for new translations or when updating existing ones.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BeeBase\n"
+"Report-Msgid-Bugs-To: https://sourceforge.net/p/beebase/bugs\n"
+"POT-Creation-Date: 2021-03-28 23:49+PDT\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "MSG_Ok (//)"
+msgid "  _Ok  "
+msgstr ""
+
+msgctxt "MSG_StarOk (//)"
+msgid "*  Ok  "
+msgstr ""
+
+msgctxt "MSG_Cancel (//)"
+msgid "_Cancel"
+msgstr ""
+
+msgctxt "MSG_Abort (//)"
+msgid "Abort"
+msgstr ""
+
+msgctxt "MSG_Quit (//)"
+msgid "Quit"
+msgstr ""
+
+msgctxt "MSG_Pause (//)"
+msgid "Pause"
+msgstr ""
+
+msgctxt "MSG_Continue (//)"
+msgid "Continue"
+msgstr ""
+
+msgctxt "MSG_Load (//)"
+msgid "Load"
+msgstr ""
+
+msgctxt "MSG_Save (//)"
+msgid "Save"
+msgstr ""
+
+msgctxt "MSG_Convert (//)"
+msgid "Convert"
+msgstr ""
+
+msgctxt "MSG_Rename (//)"
+msgid "Rename"
+msgstr ""
+
+msgctxt "MSG_Open (//)"
+msgid "Open"
+msgstr ""
+
+msgctxt "MSG_Delete (//)"
+msgid "Delete"
+msgstr ""
+
+msgctxt "MSG_Min (//)"
+msgid "Min"
+msgstr ""
+
+msgctxt "MSG_Max (//)"
+msgid "Max"
+msgstr ""
+
+msgctxt "MSG_Print (//)"
+msgid "Print"
+msgstr ""
+
+msgctxt "MSG_Find (//)"
+msgid "Find"
+msgstr ""
+
+msgctxt "MSG_New (//)"
+msgid "_New"
+msgstr ""
+
+msgctxt "MSG_Duplicate (//)"
+msgid "Duplicate"
+msgstr ""
+
+msgctxt "MSG_Sort (//)"
+msgid "Sort"
+msgstr ""
+
+msgctxt "MSG_Apply (//)"
+msgid "Apply"
+msgstr ""
+
+msgctxt "MSG_Record (//)"
+msgid "Record"
+msgstr ""
+
+msgctxt "MSG_Records (//)"
+msgid "Records"
+msgstr ""
+
+msgctxt "MSG_Clear (//)"
+msgid "C_lear"
+msgstr ""
+
+msgctxt "MSG_Name (//)"
+msgid "_Name"
+msgstr ""
+
+msgctxt "MSG_Title (//)"
+msgid "_Title"
+msgstr ""
+
+msgctxt "MSG_View (//)"
+msgid "V"
+msgstr ""
+
+msgctxt "MSG_ViewBH (//)"
+msgid "Spawns a viewer\n"
+"with the filename."
+msgstr ""
+
+msgctxt "MSG_Edit (//)"
+msgid "E"
+msgstr ""
+
+msgctxt "MSG_EditBH (//)"
+msgid "Spawns an editor\n"
+"with the filename."
+msgstr ""
+
+msgctxt "MSG_Filter (//)"
+msgid "_Filter?"
+msgstr ""
+
+msgctxt "MSG_Space (//)"
+msgid "Space"
+msgstr ""
+
+msgctxt "MSG_InitialRecord (//)"
+msgid "Initial record"
+msgstr ""
+
+msgctxt "MSG_CurrentRecord (//)"
+msgid "Current record"
+msgstr ""
+
+msgctxt "MSG_ReferenceShowBH (//)"
+msgid "Shows the referenced record"
+msgstr ""
+
+msgctxt "MSG_ReferenceAutoShow (//)"
+msgid "A"
+msgstr ""
+
+msgctxt "MSG_ReferenceAutoShowBH (//)"
+msgid "If selected, the referenced table\n"
+"gets updated with the referenced\n"
+"record whenever you switch to\n"
+"another record in this table."
+msgstr ""
+
+msgctxt "MSG_ReferenceFilter (//)"
+msgid "F"
+msgstr ""
+
+msgctxt "MSG_ReferenceFilterBH (//)"
+msgid "If selected, you can only access\n"
+"records in this table where the\n"
+"reference is set to the current\n"
+"record of the referenced table."
+msgstr ""
+
+msgctxt "MSG_Table (//)"
+msgid "Table"
+msgstr ""
+
+msgctxt "MSG_Field (//)"
+msgid "Field"
+msgstr ""
+
+msgctxt "MSG_Window (//)"
+msgid "Window"
+msgstr ""
+
+msgctxt "MSG_Display (//)"
+msgid "Display"
+msgstr ""
+
+msgctxt "MSG_Popup (//)"
+msgid "Pop-up"
+msgstr ""
+
+msgctxt "MSG_General (//)"
+msgid "General"
+msgstr ""
+
+msgctxt "MSG_Panel (//)"
+msgid "Panel"
+msgstr ""
+
+msgctxt "MSG_Log (//)"
+msgid "Log"
+msgstr ""
+
+#.
+#. Message strings for projects
+#.
+msgctxt "MSG_Unnamed (//)"
+msgid "Unnamed"
+msgstr ""
+
+msgctxt "MSG_BeeBase (//)"
+msgid "BeeBase"
+msgstr ""
+
+msgctxt "MSG_Changed (//)"
+msgid "Changed"
+msgstr ""
+
+msgctxt "MSG_Old (//)"
+msgid "Old"
+msgstr ""
+
+msgctxt "MSG_Locked (//)"
+msgid "Locked"
+msgstr ""
+
+msgctxt "MSG_EmptyDisplay (//)"
+msgid "Empty display"
+msgstr ""
+
+msgctxt "MSG_EmptyDisplayBH (//)"
+msgid "Welcome to BeeBase!\n"
+"\n"
+"Select menu item 'Project - Open'\n"
+"for loading an existing project,\n"
+"or 'Project - Structure editor'\n"
+"for starting a new one.\n"
+"\n"
+"For help, press <F1> or <Help>."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AboutBeeBase_GPL (//)"
+msgid "BeeBase V %s\n"
+"Copyright (C) %s Steffen Gutmann\n"
+"\n"
+"BeeBase is open source software distributed\n"
+"under the GNU General Public License (GPL).\n"
+"Source code and binaries are hosted under:\n"
+"https://sourceforge.net/projects/beebase.\n"
+"\n"
+"BeeBase uses:\n"
+"\n"
+"%s"
+"%s"
+msgstr ""
+
+msgctxt "MSG_About_ShortDescription (//)"
+msgid "a relational programmable database with graphical user interface"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Info (//)"
+msgid "Project '%s'\n"
+"%ld records in %ld tables."
+msgstr ""
+
+msgctxt "MSG_SelectProjectname (//)"
+msgid "Select project name..."
+msgstr ""
+
+msgctxt "MSG_AskConvertProject (//)"
+msgid "Project '%s' is stored in an obsolete format.\n"
+"Please convert to the new SQLite3 format."
+msgstr ""
+
+msgctxt "MSG_AskConvertProjectAnswers (//)"
+msgid "*Convert|_Cancel"
+msgstr ""
+
+msgctxt "MSG_AskReplaceAnswers (//)"
+msgid "*Replace|_Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskProjectChangesReallyContinue (//)"
+msgid "%ld change(s) has/have been made to\n"
+"this project.  They will be lost!\n"
+"Do you really want to continue?"
+msgstr ""
+
+msgctxt "MSG_AskProjectChangesReallyContinueAnswers (//)"
+msgid "*Save project|C_ontinue|_Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskProjectConnectionsReallyContinue (//)"
+msgid "There is/are %ld open ARexx connection(s)\n"
+"to this project.  If you continue,\n"
+"the open connections will break!\n"
+"Do you really want to continue?"
+msgstr ""
+
+msgctxt "MSG_AskProjectConnectionsReallyContinueAnswers (//)"
+msgid "*Hide project|C_ontinue|_Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskProjectChangesConnectionsReallyContinue (//)"
+msgid "%ld change(s) has/have been made to this project\n"
+"and there is/are %ld open ARexx connection(s)\n"
+"to this project.  If you continue, the changes\n"
+"will be lost and the connections will break.\n"
+"Do you really want to continue?"
+msgstr ""
+
+msgctxt "MSG_AskProjectChangesConnectionsReallyContinueAnswers (//)"
+msgid "*Save & hide project|C_ontinue|_Cancel"
+msgstr ""
+
+msgctxt "MSG_AskProjectSaveFirst (//)"
+msgid "In order to continue, please\n"
+"save this project first!"
+msgstr ""
+
+msgctxt "MSG_AskProjectSaveFirstAnswers (//)"
+msgid "*Save project|_Cancel"
+msgstr ""
+
+msgctxt "MSG_AskProjectRetryContinueAnswers (//)"
+msgid "*Retry|Continue"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskProjectReallyRevert (//)"
+msgid "%ld change(s) has/have been made to\n"
+"this project.  Are you sure you want\n"
+"to revert to the saved version?"
+msgstr ""
+
+msgctxt "MSG_AskProjectReallyRevertAnswers (//)"
+msgid "*Revert|_Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskProjectReloadNewVersion (//)"
+msgid "Project '%s' has been updated on disk.\n"
+"Would you like to reload the latest version?"
+msgstr ""
+
+msgctxt "MSG_AskProjectReloadNewVersionAnswers (//)"
+msgid "*Reload|_Cancel"
+msgstr ""
+
+msgctxt "MSG_LoadingDatabase (//)"
+msgid "Loading database"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskProjectServerRequest (//)"
+msgid "There is an ARexx request for project\n"
+"'%s'.  In order to serve\n"
+"the request, the project needs to be saved.\n"
+"Please decide if you want to save the project\n"
+"and handle the request now or at a later time."
+msgstr ""
+
+msgctxt "MSG_AskProjectServerRequestAnswers (//)"
+msgid "*Save now|Save _later"
+msgstr ""
+
+msgctxt "MSG_DeleteAnswers (//)"
+msgid "*Delete|_Cancel"
+msgstr ""
+
+msgctxt "MSG_DeleteAllAnswers (//)"
+msgid "Delete all|_Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_DeleteProject (//)"
+msgid "Do you really want to delete\n"
+"'%s'?"
+msgstr ""
+
+msgctxt "MSG_ConfirmSaveReorg (//)"
+msgid "Saving and reorganizing the project\n"
+"may take a little while (depending on\n"
+"the project's size).  Do you really\n"
+"want to save & reorg the project?"
+msgstr ""
+
+msgctxt "MSG_ConfirmSaveReorgAnswers (//)"
+msgid "_Save & reorg|_Cancel"
+msgstr ""
+
+msgctxt "MSG_SaveReorgProject (//)"
+msgid "Saving & reorganizing project"
+msgstr ""
+
+msgctxt "MSG_SaveProject (//)"
+msgid "Saving project"
+msgstr ""
+
+msgctxt "MSG_SavingDatabase (//)"
+msgid "Saving database"
+msgstr ""
+
+msgctxt "MSG_Vacuum (//)"
+msgid "Vacuum"
+msgstr ""
+
+msgctxt "MSG_EnterAdminPassword (//)"
+msgid "Enter admin password"
+msgstr ""
+
+msgctxt "MSG_EnterCurrentAdminPassword (//)"
+msgid "Enter current admin password"
+msgstr ""
+
+msgctxt "MSG_WrongPassword (//)"
+msgid "Wrong password"
+msgstr ""
+
+msgctxt "MSG_EnterNewAdminPassword (//)"
+msgid "Enter new admin password"
+msgstr ""
+
+msgctxt "MSG_ReEnterAdminPassword (//)"
+msgid "Re-enter admin password"
+msgstr ""
+
+msgctxt "MSG_PasswordsDoNotMatch (//)"
+msgid "Passwords do not match"
+msgstr ""
+
+msgctxt "MSG_AdminPasswordUpdated (//)"
+msgid "Admin password updated"
+msgstr ""
+
+msgctxt "MSG_AdminPasswordCleared (//)"
+msgid "Admin password cleared"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_CodesetWarnings (//)"
+msgid "There are problems with the character encoding\n"
+"in project '%s'.\n"
+"Select menu item 'Check data integrity'\n"
+"for more information."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskChangesQuit (//)"
+msgid "There is/are %ld unsaved project(s).\n"
+"If you continue, the changes to the\n"
+"unsaved project(s) will be lost.\n"
+"Do you really want to quit BeeBase?"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskConnectionsQuit (//)"
+msgid "There is/are %ld open ARexx connection(s).\n"
+"If you continue, all connections will break.\n"
+"Do you really want to quit BeeBase?"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskChangesConnectionsQuit (//)"
+msgid "There is/are %ld unsaved project(s)\n"
+"and %ld open ARexx connection(s).\n"
+"If you continue, the changes to the\n"
+"unsaved project(s) will be lost and\n"
+"the open connections will break.\n"
+"Do you really want to quit BeeBase?"
+msgstr ""
+
+msgctxt "MSG_ConfirmQuit (//)"
+msgid "Do you really want to quit BeeBase?"
+msgstr ""
+
+msgctxt "MSG_AskQuitAnswers (//)"
+msgid "_Quit|_Cancel"
+msgstr ""
+
+msgctxt "MSG_SoftwareFailureAnswers (//)"
+msgid "*Save|_Continue"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_SoftwareFailure (//)"
+msgid "Software Failure!  Error Code %08lx.\n"
+"This is your last chance to save project\n"
+"'%s'.\n"
+"If you want to save it, do _NOT_ overwrite\n"
+"any existing file.  BeeBase may not be able\n"
+"to create a valid BeeBase project!"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_StackOverflow (//)"
+msgid "Stack overflow!  This is your last chance to\n"
+"save project '%s'.\n"
+"If you want to save it, do _NOT_ overwrite\n"
+"any existing file.  BeeBase may not be able\n"
+"to create a valid BeeBase project!"
+msgstr ""
+
+msgctxt "MSG_Formats (//)"
+msgid "Formats"
+msgstr ""
+
+msgctxt "MSG_Formats_RealFormat (//)"
+msgid "Real format"
+msgstr ""
+
+msgctxt "MSG_Formats_RealFormat_DecimalPoint (//)"
+msgid "Decimal point (.)"
+msgstr ""
+
+msgctxt "MSG_Formats_RealFormat_DecimalComma (//)"
+msgid "Decimal comma (,)"
+msgstr ""
+
+msgctxt "MSG_Formats_DateFormat (//)"
+msgid "Date format"
+msgstr ""
+
+msgctxt "MSG_Formats_DateFormat_DayMonthYear (//)"
+msgid "Day.Month.Year"
+msgstr ""
+
+msgctxt "MSG_Formats_DateFormat_MonthDayYear (//)"
+msgid "Month/Day/Year"
+msgstr ""
+
+msgctxt "MSG_Formats_DateFormat_YearMonthDay (//)"
+msgid "Year-Month-Day"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_SetExternalEditor (//)"
+msgid "Set external editor (%f = filename)"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_SetExternalViewer (//)"
+msgid "Set external viewer (%f = filename)"
+msgstr ""
+
+msgctxt "MSG_EnterRecordNumber (//)"
+msgid "Enter record number"
+msgstr ""
+
+#.
+#. Message strings for dialogs
+#.
+msgctxt "MSG_EnterString (//)"
+msgid "Enter string"
+msgstr ""
+
+msgctxt "MSG_EnterInteger (//)"
+msgid "Enter integer"
+msgstr ""
+
+msgctxt "MSG_SelectItem (//)"
+msgid "Select item"
+msgstr ""
+
+msgctxt "MSG_MultiSelectItems (//)"
+msgid "Multi-select items"
+msgstr ""
+
+msgctxt "MSG_ItemsSelected (//)"
+msgid "Items selected:"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_AskReplaceFile (//)"
+msgid "File '%s' exists.\n"
+"Replace it?"
+msgstr ""
+
+msgctxt "MSG_OpenText (//)"
+msgid "Open text..."
+msgstr ""
+
+msgctxt "MSG_SaveText (//)"
+msgid "Save text..."
+msgstr ""
+
+msgctxt "MSG_EditForm (//)"
+msgid "Edit form"
+msgstr ""
+
+msgctxt "MSG_Err_EnterInteger (//)"
+msgid "Enter integer or leave field empty."
+msgstr ""
+
+msgctxt "MSG_Err_EnterReal (//)"
+msgid "Enter real or leave field empty."
+msgstr ""
+
+msgctxt "MSG_Err_EnterDate (//)"
+msgid "Enter date or leave field empty."
+msgstr ""
+
+msgctxt "MSG_Err_EnterTime (//)"
+msgid "Enter time or leave field empty."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_DeleteExternalProgramSource (//)"
+msgid "The external program source '%s'\n"
+"has been changed since the last successful compilation.\n"
+"Do you really want to delete it?"
+msgstr ""
+
+#. Message strings for log
+#.
+#, c-format
+msgctxt "MSG_LogError (//)"
+msgid "Log error:\n"
+"%s"
+msgstr ""
+
+msgctxt "MSG_SetLogFile (//)"
+msgid "Set log file"
+msgstr ""
+
+msgctxt "MSG_SetLogLabel (//)"
+msgid "Set log label"
+msgstr ""
+
+msgctxt "MSG_ClearLog (//)"
+msgid "Are you sure you want to clear the log?\n"
+"This deletes all entries from the log."
+msgstr ""
+
+msgctxt "MSG_ClearLogAnswers (//)"
+msgid "*Clear|_Cancel"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_UnknownAction (//)"
+msgid "Unknown action"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_UnknownTable (//)"
+msgid "Unknown table"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_UnknownField (//)"
+msgid "Unknown field"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_InvalidField (//)"
+msgid "Invalid field"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_InvalidRecordNumber (//)"
+msgid "Invalid record number"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_OldValueDoesNotMatch (//)"
+msgid "Old value does not match"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_InvalidOldValue (//)"
+msgid "Invalid old value"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_InvalidNewValue (//)"
+msgid "Invalid new value"
+msgstr ""
+
+#.
+#. Message strings for tables/fields/records
+#.
+msgctxt "MSG_NewTable (//)"
+msgid "New table"
+msgstr ""
+
+msgctxt "MSG_ChangeTable (//)"
+msgid "Change table"
+msgstr ""
+
+msgctxt "MSG_DeleteTableText (//)"
+msgid "Do you really want to delete this table?"
+msgstr ""
+
+msgctxt "MSG_NewField (//)"
+msgid "New field"
+msgstr ""
+
+msgctxt "MSG_CopyField (//)"
+msgid "Copy field"
+msgstr ""
+
+msgctxt "MSG_ChangeField (//)"
+msgid "Change field"
+msgstr ""
+
+msgctxt "MSG_DeleteFieldText (//)"
+msgid "Do you really want to delete this field?"
+msgstr ""
+
+msgctxt "MSG_Boolean (//)"
+msgid "Boolean"
+msgstr ""
+
+msgctxt "MSG_Integer (//)"
+msgid "Integer"
+msgstr ""
+
+msgctxt "MSG_Real (//)"
+msgid "Real"
+msgstr ""
+
+msgctxt "MSG_String (//)"
+msgid "String"
+msgstr ""
+
+msgctxt "MSG_Date (//)"
+msgid "Date"
+msgstr ""
+
+msgctxt "MSG_Time (//)"
+msgid "Time"
+msgstr ""
+
+msgctxt "MSG_Memo (//)"
+msgid "Memo"
+msgstr ""
+
+msgctxt "MSG_Choice (//)"
+msgid "Choice"
+msgstr ""
+
+msgctxt "MSG_Reference (//)"
+msgid "Reference"
+msgstr ""
+
+msgctxt "MSG_Virtual (//)"
+msgid "Virtual"
+msgstr ""
+
+msgctxt "MSG_Button (//)"
+msgid "Button"
+msgstr ""
+
+msgctxt "MSG_DeleteRecord (//)"
+msgid "Do you really want to delete this record?"
+msgstr ""
+
+msgctxt "MSG_DeleteAllRecords (//)"
+msgid "Do you really want to delete all records?"
+msgstr ""
+
+#.
+#. Program editor
+#.
+msgctxt "MSG_ProgramEditor (//)"
+msgid "Program editor"
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_CompileAndClose (//)"
+msgid "C_ompile & close"
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_CompileAndCloseBH (//)"
+msgid "Closes program editor after\n"
+"successful compilation."
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_Compile (//)"
+msgid "Com_pile"
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_CompileBH (//)"
+msgid "Compiles program."
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_Revert (//)"
+msgid "_Revert"
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_RevertBH (//)"
+msgid "Reloads last successfully\n"
+"compiled program into editor."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ProgramEditor_ShowError (//)"
+msgid "During program execution the following error\n"
+"occurred on line %ld, column %ld:\n"
+"\n"
+"    %s\n"
+"\n"
+"To show you the exact place where this error occurred\n"
+"it is necessary to load the last successfully compiled\n"
+"version into the program editor.  However, you have made\n"
+"changes to the program since then which would get lost.\n"
+"You can choose to show the error in your current program\n"
+"(but the location might be wrong due to your changes)\n"
+"or to undo your changes and show the exact location\n"
+"in the last successfully compiled one."
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_ShowAnswers (//)"
+msgid "C_urrent|C_ompiled|_Cancel"
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_ShowDeleted (//)"
+msgid "You have decided to delete a field/table.\n"
+"Unfortunately this field/table is used in the\n"
+"project's program.  If you really want to delete\n"
+"the field/table, you must now edit the\n"
+"program and remove all references to it.\n"
+"However, you have made changes to the program\n"
+"since the last successful compilation.\n"
+"You can choose to fix the references in your\n"
+"current program or to withdraw your changes and\n"
+"fix the references in the previously compiled one.\n"
+"If you cancel, the field/table will not be deleted."
+msgstr ""
+
+msgctxt "MSG_ProgramEditor_Close (//)"
+msgid "You have made some changes in the\n"
+"program since the last successful\n"
+"compilation.  If you continue, these\n"
+"changes will be lost."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ProgramEditor_IncludeFileError (//)"
+msgid "Error in include file\n"
+"'%s', line %ld, column %ld:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ProgramEditor_NoDebugInfo (//)"
+msgid "Error in project program: \n"
+"\n"
+"%s\n"
+"\n"
+"Recompile with debug information\n"
+"turned on for getting the exact\n"
+"error location."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ProgramEditor_NotAdmin (//)"
+msgid "Error in project program,\n"
+"line %ld, column %ld:\n"
+"\n"
+"%s\n"
+"\n"
+"In order to fix this issue you\n"
+"need to change to admin mode."
+msgstr ""
+
+#.
+#. Message strings for import & export
+#.
+msgctxt "MSG_Import (//)"
+msgid "Import"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges (//)"
+msgid "Apply changes"
+msgstr ""
+
+msgctxt "MSG_Export (//)"
+msgid "Export"
+msgstr ""
+
+msgctxt "MSG_Import_File (//)"
+msgid "Import _file"
+msgstr ""
+
+msgctxt "MSG_Import_FileBH (//)"
+msgid "File containing records to be imported.\n"
+"The first record in this file must contain\n"
+"the field names of the table."
+msgstr ""
+
+msgctxt "MSG_Import_LogFile (//)"
+msgid "Import log _file"
+msgstr ""
+
+msgctxt "MSG_Import_LogFileBH (//)"
+msgid "Log file containing the changes to be\n"
+"imported and applied.  The first record\n"
+"in this file must match the field\n"
+"names of the log table."
+msgstr ""
+
+msgctxt "MSG_Export_File (//)"
+msgid "_Export file"
+msgstr ""
+
+msgctxt "MSG_Export_Records_FileBH (//)"
+msgid "The file records will be written to.\n"
+"The first record in this file will contain\n"
+"the field names of the table."
+msgstr ""
+
+msgctxt "MSG_Export_SFWList_FileBH (//)"
+msgid "The file the list will be written to.\n"
+"The first line in this file will\n"
+"contain the list header."
+msgstr ""
+
+msgctxt "MSG_ImExport_RecordDelimiter (//)"
+msgid "_Record delimiter"
+msgstr ""
+
+msgctxt "MSG_ImExport_RecordDelimiterBH (//)"
+msgid "Character that separates records.\n"
+"This must be a single ASCII character.\n"
+"You may also use an escape sequence\n"
+"\\n, \\t, \\f, \\??? (octal code) or\n"
+"\\x?? (hex code)."
+msgstr ""
+
+msgctxt "MSG_ImExport_FieldDelimiter (//)"
+msgid "Field _delimiter"
+msgstr ""
+
+msgctxt "MSG_ImExport_FieldDelimiterBH (//)"
+msgid "Character that separates fields.\n"
+"This must be a single ASCII character.\n"
+"You may also use an escape sequence\n"
+"\\n, \\t, \\f, \\??? (octal code) or\n"
+"\\x?? (hex code)."
+msgstr ""
+
+msgctxt "MSG_ImExportErr_InvalidDelimiter (//)"
+msgid "Invalid delimiter"
+msgstr ""
+
+msgctxt "MSG_ImExport_DoubleQuotes (//)"
+msgid "Double _quotes?"
+msgstr ""
+
+msgctxt "MSG_ImExport_DoubleQuotesBH (//)"
+msgid "If selected, the contents of\n"
+"all fields and their titles are\n"
+"surrounded by double quotes."
+msgstr ""
+
+msgctxt "MSG_Import_OverwriteRecords (//)"
+msgid "_Overwrite records?"
+msgstr ""
+
+msgctxt "MSG_Import_OverwriteRecordsBH (//)"
+msgid "If selected, existing records are\n"
+"overwritten by the imported data."
+msgstr ""
+
+msgctxt "MSG_Export_FilterBH (//)"
+msgid "If selected, only records matching\n"
+"the current filter will be exported."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ImportErr_UnmatchedDoubleQuote (//)"
+msgid "Unmatched double quote at\n"
+"line %ld, column %ld"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ImportErr_MissingDoubleQuote (//)"
+msgid "Missing double quote at\n"
+"line %ld, column %ld"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ImportErr_UnknownField (//)"
+msgid "Unknown field at\n"
+"line %ld, column %ld"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ImportErr_InvalidFieldType (//)"
+msgid "Invalid field type at\n"
+"line %ld, column %ld"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ImportErr_NumFields (//)"
+msgid "Wrong number of fields\n"
+"for record starting at\n"
+"line %ld, column %ld"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ImportErr_Error (//)"
+msgid "%s\n"
+"(Line %ld, column %ld)"
+msgstr ""
+
+msgctxt "MSG_ImportErr_Boolean (//)"
+msgid "Field is neither TRUE nor NIL."
+msgstr ""
+
+msgctxt "MSG_ImportErr_Choice (//)"
+msgid "Unknown choice label"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Import_Record (//)"
+msgid "Importing record %ld..."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Import_OverwrittenRecords (//)"
+msgid "%ld existing records have been overwritten."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Import_InsertRecords (//)"
+msgid "%ld new records have been imported.\n"
+"Should they now be inserted into the table?"
+msgstr ""
+
+msgctxt "MSG_Import_InsertRecordsAnswers (//)"
+msgid "*Insert|_Abort"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_SkipUncommittedEntries (//)"
+msgid "The entries in the imported file starting at\n"
+"%s %s have not been committed.\n"
+"Should these entries be applied or skipped?"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_SkipAnswers (//)"
+msgid "_Apply|_Skip"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_SkipOldEntries (//)"
+msgid "There are entries in the imported file that\n"
+"are older than the entries in the project log.\n"
+"Should these entries be applied or skipped?"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_NoChangesFound (//)"
+msgid "No changes found."
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_ConfirmAnswers (//)"
+msgid "*Apply|_Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ApplyChanges_Confirm (//)"
+msgid "%ld changes imported.\n"
+"Should they be applied now?"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ApplyChanges_Error (//)"
+msgid "Error applying change from %s %s\n"
+"%s in table %s, record (%s) [%s],\n"
+"field: %s old: %s new: %s\n"
+"\n"
+"%s"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_ErrorAnswers (//)"
+msgid "Ignore|_Abort"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ApplyChanges_ResultFailed (//)"
+msgid "No changes were applied.\n"
+"%ld were skipped, %ld failed,\n"
+"and %ld were left to go."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_ApplyChanges_ResultSuccess (//)"
+msgid "Successfully applied %ld changes\n"
+"with %ld skipped, %ld failed,\n"
+"and %ld left to go."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Export_Success (//)"
+msgid "%ld records have been exported\n"
+"to the file '%s'."
+msgstr ""
+
+#. Message strings for pdf export
+#.
+msgctxt "MSG_PDFExport (//)"
+msgid "Export as PDF"
+msgstr ""
+
+msgctxt "MSG_PDFExport_File (//)"
+msgid "PDF _file"
+msgstr ""
+
+msgctxt "MSG_PDFExport_FileBH (//)"
+msgid "The PDF file to create."
+msgstr ""
+
+msgctxt "MSG_PDFExport_Paper (//)"
+msgid "_Paper"
+msgstr ""
+
+msgctxt "MSG_PDFExport_PaperBH (//)"
+msgid "Page size"
+msgstr ""
+
+msgctxt "MSG_PDFExport_Orientation (//)"
+msgid "_Orientation"
+msgstr ""
+
+msgctxt "MSG_PDFExport_Orientation_Portrait (//)"
+msgid "Portrait"
+msgstr ""
+
+msgctxt "MSG_PDFExport_Orientation_Landscape (//)"
+msgid "Landscape"
+msgstr ""
+
+msgctxt "MSG_PDFExport_OrientationBH (//)"
+msgid "Page direction"
+msgstr ""
+
+msgctxt "MSG_PDFExport_Header (//)"
+msgid "_Header"
+msgstr ""
+
+msgctxt "MSG_PDFExport_HeaderBH (//)"
+msgid "Optional header at the top.\n"
+"Leave empty for no header."
+msgstr ""
+
+msgctxt "MSG_PDFExport_Footer (//)"
+msgid "Foo_ter"
+msgstr ""
+
+msgctxt "MSG_PDFExport_FooterBH (//)"
+msgid "Optional footer at the bottom.\n"
+"Leave empty for no footer."
+msgstr ""
+
+msgctxt "MSG_PDFExport_InvalidFontSize (//)"
+msgid "Invalid font size"
+msgstr ""
+
+msgctxt "MSG_PDFExport_Status (//)"
+msgid "Status"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_PDFExport_Status_FitsPageWidth (//)"
+msgid "%ld page(s), fits page width."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_PDFExport_Status_TooWide (//)"
+msgid "%ld page(s), %ld pts too wide"
+msgstr ""
+
+msgctxt "MSG_PDFExport_CreatePDF (//)"
+msgid "Create PDF"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_PageFooter (//)"
+msgid "Page %ld/%ld"
+msgstr ""
+
+#. Error message strings
+#.
+msgctxt "MSG_ErrorMessage (//)"
+msgid "Error message"
+msgstr ""
+
+msgctxt "MSG_Err_Ok (//)"
+msgid "Ok"
+msgstr ""
+
+msgctxt "MSG_Err_ErrorNum (//)"
+msgid "Error num out of range"
+msgstr ""
+
+msgctxt "MSG_Err_NotImplemented (//)"
+msgid "Not (yet) implemented"
+msgstr ""
+
+msgctxt "MSG_Err_Internal (//)"
+msgid "Internal error"
+msgstr ""
+
+msgctxt "MSG_Err_Mem (//)"
+msgid "Out of memory"
+msgstr ""
+
+msgctxt "MSG_Err_ObjectLevel (//)"
+msgid "The selected objects must be on the same level."
+msgstr ""
+
+msgctxt "MSG_Err_GroupPanel (//)"
+msgid "The panel cannot be put into a group/window."
+msgstr ""
+
+msgctxt "MSG_Err_InitialRecord (//)"
+msgid "Attempt to write on initial record"
+msgstr ""
+
+msgctxt "MSG_Err_RecordExactlyOneRecord (//)"
+msgid "You cannot allocate or free records\n"
+"in an exactly-one-record table."
+msgstr ""
+
+msgctxt "MSG_Err_RecordNilValue (//)"
+msgid "NIL values are not supported for this field type."
+msgstr ""
+
+msgctxt "MSG_Err_RecordNotLocked (//)"
+msgid "Record not locked (internal error)."
+msgstr ""
+
+msgctxt "MSG_Err_NoProjectName (//)"
+msgid "No name has been set for this project yet.\n"
+"Please save the project to set one."
+msgstr ""
+
+msgctxt "MSG_Err_OpenSwapFile (//)"
+msgid "Can't open swap file"
+msgstr ""
+
+msgctxt "MSG_Err_ReadSwapFile (//)"
+msgid "Error reading swap file"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Order (//)"
+msgid "Can't set/maintain order:\n"
+"%s"
+msgstr ""
+
+msgctxt "MSG_Err_InvalidName (//)"
+msgid "Invalid name"
+msgstr ""
+
+msgctxt "MSG_Err_NameAlreadyUsed (//)"
+msgid "Name already used"
+msgstr ""
+
+msgctxt "MSG_Err_NoTable (//)"
+msgid "No table specified"
+msgstr ""
+
+msgctxt "MSG_Err_UserCanceled (//)"
+msgid "User canceled"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_SQLite3Message (//)"
+msgid "SQLite3 error\n"
+"%s"
+msgstr ""
+
+msgctxt "MSG_Err_SQLite3Generic (//)"
+msgid "SQLite3 generic error"
+msgstr ""
+
+msgctxt "MSG_Err_SQLite3IO (//)"
+msgid "SQLite3 I/O error"
+msgstr ""
+
+msgctxt "MSG_Err_CodesetInvalidUTF8 (//)"
+msgid "Invalid UTF-8 character sequence"
+msgstr ""
+
+msgctxt "MSG_Err_CodesetConversion (//)"
+msgid "UTF-8 conversion of characters failed"
+msgstr ""
+
+msgctxt "MSG_Err_ProjectReadOnly (//)"
+msgid "Project is read-only.  Create a\n"
+"copy if you want to make changes."
+msgstr ""
+
+msgctxt "MSG_Err_ProjectReadLock (//)"
+msgid "Can't obtain read lock on project.\n"
+"Maybe someone else is writing to it?\n"
+"Reload the project in a short while."
+msgstr ""
+
+msgctxt "MSG_Err_ProjectChangeLock (//)"
+msgid "Can't obtain change lock on project.\n"
+"Maybe someone else has started changing it?\n"
+"Wait until the other party finishes, then\n"
+"reload the project to make your changes."
+msgstr ""
+
+msgctxt "MSG_Err_ProjectWriteLock (//)"
+msgid "Can't obtain write lock on project.\n"
+"Maybe someone else is accessing it?\n"
+"Just try again in a short while."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ProjectVacuum (//)"
+msgid "The SQLite3 Vacuum command failed.\n"
+"Your database file is just fine though,\n"
+"it just is not as compact as it could be.\n"
+"\n"
+"%s: %s"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ProjectChangeWithoutChangeLock (//)"
+msgid "Project '%s'\n"
+"has been changed without obtaining\n"
+"a change lock first (internal error)."
+msgstr ""
+
+msgctxt "MSG_Err_ProjectVersion (//)"
+msgid "The project has been updated on disk.\n"
+"Please reload the project by selecting\n"
+"menu item 'Project - Reload'."
+msgstr ""
+
+msgctxt "MSG_Err_TableReference (//)"
+msgid "The table is referenced by a field."
+msgstr ""
+
+msgctxt "MSG_Err_TableExactlyOneRecord (//)"
+msgid "The table does already have more than one record."
+msgstr ""
+
+msgctxt "MSG_Err_InvalidMaxlen (//)"
+msgid "Invalid max. length"
+msgstr ""
+
+msgctxt "MSG_Err_InitialValueLen (//)"
+msgid "String length of initial value too long"
+msgstr ""
+
+msgctxt "MSG_Err_InvalidInitialValue (//)"
+msgid "Invalid initial value"
+msgstr ""
+
+msgctxt "MSG_Err_UnknownType (//)"
+msgid "Unknown field type"
+msgstr ""
+
+msgctxt "MSG_Err_MissingLabels (//)"
+msgid "Missing labels"
+msgstr ""
+
+msgctxt "MSG_Err_NoReference (//)"
+msgid "No reference specified"
+msgstr ""
+
+msgctxt "MSG_Err_InvalidReference (//)"
+msgid "You cannot change the reference\n"
+"to another table."
+msgstr ""
+
+msgctxt "MSG_Err_LoadPreferences (//)"
+msgid "Error loading preferences"
+msgstr ""
+
+msgctxt "MSG_Err_NoBeeBaseProject (//)"
+msgid "This is not a BeeBase project."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Version (//)"
+msgid "Can't load this project.  Wrong version number.\n"
+"Retry with BeeBase %s."
+msgstr ""
+
+msgctxt "MSG_Err_NoSuchFieldOrTable (//)"
+msgid "No such field or table"
+msgstr ""
+
+msgctxt "MSG_Err_NoSuchField (//)"
+msgid "No such field"
+msgstr ""
+
+msgctxt "MSG_Err_FieldTypeNotAllowedForOrdering (//)"
+msgid "Field type not allowed for ordering."
+msgstr ""
+
+msgctxt "MSG_Err_PathFull (//)"
+msgid "Maximum number of path components reached."
+msgstr ""
+
+msgctxt "MSG_Err_PathComponent (//)"
+msgid "Path contains invalid component."
+msgstr ""
+
+msgctxt "MSG_Err_FieldInUse (//)"
+msgid "Field is used in program."
+msgstr ""
+
+msgctxt "MSG_Err_TableInUse (//)"
+msgid "Table is used in program."
+msgstr ""
+
+msgctxt "MSG_Err_NoFilename (//)"
+msgid "No filename given"
+msgstr ""
+
+msgctxt "MSG_Err_OpenLogFile (//)"
+msgid "Can't open log file."
+msgstr ""
+
+msgctxt "MSG_Err_WriteLogFile (//)"
+msgid "Error writing log file."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_OpenFile (//)"
+msgid "Can't open '%s'"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_WriteFile (//)"
+msgid "Error writing '%s'"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ReadFile (//)"
+msgid "Error reading '%s'"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Warn_CodesetProcessFile (//)"
+msgid "There were %ld characters that could not\n"
+"be converted correctly when processing\n"
+"'%s'.\n"
+"These characters have been replaced by '?'."
+msgstr ""
+
+msgctxt "MSG_Warn_CodesetProcessFileAnswers (//)"
+msgid "*Continue|Cancel"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_NotABeeBaseProject (//)"
+msgid "'%s' is not a BeeBase project."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_LockProject (//)"
+msgid "Can't lock project '%s'."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ProjectLocked (//)"
+msgid "Project '%s' has been locked."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ReadDir (//)"
+msgid "Can't read directory '%s'."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_RmDir (//)"
+msgid "Can't delete directory '%s'."
+msgstr ""
+
+msgctxt "MSG_Err_GetCwd (//)"
+msgid "Can't get current directory."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_MkDir (//)"
+msgid "Can't create directory '%s'."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ChDir (//)"
+msgid "Can't find directory '%s'."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Delete (//)"
+msgid "Can't delete '%s'."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Rename (//)"
+msgid "Can't rename '%s' to '%s'."
+msgstr ""
+
+msgctxt "MSG_Err_MkTemp (//)"
+msgid "Unable to create temporary file name."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ExternalProgram (//)"
+msgid "Failed to call external program.\n"
+"Command: '%s'"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Help (//)"
+msgid "Error opening online help.\n"
+"Command: '%s'"
+msgstr ""
+
+msgctxt "MSG_Err_OpenProject (//)"
+msgid "Can't open new project."
+msgstr ""
+
+msgctxt "MSG_Err_OpenWindow (//)"
+msgid "Can't open window.\n"
+"Best regards to Brigitte Thieringer!"
+msgstr ""
+
+msgctxt "MSG_Err_CantOpenStructureEditor (//)"
+msgid "Can't open structure editor."
+msgstr ""
+
+msgctxt "MSG_Err_CantOpenProgramEditor (//)"
+msgid "Can't open program editor."
+msgstr ""
+
+msgctxt "MSG_Err_CantBuildGui (//)"
+msgid "Can't build project user interface."
+msgstr ""
+
+msgctxt "MSG_Err_CreateGui (//)"
+msgid "Can't open/create user interface."
+msgstr ""
+
+msgctxt "MSG_Err_CantOpenMainWindow (//)"
+msgid "Can't open project's main window."
+msgstr ""
+
+msgctxt "MSG_Err_DeleteInitialRecord (//)"
+msgid "You cannot delete the initial record."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_SetFilter (//)"
+msgid "Can't set filter:\n"
+"%s"
+msgstr ""
+
+msgctxt "MSG_Err_CompileProgram (//)"
+msgid "Can't compile program."
+msgstr ""
+
+msgctxt "MSG_Err_CompileProgramAnswers (//)"
+msgid "*Show error|_Ignore"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_CompileQuery (//)"
+msgid "Error in query line %ld column %ld.\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ExecuteQuery (//)"
+msgid "Error executing query, line %ld column %ld\n"
+"(file %s): %s"
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Trigger (//)"
+msgid "Can't find function '%s'."
+msgstr ""
+
+msgctxt "MSG_Err_Listview_Compute (//)"
+msgid "Type error.  Expected memo string\n"
+"with one label per line or NIL."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_Print (//)"
+msgid "Print error: %s"
+msgstr ""
+
+msgctxt "MSG_PrintErr_PageTooSmall (//)"
+msgid "Page too small for printing."
+msgstr ""
+
+#.
+#. Message strings for programming
+#.
+msgctxt "MSG_ExecutingProgram (//)"
+msgid "Executing program..."
+msgstr ""
+
+msgctxt "MSG_NullElement (//)"
+msgid "NULL element"
+msgstr ""
+
+msgctxt "MSG_CompErr_SymbolRedefined (//)"
+msgid "Symbol redefined"
+msgstr ""
+
+msgctxt "MSG_CompErr_SymbolNameTooLong (//)"
+msgid "Symbol name too long"
+msgstr ""
+
+msgctxt "MSG_CompErr_IdentifierTooLong (//)"
+msgid "Identifier string too long"
+msgstr ""
+
+msgctxt "MSG_CompErr_TooManyNestedDefines (//)"
+msgid "Too many nested defines"
+msgstr ""
+
+msgctxt "MSG_CompErr_TooManyNestedIncludes (//)"
+msgid "Too many nested includes"
+msgstr ""
+
+msgctxt "MSG_CompErr_TooManyNestedIfs (//)"
+msgid "Too many nested #if's or #ifdef's"
+msgstr ""
+
+msgctxt "MSG_CompErr_CantOpenIncludeFile (//)"
+msgid "Can't open include file."
+msgstr ""
+
+msgctxt "MSG_CompErr_InavlidElseElIfEndIf (//)"
+msgid "Invalid #else, #elif or #endif"
+msgstr ""
+
+msgctxt "MSG_CompErr_MissingEndIf (//)"
+msgid "Missing #endif"
+msgstr ""
+
+msgctxt "MSG_CompErr_SyntaxError (//)"
+msgid "Syntax error"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidRealConstant (//)"
+msgid "Invalid real constant"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidIntegerConstant (//)"
+msgid "Invalid integer constant"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidDateConstant (//)"
+msgid "Invalid date constant"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidTimeConstant (//)"
+msgid "Invalid time constant"
+msgstr ""
+
+msgctxt "MSG_CompErr_UnterminatedString (//)"
+msgid "Unterminated string"
+msgstr ""
+
+msgctxt "MSG_CompErr_Arity (//)"
+msgid "Wrong number of arguments"
+msgstr ""
+
+msgctxt "MSG_CompErr_CmpTypes (//)"
+msgid "Can't compare these types"
+msgstr ""
+
+msgctxt "MSG_CompErr_AddTypes (//)"
+msgid "Can't add these types"
+msgstr ""
+
+msgctxt "MSG_CompErr_SubTypes (//)"
+msgid "Can't subtract these types"
+msgstr ""
+
+msgctxt "MSG_CompErr_LowercaseIdentifier (//)"
+msgid "Local identifier must begin with lowercase character."
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidIdentifier (//)"
+msgid "Invalid identifier"
+msgstr ""
+
+msgctxt "MSG_CompErr_UnknownIdentifier (//)"
+msgid "Unknown identifier"
+msgstr ""
+
+msgctxt "MSG_CompErr_NotATableSpecifier (//)"
+msgid "Identifier is not a table specifier."
+msgstr ""
+
+msgctxt "MSG_CompErr_FieldType (//)"
+msgid "Invalid field type"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidTableList (//)"
+msgid "Invalid table list"
+msgstr ""
+
+msgctxt "MSG_CompErr_OrderConst (//)"
+msgid "Constant expression not allowed here."
+msgstr ""
+
+msgctxt "MSG_CompErr_OrderFieldNumber (//)"
+msgid "Field number out of range"
+msgstr ""
+
+msgctxt "MSG_CompErr_OrderType (//)"
+msgid "No order defined for this type"
+msgstr ""
+
+msgctxt "MSG_CompErr_LValue (//)"
+msgid "Not an lvalue"
+msgstr ""
+
+msgctxt "MSG_CompErr_ExprExpected (//)"
+msgid "Expression expected"
+msgstr ""
+
+msgctxt "MSG_CompErr_FuncDefExpected (//)"
+msgid "Function definition expected"
+msgstr ""
+
+msgctxt "MSG_CompErr_UnknownFunction (//)"
+msgid "Unknown function"
+msgstr ""
+
+msgctxt "MSG_CompErr_FormatString (//)"
+msgid "Error in format string"
+msgstr ""
+
+msgctxt "MSG_CompErr_StringFieldExpected (//)"
+msgid "String field expected"
+msgstr ""
+
+msgctxt "MSG_CompErr_StringOrChoiceFieldExpected (//)"
+msgid "String or choice field expected"
+msgstr ""
+
+msgctxt "MSG_CompErr_VirtualFieldExpected (//)"
+msgid "Virtual field expected"
+msgstr ""
+
+msgctxt "MSG_CompErr_Star (//)"
+msgid "Star '*' not allowed here"
+msgstr ""
+
+msgctxt "MSG_CompErr_FieldTableExpected (//)"
+msgid "Field or table expected"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidNext (//)"
+msgid "Invalid NEXT"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidReturn (//)"
+msgid "Invalid RETURN"
+msgstr ""
+
+msgctxt "MSG_CompErr_InvalidExit (//)"
+msgid "Invalid EXIT"
+msgstr ""
+
+msgctxt "MSG_CompErr_IllegalFunction (//)"
+msgid "Illegal function"
+msgstr ""
+
+msgctxt "MSG_CompErr_FunctionNameLength (//)"
+msgid "Function identifier too long"
+msgstr ""
+
+msgctxt "MSG_CompErr_ObsoleteFunction (//)"
+msgid "Call of obsolete function"
+msgstr ""
+
+msgctxt "MSG_StackErr_Element (//)"
+msgid "No stack element to push (internal error)"
+msgstr ""
+
+msgctxt "MSG_StackErr_Empty (//)"
+msgid "Stack underflow (internal error)"
+msgstr ""
+
+msgctxt "MSG_ProgErr_DivideTypes (//)"
+msgid "Type error in division"
+msgstr ""
+
+msgctxt "MSG_ProgErr_MultiplyTypes (//)"
+msgid "Type error in multiplication"
+msgstr ""
+
+msgctxt "MSG_ProgErr_AddSubTypes (//)"
+msgid "Type error in addition/subtraction"
+msgstr ""
+
+msgctxt "MSG_ProgErr_CompareTypes (//)"
+msgid "Type error in comparison"
+msgstr ""
+
+msgctxt "MSG_ProgErr_Type (//)"
+msgid "Type error"
+msgstr ""
+
+msgctxt "MSG_ProgErr_ListExpected (//)"
+msgid "List expected"
+msgstr ""
+
+msgctxt "MSG_ProgErr_FileExpected (//)"
+msgid "File expected"
+msgstr ""
+
+msgctxt "MSG_ProgErr_FunctionExpected (//)"
+msgid "Function expected"
+msgstr ""
+
+msgctxt "MSG_ProgErr_SideEffect (//)"
+msgid "Side effect not allowed here"
+msgstr ""
+
+msgctxt "MSG_ProgErr_FunctionArity (//)"
+msgid "Wrong number of arguments for function call"
+msgstr ""
+
+msgctxt "MSG_ProgErr_ChoiceNumber (//)"
+msgid "Choice number out of range"
+msgstr ""
+
+msgctxt "MSG_ProgErr_Trigger (//)"
+msgid "Can't find trigger function"
+msgstr ""
+
+msgctxt "MSG_ProgErr_VirtualComputeFunction (//)"
+msgid "Can't find compute function for virtual field"
+msgstr ""
+
+msgctxt "MSG_ProgErr_EnabledComputeFunction (//)"
+msgid "Can't find compute function for enabled setting"
+msgstr ""
+
+msgctxt "MSG_ProgErr_MissingArguments (//)"
+msgid "Missing arguments"
+msgstr ""
+
+msgctxt "MSG_ProgErr_TooManyArguments (//)"
+msgid "Too many arguments"
+msgstr ""
+
+msgctxt "MSG_ProgErr_InvalidFile (//)"
+msgid "Invalid file pointer.  Maybe you have already closed the file."
+msgstr ""
+
+msgctxt "MSG_ProgErr_OpenOutputFile (//)"
+msgid "Can't open program output file"
+msgstr ""
+
+msgctxt "MSG_ProgErr_UnknownEncoding (//)"
+msgid "Unknown encoding parameter"
+msgstr ""
+
+msgctxt "MSG_ProgErr_ExternalProgram (//)"
+msgid "Error calling external program"
+msgstr ""
+
+msgctxt "MSG_ProgErr_IndexOutOfRange (//)"
+msgid "Index out of range"
+msgstr ""
+
+msgctxt "MSG_Prog_ProgrammedError (//)"
+msgid "Programmed error"
+msgstr ""
+
+msgctxt "MSG_Prog_ProgrammedErrorAnswers (//)"
+msgid "*  Ok  |View program"
+msgstr ""
+
+msgctxt "MSG_Prog_WarnObsoleteFunction (//)"
+msgid "An obsolete function has been called.\n"
+"While this is not an error, it is\n"
+"recommended to update the project\n"
+"program and replace the function call.\n"
+"For more information, see the manual\n"
+"about obsolete functions."
+msgstr ""
+
+msgctxt "MSG_Prog_WarnObsoleteFunctionAnswers (//)"
+msgid "*Continue|Generate error"
+msgstr ""
+
+msgctxt "MSG_ProgErr_Recursion (//)"
+msgid "Too many recursive calls"
+msgstr ""
+
+msgctxt "MSG_ProgErr_UnknownType (//)"
+msgid "Unknown type"
+msgstr ""
+
+#.
+#. Message strings for server 
+#.
+msgctxt "MSG_ServErr_InvalidHandle (//)"
+msgid "Invalid handle"
+msgstr ""
+
+msgctxt "MSG_ServErr_BrokenConnection (//)"
+msgid "Broken connection"
+msgstr ""
+
+msgctxt "MSG_ServErr_InTransaction (//)"
+msgid "In transaction"
+msgstr ""
+
+msgctxt "MSG_ServErr_NotInTransaction (//)"
+msgid "Not in transaction"
+msgstr ""
+
+msgctxt "MSG_ServErr_NestedTransaction (//)"
+msgid "Nested transaction"
+msgstr ""
+
+msgctxt "MSG_ARexxErr_ResultStringTooLong (//)"
+msgid "Result string exceeds ARexx maximum string length (65535)."
+msgstr ""
+
+msgctxt "MSG_ARexxErr_NoProject (//)"
+msgid "No such project opened"
+msgstr ""
+
+msgctxt "MSG_ARexxErr_Busy (//)"
+msgid "BeeBase busy, try again later."
+msgstr ""
+
+#. General strings for GUI
+#.
+msgctxt "MSG_Weight (//)"
+msgid "_Weight"
+msgstr ""
+
+msgctxt "MSG_WeightBH (//)"
+msgid "Layout weight.  The higher the value\n"
+"the more space the object will have\n"
+"in the final window layout."
+msgstr ""
+
+msgctxt "MSG_Font (//)"
+msgid "Font"
+msgstr ""
+
+msgctxt "MSG_FontBH (//)"
+msgid "Font.  Leave field\n"
+"empty for default font."
+msgstr ""
+
+msgctxt "MSG_Background (//)"
+msgid "_Background"
+msgstr ""
+
+msgctxt "MSG_BackgroundBH (//)"
+msgid "Background for the GUI item"
+msgstr ""
+
+msgctxt "MSG_Background_Default (//)"
+msgid "_Default"
+msgstr ""
+
+msgctxt "MSG_Background_DefaultBH (//)"
+msgid "If checked, a default background is used.\n"
+"Otherwise the specified one is used."
+msgstr ""
+
+#.
+#. Message strings for Field
+#.
+msgctxt "MSG_Field_NameBH (//)"
+msgid "Name of the field.  Must begin with an\n"
+"uppercase letter followed by further letters,\n"
+"digits or underscore characters.  Non-ASCII\n"
+"letters like German umlauts are not allowed."
+msgstr ""
+
+msgctxt "MSG_Type (//)"
+msgid "_Type"
+msgstr ""
+
+msgctxt "MSG_Field_TypeBH (//)"
+msgid "Field type.  The field type can only\n"
+"be specified at field creation time."
+msgstr ""
+
+msgctxt "MSG_Field_String_MaxLength (//)"
+msgid "_Max length"
+msgstr ""
+
+msgctxt "MSG_Field_String_MaxLengthBH (//)"
+msgid "Maximum number of characters the\n"
+"string field can hold."
+msgstr ""
+
+msgctxt "MSG_Field_Boolean_InitialValue_Nil (//)"
+msgid " NIL"
+msgstr ""
+
+msgctxt "MSG_Field_Boolean_InitialValue_True (//)"
+msgid " TRUE"
+msgstr ""
+
+msgctxt "MSG_Field_Choice__Labels (//)"
+msgid "Edit la_bels..."
+msgstr ""
+
+msgctxt "MSG_Field_Choice_LabelsBH (//)"
+msgid "Opens window for\n"
+"editing label strings."
+msgstr ""
+
+msgctxt "MSG_Field_Choice_Confirm (//)"
+msgid "To continue, please confirm the following:"
+msgstr ""
+
+msgctxt "MSG_Field_Choice_WarnChangeLabels (//)"
+msgid "Choice labels in existing records will show the new labels\n"
+"(records only store an index into the list of labels, and\n"
+"changes to labels or their order do not change any index)."
+msgstr ""
+
+msgctxt "MSG_Field_Choice_WarnEmptyLabels (//)"
+msgid "There are empty labels."
+msgstr ""
+
+msgctxt "MSG_Field_Choice_WarnDuplicateLabels (//)"
+msgid "There are duplicate labels."
+msgstr ""
+
+msgctxt "MSG_Field_Reference (//)"
+msgid "Set Reference to:"
+msgstr ""
+
+msgctxt "MSG_Field_ReferenceBH (//)"
+msgid "Reference to a table."
+msgstr ""
+
+msgctxt "MSG_Field_Reference_FilterBH (//)"
+msgid "If selected, the user can only\n"
+"access records where the reference\n"
+"is set to the current record of the\n"
+"referenced table."
+msgstr ""
+
+msgctxt "MSG_AutoShow (//)"
+msgid "_Auto show?"
+msgstr ""
+
+msgctxt "MSG_Field_Reference_AutoShowBH (//)"
+msgid "If selected, the referenced table gets\n"
+"updated with the referenced record whenever\n"
+"the user switches to another record."
+msgstr ""
+
+msgctxt "MSG_Field_InitialValue (//)"
+msgid "Initial value"
+msgstr ""
+
+msgctxt "MSG_Field__InitialValue (//)"
+msgid "_Initial value"
+msgstr ""
+
+msgctxt "MSG_Field_InitialValueBH (//)"
+msgid "Initial value\n"
+"for this field"
+msgstr ""
+
+msgctxt "MSG_Field_InitialValue_Nil (//)"
+msgid "NIL"
+msgstr ""
+
+msgctxt "MSG_Field_InitialValue_Other (//)"
+msgid "other"
+msgstr ""
+
+msgctxt "MSG_Field_OtherValue (//)"
+msgid "other _value:"
+msgstr ""
+
+msgctxt "MSG_Field_NilString (//)"
+msgid "NI_L string"
+msgstr ""
+
+msgctxt "MSG_Field_NilStringBH (//)"
+msgid "String that should be displayed\n"
+"for the NIL value."
+msgstr ""
+
+msgctxt "MSG_Field_Compute (//)"
+msgid "Com_pute"
+msgstr ""
+
+msgctxt "MSG_Field_ComputeBH (//)"
+msgid "Trigger function which will be executed\n"
+"whenever the value of this field\n"
+"is needed, e.g. for displaying it."
+msgstr ""
+
+msgctxt "MSG_Field_Trigger (//)"
+msgid "T_rigger"
+msgstr ""
+
+msgctxt "MSG_Field_TriggerBH (//)"
+msgid "Trigger function that should be\n"
+"called after the user has changed\n"
+"the field value."
+msgstr ""
+
+msgctxt "MSG_CountChanges (//)"
+msgid "_Count changes?"
+msgstr ""
+
+msgctxt "MSG_Field_CountChangesBH (//)"
+msgid "Decides whether changing the\n"
+"field contents in a record\n"
+"counts as a change of the project.\n"
+"Uncheck this item if you want to\n"
+"ignore changes to this field."
+msgstr ""
+
+msgctxt "MSG_LogChanges (//)"
+msgid "Lo_g changes?"
+msgstr ""
+
+msgctxt "MSG_Field_LogChangesBH (//)"
+msgid "Decides whether changing the contents\n"
+"of the field in a record should\n"
+"be recorded in the project log."
+msgstr ""
+
+#. Message strings for EditLabels
+#.
+msgctxt "MSG_EditLabels (//)"
+msgid "Edit labels"
+msgstr ""
+
+msgctxt "MSG_EditLabels_LabelsBH (//)"
+msgid "List of labels.  You may\n"
+"add, change or remove items\n"
+"from this list."
+msgstr ""
+
+msgctxt "MSG_EditLabels_NewBH (//)"
+msgid "Creates a new label."
+msgstr ""
+
+msgctxt "MSG_EditLabels_Remove (//)"
+msgid "_Remove"
+msgstr ""
+
+msgctxt "MSG_EditLabels_RemoveBH (//)"
+msgid "Removes the currently selected label."
+msgstr ""
+
+msgctxt "MSG_EditLabels_Sort (//)"
+msgid "_Sort"
+msgstr ""
+
+msgctxt "MSG_EditLabels_SortBH (//)"
+msgid "Sorts the list of labels in alphabetical order."
+msgstr ""
+
+msgctxt "MSG_EditLabels_Label (//)"
+msgid "_Label"
+msgstr ""
+
+#.
+#. Message strings for programs
+#.
+msgctxt "MSG_EditProgram (//)"
+msgid "Edit program"
+msgstr ""
+
+msgctxt "MSG_IncludeDir (//)"
+msgid "Include directory"
+msgstr ""
+
+#.
+#. Message strings for DisplayObjects
+#.
+msgctxt "MSG_DisplayObject_Shortcut (//)"
+msgid "_Shortcut"
+msgstr ""
+
+msgctxt "MSG_DisplayObject_ShortcutBH (//)"
+msgid "The shortcut character can be used for\n"
+"activating the GUI item.  If you don't\n"
+"want a shortcut, leave this field empty.\n"
+"Press <Enter> to check if the entered\n"
+"shortcut character is already used by\n"
+"another item in the same window."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_DisplayObject_ShortcutInUse (//)"
+msgid "Warning: shortcut already in use\n"
+"by %s."
+msgstr ""
+
+msgctxt "MSG_DisplayObject_Enabled (//)"
+msgid "Enabled/disabled"
+msgstr ""
+
+msgctxt "MSG_DisplayObject_Enabled_Always (//)"
+msgid "Always enabled"
+msgstr ""
+
+msgctxt "MSG_DisplayObject_Enabled_NotInitial (//)"
+msgid "Disabled in initial"
+msgstr ""
+
+msgctxt "MSG_DisplayObject_Enabled_Computed (//)"
+msgid "Compute enabled"
+msgstr ""
+
+msgctxt "MSG_DisplayObject_EnabledBH (//)"
+msgid "Setting for the enabled/disabled state.\n"
+"'Disabled in initial' is like 'Always enabled'\n"
+"except that the object is disabled when it is\n"
+"inside a table showing its initial record."
+msgstr ""
+
+msgctxt "MSG_Computed (//)"
+msgid "Computed"
+msgstr ""
+
+msgctxt "MSG_Compute (//)"
+msgid "Compute"
+msgstr ""
+
+msgctxt "MSG_DisplayObject_ComputeEnabledBH (//)"
+msgid "Trigger function which computes the enabled state.\n"
+"If the function returns NIL, the object is disabled,\n"
+"otherwise enabled.  The function is evaluated whenever\n"
+"a dependent item changes (different record is shown,\n"
+"a field changed, a record is added or deleted,\n"
+"user/admin mode is changed, or program is recompiled).\n"
+"Dependencies are obtained from the compute function."
+msgstr ""
+
+#.
+#. Message strings for RecordDescription
+#.
+msgctxt "MSG_RecordDescription_Description (//)"
+msgid "Description"
+msgstr ""
+
+msgctxt "MSG_RecordDescription_DescriptionBH (//)"
+msgid "Short description of a record.\n"
+"Either a list of record fields,\n"
+"the result of a compute function,\n"
+"or the settings from the table object."
+msgstr ""
+
+msgctxt "MSG_Fields (//)"
+msgid "Fields"
+msgstr ""
+
+msgctxt "MSG_RecordDescription_FromTable (//)"
+msgid "From table"
+msgstr ""
+
+msgctxt "MSG_RecordDescription_FieldsBH (//)"
+msgid "Fields that are shown\n"
+"from the specific record."
+msgstr ""
+
+msgctxt "MSG_RecordDescription_RecordNumber (//)"
+msgid "Record number"
+msgstr ""
+
+msgctxt "MSG_RecordDescription_ComputeBH (//)"
+msgid "Function for computing the record description.\n"
+"The function should either return a single expression\n"
+"or a list of expressions for multi-column lists."
+msgstr ""
+
+msgctxt "MSG_RecordDescription_UseMultiColumnList (//)"
+msgid "Use multi-column list?"
+msgstr ""
+
+msgctxt "MSG_RecordDescription_UseMultiColumnListBH (//)"
+msgid "Specifies how fields are organized when\n"
+"shown in a listview pop-up.\n"
+"If checked, fields are aligned in columns.\n"
+"Otherwise, all fields are concatenated by\n"
+"a separator character ' - ' and placed into\n"
+"a single column."
+msgstr ""
+
+#.
+#. Message strings for DisplayTable
+#.
+msgctxt "MSG_DisplayTable (//)"
+msgid "Display table"
+msgstr ""
+
+msgctxt "MSG_DisplayTable_HasPanel (//)"
+msgid "Has panel?"
+msgstr ""
+
+msgctxt "MSG_DisplayTable_HasPanelBH (//)"
+msgid "Whether a panel should be displayed\n"
+"at the top of the table."
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_TitleBH (//)"
+msgid "Title of the panel.  Will be displayed\n"
+"in the left corner of the panel bar."
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_Gadgets (//)"
+msgid "Gadgets"
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_NumAll (//)"
+msgid "_Num/All?"
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_NumAllBH (//)"
+msgid "If checked, the number of the current record\n"
+"together with the number of all records\n"
+"will be displayed in the right corner\n"
+"of the panel bar."
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_FilterBH (//)"
+msgid "If checked, a filter button is added\n"
+"to the panel bar allowing the user to\n"
+"turn the table filter on and off."
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_Arrows (//)"
+msgid "_Arrows?"
+msgstr ""
+
+msgctxt "MSG_DisplayTable_Panel_ArrowsBH (//)"
+msgid "If checked, two arrow buttons are added\n"
+"to the panel bar allowing the user to go\n"
+"to the previous or next record."
+msgstr ""
+
+#.
+#. Message strings for DisplayField
+#.
+msgctxt "MSG_DisplayField (//)"
+msgid "Display field"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Title (//)"
+msgid "Title"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Extras (//)"
+msgid "Extras"
+msgstr ""
+
+msgctxt "MSG_DisplayField_TitlePosition (//)"
+msgid "_Position"
+msgstr ""
+
+msgctxt "MSG_DisplayField_TitlePositionBH (//)"
+msgid "Title position relative\n"
+"to the field"
+msgstr ""
+
+msgctxt "MSG_DisplayField_TitleBH (//)"
+msgid "The title is placed near the\n"
+"field.  If the title is empty,\n"
+"no title is displayed."
+msgstr ""
+
+msgctxt "MSG_DisplayField_ReadOnly (//)"
+msgid "_Read only?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ReadOnlyBH (//)"
+msgid "If checked, the field can\n"
+"only be read but not modified."
+msgstr ""
+
+msgctxt "MSG_DisplayField_ReadOnlyStringBH (//)"
+msgid "If checked, the field cannot be edited.\n"
+"However, when adding a pop-up button to the\n"
+"string field, the field can still be set to\n"
+"the selections offered in the pop-up."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Home (//)"
+msgid "_Home?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_HomeBH (//)"
+msgid "If checked, the cursor is set\n"
+"on this field whenever a new\n"
+"record is created."
+msgstr ""
+
+msgctxt "MSG_DisplayField_TabChain (//)"
+msgid "Tab chain?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_TabChainBH (//)"
+msgid "If selected, the GUI object\n"
+"can obtain the keyboard focus\n"
+"through pressing the <Tab> key."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Alignment (//)"
+msgid "_Alignment"
+msgstr ""
+
+msgctxt "MSG_DisplayField_AlignmentBH (//)"
+msgid "Alignment of the text inside\n"
+"the string or text field."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Alignment_Center (//)"
+msgid "Center"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Alignment_Left (//)"
+msgid "Left"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Alignment_Right (//)"
+msgid "Right"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Alignment_Top (//)"
+msgid "Top"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Alignment_Bottom (//)"
+msgid "Bottom"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Calendar (//)"
+msgid "Calendar?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_CalendarBH (//)"
+msgid "Adds a pop-up button\n"
+"showing a calendar."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Format (//)"
+msgid "Format"
+msgstr ""
+
+msgctxt "MSG_DisplayField_FormatBH (//)"
+msgid "Formatting for display"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Format_HHMMSS (//)"
+msgid "HH:MM:SS"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Format_MMSS (//)"
+msgid "MM:SS"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Format_HHMM (//)"
+msgid "HH:MM"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Kind (//)"
+msgid "_Kind"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Virtual_KindBH (//)"
+msgid "Display kind for virtual field.\n"
+"Boolean displays only NIL and non-NIL values.\n"
+"Text can display strings, numbers, etc.\n"
+"List displays items of a list, e.g. the\n"
+"result of a SELECT FROM WHERE call."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Virtual_Kind_List (//)"
+msgid "List"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Button_KindBH (//)"
+msgid "Display kind for button field"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Button_Kind_TextButton (//)"
+msgid "Text button"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Button_Kind_ImageButton (//)"
+msgid "Image button"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_KindBH (//)"
+msgid "Display kind for choice field"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_Kind_CycleButton (//)"
+msgid "Cycle button"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_Kind_RadioButtons (//)"
+msgid "Radio buttons"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_Frame (//)"
+msgid "_Frame?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_FrameBH (//)"
+msgid "Check this item and you will get\n"
+"a frame around the radio buttons."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_Horizontal (//)"
+msgid "Hori_zontal?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Choice_HorizontalBH (//)"
+msgid "Horizontal or vertical layout"
+msgstr ""
+
+msgctxt "MSG_DisplayField_NumDecimals (//)"
+msgid "Deci_mals"
+msgstr ""
+
+msgctxt "MSG_DisplayField_NumDecimalsBH (//)"
+msgid "Number of digits after\n"
+"the decimal point\n"
+"for a real value"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ShowTitles (//)"
+msgid "Show titles?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ShowTitlesBH (//)"
+msgid "If checked, the list field will\n"
+"also show the field names in the\n"
+"first row."
+msgstr ""
+
+msgctxt "MSG_DisplayField_ControlTable (//)"
+msgid "Control table?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ControlTableBH (//)"
+msgid "If checked, the list controls the table\n"
+"of the first column that is generated\n"
+"from a field of the table."
+msgstr ""
+
+msgctxt "MSG_DisplayField_OnDoubleClick (//)"
+msgid "On double-click"
+msgstr ""
+
+msgctxt "MSG_DisplayField_OnDoubleClickBH (//)"
+msgid "Action to be performed when\n"
+"user double-clicks a list-view item."
+msgstr ""
+
+msgctxt "MSG_DisplayField_DoubleClick_DoNothing (//)"
+msgid "Do nothing"
+msgstr ""
+
+msgctxt "MSG_DisplayField_DoubleClick_ShowRecord (//)"
+msgid "Show record"
+msgstr ""
+
+msgctxt "MSG_DisplayField_DoubleClick_CallTrigger (//)"
+msgid "Call trigger"
+msgstr ""
+
+msgctxt "MSG_DisplayField_DoubleClick_Trigger (//)"
+msgid "T_rigger function"
+msgstr ""
+
+msgctxt "MSG_DisplayField_DoubleClick_TriggerBH (//)"
+msgid "Trigger function that should be\n"
+"called when the user double-clicks\n"
+"an item in the list view."
+msgstr ""
+
+msgctxt "MSG_DisplayField_URLDrop_Trigger (//)"
+msgid "Trigger function on URL _drop"
+msgstr ""
+
+msgctxt "MSG_DisplayField_URLDrop_TriggerBH (//)"
+msgid "Trigger function that should be called\n"
+"when the user drags and drops URLs\n"
+"(e.g. filenames) onto the list view."
+msgstr ""
+
+msgctxt "MSG_DisplayField_SortDrop_Trigger (//)"
+msgid "Trigger function on _sort drop"
+msgstr ""
+
+msgctxt "MSG_DisplayField_SortDrop_TriggerBH (//)"
+msgid "Trigger function that should be called\n"
+"when the user drags and drops an item\n"
+"for sorting items in the list view."
+msgstr ""
+
+msgctxt "MSG_DisplayField_AutoUpdate (//)"
+msgid "Auto _update?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_AutoUpdateBH (//)"
+msgid "If checked, the virtual field is recomputed\n"
+"whenever a dependent item changes (a different\n"
+"record is shown, a field changed, a record\n"
+"is added or deleted, user/admin mode is changed,\n"
+"or program is recompiled).  The dependencies are\n"
+"obtained from the field's compute function."
+msgstr ""
+
+msgctxt "MSG_DisplayField_BubbleHelp (//)"
+msgid "Bubble\n"
+"help"
+msgstr ""
+
+msgctxt "MSG_DisplayField_RecordsBH (//)"
+msgid "Choose which records of the referenced\n"
+"table should be shown in the pop-up."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Records_All (//)"
+msgid "All"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Records_MatchFilter (//)"
+msgid "Match filter"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ComputeRecordsBH (//)"
+msgid "Trigger function which will be executed\n"
+"whenever the pop-up button is pressed.\n"
+"The compute function should return\n"
+"a list which is searched depth-first.\n"
+"Any records found are included in the\n"
+"list-view.  Non-record items are ignored."
+msgstr ""
+
+msgctxt "MSG_DisplayField_InitialRecord (//)"
+msgid "Initial record?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_InitialRecordBH (//)"
+msgid "If checked, the initial record is\n"
+"included in the pop-up list at the top."
+msgstr ""
+
+msgctxt "MSG_DisplayField_CurrentRecord (//)"
+msgid "Current record?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_CurrentRecordBH (//)"
+msgid "If checked, the current record of\n"
+"the referenced table is included in\n"
+"the pop-up list at the top."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Buttons (//)"
+msgid "Buttons"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Listview (//)"
+msgid "_Listview pop-up?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ListviewBH (//)"
+msgid "Adds a pop-up button to the right of the\n"
+"string field to allow the user to choose\n"
+"a string from a list of strings.\n"
+"If the string field is read only, the user\n"
+"can still change its contents by using\n"
+"the pop-up button."
+msgstr ""
+
+msgctxt "MSG_DisplayField_File (//)"
+msgid "F_ile pop-up?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_FileBH (//)"
+msgid "Adds a pop-up button to the right of the\n"
+"string field to allow the user to select\n"
+"a filename.\n"
+"If the string field is read-only, the user\n"
+"can still change its contents by selecting\n"
+"the pop-up button."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Font (//)"
+msgid "Fo_nt pop-up?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_FontBH (//)"
+msgid "Adds a pop-up button to the right of the\n"
+"string field to allow the user to select\n"
+"a font name.\n"
+"If the string field is read only, the user\n"
+"can still change its contents by selecting\n"
+"the pop-up button."
+msgstr ""
+
+msgctxt "MSG_DisplayField_View (//)"
+msgid "_View?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ViewBH (//)"
+msgid "Adds a button for viewing the file\n"
+"given by the contents of the  string field.\n"
+"Use menu item Preferences/Set external viewer\n"
+"for specifying the display program."
+msgstr ""
+
+msgctxt "MSG_DisplayField_ListviewSettings (//)"
+msgid "Listview settings"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Labels (//)"
+msgid "Label items"
+msgstr ""
+
+msgctxt "MSG_DisplayField_LabelsBH (//)"
+msgid "Specifies either static labels\n"
+"or labels that are computed when\n"
+"the pop-up button is pressed."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Labels_Static (//)"
+msgid "Static"
+msgstr ""
+
+msgctxt "MSG_DisplayField_EditLabels (//)"
+msgid "Edit labels..."
+msgstr ""
+
+msgctxt "MSG_DisplayField__EditLabels (//)"
+msgid "_Edit labels..."
+msgstr ""
+
+msgctxt "MSG_DisplayField_EditLabelsBH (//)"
+msgid "Pops up a window for specifying\n"
+"the label strings."
+msgstr ""
+
+msgctxt "MSG_DisplayField_ComputeLabelsBH (//)"
+msgid "Trigger function which will be executed\n"
+"whenever the pop-up button is pressed.\n"
+"The compute function should return\n"
+"a memo string with one label per line\n"
+"or NIL for an empty list-view."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Show (//)"
+msgid "_Show?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_ShowBH (//)"
+msgid "If checked, the reference field\n"
+"also contains a button for showing\n"
+"the referenced record."
+msgstr ""
+
+msgctxt "MSG_DisplayField_AutoShowBH (//)"
+msgid "Adds a checkmark button to turn auto-show mode\n"
+"on and off.  When turned on, the referenced\n"
+"table gets updated with the referenced record\n"
+"whenever the user switches to another record."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Filter (//)"
+msgid "Fi_lter?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_FilterBH (//)"
+msgid "Adds a filter button to allow the user to toggle\n"
+"the state of the reference filter.  When turned on,\n"
+"the user can only access records where the reference\n"
+"is set to the current record of the referenced table."
+msgstr ""
+
+msgctxt "MSG_DisplayField_Picture (//)"
+msgid "Picture"
+msgstr ""
+
+msgctxt "MSG_DisplayField_DisplayPicture (//)"
+msgid "Display _picture?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_DisplayPictureBH (//)"
+msgid "Adds an image object for viewing the file\n"
+"given by the contents of the  string field."
+msgstr ""
+
+msgctxt "MSG_DisplayField_TitleAtStringField (//)"
+msgid "_Title at string field?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_TitleAtStringFieldBH (//)"
+msgid "Displays the title (if any) to the\n"
+"left of the string field rather than\n"
+"to the left of the picture."
+msgstr ""
+
+msgctxt "MSG_DisplayField_HideStringField (//)"
+msgid "_Hide string field?"
+msgstr ""
+
+msgctxt "MSG_DisplayField_HideStringFieldBH (//)"
+msgid "If checked, the string field is\n"
+"not shown in the window.  This is\n"
+"useful if you want to display the\n"
+"external picture only."
+msgstr ""
+
+msgctxt "MSG_Size (//)"
+msgid "Size"
+msgstr ""
+
+msgctxt "MSG_DisplayField_SizeBH (//)"
+msgid "Determines how the display object's width and height\n"
+"are calculated in the window layout.\n"
+"   Resizable allows to resize the object.  The object\n"
+"may become larger than the size of its image.\n"
+"   Fixed sets the object's size to the size of the image.\n"
+"If the image sizes vary, the object resizes accordingly.\n"
+"   Scrollable adds two scrollers to the object allowing\n"
+"to view images that are larger than the visible region.\n"
+"   Scaled scales the image to the size of the object.\n"
+"   Aspect scaled scales but preserves the aspect ratio."
+msgstr ""
+
+#.
+#. Message strings for DisplayGroup
+#.
+msgctxt "MSG_Group (//)"
+msgid "Group"
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_TitleBH (//)"
+msgid "Text to be displayed centered\n"
+"in the group frame."
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_Attributes (//)"
+msgid "Attributes"
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_Border (//)"
+msgid "_Border?"
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_BorderBH (//)"
+msgid "If checked, a border frame will\n"
+"be drawn around the group."
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_Horizontal (//)"
+msgid "_Horizontal?"
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_HorizontalBH (//)"
+msgid "If checked, the group's elements are\n"
+"organized horizontally otherwise vertically."
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_Spacing (//)"
+msgid "_Spacing?"
+msgstr ""
+
+msgctxt "MSG_DisplayGroup_SpacingBH (//)"
+msgid "If checked, space is inserted\n"
+"between the group's objects."
+msgstr ""
+
+#.
+#. Message strings for DisplayRegister
+#.
+msgctxt "MSG_Register (//)"
+msgid "Register group"
+msgstr ""
+
+msgctxt "MSG_DisplayRegister_Labels (//)"
+msgid "Labels"
+msgstr ""
+
+msgctxt "MSG_DisplayRegister_LabelsBH (//)"
+msgid "Labels used for the register group items.\n"
+"The number of labels should match the number\n"
+"of elements in the register group."
+msgstr ""
+
+#.
+#. Message strings for DisplayImage
+#.
+msgctxt "MSG_Image (//)"
+msgid "Image"
+msgstr ""
+
+msgctxt "MSG__Image (//)"
+msgid "_Image"
+msgstr ""
+
+msgctxt "MSG_ImageBH (//)"
+msgid "Image to be displayed."
+msgstr ""
+
+msgctxt "MSG_Image_Size_Resizeable (//)"
+msgid "Resizable"
+msgstr ""
+
+msgctxt "MSG_Image_Size_Fixed (//)"
+msgid "Fixed"
+msgstr ""
+
+msgctxt "MSG_Image_Size_Scrollable (//)"
+msgid "Scrollable"
+msgstr ""
+
+msgctxt "MSG_Image_Size_Scaled (//)"
+msgid "Scaled"
+msgstr ""
+
+msgctxt "MSG_Image_Size_AspectScaled (//)"
+msgid "Aspect scaled"
+msgstr ""
+
+#.
+#. Message strings for DisplaySpace
+#.
+msgctxt "MSG_DisplaySpace_Delimiter (//)"
+msgid "D_elimiter?"
+msgstr ""
+
+msgctxt "MSG_DisplaySpace_DelimiterBH (//)"
+msgid "If checked, a delimiter bar\n"
+"will be displayed."
+msgstr ""
+
+#.
+#. Message strings for DisplayText
+#.
+msgctxt "MSG_Text (//)"
+msgid "Text"
+msgstr ""
+
+msgctxt "MSG_DisplayText_TitleBH (//)"
+msgid "Text to be displayed."
+msgstr ""
+
+#.
+#. Message strings for DisplayWindow
+#.
+msgctxt "MSG_DisplayWindow_TitleBH (//)"
+msgid "Text to be displayed in\n"
+"the window title bar."
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_Id (//)"
+msgid "Id"
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_IdBH (//)"
+msgid "A string of up to 4 characters defining\n"
+"the MUI window id.  If set, the window's\n"
+"position and size can be saved using MUI's\n"
+"snapshot window facility.  Press <Enter> to\n"
+"check if the entered id is already used by\n"
+"another window in any currently opened project.\n"
+"Leave empty for no id and window dimensions\n"
+"are stored in the project file."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_DisplayWindow_IdInUse (//)"
+msgid "Warning: window id already in use\n"
+"by %s."
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_BadId (//)"
+msgid "Ids beginning with '_' are\n"
+"reserved for internal use."
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_WindowButton (//)"
+msgid "B_utton?"
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_WindowButtonBH (//)"
+msgid "If checked, a button for opening\n"
+"and closing the window will be\n"
+"placed into the parent window."
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_ButtonSettings (//)"
+msgid "Button settings"
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_CloseWindowWhenDisabled (//)"
+msgid "Close window when disabled?"
+msgstr ""
+
+msgctxt "MSG_DisplayWindow_CloseWindowWhenDisabledBH (//)"
+msgid "Check this if the window should be closed\n"
+"automatically when the button gets disabled."
+msgstr ""
+
+#.
+#.
+#. Message strings for Filter
+#.
+msgctxt "MSG_ChangeFilter (//)"
+msgid "Change filter"
+msgstr ""
+
+msgctxt "MSG_Filter_Operators (//)"
+msgid "Operators"
+msgstr ""
+
+msgctxt "MSG_ApplyingFilter (//)"
+msgid "Applying filter..."
+msgstr ""
+
+#.
+#. Message strings for Order
+#.
+msgctxt "MSG_ChangeOrder (//)"
+msgid "Change order"
+msgstr ""
+
+msgctxt "MSG_Order_Type_FieldList (//)"
+msgid "Field list"
+msgstr ""
+
+msgctxt "MSG_Order_Type_ComparisonFunction (//)"
+msgid "Comparison function"
+msgstr ""
+
+msgctxt "MSG_Order_FieldsBH (//)"
+msgid "Available fields for ordering."
+msgstr ""
+
+msgctxt "MSG_Order_Order (//)"
+msgid "Order"
+msgstr ""
+
+msgctxt "MSG_Order_OrderBH (//)"
+msgid "Current order list.  All records are ordered by\n"
+"the first field in this list.  If two records\n"
+"are equal in the first field then the second\n"
+"field determines the order, and so on.\n"
+"An up arrow means ascending ordering, a down\n"
+"arrow descending ordering."
+msgstr ""
+
+msgctxt "MSG_Order_ComparisonFunction (//)"
+msgid "_Function for comparing records"
+msgstr ""
+
+msgctxt "MSG_Order_ComparisonFunctionBH (//)"
+msgid "The function gets two record pointers as arguments\n"
+"and should return a value less then 0 if the first\n"
+"record is smaller than the second, 0 if they are\n"
+"equal, and a value greater than 0 if the first\n"
+"record is larger than the second one."
+msgstr ""
+#. 
+
+msgctxt "MSG_Order_ClearBH (//)"
+msgid "Clears all fields\n"
+"for an empty order."
+msgstr ""
+
+#.
+#. Message strings for ProgOutput
+#.
+msgctxt "MSG_ProgOutput (//)"
+msgid "Program output file"
+msgstr ""
+
+msgctxt "MSG_ProgOutput_Filename (//)"
+msgid "_Filename"
+msgstr ""
+
+msgctxt "MSG_ProgOutput_FilenameBH (//)"
+msgid "Pathname to which program output is sent."
+msgstr ""
+
+msgctxt "MSG_ProgOutput_Default (//)"
+msgid "_Default?"
+msgstr ""
+
+msgctxt "MSG_ProgOutput_DefaultBH (//)"
+msgid "If checked, a default filename\n"
+"is chosen as output."
+msgstr ""
+
+msgctxt "MSG_ProgOutput_Append (//)"
+msgid "_Append?"
+msgstr ""
+
+msgctxt "MSG_ProgOutput_AppendBH (//)"
+msgid "If checked, program output is appended to\n"
+"the file specified above, otherwise the file\n"
+"is overwritten silently."
+msgstr ""
+
+#.
+#. Message strings for Table
+#.
+msgctxt "MSG_Table_NameBH (//)"
+msgid "Name of the table.  Must begin with an\n"
+"uppercase letter followed by further letters\n"
+"digits or underscore characters.  Non-ASCII\n"
+"letters like German umlauts are not allowed."
+msgstr ""
+
+msgctxt "MSG_Table_NumberOfRecords (//)"
+msgid "Number of records"
+msgstr ""
+
+msgctxt "MSG_Table_NumberOfRecordsBH (//)"
+msgid "Normally you specify \"Unlimited\" here.\n"
+"\"Exactly one\" may be used in some special\n"
+"cases where only one record is needed."
+msgstr ""
+
+msgctxt "MSG_Unlimited (//)"
+msgid "Unlimited"
+msgstr ""
+
+msgctxt "MSG_Table_ExactlyOne (//)"
+msgid "Exactly one"
+msgstr ""
+
+msgctxt "MSG_Table_TriggerFunctions (//)"
+msgid "Trigger functions"
+msgstr ""
+
+msgctxt "MSG_Table_Trigger_New (//)"
+msgid "Ne_w"
+msgstr ""
+
+msgctxt "MSG_Table_Trigger_NewBH (//)"
+msgid "Program function that should be called\n"
+"whenever the user wants to create a new\n"
+"record.  If left empty, a new record will\n"
+"be created automatically."
+msgstr ""
+
+msgctxt "MSG_Table_Trigger_Delete (//)"
+msgid "_Delete"
+msgstr ""
+
+msgctxt "MSG_Table_Trigger_DeleteBH (//)"
+msgid "Program function that should be called\n"
+"whenever the user wants to delete a record.\n"
+"If left empty, the record is deleted after\n"
+"an optional delete-record confirmation."
+msgstr ""
+
+msgctxt "MSG_Table_CountChangesBH (//)"
+msgid "Decides whether adding, deleting or\n"
+"changing the contents of a record\n"
+"counts as a change of the project.\n"
+"Uncheck this item if you want to\n"
+"ignore any changes in this table."
+msgstr ""
+
+msgctxt "MSG_Table_LogChangesBH (//)"
+msgid "Decides whether adding, deleting, or\n"
+"changing the contents of a record\n"
+"should be recorded in the project log."
+msgstr ""
+
+#.
+#. Message strings for search for
+#.
+msgctxt "MSG_SearchPattern (//)"
+msgid "Search _pattern"
+msgstr ""
+
+msgctxt "MSG_SearchPatternBH (//)"
+msgid "String pattern to search for.  You may use\n"
+"the special wild-card characters '*' and '?'.\n"
+"'*' matches any number of characters whereas\n"
+"'?' matches exactly one character."
+msgstr ""
+
+msgctxt "MSG_CaseSensitive (//)"
+msgid "Case sensi_tive?"
+msgstr ""
+
+msgctxt "MSG_CaseSensitiveBH (//)"
+msgid "If checked, string comparison is done\n"
+"case sensitive, else case insensitive."
+msgstr ""
+
+msgctxt "MSG_AllFields (//)"
+msgid "_All fields?"
+msgstr ""
+
+msgctxt "MSG_AllFieldsBH (//)"
+msgid "If checked, all fields of the\n"
+"current table are checked for a match,\n"
+"otherwise only the currently active\n"
+"field is checked for."
+msgstr ""
+
+msgctxt "MSG_SearchDirection (//)"
+msgid "Search direction"
+msgstr ""
+
+msgctxt "MSG_Forward (//)"
+msgid "Forward"
+msgstr ""
+
+msgctxt "MSG_Backward (//)"
+msgid "Backward"
+msgstr ""
+
+msgctxt "MSG_StartWith (//)"
+msgid "Start with"
+msgstr ""
+
+msgctxt "MSG_FirstLastRecord (//)"
+msgid "First/last record"
+msgstr ""
+
+msgctxt "MSG_Searching (//)"
+msgid "Searching..."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_SearchPatternNotFound (//)"
+msgid "Search pattern '%s' not found"
+msgstr ""
+
+#.
+#. Message strings for Query Print
+#.
+msgctxt "MSG_QueryPrint_Delimiter (//)"
+msgid "Delimiter"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_DelimiterBH (//)"
+msgid "Character to be inserted\n"
+"between fields."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Spaces (//)"
+msgid "Spaces"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Tabs (//)"
+msgid "Tabs"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Custom (//)"
+msgid "Custom"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_FontBH (//)"
+msgid "Font for printing"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_NLQ (//)"
+msgid "NLQ"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Draft (//)"
+msgid "Draft"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Misc (//)"
+msgid "Misc"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_InitSequence (//)"
+msgid "_Init sequence"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_InitSequenceBH (//)"
+msgid "Escape code sequence for initializing\n"
+"the printer. For entering characters\n"
+"you can also use \\n, \\t, \\f, \\???\n"
+"(octal code) or \\x?? (hex code)."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Indent (//)"
+msgid "Inden_t"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_IndentBH (//)"
+msgid "Number of spaces each\n"
+"line is indented."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Headline (//)"
+msgid "_Headline?"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_HeadlineBH (//)"
+msgid "If checked, the field names are\n"
+"printed in the first line."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_EscapeCodes (//)"
+msgid "_Escape codes?"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_EscapeCodesBH (//)"
+msgid "If not checked, all escape code sequences\n"
+"(e.g. init sequence, font selection, etc.)\n"
+"are not printed.  This is useful for\n"
+"exporting records to an ASCII file."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Quotes (//)"
+msgid "_Quotes?"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_QuotesBH (//)"
+msgid "If checked, each field entry is\n"
+"surrounded with double quotes."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_SizeBH (//)"
+msgid "Font size used for printing"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Pica (//)"
+msgid "Pica"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Elite (//)"
+msgid "Elite"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Condensed (//)"
+msgid "Condensed"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_AfterPrinting (//)"
+msgid "After printing"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_AfterPrintingBH (//)"
+msgid "Characters to be printed after\n"
+"all lines have been printed."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_FormFeed (//)"
+msgid "Form feed"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_LineFeeds (//)"
+msgid "Line feeds"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Nothing (//)"
+msgid "Nothing"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_NumLineFeeds (//)"
+msgid "_#"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_NumLineFeedsBH (//)"
+msgid "Number of line feeds\n"
+"to be printed."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_Output (//)"
+msgid "Out_put"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_OutputBH (//)"
+msgid "Output file.  You may use \"Console:\" for printing\n"
+"to standard output, \"CON:////Output/CLOSE/WAIT\"\n"
+"for printing to a CON-window, or \"PRT:\" for\n"
+"sending the output to your printer."
+msgstr ""
+
+msgctxt "MSG_QueryPrint_FitPageWidth (//)"
+msgid "Fit page _width?"
+msgstr ""
+
+msgctxt "MSG_QueryPrint_FitPageWidthBH (//)"
+msgid "If checked, the resolution\n"
+"is set such that all lines\n"
+"fit into the page width."
+msgstr ""
+
+#.
+#. Message strings for QueryEditor
+#.
+msgctxt "MSG_QueryEditor (//)"
+msgid "Query editor"
+msgstr ""
+
+msgctxt "MSG_Query_NameBH (//)"
+msgid "Name of the query"
+msgstr ""
+
+msgctxt "MSG_Query_TableNone (//)"
+msgid "None"
+msgstr ""
+
+msgctxt "MSG_Query_TableBH (//)"
+msgid "Table to which query belongs"
+msgstr ""
+
+msgctxt "MSG_Query_Run (//)"
+msgid "Run..."
+msgstr ""
+
+msgctxt "MSG_Query_RunBH (//)"
+msgid "Compiles and runs the query."
+msgstr ""
+
+msgctxt "MSG_Query_Export (//)"
+msgid "Export..."
+msgstr ""
+
+msgctxt "MSG_Query_ExportBH (//)"
+msgid "Exports the output of the\n"
+"query as a text file."
+msgstr ""
+
+msgctxt "MSG_Query_PDF (//)"
+msgid "PDF..."
+msgstr ""
+
+msgctxt "MSG_Query_PDFBH (//)"
+msgid "Exports the output of the\n"
+"query as a PDF file."
+msgstr ""
+
+msgctxt "MSG_Query_Print (//)"
+msgid "Print..."
+msgstr ""
+
+msgctxt "MSG_Query_PrintBH (//)"
+msgid "Prints the output of the\n"
+"query to a file or printer."
+msgstr ""
+
+msgctxt "MSG_Query_ProgramBH (//)"
+msgid "Query program"
+msgstr ""
+
+msgctxt "MSG_Query_OutputBH (//)"
+msgid "Query output"
+msgstr ""
+
+msgctxt "MSG_Query_Close (//)"
+msgid "You have made some changes in the\n"
+"query program and the query can't\n"
+"be compiled.  If you continue, the\n"
+"changes since the last successful\n"
+"compilation will be lost."
+msgstr ""
+
+msgctxt "MSG_CloseAnswers (//)"
+msgid "C_ontinue|_Cancel"
+msgstr ""
+
+#.
+#. Message strings for StructureEditor
+#.
+msgctxt "MSG_StructureEditor (//)"
+msgid "Structure editor"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Tables (//)"
+msgid "Tables"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_TablesBH (//)"
+msgid "List of tables"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Table_New (//)"
+msgid "N_ew"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Table_NewBH (//)"
+msgid "Creates a new table."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Table_Delete (//)"
+msgid "De_l"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Table_DeleteBH (//)"
+msgid "Deletes the currently selected table."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Sort1 (//)"
+msgid "Sort1"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Sort2 (//)"
+msgid "Sort2"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Table_SortBH (//)"
+msgid "Sorts the list of tables alphabetically (Sort1)\n"
+"or according to the order in the display list (Sort2)"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_FieldsBH (//)"
+msgid "Fields of the currently\n"
+"selected table"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Field_NewBH (//)"
+msgid "Creates a new field in\n"
+"the currently selected table."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Field_Copy (//)"
+msgid "Cop_y"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Field_CopyBH (//)"
+msgid "Creates a copy of the\n"
+"selected field."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Field_Delete (//)"
+msgid "_Del"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Field_DeleteBH (//)"
+msgid "Deletes the currently\n"
+"selected field."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Field_SortBH (//)"
+msgid "Sorts the list of fields alphabetically (Sort1)\n"
+"or according to the order in the display list (Sort2)"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_TableDisplay (//)"
+msgid "Table mask"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_MainWindow (//)"
+msgid "Main window"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Panel (//)"
+msgid "_Panel"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_PanelBH (//)"
+msgid "Adds a panel to the table display.\n"
+"The panel consists of a frame with a\n"
+"title bar and some buttons."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Add (//)"
+msgid "_Add"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_AddBH1 (//)"
+msgid "Adds the currently selected\n"
+"table to the display list."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_AddBH2 (//)"
+msgid "Adds the currently selected\n"
+"field to the display list."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Rem (//)"
+msgid "_Rem"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RemBH (//)"
+msgid "Removes the current\n"
+"display object."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Up (//)"
+msgid "_Up"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_UpBH (//)"
+msgid "Moves the current display\n"
+"object one field up."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Down (//)"
+msgid "D_own"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_DownBH (//)"
+msgid "Moves the current display\n"
+"object one field down."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_In (//)"
+msgid "In"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_InBH (//)"
+msgid "Moves the current display object into the\n"
+"child list of its following display object.\n"
+"For this to work the following display object\n"
+"has to be a group or a window."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Out (//)"
+msgid "Out"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_OutBH (//)"
+msgid "Moves the current display\n"
+"object out of its parent."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Text (//)"
+msgid "_Text"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_TextBH (//)"
+msgid "Adds a text object to the display list.\n"
+"A text object is used to display\n"
+"static text."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_ImageBH (//)"
+msgid "Adds an image object to the display list.\n"
+"The image can be a simple color, a pattern\n"
+"or an image stored in a file."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Space (//)"
+msgid "_Space"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_SpaceBH (//)"
+msgid "Adds a space object to the display list.\n"
+"A space object is used for filling room\n"
+"in the display layout with empty space."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Balance (//)"
+msgid "Balance"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_BalanceBH (//)"
+msgid "Adds a balance object to the display list.\n"
+"A balance object is used for adjusting\n"
+"the geometry layout of objects that are\n"
+"in the same group as the balance object."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Group (//)"
+msgid "_Group"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_GroupBH (//)"
+msgid "Adds a group object to the display list.\n"
+"All multi-selected objects of the display\n"
+"list are moved to the new group automatically.\n"
+"The elements in the group are either organized\n"
+"vertically or horizontally."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Register (//)"
+msgid "Register"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RegisterBH (//)"
+msgid "Adds a register group object to the display list.\n"
+"All multi-selected objects of the display list\n"
+"are moved to the new register group automatically.\n"
+"The number of elements in the register group\n"
+"should match the number of register labels."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Window (//)"
+msgid "_Window"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_WindowBH (//)"
+msgid "Adds a window object to the display list.\n"
+"All multi-selected objects of the\n"
+"display list are moved to the new\n"
+"window automatically.  The elements\n"
+"in the window are organized vertically."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_DisplayBH (//)"
+msgid "List that shows how the database objects\n"
+"are arranged in the user interface.\n"
+"Close the structure editor to find out\n"
+"how the user interface is actually laid out."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Display_HGroup (//)"
+msgid "HGroup"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_Display_VGroup (//)"
+msgid "VGroup"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RecompileProgram (//)"
+msgid "In order to update all necessary dependencies and\n"
+"maximize the performance of the project's program,\n"
+"it is recommended to recompile the project program."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RecompileProgramAnswers (//)"
+msgid "*Compile|_Later"
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RenameTablesAndFields (//)"
+msgid "There are %ld table(s) and/or field(s)\n"
+"with names that are no longer valid.\n"
+"Please rename these tables and/or fields."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RenameTablesAndFieldsAnswers (//)"
+msgid "*Rename|_Later"
+msgstr ""
+
+#.
+#. Message strings for menus
+#.
+msgctxt "MSG_Up (//)"
+msgid "Up"
+msgstr ""
+
+msgctxt "MSG_Down (//)"
+msgid "Down"
+msgstr ""
+
+msgctxt "MSG_ShiftUp (//)"
+msgid "Shift-Up"
+msgstr ""
+
+msgctxt "MSG_ShiftDown (//)"
+msgid "Shift-Down"
+msgstr ""
+
+msgctxt "MSG_AltUp (//)"
+msgid "Alt-Up"
+msgstr ""
+
+msgctxt "MSG_AltDown (//)"
+msgid "Alt-Down"
+msgstr ""
+
+msgctxt "MSG_ShiftCtrlUp (//)"
+msgid "Shift-Ctrl-Up"
+msgstr ""
+
+msgctxt "MSG_ShiftCtrlDown (//)"
+msgid "Shift-Ctrl-Down"
+msgstr ""
+
+msgctxt "MSG_ShiftAltUp (//)"
+msgid "Shift-Alt-Up"
+msgstr ""
+
+msgctxt "MSG_ShiftAltDown (//)"
+msgid "Shift-Alt-Down"
+msgstr ""
+
+# We add a trailing space such that we can also translate the Help key.
+msgctxt "MSG_Help (//)"
+msgid "Help "
+msgstr ""
+
+msgctxt "MSG_Help_Key (//)"
+msgid "Help"
+msgstr ""
+
+msgctxt "MSG_F1 (//)"
+msgid "F1"
+msgstr ""
+
+msgctxt "MSG_Project (//)"
+msgid "Project"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Info (//)"
+msgid "Info..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Clear (//)"
+msgid "Clear"
+msgstr ""
+
+msgctxt "MSG_MenuItem_New (//)"
+msgid "New"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Open (//)"
+msgid "Open..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Open_Project (//)"
+msgid "Project..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Open_Demo (//)"
+msgid "Demo..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_SwapRecords (//)"
+msgid "Swap records"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SaveAndReorg (//)"
+msgid "Save & reorg"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SaveAndReorgAs (//)"
+msgid "Save & reorg as..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_RevertToSaved (//)"
+msgid "Revert to saved"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Reload (//)"
+msgid "Reload"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Delete (//)"
+msgid "Delete..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Close (//)"
+msgid "Close"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SaveClose (//)"
+msgid "Save & close"
+msgstr ""
+
+msgctxt "MSG_MenuItem_AdminMode (//)"
+msgid "Change to admin mode"
+msgstr ""
+
+msgctxt "MSG_MenuItem_UserMode (//)"
+msgid "Change to user mode"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ChangeAdminPassword (//)"
+msgid "Change admin password..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_CheckDataIntegrity (//)"
+msgid "Check data integrity..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_StructureEditor (//)"
+msgid "Structure editor..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_CloseStructureEditor (//)"
+msgid "Close structure editor"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExportStructure (//)"
+msgid "Export structure..."
+msgstr ""
+
+msgctxt "MSG_Menu_Preferences (//)"
+msgid "Preferences"
+msgstr ""
+
+msgctxt "MSG_MenuItem_UserSettings (//)"
+msgid "User settings"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Formats (//)"
+msgid "Formats..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExternalEditor (//)"
+msgid "External editor..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExternalViewer (//)"
+msgid "External viewer..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExtraButtonsInTabChain (//)"
+msgid "Extra buttons in Tab chain?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_AdvanceOnEnter (//)"
+msgid "Advance on <Enter>?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ConfirmQuit (//)"
+msgid "Confirm quit?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_MUI (//)"
+msgid "MUI..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_RecordMem (//)"
+msgid "Record memory"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ConfirmDeleteRecord (//)"
+msgid "Confirm delete record?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ConfirmAutoReload (//)"
+msgid "Confirm auto reload?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ConfirmSaveReorg (//)"
+msgid "Confirm save & reorg?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_VacuumAfterReorg (//)"
+msgid "Vacuum after reorg?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_PathsRelativeToProject (//)"
+msgid "Paths relative to directory of project?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SaveAsDefault (//)"
+msgid "Save as default"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingActive (//)"
+msgid "Logging active?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode (//)"
+msgid "Logging mode"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode_ToProject (//)"
+msgid "To project"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode_ToFile (//)"
+msgid "To file"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode_ToProjectAndFile (//)"
+msgid "To project and file"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SetLogFile (//)"
+msgid "Set log file..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_SetLogLabel (//)"
+msgid "Set log label..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ImportLog (//)"
+msgid "Import log..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExportLog (//)"
+msgid "Export log..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ClearLog (//)"
+msgid "Clear log"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ApplyChanges (//)"
+msgid "Apply changes..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ViewLog (//)"
+msgid "View log..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_NewRecord (//)"
+msgid "New record"
+msgstr ""
+
+msgctxt "MSG_MenuItem_DuplicateRecord (//)"
+msgid "Duplicate record"
+msgstr ""
+
+msgctxt "MSG_MenuItem_DeleteRecord (//)"
+msgid "Delete record"
+msgstr ""
+
+msgctxt "MSG_MenuItem_DeleteAllRecords (//)"
+msgid "Delete all records"
+msgstr ""
+
+msgctxt "MSG_MenuItem_GotoRecord (//)"
+msgid "Goto record"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Previous (//)"
+msgid "Previous"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Next (//)"
+msgid "Next"
+msgstr ""
+
+msgctxt "MSG_MenuItem_First (//)"
+msgid "First"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Last (//)"
+msgid "Last"
+msgstr ""
+
+msgctxt "MSG_MenuItem_JumpBackward (//)"
+msgid "Jump backward"
+msgstr ""
+
+msgctxt "MSG_MenuItem_JumpForward (//)"
+msgid "Jump forward"
+msgstr ""
+
+msgctxt "MSG_MenuItem_JumpTo (//)"
+msgid "Jump to..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ImportRecords (//)"
+msgid "Import records..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExportRecords (//)"
+msgid "Export records..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ChangeFilter (//)"
+msgid "Change filter..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ChangeOrder (//)"
+msgid "Change order..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ReorderAllRecords (//)"
+msgid "Reorder all records"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Find (//)"
+msgid "Find..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_FindNext (//)"
+msgid "Find next"
+msgstr ""
+
+msgctxt "MSG_MenuItem_FindPrevious (//)"
+msgid "Find previous"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ViewAllRecords (//)"
+msgid "View all records..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Queries (//)"
+msgid "Queries..."
+msgstr ""
+
+msgctxt "MSG_Menu_Program (//)"
+msgid "Program"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Edit (//)"
+msgid "Edit..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Compile (//)"
+msgid "Compile"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ProgramSource (//)"
+msgid "Program source"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ProgramSource_Internal (//)"
+msgid "Internal?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ProgramSource_External (//)"
+msgid "External...?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_CleanupExternalProgramSource (//)"
+msgid "Cleanup external program source?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ProgramDebugInfo (//)"
+msgid "Embed debug information?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ObsoleteFunctions (//)"
+msgid "Obsolete functions"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ObsoleteFunctions_Ignore (//)"
+msgid "Ignore silently"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ObsoleteFunctions_Warn (//)"
+msgid "Warn when called"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ObsoleteFunctions_Error (//)"
+msgid "Treat as error"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SortTriggerFunctions (//)"
+msgid "Sort trigger functions in pop-ups?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_IncludeDir (//)"
+msgid "Include directory..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_OutputFile (//)"
+msgid "Output file..."
+msgstr ""
+
+msgctxt "MSG_Menu_Editor (//)"
+msgid "Editor"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Cut (//)"
+msgid "Cut"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Copy (//)"
+msgid "Copy"
+msgstr ""
+
+msgctxt "MSG_MenuItem_CopyAll (//)"
+msgid "Copy all"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Paste (//)"
+msgid "Paste"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Undo (//)"
+msgid "Undo"
+msgstr ""
+
+msgctxt "MSG_MenuItem_Redo (//)"
+msgid "Redo"
+msgstr ""
+
+msgctxt "MSG_Menu_SFWList (//)"
+msgid "Select from where"
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExportAsText (//)"
+msgid "Export as text..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_ExportAsPDF (//)"
+msgid "Export as PDF..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_Contents (//)"
+msgid "Contents..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_About (//)"
+msgid "About..."
+msgstr ""
+
+msgctxt "MSG_MenuItem_AboutMUI (//)"
+msgid "About MUI..."
+msgstr ""
+
+msgctxt "MSG_ExportStructure (//)"
+msgid "Export structure"
+msgstr ""
+
+msgctxt "MSG_PopImage_Pattern (//)"
+msgid "Pattern"
+msgstr ""
+
+msgctxt "MSG_PopImage_Color (//)"
+msgid "Color"
+msgstr ""
+
+msgctxt "MSG_PopImage_External (//)"
+msgid "External"
+msgstr ""
+
