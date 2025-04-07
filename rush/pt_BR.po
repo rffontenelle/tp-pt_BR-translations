@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rush 2.0\n"
 "Report-Msgid-Bugs-To: bug-rush@gnu.org\n"
-"POT-Creation-Date: 2019-07-01 09:59+0300\n"
+"POT-Creation-Date: 2022-01-02 16:11+0200\n"
 "PO-Revision-Date: 2019-07-02 16:54-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
@@ -53,7 +53,7 @@ msgstr "opção de expressão regular desconhecida: %s"
 msgid "too few arguments"
 msgstr "poucos argumentos"
 
-#: src/config.c:357 src/rush.c:1251
+#: src/config.c:357 src/rush.c:1350
 msgid "too many arguments"
 msgstr "argumentos demais"
 
@@ -293,247 +293,265 @@ msgstr "Memória insuficiente"
 msgid "INTERNAL ERROR at %s:%d: unrecognized opcode %d"
 msgstr "ERRO INTERNO em %s:%d: código de operação não reconhecido %d"
 
-#: src/rush.c:411
+#: src/rush.c:408
+#, fuzzy, c-format
+#| msgid "%s:%d: cannot stat %s: %s"
+msgid "%s:%d: %s: can't stat '%s': %s"
+msgstr "%s:%d: não foi possível obter estado de %s: %s"
+
+#: src/rush.c:469
+#, fuzzy, c-format
+#| msgid "INTERNAL ERROR at %s:%d: unrecognized opcode %d"
+msgid "INTERNAL ERROR at %s:%d: unrecognized operation %d"
+msgstr "ERRO INTERNO em %s:%d: código de operação não reconhecido %d"
+
+#: src/rush.c:509
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: unrecognized node type %d"
 msgstr "ERRO INTERNO em %s:%d: tipo de nó não reconhecido %d"
 
-#: src/rush.c:620
+#: src/rush.c:718
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: invalid envar type %d"
 msgstr "ERRO INTERNO em %s:%d: tipo de envar inválido %d"
 
-#: src/rush.c:625
+#: src/rush.c:723
 msgid "Final environment:"
 msgstr "Ambiente final:"
 
-#: src/rush.c:639
+#: src/rush.c:737
 #, c-format
 msgid "wordsplit(%s) failed: %s"
 msgstr "wordsplit(%s) falhou: %s"
 
-#: src/rush.c:665
+#: src/rush.c:763
 #, c-format
 msgid "no argument at index %d in command: %s"
 msgstr "nenhum argumento no índice %d no comando: %s"
 
-#: src/rush.c:805
+#: src/rush.c:903
 #, c-format
 msgid "Removing option %s %s"
 msgstr "Removendo opção %s %s"
 
-#: src/rush.c:817
+#: src/rush.c:915
 msgid "Transforming command line"
 msgstr "Transformando linha de comando"
 
-#: src/rush.c:824
+#: src/rush.c:922
 #, c-format
 msgid "Transforming program name (%s)"
 msgstr "Transformando nome do programa (%s)"
 
-#: src/rush.c:842
+#: src/rush.c:940
 #, c-format
 msgid "Transforming argv[%d]"
 msgstr "Transformando argv[%d]"
 
-#: src/rush.c:849
+#: src/rush.c:947
 #, c-format
 msgid "Transforming variable %s=%s"
 msgstr "Transformando variável %s=%s"
 
-#: src/rush.c:856 src/rush.c:941
+#: src/rush.c:954 src/rush.c:1040
 msgid "environment transformation is not yet implemented"
 msgstr "transformação de ambiente não está implementado ainda"
 
-#: src/rush.c:860
+#: src/rush.c:958
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: can't modify read-only target"
 msgstr "ERRO INTERNO em %s:%d: não é possível modificar algo somente leitura"
 
-#: src/rush.c:879
+#: src/rush.c:977
 #, c-format
 msgid "Transformation map: %s, %s, %s, %u, %u, %s"
 msgstr "Mapa de transformação: %s, %s, %s, %u, %u, %s"
 
-#: src/rush.c:893
+#: src/rush.c:991
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: invalid node type %d"
 msgstr "ERRO INTERNO em %s:%d: tipo de nó inválido %d"
 
-#: src/rush.c:920
+#: src/rush.c:998
+#, fuzzy, c-format
+#| msgid "Transforming variable %s=%s"
+msgid "transformed value: %s"
+msgstr "Transformando variável %s=%s"
+
+#: src/rush.c:1019
 #, c-format
 msgid "Deleting arguments %d-%d"
 msgstr "Excluindo argumentos %d-%d"
 
-#: src/rush.c:923
+#: src/rush.c:1022
 msgid "Deleting argv[0] is prohibited"
 msgstr "Exclusão de argv[0] é proibida"
 
-#: src/rush.c:945
+#: src/rush.c:1044
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: invalid target type %d"
 msgstr "ERRO INTERNO em %s:%d: tipo de alvo inválido %d"
 
-#: src/rush.c:963
+#: src/rush.c:1062
 #, c-format
 msgid "Program name: %s"
 msgstr "Nome do programa: %s"
 
-#: src/rush.c:964
+#: src/rush.c:1063
 msgid "Final arguments:"
 msgstr "Argumentos finais:"
 
-#: src/rush.c:982
+#: src/rush.c:1081
 #, c-format
 msgid "error writing to database %s: %s"
 msgstr "erro ao escrever para o banco de dados %s: %s"
 
-#: src/rush.c:991
+#: src/rush.c:1090
 #, c-format
 msgid "error writing stop to database file %s: %s"
 msgstr "erro ao escrever parada para o arquivo de banco de dados %s: %s"
 
-#: src/rush.c:1012
+#: src/rush.c:1111
 #, c-format
 msgid "%s:%d: %s: cannot fork: %s"
 msgstr "%s:%d: %s: não foi possível bifurcar (fork): %s"
 
-#: src/rush.c:1022
+#: src/rush.c:1121
 #, c-format
 msgid "Forked process %lu"
 msgstr "Bifurcou (fork) processo %lu"
 
-#: src/rush.c:1026
+#: src/rush.c:1125
 #, c-format
 msgid "%s: subprocess exited with code %d"
 msgstr "%s: o subprocesso saiu com código %d"
 
-#: src/rush.c:1029
+#: src/rush.c:1128
 #, c-format
 msgid "%s: subprocess terminated on signal %d"
 msgstr "%s: o subprocesso foi terminado com sinal %d"
 
-#: src/rush.c:1032
+#: src/rush.c:1131
 #, c-format
 msgid "%s: subprocess terminated"
 msgstr "%s: o subprocesso terminado"
 
-#: src/rush.c:1093
+#: src/rush.c:1192
 #, c-format
 msgid "cannot enforce gid %lu: %s"
 msgstr "não foi possível aplicar gid %lu: %s"
 
-#: src/rush.c:1098
+#: src/rush.c:1197
 #, c-format
 msgid "cannot enforce uid %lu: %s"
 msgstr "não foi possível aplicar uid %lu: %s"
 
-#: src/rush.c:1103
+#: src/rush.c:1202
 msgid "seteuid(0) succeeded when it should not"
 msgstr "seteuid(0) funcionou quando não deveria"
 
-#: src/rush.c:1109
+#: src/rush.c:1208
 #, c-format
 msgid "Rule %s at %s:%d matched"
 msgstr "Regra %s em %s:%d correspondeu"
 
-#: src/rush.c:1123
+#: src/rush.c:1222
 #, c-format
 msgid "Error message: %s"
 msgstr "Mensagem de erro: %s"
 
-#: src/rush.c:1126
+#: src/rush.c:1225
 #, c-format
 msgid "Error sending diagnostic message to descriptor %d: %s"
 msgstr "Erro ao enviar mensagem de diagnóstico para descritor %d: %s"
 
-#: src/rush.c:1132
+#: src/rush.c:1231
 #, c-format
 msgid "cannot set limits for %s"
 msgstr "não foi possível definir limites para %s"
 
-#: src/rush.c:1139
+#: src/rush.c:1238
 #, c-format
 msgid "Chroot dir: %s"
 msgstr "Diretório de chroot: %s"
 
-#: src/rush.c:1146
+#: src/rush.c:1245
 #, c-format
 msgid "Home dir: %s"
 msgstr "Diretório pessoal: %s"
 
-#: src/rush.c:1151
+#: src/rush.c:1250
 #, c-format
 msgid "GID: %lu"
 msgstr "GID: %lu"
 
-#: src/rush.c:1176
+#: src/rush.c:1275
 #, c-format
 msgid "cannot open database %s: %s"
 msgstr "não foi possível abrir o banco de dados %s: %s"
 
-#: src/rush.c:1185
+#: src/rush.c:1284
 #, c-format
 msgid "cannot chroot to %s: %s"
 msgstr "não foi possível fazer chroot para %s: %s"
 
-#: src/rush.c:1192 src/rush.c:1284
+#: src/rush.c:1291 src/rush.c:1383
 #, c-format
 msgid "invalid uid %lu"
 msgstr "uid %lu inválido"
 
-#: src/rush.c:1197
+#: src/rush.c:1296
 #, c-format
 msgid "chdir %s"
 msgstr "chdir %s"
 
-#: src/rush.c:1200
+#: src/rush.c:1299
 #, c-format
 msgid "cannot change to dir %s: %s"
 msgstr "não foi possível alterar para o diretório %s: %s"
 
-#: src/rush.c:1204
+#: src/rush.c:1303
 #, c-format
 msgid "Executing %s, %s"
 msgstr "Executando %s, %s"
 
-#: src/rush.c:1219
+#: src/rush.c:1318
 #, c-format
 msgid "%s:%d: %s: cannot execute %s: %s"
 msgstr "%s:%d: %s: não foi possível executar %s: %s"
 
-#: src/rush.c:1262 src/rush.c:1264
+#: src/rush.c:1361 src/rush.c:1363
 msgid "invalid command line"
 msgstr "linha de comando inválida"
 
-#: src/rush.c:1275
+#: src/rush.c:1374
 msgid "invalid user name"
 msgstr "nome de usuário inválido"
 
-#: src/rush.c:1286
+#: src/rush.c:1385
 #, c-format
 msgid "user %s, uid %lu"
 msgstr "usuário %s, uid %lu"
 
-#: src/rush.c:1298
+#: src/rush.c:1397
 msgid "Command line:"
 msgstr "Linha de comando:"
 
-#: src/rush.c:1301
+#: src/rush.c:1400
 msgid "Environment:"
 msgstr "Ambiente:"
 
-#: src/rush.c:1332
+#: src/rush.c:1431
 #, c-format
 msgid "Serving interactive shell request for %s by rule %s"
 msgstr "Servindo requisição de shell interativa para %s por regra %s"
 
-#: src/rush.c:1336
+#: src/rush.c:1435
 #, c-format
 msgid "Serving request \"%s\" for %s by rule %s"
 msgstr "Servindo requisição \"%s\" para %s por regra %s"
 
-#: src/rush.c:1342
+#: src/rush.c:1441
 #, c-format
 msgid "no matching rule for \"%s\", user %s"
 msgstr "nenhuma regra correspondente para \"%s\", usuário %s"
@@ -673,7 +691,9 @@ msgid "Print program version"
 msgstr "Mostra versão do programa"
 
 #: rushopt.opt:23
-msgid "rush - a restricted user shell."
+#, fuzzy
+#| msgid "rush - a restricted user shell."
+msgid "rush - restricted user shell."
 msgstr "rush - uma shell de usuário restrita."
 
 #: rushopt.opt:25
@@ -698,11 +718,11 @@ msgstr "Argumentos obrigatórios ou opcionais para opções longas também o sã
 msgid "Report bugs to %s.\n"
 msgstr "Relate erros para %s.\n"
 
-#: rushopt.opt:698 rwopt.opt:696 rlopt.opt:699
+#: rushopt.opt:700 rwopt.opt:698 rlopt.opt:701
 msgid "(C)"
 msgstr "©"
 
-#: rushopt.opt:716 rwopt.opt:714 rlopt.opt:717
+#: rushopt.opt:718 rwopt.opt:716 rlopt.opt:719
 msgid ""
 "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
@@ -875,9 +895,6 @@ msgstr "%s: a opção requer um argumento -- \"%c\"\n"
 
 #~ msgid "not an absolute directory name"
 #~ msgstr "não é um nome absoluto de diretório"
-
-#~ msgid "%s:%d: cannot stat %s: %s"
-#~ msgstr "%s:%d: não foi possível obter estado de %s: %s"
 
 #~ msgid "%s:%d: %s is not a directory"
 #~ msgstr "%s:%d: %s não é um diretório"

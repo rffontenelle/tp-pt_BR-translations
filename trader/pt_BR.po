@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trader 7.16\n"
 "Report-Msgid-Bugs-To: J.Zaitseff@zap.org.au\n"
-"POT-Creation-Date: 2021-01-19 16:43+1100\n"
+"POT-Creation-Date: 2024-01-05 16:49+1100\n"
 "PO-Revision-Date: 2021-07-07 08:43-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
@@ -31,28 +31,37 @@ msgstr ""
 #. your own language (recommended) or keep it the same as the English
 #. version.  Feel free to look through other translations to see how
 #. others have done this.
-#: data/trader.desktop.in:23 data/trader.appdata.xml.in:26 src/intf.c:611
+#: data/au.org.zap.trader.desktop.in:23
+#: data/au.org.zap.trader.metainfo.xml.in:26 src/intf.c:611
 #, c-format
 msgid "Star Traders"
 msgstr "Comerciantes Estelares"
 
-#: data/trader.desktop.in:24 data/trader.appdata.xml.in:27
+#: data/au.org.zap.trader.desktop.in:24
+#: data/au.org.zap.trader.metainfo.xml.in:27
 msgid "Play Star Traders, a simple game of interstellar trading"
 msgstr "Jogue Comerciantes Estelares, um jogo simples de comércio interestelar"
 
 #. TRANSLATORS: A list of keywords describing Star Traders.  By all means
 #. add your own keywords!
-#: data/trader.desktop.in:27
+#: data/au.org.zap.trader.desktop.in:27
 msgid "game;interstellar;trading;strategy;"
 msgstr "jogo;interestelar;comércio;estratégia;"
 
-#: data/trader.appdata.xml.in:29
+#: data/au.org.zap.trader.metainfo.xml.in:29
 msgid "Star Traders is a simple game of interstellar trading, where the objective is to create companies, buy and sell shares, borrow and repay money, in order to become the wealthiest player (the winner)."
 msgstr "Comerciantes Estelares é um jogo simples de comércio interestelar, onde o objetivo é criar empresas, comprar e vender ações, pedir emprestado e devolver dinheiro, para se tornar o jogador mais rico (o vencedor)."
 
-#: data/trader.appdata.xml.in:48
+#: data/au.org.zap.trader.metainfo.xml.in:47
+#: data/au.org.zap.trader.metainfo.xml.in:49
 msgid "John Zaitseff"
 msgstr "John Zaitseff"
+
+#: data/au.org.zap.trader.metainfo.xml.in:56
+#, fuzzy
+#| msgid "Star Traders"
+msgid "Star Traders screenshot"
+msgstr "Comerciantes Estelares"
 
 #: src/trader.c:238
 #, c-format
@@ -1243,12 +1252,12 @@ msgstr "%s: salvo com uma codificação de caracteres incompatível"
 msgid "%s: illegal or missing field on line %d"
 msgstr "%s: campo ilegal ou faltando na linha %d"
 
-#: src/fileio.c:473 src/fileio.c:494
+#: src/fileio.c:475 src/fileio.c:496
 #, c-format
 msgid "  Game Not Saved  "
 msgstr "  Jogo não salvo  "
 
-#: src/fileio.c:474
+#: src/fileio.c:476
 #, c-format
 msgid ""
 "Game %d could not be saved to disk.\n"
@@ -1259,7 +1268,7 @@ msgstr ""
 "\n"
 "^{Diretório %s: %s^}"
 
-#: src/fileio.c:495
+#: src/fileio.c:497
 #, c-format
 msgid ""
 "Game %d could not be saved to disk.\n"
@@ -1667,76 +1676,76 @@ msgctxt "answer"
 msgid "No"
 msgstr "Não"
 
-#: src/utils.c:489 src/utils.c:510
+#: src/utils.c:596 src/utils.c:617
 #, c-format
 msgid "%s: "
 msgstr "%s: "
 
-#: src/utils.c:515
+#: src/utils.c:622
 msgid ": "
 msgstr ": "
 
-#: src/utils.c:528
+#: src/utils.c:635
 #, c-format
 msgid "out of memory"
 msgstr "memória esgotada"
 
-#: src/utils.c:1265
+#: src/utils.c:1375
 #, c-format
 msgid "xmbstowcs: '%s'"
 msgstr "xmbstowcs: “%s”"
 
-#: src/utils.c:1305
+#: src/utils.c:1415
 #, c-format
 msgid "xwcrtomb: NUL"
 msgstr "xwcrtomb: NULO"
 
-#: src/utils.c:1310
+#: src/utils.c:1420
 #, c-format
 msgid "xwcrtomb: '%lc'"
 msgstr "xwcrtomb: “%lc”"
 
-#: lib/getopt.c:278 lib/obsolete-strings.c:63
+#: lib/getopt.c:282 lib/obsolete-strings.c:63
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
 msgstr "%s: a opção “%s%s” é ambígua\n"
 
-#: lib/getopt.c:284 lib/obsolete-strings.c:65
+#: lib/getopt.c:288 lib/obsolete-strings.c:65
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
 msgstr "%s: a opção “%s%s” é ambígua; possibilidades:"
 
-#: lib/getopt.c:319 lib/obsolete-strings.c:67
+#: lib/getopt.c:322 lib/obsolete-strings.c:67
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
 msgstr "%s: opção desconhecida “%s%s”\n"
 
-#: lib/getopt.c:345 lib/obsolete-strings.c:69
+#: lib/getopt.c:348 lib/obsolete-strings.c:69
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
 msgstr "%s: a opção “%s%s” não permite um argumento\n"
 
-#: lib/getopt.c:360 lib/obsolete-strings.c:71
+#: lib/getopt.c:363 lib/obsolete-strings.c:71
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
 msgstr "%s: a opção “%s%s” exige um argumento\n"
 
-#: lib/getopt.c:621 lib/obsolete-strings.c:73
+#: lib/getopt.c:624 lib/obsolete-strings.c:73
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr "%s: opção inválida -- “%c”\n"
 
-#: lib/getopt.c:636 lib/getopt.c:682 lib/obsolete-strings.c:75
+#: lib/getopt.c:639 lib/getopt.c:685 lib/obsolete-strings.c:75
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr "%s: a opção exige um argumento -- “%c”\n"
 
 #. TRANSLATORS: Older versions of the GNU Gettext library utilities
-#. treat the Icon value in data/trader.desktop.in as a translatable
-#. string.  That string, the name of the icon to use, is defined here
-#. for those older versions of xgettext(1).  Unless you provide a
-#. matching icon, please leave it as "trader": this will use
-#. trader.svg and the various trader.png files in the data source
+#. treat the Icon value in data/au.org.zap.trader.desktop.in as a
+#. translatable string.  That string, the name of the icon to use, is
+#. defined here for those older versions of xgettext(1).  Unless you
+#. provide a matching icon, please leave it as "trader": this will
+#. use trader.svg and the various trader.png files in the data source
 #. code directory.
 #: lib/obsolete-strings.c:48
 msgid "trader"

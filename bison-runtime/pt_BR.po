@@ -7,53 +7,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bison-runtime 2.3a\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
-"POT-Creation-Date: 2006-09-13 12:44-0700\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
 "PO-Revision-Date: 2007-05-03 22:39-0300\n"
 "Last-Translator: Leslie Harlley Watter <leslie@watter.org>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 
-#: data/glr.c:920 data/yacc.c:585
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
 msgid "syntax error: cannot back up"
 msgstr "erro de sintaxe: não é possível voltar"
 
-#: data/glr.c:1803
+#: data/skeletons/glr.c:1802
 msgid "syntax is ambiguous"
 msgstr "a sintaxe é ambígua"
 
-#: data/glr.c:2170 data/glr.c:2176 data/glr.c:2428 data/lalr1.cc:875
-#: data/yacc.c:1305 data/yacc.c:1333
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
 msgid "syntax error"
 msgstr "erro de sintaxe"
 
-#: data/glr.c:2488 data/yacc.c:1118 data/yacc.c:1454
-msgid "memory exhausted"
-msgstr "falta de memória"
-
-#: data/yacc.c:873
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
 #, c-format
 msgid "syntax error, unexpected %s"
 msgstr "erro de sintaxe, %s não esperado"
 
-#: data/yacc.c:874
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s"
 msgstr "erro de sintaxe, %s não esperado, esperando %s"
 
-#: data/yacc.c:875
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s"
 msgstr "erro de sintaxe, %s não esperado, esperando %s ou %s"
 
-#: data/yacc.c:876
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s"
 msgstr "erro de sintaxe, %s não esperado, esperando %s ou %s ou %s"
 
-#: data/yacc.c:877
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
 msgstr "erro de sintaxe, %s não esperado, esperando %s ou %s ou %s ou %s"
+
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
+msgid "memory exhausted"
+msgstr "falta de memória"

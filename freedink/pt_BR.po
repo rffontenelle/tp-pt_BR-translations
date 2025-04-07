@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freedink 109.2\n"
 "Report-Msgid-Bugs-To: bug-freedink@gnu.org\n"
-"POT-Creation-Date: 2019-01-18 23:58+0100\n"
+"POT-Creation-Date: 2019-01-27 22:09+0100\n"
 "PO-Revision-Date: 2019-01-27 09:35-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
@@ -97,10 +97,62 @@ msgstr ""
 "Relate erros para %s.\n"
 "Relate erros de tradução para <http://translationproject.org/team/pt_BR.html>\n"
 
-#: src/app.cpp:311
+#: src/app.cpp:312
 #, c-format
 msgid "Note: -nomovie is accepted for compatibility, but has no effect.\n"
 msgstr "Observação: -nomovie é aceito por compatibilidade, mas não possui efeito.\n"
+
+#: src/AppFreeDink.cpp:136
+msgid "Starts the Dink Smallwood game or one of its D-Mods."
+msgstr "Inicia o jogo Dink Smallwood ou um de seus D-Mods."
+
+#: src/brain_keyboard.cpp:284
+msgid "`$I don't see anything here."
+msgstr "`$Eu não vejo nada aqui."
+
+#: src/brain_keyboard.cpp:285
+msgid "`$Huh?"
+msgstr "`$Hã?"
+
+#: src/brain_keyboard.cpp:286
+msgid "`$I'm fairly sure I can't talk to or use that."
+msgstr "`$Estou bastante certo de que eu não posso falar com, ou usar, isto."
+
+#: src/brain_keyboard.cpp:287
+msgid "`$What?"
+msgstr "`$O quê?"
+
+#: src/brain_keyboard.cpp:288
+msgid "`$I'm bored."
+msgstr "`$Estou entediado."
+
+#: src/brain_keyboard.cpp:289
+msgid "`$Not much happening here."
+msgstr "`$Não está acontecendo muita coisa por aqui."
+
+#: src/brain_keyboard.cpp:409
+msgid "`$I don't know any magic."
+msgstr "`$Eu não conheço nenhuma mágica."
+
+#: src/brain_keyboard.cpp:410
+msgid "`$I'm no wizard!"
+msgstr "`$IEu não sou nenhum mago!"
+
+#: src/brain_keyboard.cpp:411
+msgid "`$I need to learn magic before trying this."
+msgstr "`$Eu preciso aprender mágica antes de tentar isto."
+
+#: src/brain_keyboard.cpp:412
+msgid "`$I'm gesturing wildly to no avail!"
+msgstr "`$Estou gesticulando que nem louco sem nenhum resultado!"
+
+#: src/brain_keyboard.cpp:413
+msgid "`$Nothing happened."
+msgstr "`$Não aconteceu nada."
+
+#: src/brain_keyboard.cpp:414
+msgid "`$Hocus pocus!"
+msgstr "`$Hocus pocus!"
 
 #: src/dinkc.cpp:748
 msgid "Attack"
@@ -160,44 +212,6 @@ msgstr "Posição %d - %d:%02d - %s"
 msgid "Slot %d - Empty"
 msgstr "Posição %d - Vazia"
 
-#~ msgid "Starts the Dink Smallwood game or one of its D-Mods."
-#~ msgstr "Inicia o jogo Dink Smallwood ou um de seus D-Mods."
-
-#~ msgid "Edit the Dink Smallwood game or one of its D-Mods."
-#~ msgstr "Edita o jogo Dink Smallwood ou um de seus D-Mods."
-
-#~ msgid "`$I don't see anything here."
-#~ msgstr "`$Eu não vejo nada aqui."
-
-#~ msgid "`$Huh?"
-#~ msgstr "`$Hã?"
-
-#~ msgid "`$I'm fairly sure I can't talk to or use that."
-#~ msgstr "`$Estou bastante certo de que eu não posso falar com, ou usar, isto."
-
-#~ msgid "`$What?"
-#~ msgstr "`$O quê?"
-
-#~ msgid "`$I'm bored."
-#~ msgstr "`$Estou entediado."
-
-#~ msgid "`$Not much happening here."
-#~ msgstr "`$Não está acontecendo muita coisa por aqui."
-
-#~ msgid "`$I don't know any magic."
-#~ msgstr "`$Eu não conheço nenhuma mágica."
-
-#~ msgid "`$I'm no wizard!"
-#~ msgstr "`$IEu não sou nenhum mago!"
-
-#~ msgid "`$I need to learn magic before trying this."
-#~ msgstr "`$Eu preciso aprender mágica antes de tentar isto."
-
-#~ msgid "`$I'm gesturing wildly to no avail!"
-#~ msgstr "`$Estou gesticulando que nem louco sem nenhum resultado!"
-
-#~ msgid "`$Nothing happened."
-#~ msgstr "`$Não aconteceu nada."
-
-#~ msgid "`$Hocus pocus!"
-#~ msgstr "`$Hocus pocus!"
+#: src/freedinkedit.cpp:4619
+msgid "Edit the Dink Smallwood game or one of its D-Mods."
+msgstr "Edita o jogo Dink Smallwood ou um de seus D-Mods."

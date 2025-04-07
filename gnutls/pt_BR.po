@@ -953,13 +953,13 @@ msgstr "Erro de memória"
 msgid "\tVersion: %d\n"
 msgstr "\tVersão: %d\n"
 
-#: lib/x509/ocsp_output.c:136 lib/x509/ocsp_output.c:500
-#: lib/x509/output.c:2276 lib/x509/output.c:2670
+#: lib/x509/ocsp_output.c:136 lib/x509/ocsp_output.c:500 lib/x509/output.c:2276
+#: lib/x509/output.c:2670
 msgid "\t\t\tASCII: "
 msgstr "\t\t\tASCII: "
 
-#: lib/x509/ocsp_output.c:141 lib/x509/ocsp_output.c:505
-#: lib/x509/output.c:2280 lib/x509/output.c:2675
+#: lib/x509/ocsp_output.c:141 lib/x509/ocsp_output.c:505 lib/x509/output.c:2280
+#: lib/x509/output.c:2675
 msgid "\t\t\tHexdump: "
 msgstr "\t\t\tDescarga hexadecimal: "
 

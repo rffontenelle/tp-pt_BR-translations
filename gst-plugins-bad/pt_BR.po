@@ -8,19 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-bad-1.19.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-23 01:34+0100\n"
+"POT-Creation-Date: 2024-03-04 23:53+0000\n"
 "PO-Revision-Date: 2021-09-26 12:26-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.0\n"
 
-#: ext/curl/gstcurlhttpsrc.c:1439
+#: ext/curl/gstcurlhttpsrc.c:1440
 msgid "No URL set."
 msgstr "Nenhum URL definido."
 
@@ -62,7 +62,7 @@ msgstr "Não foi possível abrir o fluxo sndfile para leitura."
 msgid "Generated file has a larger preroll time than its streams duration"
 msgstr "O arquivo gerado tem um tempo de preparação maior que a sua duração de fluxo"
 
-#: gst/camerabin2/camerabingeneral.c:167 gst/camerabin2/gstcamerabin2.c:1866
+#: gst/camerabin2/camerabingeneral.c:167 gst/camerabin2/gstcamerabin2.c:1885
 #: gst/camerabin2/gstdigitalzoom.c:283 gst/camerabin2/gstviewfinderbin.c:275
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
@@ -72,11 +72,11 @@ msgstr "O elemento \"%s\" está faltando, verifique a sua instalação do GStrea
 msgid "File location is set to NULL, please set it to a valid filename"
 msgstr "A localização do arquivo está NULA, favor definir um nome de arquivo válido"
 
-#: gst/camerabin2/gstwrappercamerabinsrc.c:587
+#: gst/camerabin2/gstwrappercamerabinsrc.c:583
 msgid "Digitalzoom element couldn't be created"
 msgstr "O elemento Digitalzoom não pôde ser criado"
 
-#: gst/dvdspu/gstdvdspu.c:1044
+#: gst/dvdspu/gstdvdspu.c:1559
 msgid "Subpicture format was not configured before data flow"
 msgstr "O formato de sub-imagem não foi configurado antes do fluxo de dados"
 
@@ -90,7 +90,7 @@ msgid "Couldn't download fragments"
 msgstr "Não foi possível baixar os fragmentos"
 
 #: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:4102
-#: gst/mpegtsdemux/mpegtsbase.c:1693
+#: gst/mpegtsdemux/mpegtsbase.c:1774
 msgid "Internal data stream error."
 msgstr "Erro interno de fluxo de dados."
 
@@ -119,37 +119,37 @@ msgstr "Não foi possível listar os sistemas de entrega do dispositivo de inter
 msgid "Could not open file \"%s\" for reading."
 msgstr "Não foi possível abrir o arquivo \"%s\" para leitura."
 
-#: sys/dvb/parsechannels.c:410
+#: sys/dvb/parsechannels.c:416
 #, c-format
 msgid "Couldn't find channel configuration file"
 msgstr "Não foi possível encontrar o arquivo de configuração de canal"
 
-#: sys/dvb/parsechannels.c:413 sys/dvb/parsechannels.c:563
+#: sys/dvb/parsechannels.c:419 sys/dvb/parsechannels.c:569
 #, c-format
 msgid "Couldn't load channel configuration file: '%s'"
 msgstr "Não foi possível carregar o arquivo de configuração de canal: \"%s\""
 
-#: sys/dvb/parsechannels.c:421 sys/dvb/parsechannels.c:846
+#: sys/dvb/parsechannels.c:427 sys/dvb/parsechannels.c:852
 #, c-format
 msgid "Couldn't find details for channel '%s'"
 msgstr "Não foi possível encontrar detalhes para o canal \"%s\""
 
-#: sys/dvb/parsechannels.c:430
+#: sys/dvb/parsechannels.c:436
 #, c-format
 msgid "No properties for channel '%s'"
 msgstr "Não há propriedades para o canal \"%s\""
 
-#: sys/dvb/parsechannels.c:439
+#: sys/dvb/parsechannels.c:445
 #, c-format
 msgid "Failed to set properties for channel '%s'"
 msgstr "Falha ao definir propriedades para o canal \"%s\""
 
-#: sys/dvb/parsechannels.c:560
+#: sys/dvb/parsechannels.c:566
 #, c-format
 msgid "Couldn't find channel configuration file: '%s'"
 msgstr "Não foi possível encontrar o arquivo de configuração de canal: \"%s\""
 
-#: sys/dvb/parsechannels.c:570
+#: sys/dvb/parsechannels.c:576
 #, c-format
 msgid "Channel configuration file doesn't contain any channels"
 msgstr "Nenhum canal foi encontrado no arquivo de configuração de canal"

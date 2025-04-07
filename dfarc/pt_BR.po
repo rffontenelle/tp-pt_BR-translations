@@ -83,9 +83,8 @@ msgid "Dink Smallwood ('%s') was not found on your computer. Please configure th
 msgstr "Dink Smallwood ('%s') não foi encontrado em seu computador. Por gentileza, configure o nome do programa Dink no menu de opções."
 
 #: ../src/DFArcFrame.cpp:74 ../src/DFArcFrame.cpp:78 ../src/DFArcFrame.cpp:97
-#: ../src/DFArcFrame.cpp:99 ../src/DFArcFrame.cpp:607
-#: ../src/DFArcFrame.cpp:651 ../src/DFArcFrame.cpp:694
-#: ../src/DFArcFrame.cpp:703
+#: ../src/DFArcFrame.cpp:99 ../src/DFArcFrame.cpp:607 ../src/DFArcFrame.cpp:651
+#: ../src/DFArcFrame.cpp:694 ../src/DFArcFrame.cpp:703
 msgid "Error"
 msgstr "Erro"
 

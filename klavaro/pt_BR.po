@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.10\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2020-05-30 13:47-0300\n"
+"POT-Creation-Date: 2021-04-14 00:05-0300\n"
 "PO-Revision-Date: 2020-06-01 15:01-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
@@ -77,7 +77,7 @@ msgstr "Este é um exercício específico, ajustado ao seu perfil de erros."
 msgid "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "Editar o conjunto de caracteres a ser usado nas lições depois da 43: elas são personalizáveis!"
 
-#: ../data/klavaro.glade.h:17 ../src/tutor.c:398
+#: ../data/klavaro.glade.h:17 ../src/tutor.c:397
 msgid "Drag and drop text here to practice with it."
 msgstr "Arraste e solte texto aqui para praticar com ele."
 
@@ -362,74 +362,46 @@ msgid "_Language:"
 msgstr "_Idioma:"
 
 #: ../data/klavaro.glade.h:88
-msgid "Little tip about this program."
-msgstr "Pequena dica sobre este programa."
-
-#: ../data/klavaro.glade.h:89
-msgid "_Help"
-msgstr "_Ajuda"
-
-#: ../data/klavaro.glade.h:90
 msgid "General information about the program."
 msgstr "Informação genérica sobre o programa."
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:89
 msgid "_About..."
 msgstr "_Sobre..."
 
-#: ../data/klavaro.glade.h:92
-msgid "About 'Klavaro'"
-msgstr "Sobre o 'Klavaro'"
-
-#: ../data/klavaro.glade.h:93 ../data/klavaro.desktop.in.h:2
+#: ../data/klavaro.glade.h:90 ../data/klavaro.desktop.in.h:2
 msgid "Yet another touch typing tutor"
 msgstr "Mais um tutorial para digitação"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:91
 msgid "Remember always: someone loves you!"
 msgstr "Lembre-se sempre: alguém ama você!"
 
-#: ../data/klavaro.glade.h:95
-msgid "Help?"
-msgstr "Ajuda?"
-
-#: ../data/klavaro.glade.h:96
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr "Isto é uma dica. Agora pressione este botão para retornar ao menu principal."
-
-#: ../data/klavaro.glade.h:97
-msgid "The main menu of the application is very straightforward. Just select the type of exercise you wish to take. Do not worry about clicking any button on the screen. The buttons will never hurt you!"
-msgstr "O menu principal do aplicativo é muito direto. Basta selecionar que tipo de exercício você quer praticar. Não tenha medo de clicar em qualquer botão. Eles nunca machucarão você!"
-
-#: ../data/klavaro.glade.h:98
-msgid "Also the controls have tips which will appear if you hover over them with your mouse. These tips can come in very handy. To see how these tips work, position your mouse over the button below, and without clicking, wait for the tip to appear..."
-msgstr "E também não se esqueça de esperar que apareçam dicas sobre cada controle. Algumas vezes elas podem ser muito úteis. Para ver como estas dicas funcionam, leve o ponteiro sobre o botão abaixo e, sem clicar, espere um pouquinho..."
-
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:92
 msgid "Top 10"
 msgstr "Os 10 Mais"
 
-#: ../data/klavaro.glade.h:100
+#: ../data/klavaro.glade.h:93
 msgid "Show extra information."
 msgstr "Mostrar informação extra."
 
-#: ../data/klavaro.glade.h:101
+#: ../data/klavaro.glade.h:94
 msgid "Hide extra information."
 msgstr "Esconder informação extra."
 
-#: ../data/klavaro.glade.h:102
+#: ../data/klavaro.glade.h:95
 msgid "Publish to the web your local scores."
 msgstr "Publicar na internete sua pontuação local."
 
-#: ../data/klavaro.glade.h:103
+#: ../data/klavaro.glade.h:96
 msgid "_Participate"
 msgstr "_Participar"
 
-#: ../data/klavaro.glade.h:104
+#: ../data/klavaro.glade.h:97
 msgid "Download from the web the most up to date ranking."
 msgstr "Baixar da internete a classificação mais atual."
 
-#: ../data/klavaro.glade.h:105
+#: ../data/klavaro.glade.h:98
 msgid "_Update"
 msgstr "_Atualizar"
 
@@ -474,80 +446,80 @@ msgstr "Curso básico"
 msgid "Adaptability"
 msgstr "Adaptabilidade"
 
-#: ../src/main.c:435 ../src/main.c:437 ../src/callbacks.c:1429
+#: ../src/main.c:435 ../src/main.c:437 ../src/callbacks.c:1402
 #: ../src/top10.c:90 ../src/top10.c:116
 msgid "Speed"
 msgstr "Rapidez"
 
-#: ../src/main.c:440 ../src/callbacks.c:1452 ../src/top10.c:92
+#: ../src/main.c:440 ../src/callbacks.c:1425 ../src/top10.c:92
 #: ../src/top10.c:119
 msgid "Fluidity"
 msgstr "Fluidez"
 
-#: ../src/callbacks.c:508 ../src/tutor.c:548
+#: ../src/callbacks.c:481 ../src/tutor.c:543
 msgid "Keys:"
 msgstr "Teclas:"
 
-#: ../src/callbacks.c:903 ../src/callbacks.c:919
+#: ../src/callbacks.c:876 ../src/callbacks.c:892
 msgid "Connecting..."
 msgstr "Conectando..."
 
-#: ../src/callbacks.c:1192
+#: ../src/callbacks.c:1165
 msgid "Overwrite user layout"
 msgstr "Sobreescrever o arranjo do usuário"
 
-#: ../src/callbacks.c:1194
+#: ../src/callbacks.c:1167
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Isso irá SOBREESCREVER um arranjo de teclado existente."
 
-#: ../src/callbacks.c:1201
+#: ../src/callbacks.c:1174
 msgid "Remove user layout"
 msgstr "Remover arranjo do usuário"
 
-#: ../src/callbacks.c:1203
+#: ../src/callbacks.c:1176
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Isso irá REMOVER um arranjo de teclado existente."
 
-#: ../src/callbacks.c:1210 ../src/callbacks.c:1215
+#: ../src/callbacks.c:1183 ../src/callbacks.c:1188
 msgid "Reset progress data"
 msgstr "Zerar dados de progresso"
 
-#: ../src/callbacks.c:1211
+#: ../src/callbacks.c:1184
 msgid "This will DELETE all the progress data of all modules."
 msgstr "Isto irá APAGAR todos os dados de progresso de todos os módulos."
 
-#: ../src/callbacks.c:1223
+#: ../src/callbacks.c:1196
 #, c-format
 msgid "This will delete the data of this chart. <%s>"
 msgstr "Isto irá apagar os dados deste gráfico. <%s>"
 
-#: ../src/callbacks.c:1226
+#: ../src/callbacks.c:1199
 #, c-format
 msgid "This will delete the progress data of the module. (%s)"
 msgstr "Isto limpará os dados sobre progresso do módulo. (%s)"
 
-#: ../src/callbacks.c:1426 ../src/top10.c:88
+#: ../src/callbacks.c:1399 ../src/top10.c:88
 msgid "Accuracy"
 msgstr "Exatidão"
 
-#: ../src/callbacks.c:1429 ../src/tutor.c:1332
+#: ../src/callbacks.c:1402 ../src/tutor.c:1325
 msgid "(WPM)"
 msgstr "(PPM)"
 
-#: ../src/callbacks.c:1440
+#: ../src/callbacks.c:1413
 msgid "Errors"
 msgstr "Erros"
 
-#: ../src/callbacks.c:1443
+#: ../src/callbacks.c:1416
 msgid "Touch times (s)"
 msgstr "Tempos de toque (s)"
 
-#: ../src/callbacks.c:1455 ../src/tutor.c:1359 ../src/top10.c:70
+#: ../src/callbacks.c:1428 ../src/tutor.c:1352 ../src/top10.c:70
 msgid "Score"
 msgstr "Pontuação"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:522 ../src/tutor.c:1765
+#: ../src/translation.c:522 ../src/tutor.c:1758
 msgid "en"
 msgstr "pt"
 
@@ -694,164 +666,164 @@ msgstr "dedo indicador"
 msgid "Press and edit me"
 msgstr "Pressione-me e edite"
 
-#: ../src/tutor.c:322
+#: ../src/tutor.c:321
 msgid "Lesson:"
 msgstr "Lição:"
 
-#: ../src/tutor.c:332
+#: ../src/tutor.c:331
 msgid "Paragraphs:"
 msgstr "Parágrafos:"
 
-#: ../src/tutor.c:365
+#: ../src/tutor.c:364
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Curso Básico"
 
-#: ../src/tutor.c:370
+#: ../src/tutor.c:369
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Adaptabilidade"
 
-#: ../src/tutor.c:373
+#: ../src/tutor.c:372
 msgid "Adaptability exercises: automating the fingers responses, typing over all the keyboard."
 msgstr "Exercícios do adaptabilidade: exercitando a resposta dos dedos ao digitar sobre todo o teclado."
 
-#: ../src/tutor.c:378
+#: ../src/tutor.c:377
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Velocidade"
 
-#: ../src/tutor.c:379
+#: ../src/tutor.c:378
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Exercícios de velocidade: acelere a digitação de palavras reais."
 
-#: ../src/tutor.c:383
+#: ../src/tutor.c:382
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Fluidez"
 
-#: ../src/tutor.c:385
+#: ../src/tutor.c:384
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Exercícios de fluidez: exatidão digitando parágrafos que fazem sentido."
 
-#: ../src/tutor.c:447
+#: ../src/tutor.c:446
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "Fim do exercício. Pressione [Enter] para começar outro."
 
-#: ../src/tutor.c:476
+#: ../src/tutor.c:474
 msgid "Learning the key positions."
 msgstr "Aprendendo a posição das teclas."
 
-#: ../src/tutor.c:479
+#: ../src/tutor.c:477
 msgid "Press any key to start the exercise. "
 msgstr "Pressione qualquer tecla para começar o exercício. "
 
-#: ../src/tutor.c:612 ../src/tutor.c:615
+#: ../src/tutor.c:605 ../src/tutor.c:608
 msgid "Start typing when you are ready. "
 msgstr "Comece a digitar quando estiver pronto. "
 
-#: ../src/tutor.c:613
+#: ../src/tutor.c:606
 msgid "Use backspace to correct errors."
 msgstr "Use a tecla de retrocesso para corrigir erros."
 
-#: ../src/tutor.c:1060
+#: ../src/tutor.c:1053
 #, c-format
 msgid "ps.: logging not performed for this session: the number of typed characters (%i) must be greater than %i."
 msgstr "obs.: essa sessão não foi registrada: o número de caracteres digitados (%i) deveria ser maior que %i."
 
-#: ../src/tutor.c:1200
+#: ../src/tutor.c:1193
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "obs.: você foi classificado entre os 10 mais, parabéns!"
 
-#: ../src/tutor.c:1214
+#: ../src/tutor.c:1207
 msgid "ps.: the text you just typed doesn't seem to be similar to ordinary texts in the language currently selected: we can't account for it in the 'Top 10' contest."
 msgstr "obs.: o texto que você acabou de digitar não parece similar a textos comuns do idioma selecionado atualmente: não podemos incluir essa sessão na competição dos '10 Mais'."
 
 #. Begin the accuracy
-#: ../src/tutor.c:1259
+#: ../src/tutor.c:1252
 msgid "STATISTICS"
 msgstr "ESTATÍSTICAS"
 
-#: ../src/tutor.c:1260
+#: ../src/tutor.c:1253
 msgid "Elapsed time:"
 msgstr "Tempo decorrido:"
 
-#: ../src/tutor.c:1261
+#: ../src/tutor.c:1254
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minuto e"
 msgstr[1] "minutos e"
 
-#: ../src/tutor.c:1262
+#: ../src/tutor.c:1255
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "segundo"
 msgstr[1] "segundos"
 
-#: ../src/tutor.c:1263
+#: ../src/tutor.c:1256
 msgid "Error ratio:"
 msgstr "Taxa de erros:"
 
-#: ../src/tutor.c:1263
+#: ../src/tutor.c:1256
 msgid "Accuracy:"
 msgstr "Exatidão:"
 
-#: ../src/tutor.c:1284 ../src/tutor.c:1309 ../src/tutor.c:1332
-#: ../src/tutor.c:1358
+#: ../src/tutor.c:1277 ../src/tutor.c:1302 ../src/tutor.c:1325
+#: ../src/tutor.c:1351
 msgid "Goal:"
 msgstr "Meta:"
 
-#: ../src/tutor.c:1291
+#: ../src/tutor.c:1284
 msgid "Characters per second:"
 msgstr "Caracteres por segundo:"
 
-#: ../src/tutor.c:1309
+#: ../src/tutor.c:1302
 msgid "(CPS)"
 msgstr "(CPS)"
 
-#: ../src/tutor.c:1314
+#: ../src/tutor.c:1307
 msgid "Words per minute:"
 msgstr "Palavras por minuto:"
 
-#: ../src/tutor.c:1339
+#: ../src/tutor.c:1332
 msgid "Fluidness:"
 msgstr "Fluidez:"
 
-#: ../src/tutor.c:1366
+#: ../src/tutor.c:1359
 msgid "Comments:"
 msgstr "Comentários:"
 
-#: ../src/tutor.c:1844
+#: ../src/tutor.c:1837
 msgid "space"
 msgstr "espaço"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1849
+#: ../src/tutor.c:1842
 msgid "wye"
 msgstr "ípsilon"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1853
+#: ../src/tutor.c:1846
 msgid "enter"
 msgstr "enter"
 
-#: ../src/tutor.c:1859
+#: ../src/tutor.c:1852
 msgid "apostrophe"
 msgstr "apóstrofo"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1863
+#: ../src/tutor.c:1856
 msgid "quote"
 msgstr "aspas"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1867
+#: ../src/tutor.c:1860
 msgid "ampersand"
 msgstr "ampersande"
 
 #. Error frequencies or touch times
 #.
-#: ../src/plot.c:321
+#: ../src/plot.c:314
 msgid "Character"
 msgstr "Caractere"
 
-#: ../src/plot.c:333
+#: ../src/plot.c:326
 msgid "Date & Time"
 msgstr "Data & Hora"
 
@@ -1114,6 +1086,27 @@ msgstr "Não é possível subir arquivos"
 #: ../src/top10.c:989
 msgid "Could not upload/download scores."
 msgstr "Não foi possível enviar/baixar a pontuação."
+
+#~ msgid "Little tip about this program."
+#~ msgstr "Pequena dica sobre este programa."
+
+#~ msgid "_Help"
+#~ msgstr "_Ajuda"
+
+#~ msgid "About 'Klavaro'"
+#~ msgstr "Sobre o 'Klavaro'"
+
+#~ msgid "Help?"
+#~ msgstr "Ajuda?"
+
+#~ msgid "This is a tip. Now you press this button to return to the main menu."
+#~ msgstr "Isto é uma dica. Agora pressione este botão para retornar ao menu principal."
+
+#~ msgid "The main menu of the application is very straightforward. Just select the type of exercise you wish to take. Do not worry about clicking any button on the screen. The buttons will never hurt you!"
+#~ msgstr "O menu principal do aplicativo é muito direto. Basta selecionar que tipo de exercício você quer praticar. Não tenha medo de clicar em qualquer botão. Eles nunca machucarão você!"
+
+#~ msgid "Also the controls have tips which will appear if you hover over them with your mouse. These tips can come in very handy. To see how these tips work, position your mouse over the button below, and without clicking, wait for the tip to appear..."
+#~ msgstr "E também não se esqueça de esperar que apareçam dicas sobre cada controle. Algumas vezes elas podem ser muito úteis. Para ver como estas dicas funcionam, leve o ponteiro sobre o botão abaixo e, sem clicar, espere um pouquinho..."
 
 #~ msgid "Keep this checked if you want to get those nice beeps."
 #~ msgstr "Mantenha isto aqui ativado se quiser ouvir aqueles bipes legais."
